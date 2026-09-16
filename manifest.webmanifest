@@ -1,0 +1,46 @@
+{
+  "name": "The Art Historian's Common Room",
+  "short_name": "Common Room",
+  "description": "A period-based art history common room with painting, sculpture, architecture notes, images, context, visual analysis, implications, and study questions.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3eee3",
+  "theme_color": "#2f7690",
+  "categories": ["education", "books", "lifestyle"],
+  "icons": [
+    {
+      "src": "./assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/app-icon-original.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Museum Map",
+      "short_name": "Map",
+      "description": "Open the period map.",
+      "url": "./#map-room"
+    },
+    {
+      "name": "Greek Gallery",
+      "short_name": "Greek",
+      "description": "Start in the Greek art gallery.",
+      "url": "./#greek-art"
+    }
+  ]
+}

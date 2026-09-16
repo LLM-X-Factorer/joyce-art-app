@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Art Historian's Common Room</title>
+    <meta
+      name="description"
+      content="A period-based art history common room with painting, sculpture, and architecture notes by era, image, context, visual analysis, implications, and study questions."
+    />
+    <meta name="theme-color" content="#2f7690" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Common Room" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/app-icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./styles.css?v=13" />
+  </head>
+  <body id="top">
+    <header class="site-topbar" aria-label="Common room navigation">
+      <a class="topbar-brand" href="#top" aria-label="Return to entrance">
+        <img src="./assets/app-icon-192.png" alt="" />
+        <span>AHCR</span>
+      </a>
+      <nav class="topbar-nav" aria-label="Jump to room">
+        <button type="button" data-nav-room="cafe">Café</button>
+        <button type="button" data-nav-room="map">Map</button>
+        <a href="#collection-atlas">Timeline</a>
+        <a href="#study-room">Study Room</a>
+        <a href="#top">Go back to Top</a>
+      </nav>
+      <label class="language-switcher" for="language-select">
+        <span>Language</span>
+        <select id="language-select" aria-label="Choose language">
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="fr">Français</option>
+        </select>
+      </label>
+    </header>
+    <main class="site-shell">
+      <section class="hero">
+        <div class="museum-walk" aria-hidden="true">
+          <div class="realistic-temple-layer"></div>
+          <div class="temple-vignette-layer"></div>
+          <svg class="svg-defs" width="0" height="0" focusable="false">
+            <defs>
+              <linearGradient id="marble-face" x1="0%" x2="100%" y1="0%" y2="0%">
+                <stop offset="0%" stop-color="#c8cbc7" />
+                <stop offset="16%" stop-color="#fbfbf7" />
+                <stop offset="36%" stop-color="#eef0ec" />
+                <stop offset="52%" stop-color="#d7dbd6" />
+                <stop offset="74%" stop-color="#ffffff" />
+                <stop offset="100%" stop-color="#bfc4bf" />
+              </linearGradient>
+              <linearGradient id="marble-edge" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="52%" stop-color="#d9ddd8" />
+                <stop offset="100%" stop-color="#aeb5af" />
+              </linearGradient>
+              <linearGradient id="plant-leaf" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#7f9a74" />
+                <stop offset="100%" stop-color="#38583d" />
+              </linearGradient>
+              <filter id="carved-shadow" x="-30%" y="-20%" width="160%" height="150%">
+                <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#626762" flood-opacity="0.18" />
+              </filter>
+              <symbol id="doric-column" viewBox="0 0 180 720">
+                <path d="M22 64 H158 L146 95 H34 Z" fill="url(#marble-edge)" stroke="#8b918c" stroke-width="1.4" />
+                <path d="M38 96 C48 124 132 124 142 96 L152 145 H28 Z" fill="url(#marble-face)" stroke="#969c97" stroke-width="1.2" />
+                <path d="M20 142 H160 V166 H20 Z" fill="url(#marble-edge)" stroke="#8f9690" stroke-width="1.2" />
+                <path d="M44 166 H136 L126 640 H54 Z" fill="url(#marble-face)" stroke="#8b918c" stroke-width="1.4" />
+                <path d="M54 172 C64 265 60 542 54 634" fill="none" stroke="#a9afaa" stroke-width="2" opacity="0.55" />
+                <path d="M70 170 C76 272 74 548 68 636" fill="none" stroke="#8e9690" stroke-width="2.4" opacity="0.56" />
+                <path d="M88 169 C91 266 91 548 88 637" fill="none" stroke="#b8bdb8" stroke-width="1.8" opacity="0.62" />
+                <path d="M107 170 C103 276 105 548 112 636" fill="none" stroke="#8f9690" stroke-width="2.3" opacity="0.52" />
+                <path d="M126 172 C117 270 121 542 128 634" fill="none" stroke="#aab0ab" stroke-width="2" opacity="0.55" />
+                <path d="M58 184 C76 214 104 226 127 248" fill="none" stroke="#8a918c" stroke-width="1.4" opacity="0.16" />
+                <path d="M116 248 C92 306 76 344 62 418" fill="none" stroke="#8a918c" stroke-width="1.6" opacity="0.15" />
+                <path d="M71 470 C100 512 116 566 121 628" fill="none" stroke="#7f8781" stroke-width="1.3" opacity="0.14" />
+                <path d="M28 638 H152 V666 H28 Z" fill="url(#marble-edge)" stroke="#8b918c" stroke-width="1.2" />
+                <path d="M12 666 H168 V696 H12 Z" fill="url(#marble-face)" stroke="#8b918c" stroke-width="1.2" />
+              </symbol>
+            </defs>
+          </svg>
+
+          <div class="temple-layer entablature-layer">
+            <svg viewBox="0 0 1400 190" preserveAspectRatio="none">
+              <path d="M54 16 H1346 L1318 52 H82 Z" fill="url(#marble-edge)" stroke="#8c928d" stroke-width="2" />
+              <path d="M80 52 H1320 V108 H80 Z" fill="url(#marble-face)" stroke="#a1a6a1" stroke-width="1.5" />
+              <path d="M70 108 H1330 V132 H70 Z" fill="url(#marble-edge)" stroke="#8c928d" stroke-width="1.5" />
+              <path d="M42 132 H1358 V170 H42 Z" fill="url(#marble-face)" stroke="#8c928d" stroke-width="1.8" />
+              <g opacity="0.42" fill="#a2a9a3">
+                <rect x="250" y="64" width="18" height="38" rx="2" />
+                <rect x="312" y="64" width="18" height="38" rx="2" />
+                <rect x="374" y="64" width="18" height="38" rx="2" />
+                <rect x="436" y="64" width="18" height="38" rx="2" />
+                <rect x="498" y="64" width="18" height="38" rx="2" />
+                <rect x="560" y="64" width="18" height="38" rx="2" />
+                <rect x="622" y="64" width="18" height="38" rx="2" />
+                <rect x="684" y="64" width="18" height="38" rx="2" />
+                <rect x="746" y="64" width="18" height="38" rx="2" />
+                <rect x="808" y="64" width="18" height="38" rx="2" />
+                <rect x="870" y="64" width="18" height="38" rx="2" />
+                <rect x="932" y="64" width="18" height="38" rx="2" />
+                <rect x="994" y="64" width="18" height="38" rx="2" />
+                <rect x="1056" y="64" width="18" height="38" rx="2" />
+                <rect x="1118" y="64" width="18" height="38" rx="2" />
+              </g>
+              <path d="M200 38 C355 70 455 16 612 42" fill="none" stroke="#89908b" stroke-width="2" opacity="0.13" />
+              <path d="M780 32 C872 64 1008 58 1188 34" fill="none" stroke="#89908b" stroke-width="2" opacity="0.12" />
+            </svg>
+          </div>
+
+          <div class="temple-layer marble-floor-layer">
+            <svg viewBox="0 0 1400 460" preserveAspectRatio="none">
+              <path d="M-120 82 H1520 L1660 460 H-260 Z" fill="#ecece6" opacity="0.7" />
+              <path d="M-120 82 H1520" stroke="#b9beb8" stroke-width="2" opacity="0.45" />
+              <path d="M200 82 L58 460 M438 82 L364 460 M700 82 V460 M962 82 L1036 460 M1200 82 L1342 460" stroke="#a8aea8" stroke-width="1.4" opacity="0.24" />
+              <path d="M-40 178 H1440 M-92 282 H1492 M-160 398 H1560" stroke="#b8beb8" stroke-width="1.1" opacity="0.22" />
+            </svg>
+          </div>
+
+          <div class="temple-layer foreground-left-columns">
+            <svg viewBox="0 0 560 760" preserveAspectRatio="none">
+              <use href="#doric-column" x="4" y="28" width="178" height="728" opacity="0.94" />
+              <use href="#doric-column" x="186" y="10" width="190" height="748" filter="url(#carved-shadow)" />
+              <use href="#doric-column" x="354" y="34" width="174" height="724" opacity="0.9" />
+            </svg>
+          </div>
+
+          <div class="temple-layer foreground-right-columns">
+            <svg viewBox="0 0 560 760" preserveAspectRatio="none">
+              <use href="#doric-column" x="28" y="34" width="174" height="724" opacity="0.9" />
+              <use href="#doric-column" x="196" y="10" width="190" height="748" filter="url(#carved-shadow)" />
+              <use href="#doric-column" x="378" y="28" width="178" height="728" opacity="0.94" />
+            </svg>
+          </div>
+
+          <div class="temple-layer plants-layer">
+            <svg viewBox="0 0 1400 620" preserveAspectRatio="none">
+              <g transform="translate(58 448)">
+                <path d="M32 126 H98 C104 96 94 74 70 70 H54 C30 76 22 98 32 126 Z" fill="#d9dbd4" stroke="#9aa19a" />
+                <path d="M64 76 C54 42 32 18 8 0 C18 40 32 68 64 76 Z" fill="url(#plant-leaf)" />
+                <path d="M68 78 C84 44 116 26 150 20 C124 54 100 76 68 78 Z" fill="url(#plant-leaf)" />
+                <path d="M60 80 C52 54 62 28 84 6 C90 44 82 68 60 80 Z" fill="#6f8f63" />
+              </g>
+              <g transform="translate(1170 430) scale(-1 1)">
+                <path d="M32 126 H98 C104 96 94 74 70 70 H54 C30 76 22 98 32 126 Z" fill="#d9dbd4" stroke="#9aa19a" />
+                <path d="M64 76 C54 42 32 18 8 0 C18 40 32 68 64 76 Z" fill="url(#plant-leaf)" />
+                <path d="M68 78 C84 44 116 26 150 20 C124 54 100 76 68 78 Z" fill="url(#plant-leaf)" />
+                <path d="M60 80 C52 54 62 28 84 6 C90 44 82 68 60 80 Z" fill="#6f8f63" />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <div class="brand-mark">A</div>
+          <div>
+            <p class="eyebrow">The Art Historian's Common Room</p>
+            <p class="nav-subtitle">Greek art · period timeline · artists · object notes</p>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1 class="welcome-title" aria-label="Welcome in Greek, English, French, and Chinese">
+              <span lang="el">Καλώς ήρθατε</span>
+              <span lang="en">Welcome</span>
+              <span lang="fr">Bienvenue</span>
+              <span lang="zh-Hans">欢迎</span>
+            </h1>
+            <div class="hero-actions">
+              <button type="button" id="have-coffee" class="hero-action-card coffee-action" aria-label="Have a coffee in the common room cafe">
+                <span class="action-icon latte-icon" aria-hidden="true">
+                  <span class="steam steam-one"></span>
+                  <span class="steam steam-two"></span>
+                  <span class="cup"></span>
+                  <span class="saucer"></span>
+                </span>
+                <span>Have a coffee</span>
+              </button>
+              <button type="button" id="museum-map" class="hero-action-card map-action" aria-label="Open the museum map timeline">
+                <span class="action-icon map-icon" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+                <span>Museum map</span>
+              </button>
+              <button type="button" id="essay-room-button" class="hero-action-card essay-action" aria-label="Open the art history essay room">
+                <span class="action-icon essay-icon" aria-hidden="true">
+                  <span class="essay-paper-icon"></span>
+                  <span class="essay-pen-icon"></span>
+                </span>
+                <span>Essai / essayer</span>
+              </button>
+              <button type="button" id="explore-random" class="hero-action-card explore-action" aria-label="Explore a random artwork">
+                <span class="action-icon compass-icon" aria-hidden="true">
+                  <span class="needle"></span>
+                </span>
+                <span>Explore</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="cafe-room" id="cafe-room" aria-labelledby="cafe-room-title" hidden>
+        <div class="cafe-counter">
+          <div>
+            <p class="eyebrow">Common room cafe</p>
+            <h2 id="cafe-room-title">Have a coffee with an art historian</h2>
+            <p>
+              Choose a drink, settle into the common room, and ask the resident art historian
+              about any artwork, period, or strange visual detail you noticed.
+            </p>
+          </div>
+          <div class="coffee-menu" aria-label="Coffee menu">
+            <button type="button" class="coffee-choice is-selected" data-drink="Latte">
+              <span class="drink-art drink-latte" aria-hidden="true"><span></span></span>
+              <span class="drink-name">Latte</span>
+              <small>silky milk, soft crema</small>
+            </button>
+            <button type="button" class="coffee-choice" data-drink="Hot Chocolate">
+              <span class="drink-art drink-chocolate" aria-hidden="true"><span></span></span>
+              <span class="drink-name">Hot Chocolate</span>
+              <small>dark cocoa, cream, warmth</small>
+            </button>
+            <button type="button" class="coffee-choice" data-drink="Espresso">
+              <span class="drink-art drink-espresso" aria-hidden="true"><span></span></span>
+              <span class="drink-name">Espresso</span>
+              <small>small, sharp, serious</small>
+            </button>
+            <button type="button" class="coffee-choice" data-drink="Tea">
+              <span class="drink-art drink-tea" aria-hidden="true"><span></span></span>
+              <span class="drink-name">Tea</span>
+              <small>quiet pot, long reading</small>
+            </button>
+          </div>
+        </div>
+        <div class="cafe-layout">
+          <div class="coffee-ticket" data-drink="latte">
+            <div class="ticket-cup" aria-hidden="true">
+              <span class="ticket-steam one"></span>
+              <span class="ticket-steam two"></span>
+              <span class="ticket-steam three"></span>
+              <span class="ticket-latte"></span>
+            </div>
+            <p class="eyebrow">Today's order</p>
+            <h3 id="coffee-order-name">Latte</h3>
+            <p id="coffee-order-note">
+              A slow milk cloud for looking carefully at marble, myth, and brushwork.
+            </p>
+            <button type="button" id="buy-coffee">Buy coffee</button>
+            <p class="coffee-status" id="coffee-status" aria-live="polite"></p>
+          </div>
+          <div class="historian-chat" aria-labelledby="historian-chat-title">
+            <div class="chat-heading">
+              <div>
+                <p class="eyebrow">AI art historian</p>
+                <h3 id="historian-chat-title">Ask across the table</h3>
+              </div>
+              <span>Open</span>
+            </div>
+            <div class="chat-log" id="chat-log" aria-live="polite">
+              <article class="chat-message historian">
+                <strong>Art historian</strong>
+                <p>Ask me why Manet felt modern, how Gothic cathedrals teach, or what makes Greek sculpture feel ideal.</p>
+              </article>
+            </div>
+            <form class="chat-form" id="historian-chat-form">
+              <label for="historian-question">Question</label>
+              <input id="historian-question" type="text" placeholder="Ask about a work, period, or visual detail..." autocomplete="off" />
+              <button type="submit">Ask</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="essay-room" id="essay-room" aria-labelledby="essay-room-title" hidden>
+        <div class="essay-heading">
+          <div>
+            <p class="eyebrow">Essai / essayer</p>
+            <h2 id="essay-room-title">Art history essay room</h2>
+            <p>
+              Practice two exam habits: first, close visual analysis from an artwork; second,
+              a short essay question drawn from the works you saved to study.
+            </p>
+          </div>
+          <div class="essay-mode-switch" aria-label="Essay room mode">
+            <button type="button" class="is-selected" data-essay-mode="visual">Visual analysis</button>
+            <button type="button" data-essay-mode="essay">Essay</button>
+          </div>
+        </div>
+        <div class="essay-layout">
+          <article class="essay-paper" aria-live="polite">
+            <div class="essay-task">
+              <figure class="essay-artwork" id="essay-artwork-card"></figure>
+              <div class="essay-task-copy">
+                <p class="eyebrow" id="essay-task-kicker">Visual analysis practice</p>
+                <h3 id="essay-task-title">Look first, then argue</h3>
+                <p id="essay-task-prompt">Describe what you see, then explain how those choices create meaning.</p>
+                <button type="button" class="inline-action" id="essay-new-task">New task</button>
+              </div>
+            </div>
+            <div class="essay-writing-fields">
+              <label for="essay-thesis">Working thesis</label>
+              <input
+                id="essay-thesis"
+                type="text"
+                placeholder="This artwork matters because..."
+                autocomplete="off"
+              />
+              <label for="essay-draft">Response</label>
+              <textarea
+                id="essay-draft"
+                rows="10"
+                placeholder="Start with what you see. Then move from visual evidence to historical meaning."
+              ></textarea>
+            </div>
+            <div class="essay-submit-row">
+              <p class="essay-count"><span id="essay-word-count">0</span> words</p>
+              <button type="button" class="inline-action" id="essay-clear-response">Clear</button>
+              <button type="button" id="essay-submit-response">Submit for marking</button>
+            </div>
+            <section class="essay-feedback" id="essay-feedback" hidden></section>
+          </article>
+          <aside class="essay-method">
+            <h3>Four moves</h3>
+            <p id="essay-saved-note">Essay mode uses your saved study artworks. Save a work first to make the questions personal.</p>
+            <ol>
+              <li><strong>Context</strong><span>Who made it, when, where, and for what world?</span></li>
+              <li><strong>Visual evidence</strong><span>What do line, color, body, space, surface, or scale do?</span></li>
+              <li><strong>Argument</strong><span>What claim are you making, not just what facts do you know?</span></li>
+              <li><strong>Implication</strong><span>What changes when we understand the work this way?</span></li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
+      <section class="map-room" id="map-room" aria-labelledby="map-room-title" hidden>
+        <div class="map-room-heading">
+          <div>
+            <p class="eyebrow">Museum map</p>
+            <h2 id="map-room-title">Choose a room by period</h2>
+            <p>
+              A small floor plan of the common room museum. Each room opens the matching
+              period in the timeline below.
+            </p>
+          </div>
+        </div>
+        <div class="museum-floor-map" id="museum-floor-map" aria-label="Period rooms map"></div>
+      </section>
+
+      <section class="greek-gallery" id="greek-art" aria-labelledby="greek-art-title">
+        <div class="greek-intro">
+          <p class="eyebrow">Room 1</p>
+          <h2 id="greek-art-title">Greek Art: the first gallery</h2>
+          <p>
+            Start here as the guided opening room. The full period timeline below keeps the
+            complete index; this room slows down the first encounter with body, temple, myth,
+            civic ritual, and the long conversation between realism and ideal form.
+          </p>
+        </div>
+        <div class="greek-study">
+          <div class="greek-works" id="greek-works"></div>
+          <aside class="greek-detail" id="greek-detail" aria-live="polite"></aside>
+        </div>
+      </section>
+
+      <section class="collection-atlas" id="collection-atlas" aria-labelledby="collection-atlas-title">
+        <div class="collection-heading">
+          <div>
+            <p class="eyebrow">Period timeline</p>
+            <h2 id="collection-atlas-title">Art history by era, not by medium</h2>
+            <p class="collection-intent">
+              The timeline mixes painting, sculpture, and architecture in each period. The
+              painter notebook below is a focused painting archive; linked works move between
+              the two.
+            </p>
+          </div>
+          <div class="collection-heading-tools">
+            <button type="button" class="density-toggle" id="density-toggle" aria-pressed="false">Compact cards</button>
+            <div class="collection-filters" id="collection-filters" aria-label="Timeline periods"></div>
+          </div>
+        </div>
+        <div class="chronology-panel" aria-labelledby="chronology-title">
+          <div class="chronology-heading">
+            <div>
+              <p class="eyebrow">Horizontal chronology</p>
+              <h3 id="chronology-title">Who overlaps with what?</h3>
+            </div>
+            <p>
+              Works are points; painters are lifespan bars. Tap any marker to jump into the
+              matching note or dossier.
+            </p>
+          </div>
+          <div class="chronology-scroll" id="chronology" aria-label="Horizontal art history timeline"></div>
+        </div>
+        <div class="collection-layout">
+          <div class="collection-grid" id="collection-grid"></div>
+          <aside class="collection-detail" id="collection-detail" aria-live="polite"></aside>
+        </div>
+      </section>
+
+      <section class="study-room" id="study-room" aria-labelledby="study-room-title">
+        <div class="study-heading">
+          <div>
+            <p class="eyebrow">Memory room</p>
+            <h2 id="study-room-title">Turn looking into recall</h2>
+            <p>
+              Use the existing memory hooks, images, and visual notes as a small learning loop:
+              save objects, flip a card, then ask the art historian why the answer matters.
+            </p>
+          </div>
+          <div class="study-mode" aria-label="Study mode">
+            <button type="button" class="is-selected" data-study-mode="image">Image to work</button>
+            <button type="button" data-study-mode="hook">Hook to work</button>
+          </div>
+        </div>
+        <div class="study-layout">
+          <article class="study-card" id="study-card" aria-live="polite"></article>
+          <aside class="study-list">
+            <p class="eyebrow">Learning list</p>
+            <h3>Saved for review</h3>
+            <p><span id="saved-count">0</span> works saved on this device.</p>
+            <div class="study-actions">
+              <button type="button" id="save-study-work">Save current</button>
+              <button type="button" id="next-study-card">Next card</button>
+              <button type="button" id="reveal-study-answer">Reveal answer</button>
+            </div>
+            <div class="saved-work-list" id="saved-work-list" aria-live="polite"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="notebook" id="notebook">
+        <aside class="controls" aria-label="Timeline controls">
+          <div class="section-heading compact">
+            <p class="eyebrow">Find painter</p>
+            <h2>Timeline controls</h2>
+          </div>
+          <label class="search-box">
+            <span>Search painter, work, country, movement</span>
+            <input id="search" type="search" placeholder="Try Manet, Japan, Baroque..." />
+          </label>
+          <div>
+            <p class="control-label">Periods</p>
+            <div class="chip-grid" id="period-filters"></div>
+          </div>
+          <div>
+            <p class="control-label">Countries</p>
+            <div class="chip-grid" id="country-filters"></div>
+          </div>
+          <button type="button" id="reset" class="reset-button">Reset filters</button>
+        </aside>
+
+        <section class="timeline-feed" aria-label="Painter timeline">
+          <div class="section-heading">
+            <p class="eyebrow">Painting archive</p>
+            <h2>Painter dossiers linked to the period timeline</h2>
+            <p>
+              This archive is painting-focused. When a work also appears in the main period
+              timeline, its note links back to the full mixed-medium context.
+            </p>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </section>
+
+        <aside class="dossier" aria-live="polite">
+          <div id="dossier-content"></div>
+        </aside>
+      </section>
+    </main>
+    <div class="explore-tunnel" id="explore-tunnel" aria-hidden="true">
+      <div class="tunnel-perspective">
+        <div class="tunnel-arch tunnel-arch-one"></div>
+        <div class="tunnel-arch tunnel-arch-two"></div>
+        <div class="tunnel-arch tunnel-arch-three"></div>
+        <div class="tunnel-floor"></div>
+        <div class="tunnel-column-shadow tunnel-left-one"></div>
+        <div class="tunnel-column-shadow tunnel-left-two"></div>
+        <div class="tunnel-column-shadow tunnel-right-one"></div>
+        <div class="tunnel-column-shadow tunnel-right-two"></div>
+        <div class="tunnel-art-door"></div>
+        <div class="tunnel-sparks">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="tunnel-caption">
+        <span>The frame is opening</span>
+        <strong id="tunnel-work-title">A work is waiting</strong>
+      </div>
+    </div>
+    <script src="./script.js?v=13"></script>
+  </body>
+</html>

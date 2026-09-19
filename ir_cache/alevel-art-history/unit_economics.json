@@ -1,0 +1,124 @@
+{
+  "status": "illustrative_assumptions_not_observed_market_data",
+  "scope": "4周；4次60分钟课；每人2篇短文首稿和修改稿共4次反馈；建议人数上限6",
+  "assumptions": {
+    "fixed_hours": {
+      "live": "4",
+      "prep": "4",
+      "independent_review": "2",
+      "cohort_admin": "2",
+      "recruitment": "4"
+    },
+    "variable": {
+      "feedback_count": "4",
+      "minutes_each": "30",
+      "communication_hours_each": "0.5"
+    },
+    "labor_hourly_opportunity_cost_cny": "300",
+    "cash_cost_per_learner_cny": "100",
+    "cohort_tech_cash_cny": "300",
+    "revenue_reserve_ratio": "0.05",
+    "first_extra_hours": {
+      "initial_curriculum": "12",
+      "additional_recruitment": "8"
+    },
+    "warning": "预留不是已知手续费或退款率；现金项也是预算占位。未含税额、资质成本、第三方机构分成、平台开发和考费，需报价后重算。"
+  },
+  "scenarios": [
+    {
+      "name": "价格1980",
+      "price": "1980",
+      "students": "6",
+      "feedback_minutes_each": "30",
+      "hourly_cost": "300",
+      "revenue": "11880",
+      "revenue_after_reserve": "11286",
+      "repeat_hours": "31",
+      "first_hours": "51",
+      "repeat_economic_cost": "10200",
+      "repeat_surplus": "1086",
+      "first_extra_cost": "6000",
+      "first_surplus": "-4914"
+    },
+    {
+      "name": "主方案2480",
+      "price": "2480",
+      "students": "6",
+      "feedback_minutes_each": "30",
+      "hourly_cost": "300",
+      "revenue": "14880",
+      "revenue_after_reserve": "14136",
+      "repeat_hours": "31",
+      "first_hours": "51",
+      "repeat_economic_cost": "10200",
+      "repeat_surplus": "3936",
+      "first_extra_cost": "6000",
+      "first_surplus": "-2064"
+    },
+    {
+      "name": "价格2980",
+      "price": "2980",
+      "students": "6",
+      "feedback_minutes_each": "30",
+      "hourly_cost": "300",
+      "revenue": "17880",
+      "revenue_after_reserve": "16986",
+      "repeat_hours": "31",
+      "first_hours": "51",
+      "repeat_economic_cost": "10200",
+      "repeat_surplus": "6786",
+      "first_extra_cost": "6000",
+      "first_surplus": "786"
+    },
+    {
+      "name": "仅4名学员",
+      "price": "2480",
+      "students": "4",
+      "feedback_minutes_each": "30",
+      "hourly_cost": "300",
+      "revenue": "9920",
+      "revenue_after_reserve": "9424",
+      "repeat_hours": "26",
+      "first_hours": "46",
+      "repeat_economic_cost": "8500",
+      "repeat_surplus": "924",
+      "first_extra_cost": "6000",
+      "first_surplus": "-5076"
+    },
+    {
+      "name": "每稿60分钟",
+      "price": "2480",
+      "students": "6",
+      "feedback_minutes_each": "60",
+      "hourly_cost": "300",
+      "revenue": "14880",
+      "revenue_after_reserve": "14136",
+      "repeat_hours": "43",
+      "first_hours": "63",
+      "repeat_economic_cost": "13800",
+      "repeat_surplus": "336",
+      "first_extra_cost": "6000",
+      "first_surplus": "-5664"
+    },
+    {
+      "name": "教师500元每小时",
+      "price": "2480",
+      "students": "6",
+      "feedback_minutes_each": "30",
+      "hourly_cost": "500",
+      "revenue": "14880",
+      "revenue_after_reserve": "14136",
+      "repeat_hours": "31",
+      "first_hours": "51",
+      "repeat_economic_cost": "16400",
+      "repeat_surplus": "-2264",
+      "first_extra_cost": "10000",
+      "first_surplus": "-12264"
+    }
+  ],
+  "break_even_price_six": {
+    "repeat": "1789.473684210526315789473684",
+    "first": "2842.105263157894736842105263"
+  },
+  "budget_hours_opportunity_cost": "24000"
+}

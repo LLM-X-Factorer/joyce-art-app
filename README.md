@@ -6,6 +6,10 @@
 
 首次了解项目，建议先读本页并在本地体验，再读 [架构文档](docs/ARCHITECTURE.md)。后续参与开发时参考 [AGENTS.md](AGENTS.md)。
 
+下一阶段建议先读 [用户需求、产品问题与执行方案](docs/NEXT_STAGE_EXECUTION_PLAN.md)，其中整理了首版范围、执行步骤、角色分工与验收标准。分析依据和更多讨论见 [产品迭代与早期运营分析](docs/PRODUCT_AND_OPERATIONS_STRATEGY.md)。这些方案中的新增功能尚未实施。
+
+A-level 商业方向见 [艺术史商业机会与执行方案](docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md)（[PDF 阅读版](docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.pdf)）。报告比较科目辅导、能力短课与学校合作，包含现有供给、首期服务、成本敏感性和六周验证计划；价格与人数均为试点假设，真实付费和教学效果尚待验证。[已确认的研究框架](docs/research/ALEVEL_ART_HISTORY_RESEARCH_FRAMEWORK.md)保留了分析过程中的判断修订。
+
 ## 现在可以做什么
 
 以下基于 2026-09-19 的仓库代码核对，不代表线上部署或真实 AI 服务已经验收。

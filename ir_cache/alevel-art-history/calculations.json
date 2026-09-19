@@ -1,0 +1,66 @@
+[
+  {
+    "id": "C01",
+    "purpose": "AAH 附表 2019 到 2025 变化；非逐年同比",
+    "source_ids": [
+      "S03"
+    ],
+    "input": {
+      "op": "yoy",
+      "base_val": "483",
+      "current_val": "838"
+    },
+    "command_argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/liu/.agents/skills/numeric-discipline/scripts/numeric_ops.py",
+      "--needs-ops"
+    ],
+    "stdin": "{\"op\":\"yoy\",\"base_val\":\"483\",\"current_val\":\"838\"}\n",
+    "stdout": "{\"result_decimal\": \"73.49896480331262939958592133\", \"dp_id\": \"dp_computed_c979db58\", \"rule_id\": \"T5-yoy\", \"op\": \"yoy\"}\n",
+    "exit_code": 0
+  },
+  {
+    "id": "C02",
+    "purpose": "2025 到 2026 英国 9HT0 考生变化；2025 直接原链接不可读",
+    "source_ids": [
+      "S02",
+      "S03",
+      "S19"
+    ],
+    "input": {
+      "op": "yoy",
+      "base_val": "838",
+      "current_val": "715"
+    },
+    "command_argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/liu/.agents/skills/numeric-discipline/scripts/numeric_ops.py",
+      "--needs-ops"
+    ],
+    "stdin": "{\"op\":\"yoy\",\"base_val\":\"838\",\"current_val\":\"715\"}\n",
+    "stdout": "{\"result_decimal\": \"-14.67780429594272076372315036\", \"dp_id\": \"dp_computed_7df94fd3\", \"rule_id\": \"T5-yoy\", \"op\": \"yoy\"}\n",
+    "exit_code": 0
+  },
+  {
+    "id": "C03",
+    "purpose": "2026 减 2025 考生人数差",
+    "source_ids": [
+      "S02",
+      "S03",
+      "S19"
+    ],
+    "input": {
+      "op": "diff_check",
+      "a": "715",
+      "b": "838"
+    },
+    "command_argv": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/liu/.agents/skills/numeric-discipline/scripts/numeric_ops.py",
+      "--needs-ops"
+    ],
+    "stdin": "{\"op\":\"diff_check\",\"a\":\"715\",\"b\":\"838\"}\n",
+    "stdout": "{\"result_decimal\": \"-123\", \"dp_id\": \"dp_computed_7e515dd1\", \"rule_id\": \"T1-sum_or_diff_equals\", \"op\": \"diff_check\"}\n",
+    "exit_code": 0
+  }
+]

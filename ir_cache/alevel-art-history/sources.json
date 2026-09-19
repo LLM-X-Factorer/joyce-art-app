@@ -1,0 +1,277 @@
+{
+  "target": "Common Room / A-level History of Art 商业机会",
+  "status": "framework_approved_report_in_progress",
+  "generated_at": "2026-09-19",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Pearson 9HT0 官方资格页",
+      "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/history-of-art-2017.html",
+      "type": "官方资格页",
+      "published_or_scope": "现行页面",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "GCE History of Art；UK & International availability；不能据此改称 International A Level。"
+    },
+    {
+      "id": "S02",
+      "title": "Pearson June 2026 provisional A-level grade statistics",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/Support/Grade-statistics/A-level/grade-statistics-june-2026-provisional-advance-level.pdf",
+      "type": "考试局原始统计",
+      "published_or_scope": "2026-08-13",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF",
+      "note": "封面 UK Only，PDF 第 6 页（零索引 5）9HT0 Total Sat 715；不是全球、中国或全部在读人数。"
+    },
+    {
+      "id": "S03",
+      "title": "AAH / Courtauld: Access to Art History Study at the Pre-University Level",
+      "url": "https://courtauld.ac.uk/wp-content/uploads/2025/11/AAH-report-FINAL.pdf",
+      "type": "受托调查原报告",
+      "published_or_scope": "2025-11-21",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF",
+      "note": "80 家提供课程的学校、学院及慈善机构；72 家答复；61 家收费、19 家公立或免费。英国供给地域不均。附表 2019=483，2025=838，正文增长 42% 与常规定义不一致；保留冲突，不采用宣传百分比。"
+    },
+    {
+      "id": "S04",
+      "title": "Oxford BA History of Art admissions",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/history-of-art",
+      "type": "大学招生原始要求",
+      "published_or_scope": "2027 入学页面",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "不要求之前学过艺术史；需要论述型 A-level，艺术史属于有帮助的科目。提交写作材料，面试重观察讨论。不能承诺辅导提高录取率。"
+    },
+    {
+      "id": "S05",
+      "title": "NEC A level History of Art",
+      "url": "https://www.nec.ac.uk/course/a-level-history-of-art/",
+      "type": "机构课程展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "£730；24 个月导师支持、11 次作业含介绍作业；考试费用另计。价格与服务为机构展示，实际成交、教学质量和按时交付未核验。"
+    },
+    {
+      "id": "S06",
+      "title": "Art History Link-Up about",
+      "url": "https://www.arthistorylinkup.org/about",
+      "type": "慈善机构自述",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "英国有特定对象的公益教学；具名创办人 Rose Aidin。不能将累计服务人数当年度付费市场。"
+    },
+    {
+      "id": "S07",
+      "title": "Cambridge International 9479 syllabus 2026",
+      "url": "https://www.cambridgeinternational.org/Images/697364-2026-syllabus.pdf",
+      "type": "考试局现行考纲",
+      "published_or_scope": "2026 考季；Version 2 December 2025",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF",
+      "note": "Art & Design 是创作实践考核，包括课程作业、命题作业、个人研究；本考纲不接受 private candidates。不得泛化到所有考试局艺术类资格。"
+    },
+    {
+      "id": "S08",
+      "title": "斯芬克 A-level 定制课",
+      "url": "https://www.sfkedu.com/works/alevelclass.html",
+      "type": "机构课程展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "宣传艺术设计、纯艺、艺术史知识与作品集相关课程，不能据此认定独立 9HT0 科目教学规模。"
+    },
+    {
+      "id": "S09",
+      "title": "British Council China Pearson exams",
+      "url": "https://www.britishcouncil.cn/exams/school/pearson",
+      "type": "考试服务机构当前页面",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "当前考季与考试城市服务信息；武汉杭州暂只提供 International A/AS。不能用一般 GCE 服务页保证具体城市 2027 年接收 9HT0。"
+    },
+    {
+      "id": "S10",
+      "title": "惟世 Alevel 艺术史双语辅导",
+      "url": "https://www.wsszzx.com/new/31070.html",
+      "type": "机构招生宣传",
+      "published_or_scope": "2026-03-26",
+      "accessed": "2026-09-19",
+      "access": "搜索索引可读，直接打开失败",
+      "note": "页面自述中英双语或全英文辅导。无已验证的教师排期、成交价格、学生人数或考试成绩。仅为供给线索。"
+    },
+    {
+      "id": "S11",
+      "title": "NEC Structured Fast Track History of Art",
+      "url": "https://www.nec.ac.uk/course/structured-fast-track-a-level-history-of-art/",
+      "type": "机构课程展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "£1499；12 个月导师指导，结构化课表、小组课、练习与申请支持；考试费用另计。总学习时间与每周时间有内在不一致，不据其时间自述估算我们交付成本。"
+    },
+    {
+      "id": "S12",
+      "title": "Oxbridge Home Learning History of Art",
+      "url": "https://oxbridgehomelearning.uk/course/a-level-history-of-art/",
+      "type": "商业远程课程提供者",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "展示 Course only £395、Experience 促销 £597（页面划线 £995）；24 个月支持。并非牛津或剑桥大学。考试费另计，不能假定中国考点可用。"
+    },
+    {
+      "id": "S13",
+      "title": "InterGreat A-Level 艺术史",
+      "url": "https://study.intergreat.com/zh-hans/subject/16177.html",
+      "type": "国内机构中文课程展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "有独立艺术史课程页和 Ailsa M.、Robert J. 等具名导师展示。证明宣传供给存在；师资、可授主题、课时、成交和在读人数仍属未验证。"
+    },
+    {
+      "id": "S14",
+      "title": "AHLU 2026–27 A Level programme",
+      "url": "https://www.arthistorylinkup.org/programmes/art-history-a-level",
+      "type": "慈善机构项目展示",
+      "published_or_scope": "2026–27 学年",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "面向英国 state sponsored Y12/Y13；免费，优先拓宽参与背景；专家周六课、作业俱乐部、考试安排。申请截止 2026-09-04 已过，不作为当前报名推荐。"
+    },
+    {
+      "id": "S15",
+      "title": "Pearson History of Art specification Issue 2",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/history-of-art/2017/specification-and-sample-assessments/specification-and-sample-assessments-GCE-HISOFART-SPEC.pdf",
+      "type": "考试局考纲",
+      "published_or_scope": "2017-06；现行资格页链接",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF",
+      "note": "两卷各 3 小时、各 50%，英语作答；视觉分析+主题+历史时期，主题三选二、时期五选二；AO1/AO2/AO3 权重 30/36/34。附录四列 24 个深入作品、至少 36 个补充作品的课程分配要求；不宣称全体考生有统一 60 件互不重复必背清单。"
+    },
+    {
+      "id": "S16",
+      "title": "Courtauld BA History of Art",
+      "url": "https://courtauld.ac.uk/explore-our-courses/undergraduate/ba-history-of-art/",
+      "type": "大学招生原始要求",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已打开",
+      "note": "不要求艺术史背景或特定 A-level 科目。与 Oxford 各自招生政策分别适用。"
+    },
+    {
+      "id": "S17",
+      "title": "British Council China May/June 2023 guide",
+      "url": "https://www.britishcouncil.cn/sites/default/files/pearson_edexcel_exam_registration_guidance_may_june_2023.pdf",
+      "type": "历史考试报名指南",
+      "published_or_scope": "2023 考季",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF，第 13 页明确列 9HT0 两卷",
+      "note": "9HT0 出现在历史中国报名指南。只能说明历史通路存在，不能确认 2027 城市、接收、日期或价格。"
+    },
+    {
+      "id": "S18",
+      "title": "British Council China May/June 2024 guide",
+      "url": "https://www.britishcouncil.cn/sites/default/files/pearson_edexcel_registration_guidance_2024mj_en.pdf",
+      "type": "历史考试报名指南",
+      "published_or_scope": "2024-01 更新",
+      "accessed": "2026-09-19",
+      "access": "已打开 PDF，查找 9HT0 无匹配",
+      "note": "此文件文本没有找到 9HT0；不据此判断 2024 无法报名，只说明本文件未补足当期具体科目证据。"
+    },
+    {
+      "id": "S19",
+      "title": "Pearson June 2025 provisional A-level statistics",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/Support/Grade-statistics/A-level/grade-statistics-june-2025-provisional-advanced-level.pdf",
+      "type": "考试局原始统计索引",
+      "published_or_scope": "2025-06 考季",
+      "accessed": "2026-09-19",
+      "access": "搜索索引可读；直接地址返回 404",
+      "note": "搜索缓存 HOME 9HT0 Total Sat 838，与 AAH 附表一致。二者可能为同一上游，不作独立样本。2025→2026 增速仅作为带口径与访问限制的核算。"
+    },
+    {
+      "id": "S20",
+      "title": "Courtauld school access report press release",
+      "url": "https://courtauld.ac.uk/news-blogs/2025/courtauld-association-for-art-history-report/",
+      "type": "报告发布方新闻",
+      "published_or_scope": "2025-11-27",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "学校数 122 的基年写 2016，而原报告写 2014；不静默混用。引用原 PDF 并保留冲突，暂不依学校变动百分比作决策。"
+    },
+    {
+      "id": "S21",
+      "title": "Keystone History of Art tutors",
+      "url": "https://www.keystonetutors.com/tutors/a-level-history-of-art-tutors",
+      "type": "教师机构展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "存在具名艺术史 A-level 教师，价格待询。不能由挂牌教师数推算需求人数。"
+    },
+    {
+      "id": "S22",
+      "title": "Spires A-level History of Art",
+      "url": "https://spires.co/online-history-of-art-tutors/a-level",
+      "type": "教师交易平台展示",
+      "published_or_scope": "2026-09-19 快照",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "平台存在该科目撮合与提供方托管评价。最低起价不是该科目具备能力导师的保证报价；选取评价不是独立需求调查。"
+    },
+    {
+      "id": "S23",
+      "title": "Art Teachers Connect: AHiS transferred resources",
+      "url": "https://atcuk.org/resource-category/art-history-in-schools-resources/",
+      "type": "资源接收方刊载原慈善机构理事说明",
+      "published_or_scope": "页面未标明日期；2026-09-19 访问",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "Caroline Osborne 署名说明 AHiS 已结束运营并转移资源；有考纲主题材料。没有解释其财务原因，不写成培训生意失败或资金断裂案例。"
+    },
+    {
+      "id": "S24",
+      "title": "深圳市教育局：致全市校外教育培训机构的告知书",
+      "url": "https://szeb.sz.gov.cn/home/jyxw/jyxw/content/post_12887672.html",
+      "type": "地方教育主管部门",
+      "published_or_scope": "2026-07-10",
+      "accessed": "2026-09-19",
+      "access": "已打开全文",
+      "note": "涉及办学许可、收费账户、合同和未成年人培训广告。艺术史 A-level 具体归类、线上跨境业务适用性未被本页解决，需按所在地、学生年龄、交付内容确认，不能自行认定豁免或禁止。"
+    },
+    {
+      "id": "S25",
+      "title": "教育部等十三部门：规范面向中小学生的非学科类校外培训",
+      "url": "https://www.moe.gov.cn/srcsite/A29/202212/t20221229_1036959.html",
+      "type": "中央主管部门政策",
+      "published_or_scope": "2022-12",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "非学科类也存在准入、师资等规则；不能因为艺术二字即认定无要求。不作具体法律定性。"
+    },
+    {
+      "id": "S26",
+      "title": "Pearson September 2025 Art and Design update",
+      "url": "https://qualifications.pearson.com/en/news-policy/subject-updates/art-and-design/september-2025-art-update.html",
+      "type": "考试局教师服务通知",
+      "published_or_scope": "2025-09",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "最新考官报告部分资料需授权账号；未绕过限制、未宣称已读完整最新报告。"
+    },
+    {
+      "id": "S27",
+      "title": "AAH CEO reflections",
+      "url": "https://forarthistory.org.uk/latest_news/some-reflections-on-the-state-of-art-history/",
+      "type": "学科协会负责人自述",
+      "published_or_scope": "2025 年末",
+      "accessed": "2026-09-19",
+      "access": "已检索",
+      "note": "重复 838 与 42% 说法，属于同一调查来源链，不计独立验证。协会推广学科的立场要与数据质量分开。"
+    }
+  ]
+}

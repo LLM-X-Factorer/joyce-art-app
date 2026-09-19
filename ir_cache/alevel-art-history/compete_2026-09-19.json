@@ -1,0 +1,144 @@
+{
+  "module": "compete",
+  "version": "2.0",
+  "generated_at": "2026-09-19",
+  "target": "艺术史 A-level 教学供给",
+  "data_points": [
+    {
+      "dp_id": "p01",
+      "metric": "网页一次性课程标价",
+      "value": "730",
+      "unit": "GBP",
+      "scope": "NEC regular，不含考试费用，未验证成交",
+      "period": "2026-09-19",
+      "source": "S05",
+      "source_url": "https://www.nec.ac.uk/course/a-level-history-of-art/",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "p02",
+      "metric": "网页一次性课程标价",
+      "value": "1499",
+      "unit": "GBP",
+      "scope": "NEC structured fast track，不含考试费用，未验证成交",
+      "period": "2026-09-19",
+      "source": "S11",
+      "source_url": "https://www.nec.ac.uk/course/structured-fast-track-a-level-history-of-art/",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "p03",
+      "metric": "网页课程标价",
+      "value": "395",
+      "unit": "GBP",
+      "scope": "Oxbridge Course only，不含考试费用，未验证成交",
+      "period": "2026-09-19",
+      "source": "S12",
+      "source_url": "https://oxbridgehomelearning.uk/course/a-level-history-of-art/",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "p04",
+      "metric": "网页促销课程标价",
+      "value": "597",
+      "unit": "GBP",
+      "scope": "Oxbridge Experience，页面促销，不含考试费用，未验证成交",
+      "period": "2026-09-19",
+      "source": "S12",
+      "source_url": "https://oxbridgehomelearning.uk/course/a-level-history-of-art/",
+      "confidence": "medium"
+    }
+  ],
+  "offers": [
+    {
+      "provider": "NEC regular",
+      "source": "S05",
+      "format": "异步课程+导师指导+作业",
+      "claim": "24 个月导师支持",
+      "gap_to_verify": "学习者实际反馈时延、选修主题匹配、是否适配华语英文基础"
+    },
+    {
+      "provider": "NEC structured fast track",
+      "source": "S11",
+      "format": "结构化一年学习安排+小组课+导师反馈",
+      "claim": "12 个月指导与备考/申请支持",
+      "gap_to_verify": "具体批改次数、选修内容、交付质量；页面估时不一致"
+    },
+    {
+      "provider": "Oxbridge Home Learning",
+      "source": "S12",
+      "format": "线上内容与支持，分档定价",
+      "claim": "24 个月支持",
+      "gap_to_verify": "当期折扣、真实服务范围、批改方式；非牛津剑桥大学"
+    },
+    {
+      "provider": "AHLU",
+      "source": "S14",
+      "format": "免费线下/线上专家课+作业支持+考试安排",
+      "claim": "面向英国公立 Y12/Y13，优先特定背景，申请期限已过",
+      "gap_to_verify": "特定学生资格及名额，不是普遍可用的免费替代"
+    },
+    {
+      "provider": "InterGreat 英萃",
+      "source": "S13",
+      "format": "中文课程入口+具名导师",
+      "claim": "艺术史 A-level 辅导；导师学历与成绩为机构自述",
+      "gap_to_verify": "具体考试局/科目代码、导师授课记录、中文教学能力、时区、报价与合同"
+    },
+    {
+      "provider": "惟世",
+      "source": "S10",
+      "format": "中英双语或全英文辅导的招生主张",
+      "claim": "系统辅导与写作训练",
+      "gap_to_verify": "仅搜索页面线索；实际师资、成交与学生未知"
+    },
+    {
+      "provider": "Keystone / Spires",
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "format": "个人教师与撮合平台",
+      "claim": "有该科目教师入口",
+      "gap_to_verify": "可教的考试主题、真实价格、交付与学生反馈"
+    },
+    {
+      "provider": "斯芬克",
+      "source": "S08",
+      "format": "艺术设计与作品集相关课程",
+      "claim": "含艺术史知识",
+      "gap_to_verify": "不能当成独立艺术史 9HT0 供给或考试人数"
+    },
+    {
+      "provider": "Art Teachers Connect / 原 AHiS",
+      "source": "S23",
+      "format": "既有教学材料与教师资源",
+      "claim": "接收已结束运营的 AHiS 教材",
+      "gap_to_verify": "课程内使用与商业复制授权；机构结束原因未知"
+    }
+  ],
+  "analysis": {
+    "framework": "按买方任务与交付内容比较，避免把资料、录播、人工批改、考试费混成一个价格",
+    "key_findings": [
+      "有中文、有线上课程、有学习资料均不是空白市场证据。",
+      "供给页和具名导师不足以证实质量与可用排期。",
+      "用户具体缺口应在选修题目匹配、英文论证、反馈与修改中验证，不能从官网独断。"
+    ],
+    "conclusion": "先验证既有服务哪里不能满足目标学生；不能用英国标价换汇直接给中国服务定价。",
+    "conclusion_confidence": "medium",
+    "contradictions": [
+      {
+        "point": "NEC fast track 页面总学习小时与每周学习小时/周数不一致。",
+        "source_a": "S11 课程描述",
+        "source_b": "S11 时间要求",
+        "resolution": "不采用其小时数字为我们成本模型；购买时以明确服务合同核对。",
+        "resolved": false
+      }
+    ],
+    "limitations": [
+      "没有购买或试听竞品，没有真实报价单、成交或学员样本。",
+      "机构托管评价只能产生访谈假设，不能当独立效果证据。",
+      "没有把最低导师起价当该科目的保证价格，没有采用不具备分母的通过率或提分宣传。"
+    ]
+  }
+}

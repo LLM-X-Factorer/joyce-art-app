@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "/Users/liu/.agents/skills/invest-research/scripts/label_coverage.py",
+    "/Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md"
+  ],
+  "exit_code": 0,
+  "stdout": "五色标注覆盖率（阈值 30%，语法见 evidence-labels.md）\n  [跳过] 开头（封面/元信息不计覆盖率）\n  ✓ 决策摘要：6/16 = 38%\n  ✓ 阅读说明（先看这一条）：2/3 = 67%\n  ⚠ 本章偏低 目录：0/9 = 0%\n  ✓ 1. 先找到愿意为具体学习任务付费的人：30/34 = 88%\n  ✓ 2. 考试、艺术设计与申请能力是三种产品：25/30 = 83%\n  ✓ 3. 英国供给不均，中国商业缺口仍待验证：18/28 = 64%\n  ✓ 4. 现有课程卖什么，我们必须多解决什么：22/29 = 76%\n  ✓ 5. 先做哪门生意，以及首期究竟交付什么：22/42 = 52%\n  ✓ 6. 把作者时间算进去，学费还剩多少：23/49 = 47%\n  ✓ 7. Common Room 如何成为可靠的学习服务：21/35 = 60%\n  ✓ 8. 六周验证安排，以及继续或停止的条件：28/44 = 64%\n  ✓ 9. 依据、信息缺口与后续核实：11/28 = 39%\n  [跳过] 计算底稿（附录类章节不计覆盖率）\n\n全文覆盖率：208/347 = 60%（要求 ≥ 30%）\n\n结论：通过\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "/Users/liu/.agents/skills/invest-research/scripts/number_provenance.py",
+    "/Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md"
+  ],
+  "exit_code": 0,
+  "stdout": "数字溯源：共 50 个计量数字，50 个有溯源，覆盖比 100%；裸数字 0 个。\n悬空引用：无。\n结论：通过。\n",
+  "stderr": ""
+}

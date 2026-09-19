@@ -1,0 +1,5 @@
+[OK] 组装完成 → /Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md
+     组装来源 fragments 目录：/Users/liu/Projects/LLM-X-Factors/joyce-art-app/ir_cache/alevel-art-history/fragments
+     章节 10 | 字符 25008 | 图表 1/1 渲染成功
+     下一步：用 report-pdf 出 PDF 并走视觉迭代回环逐页目检（深度版走 deep_render 投行风皮肤，非 md2pdf 纯排版）：
+       python3 ~/.claude/skills/report-pdf/scripts/deep_render.py "/Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md" -o "/Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.pdf" --title "A-level 艺术史：商业机会与执行方案"

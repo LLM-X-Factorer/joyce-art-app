@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "/Users/liu/.agents/skills/invest-research/scripts/jargon_scan.py",
+    "/Users/liu/Projects/LLM-X-Factors/joyce-art-app/docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md"
+  ],
+  "exit_code": 0,
+  "stdout": "黑话扫描通过：全文零命中。\n",
+  "stderr": ""
+}

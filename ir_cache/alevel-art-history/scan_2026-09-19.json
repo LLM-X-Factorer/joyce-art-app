@@ -1,0 +1,159 @@
+{
+  "module": "scan",
+  "version": "2.0",
+  "generated_at": "2026-09-19",
+  "target": "A-level History of Art 与华语教学机会",
+  "params": {
+    "status": "framework_approved",
+    "geography": "中国大陆及海外华语学生；英国为资格与供给参照；用户已确认"
+  },
+  "data_points": [
+    {
+      "dp_id": "n01",
+      "metric": "考生人数",
+      "value": "715",
+      "unit": "人",
+      "scope": "Pearson GCE 9HT0 UK Only Total Sat，非全球，临时统计",
+      "period": "2026-06",
+      "source": "S02",
+      "source_url": "https://qualifications.pearson.com/content/dam/pdf/Support/Grade-statistics/A-level/grade-statistics-june-2026-provisional-advance-level.pdf",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "n02",
+      "metric": "考生人数",
+      "value": "838",
+      "unit": "人",
+      "scope": "AAH 附表及 Pearson HOME 搜索索引；原 PDF 直接访问 404",
+      "period": "2025-06",
+      "source": "S19",
+      "source_url": "https://qualifications.pearson.com/content/dam/pdf/Support/Grade-statistics/A-level/grade-statistics-june-2025-provisional-advanced-level.pdf",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "n03",
+      "metric": "考生人数",
+      "value": "483",
+      "unit": "人",
+      "scope": "AAH 附表 A-level HoA",
+      "period": "2019",
+      "source": "S03",
+      "source_url": "https://courtauld.ac.uk/wp-content/uploads/2025/11/AAH-report-FINAL.pdf",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "n04",
+      "metric": "开课机构数量",
+      "value": "80",
+      "unit": "家",
+      "scope": "AAH 调查定位的英国学校、学院、慈善机构；不是考试中心数量",
+      "period": "2025-11",
+      "source": "S03",
+      "source_url": "https://courtauld.ac.uk/wp-content/uploads/2025/11/AAH-report-FINAL.pdf",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "n05",
+      "metric": "收费开课机构数量",
+      "value": "61",
+      "unit": "家",
+      "scope": "AAH 同一调查",
+      "period": "2025-11",
+      "source": "S03",
+      "source_url": "https://courtauld.ac.uk/wp-content/uploads/2025/11/AAH-report-FINAL.pdf",
+      "confidence": "medium"
+    },
+    {
+      "dp_id": "n06",
+      "metric": "免费或公立开课机构数量",
+      "value": "19",
+      "unit": "家",
+      "scope": "AAH 同一调查",
+      "period": "2025-11",
+      "source": "S03",
+      "source_url": "https://courtauld.ac.uk/wp-content/uploads/2025/11/AAH-report-FINAL.pdf",
+      "confidence": "medium"
+    }
+  ],
+  "classification": [
+    {
+      "subject": "History of Art",
+      "qualification": "Pearson Edexcel GCE A-level 9HT0",
+      "customer_task": "以作品、历史语境、批评观点完成视觉分析与英文论证；考试科目辅导。",
+      "not_equivalent_to": [
+        "International A Level 名称",
+        "艺术创作作品集",
+        "普通 A-level History"
+      ],
+      "sources": [
+        "S01",
+        "S15"
+      ]
+    },
+    {
+      "subject": "Art & Design",
+      "qualification": "以 Cambridge 9479 为本次已查样本；其他考试局单独核对",
+      "customer_task": "创作探索、过程记录、成果呈现等；不能以艺术史笔试训练替代。",
+      "sources": [
+        "S07"
+      ]
+    },
+    {
+      "subject": "作品集与申请支持",
+      "qualification": "并非统一考试资格",
+      "customer_task": "按院校要求展示创作研究或申请能力；艺术史本科与设计本科也要分别核对。",
+      "sources": [
+        "S04",
+        "S08",
+        "S16"
+      ]
+    }
+  ],
+  "analysis": {
+    "framework": "用真实任务、报名路径、供给分布和学习交付能力判断可服务市场，避免由艺术留学总量推算 9HT0",
+    "key_findings": [
+      "英国科目规模小与学校分布不均同时存在；社会可及性缺口不自动等于可盈利商业缺口。",
+      "中国有明确艺术史 A-level 供给页面，排除无人供给的说法；是否足够可及或优质仍未知。",
+      "Oxford 和 Courtauld 不要求先修艺术史；证书需求与观察、论述训练需求分开。"
+    ],
+    "conclusion": "细分专业反馈服务值得检验，尚不能证明中国完整科目培训的规模机会。",
+    "conclusion_confidence": "medium",
+    "contradictions": [
+      {
+        "point": "AAH 正文称 2019–2025 增长 42%，其附表 483→838 按通常基期定义计算为约 73.50%。",
+        "source_a": "S03 正文",
+        "source_b": "S03 附表与 calculations.md C01",
+        "resolution": "计算可复现；未联系作者确认原百分比定义。正文不得采用 42% 作为增长事实。",
+        "resolved": false
+      },
+      {
+        "point": "122 家学校对应年份，原 PDF 为 2014，发布新闻为 2016。",
+        "source_a": "S03",
+        "source_b": "S20",
+        "resolution": "引用原报告的口径并保留冲突；不利用学校降幅推商业规模。",
+        "resolved": false
+      },
+      {
+        "point": "2025 838 可由 AAH 附表和 Pearson 搜索索引读取，但 Pearson 原地址直接返回 404。",
+        "source_a": "S03/S19 搜索索引",
+        "source_b": "S19 直接访问",
+        "resolution": "2026 数字作为当前官方锚；年度变化仅列为注明访问限制的核算，不能称完整原始序列均已验证。",
+        "resolved": false
+      },
+      {
+        "point": "历史中国指南列过 9HT0，当前一般服务页不确认下一考季各城市接受该科目。",
+        "source_a": "S17",
+        "source_b": "S09/S18",
+        "resolution": "由具体考点确认 2027 9HT0、私人考生、地点、费用与截止日后才能承诺考试路径。",
+        "resolved": false
+      }
+    ],
+    "limitations": [
+      "没有中国或全球 9HT0 付费辅导市场人数，不能算 TAM/SAM 或渗透率。",
+      "小红书材料为用户提供的片段，评论数 92 不是 92 名有效潜客或付费意愿。",
+      "年度考生、两年在读学生、独立个人、招生咨询、付费补课不是同一口径。",
+      "最新考官报告有授权访问限制，未读取或绕过。没有基于真实学生答卷的独立诊断。",
+      "英国课程数据不能直接外推中国购买力、获客成本或课程需求。"
+    ]
+  }
+}

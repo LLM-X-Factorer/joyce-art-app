@@ -1,0 +1,23 @@
+{
+  "local_links_checked": 55,
+  "missing_local_links": [],
+  "json_files_parsed": 11,
+  "trailing_whitespace": [],
+  "pdf_pages": 17,
+  "pdf_sha256": "60c125e2da189b14c5142b29b8e69e6d67e381a974608da1fe52cb0f3c79fa18",
+  "content_audit": "PASS",
+  "pdf_visual_qa": "PASS",
+  "application_code_changed": false,
+  "application_tests": "not run: documentation only",
+  "intentional_markdown_hard_breaks": [
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:92",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:93",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:94",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:95",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:132",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:133",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:134",
+    "docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md:135"
+  ],
+  "overall": "PASS"
+}

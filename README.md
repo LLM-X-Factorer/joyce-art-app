@@ -67,7 +67,7 @@ pnpm dev                      # 同时启动后端 :4000、用户端 :5273、后
 
 ## 线上状态
 
-2026-09-30 起部署在腾讯云轻量服务器，地址 https://art.llmxfactor.cloud （后台 `/admin/`）。当前以**游客模式**运行（`ACCOUNTS_ENABLED=false`）：前台不开放注册登录，工作坊只展示介绍、申请表未开放；未配置 SMTP 与 AI Key，问答使用馆藏笔记回答。
+2026-09-30 起部署在腾讯云轻量服务器，地址 https://art.llmxfactor.cloud （后台 `/admin/`）。当前以**游客模式**运行（`ACCOUNTS_ENABLED=false`）：前台不开放注册登录，工作坊只展示介绍、申请表未开放；未配置 SMTP 与 AI Key，问答使用馆藏笔记回答。HTTPS 证书由服务器 certbot 自动续期；数据库与图片每天自动备份（保留 14 天，存于同一台服务器）。
 
 ## 部署
 

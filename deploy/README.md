@@ -73,9 +73,18 @@ docker compose logs -f server   # 看到 "Server listening" 即启动成功
 
 ## 四、更新版本
 
+服务器上有 Git 仓库时：
+
 ```bash
 cd common-room && git pull
 cd deploy && docker compose up -d --build
+```
+
+服务器上没有 Git（例如访问 GitHub 不稳定）时，从本机推送已提交的版本（`deploy/.env` 不在归档中，不会被覆盖）：
+
+```bash
+git archive --format=tar HEAD | gzip | ssh <服务器> 'cd /opt/common-room && tar -xzf -'
+ssh <服务器> 'cd /opt/common-room/deploy && sudo docker compose up -d --build'
 ```
 
 后端启动时会自动执行数据库迁移；初始内容只补齐缺失的记录，**不会覆盖后台编辑过的内容**。

@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "艺术史公共书房",
+    "navigationBarBackgroundColor": "#f3eee3",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f3eee3"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

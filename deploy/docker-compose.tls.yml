@@ -1,0 +1,8 @@
+# 容器自己提供 HTTPS（服务器上没有其他 Nginx 时使用）：
+#   在 .env 中设置 COMPOSE_FILE=docker-compose.yml:docker-compose.tls.yml 与 TLS=on
+services:
+  web:
+    ports:
+      - "${HTTPS_PORT:-443}:443"
+    volumes:
+      - ./certs:/etc/nginx/certs:ro

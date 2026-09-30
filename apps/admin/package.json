@@ -1,0 +1,25 @@
+{
+  "name": "@common-room/admin",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@common-room/shared": "workspace:^",
+    "element-plus": "^2",
+    "vue": "^3.5",
+    "vue-router": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@vitejs/plugin-vue": "^6",
+    "typescript": "~5.9.3",
+    "vite": "^7",
+    "vue-tsc": "^3"
+  }
+}

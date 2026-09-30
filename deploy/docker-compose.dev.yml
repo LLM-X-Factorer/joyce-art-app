@@ -1,0 +1,19 @@
+# 本地开发用数据库：pnpm db:up
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: common_room
+      POSTGRES_PASSWORD: common_room
+      POSTGRES_DB: common_room
+    ports:
+      - "127.0.0.1:${DEV_DB_PORT:-5487}:5432"
+    volumes:
+      - common-room-dev-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U common_room"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  common-room-dev-db:

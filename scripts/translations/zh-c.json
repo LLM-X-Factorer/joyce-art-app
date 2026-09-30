@@ -1,0 +1,270 @@
+{
+  "painters/hokusai/name": "葛饰北斋",
+  "painters/hokusai/years": "1760—1849年",
+  "painters/hokusai/country": "日本",
+  "painters/hokusai/period": "江户时代",
+  "painters/hokusai/movement": "浮世绘",
+  "painters/hokusai/hook": "大众版画文化让自然、劳动与设计变得前所未有地便于流传。",
+  "painters/hokusai/position": "北斋提醒我们，艺术史不能只靠欧洲油画来讲述。他的木版画把大众文化、精妙设计、系列化生产与一种自然观结合在一起，并深刻影响了欧洲现代主义。",
+  "painters/goya/name": "弗朗西斯科·戈雅",
+  "painters/goya/years": "1746—1828年",
+  "painters/goya/country": "西班牙",
+  "painters/goya/period": "浪漫主义",
+  "painters/goya/movement": "西班牙浪漫主义",
+  "painters/goya/hook": "现代暴力、梦魇、政治与私人恐惧进入绘画。",
+  "painters/goya/position": "戈雅是连接启蒙运动、浪漫主义与现代政治艺术的枢纽。他揭露非理性、国家暴力与迷信，也见证了英雄式历史画的崩塌。",
+  "painters/turner/name": "J. M. W. 透纳",
+  "painters/turner/years": "1775—1851年",
+  "painters/turner/country": "英国",
+  "painters/turner/period": "浪漫主义",
+  "painters/turner/movement": "浪漫主义风景画",
+  "painters/turner/hook": "风景消融于光线、天气、工业与感官体验之中。",
+  "painters/turner/position": "透纳让风景变得不稳定。他不把自然当作平静的舞台，而是把大气、风暴、蒸汽、火焰和光描绘成压倒固定形体的力量。",
+  "painters/manet/name": "爱德华·马奈",
+  "painters/manet/years": "1832—1883年",
+  "painters/manet/country": "法国",
+  "painters/manet/period": "现代主义开端",
+  "painters/manet/movement": "现实主义 / 印象派先驱",
+  "painters/manet/hook": "常被称为“印象派之父”；让现代生活与绘画的平面性变得无法忽视。",
+  "painters/manet/position": "马奈常被称为“印象派之父”，但他从未简单地融入印象派。约1871年结成群体的印象派画家继承了他的反叛者身份。克莱门特·格林伯格后来把马奈的绘画视为早期现代主义作品，因为它们坦率地宣告了自身所依托的平面。他的现代性既是形式上的，也是社会上的：他描绘现代巴黎，同时让绘画承认自己是被画出来的。",
+  "painters/monet/name": "克劳德·莫奈",
+  "painters/monet/years": "1840—1926年",
+  "painters/monet/country": "法国",
+  "painters/monet/period": "印象派",
+  "painters/monet/movement": "印象派",
+  "painters/monet/hook": "绘画成为知觉本身：光线、大气与系列化的观看。",
+  "painters/monet/position": "莫奈把绘画变成对变化中知觉的记录。他不用稳定的轮廓来界定物体，而是呈现它们在变化的光线、天气与时间中显现的样子。",
+  "painters/vangogh/name": "文森特·梵高",
+  "painters/vangogh/years": "1853—1890年",
+  "painters/vangogh/country": "荷兰 / 法国",
+  "painters/vangogh/period": "后印象派",
+  "painters/vangogh/movement": "表现性色彩",
+  "painters/vangogh/hook": "笔触与色彩把知觉转化为强烈的情感。",
+  "painters/vangogh/position": "梵高把可见的自然转化为情感与精神的力量。在他的画中，笔触、色彩和线条承载的是感受，而不只是描摹外观。",
+  "painters/cezanne/name": "保罗·塞尚",
+  "painters/cezanne/years": "1839—1906年",
+  "painters/cezanne/country": "法国",
+  "painters/cezanne/period": "后印象派",
+  "painters/cezanne/movement": "结构性绘画",
+  "painters/cezanne/hook": "以块面、色块与建构性的形式重建视觉。",
+  "painters/cezanne/position": "塞尚之所以关键，是因为他让观看显得是被建构出来的。他不去捕捉转瞬的印象，而是通过层层重复的色彩块面来建立形体，使绘画同时具有分析性与不稳定性。",
+  "painters/klimt/name": "古斯塔夫·克里姆特",
+  "painters/klimt/years": "1862—1918年",
+  "painters/klimt/country": "奥地利",
+  "painters/klimt/period": "象征主义",
+  "painters/klimt/movement": "维也纳分离派",
+  "painters/klimt/hook": "装饰、情欲、金色与现代焦虑交融在一起。",
+  "painters/klimt/position": "克里姆特消解了纯艺术与装饰之间的界限。他的绘画结合了情欲的亲密感、象征性图案、拜占庭式的金色，以及世纪末维也纳的种种张力。",
+  "painterWorks/hokusai/1/title": "神奈川冲浪里",
+  "painterWorks/hokusai/1/date": "约1831年",
+  "painterWorks/hokusai/1/visual": [
+    "巨浪像利爪一样卷向小船，让自然显得宏伟，人的劳作显得脆弱。",
+    "远处的富士山显得渺小却稳定，以永恒对照剧烈的运动。",
+    "平涂色彩、轮廓线、节奏感与裁切式构图，使画面显得富有图形感和现代感。"
+  ],
+  "painterWorks/hokusai/1/context": [
+    "这件作品属于商业版画系列《富岳三十六景》。",
+    "它的可复制性至关重要：这是为流通、收藏和大众观看而制作的艺术。",
+    "这幅版画后来影响了日本主义，以及欧洲现代主义对平面性、不对称与裁切的兴趣。"
+  ],
+  "painterWorks/hokusai/1/exam": "可用《神奈川冲浪里》讨论浮世绘、版画文化、自然、劳动，以及跨文化因素对现代主义的影响。",
+  "painterWorks/hokusai/2/title": "凯风快晴",
+  "painterWorks/hokusai/2/date": "约1830—1832年",
+  "painterWorks/hokusai/2/visual": [
+    "富士山被简化为醒目的三角形体块：赤红的山体、白色的积雪与图案化的云朵。",
+    "画面的叙事性弱于象征性：一座山变成了设计、天气、季节与民族象征。",
+    "平涂的色块显示出北斋把自然提炼为令人难忘的结构的能力。"
+  ],
+  "painterWorks/hokusai/2/context": [
+    "与《神奈川冲浪里》一样，这幅版画属于在不同条件下描绘富士山的系列研究。",
+    "它表明重复可以生成差异：同一题材，不同的大气。",
+    "这件作品适合用来比较北斋与后来莫奈的系列化观看。"
+  ],
+  "painterWorks/hokusai/2/exam": "可用《赤富士》讨论系列性、作为象征的风景，以及浮世绘的设计智慧。",
+  "painterWorks/goya/1/title": "1808年5月3日",
+  "painterWorks/goya/1/date": "1814年",
+  "painterWorks/goya/1/visual": [
+    "中央的受害者高举双臂，姿态令人联想到十字架受难，但这里是现代的处决，而非神圣的救赎。",
+    "法国士兵构成一台没有面孔的暴力机器，受害者则通过各自的姿态与恐惧被个体化。",
+    "灯笼投下刺眼的光，使暴力变得公开、戏剧化且令人难以承受。"
+  ],
+  "painterWorks/goya/1/context": [
+    "这幅画回应了拿破仑占领西班牙以及对西班牙平民的处决。",
+    "戈雅拒绝英雄式的战争图像；战争被呈现为施加于身体的恐怖。",
+    "这件作品成为现代反战绘画的奠基之作。"
+  ],
+  "painterWorks/goya/1/exam": "可用《1808年5月3日》讨论浪漫主义的政治情感、反英雄的历史画，以及国家暴力的现代图像。",
+  "painterWorks/goya/2/title": "农神吞噬其子",
+  "painterWorks/goya/2/date": "约1819—1823年",
+  "painterWorks/goya/2/visual": [
+    "萨图尔努斯从黑暗中浮现，双目圆睁、形同怪物，紧抓着一具残缺的躯体。",
+    "笔触粗粝，空间近乎虚空，加剧了心理上的恐怖。",
+    "神话被剥去古典之美，成为疯狂、贪欲与毁灭的图像。"
+  ],
+  "painterWorks/goya/2/context": [
+    "这是戈雅“黑色绘画”系列之一，最初直接画在他自家住宅的墙上。",
+    "这幅图像可以从政治、心理或存在的角度解读；它的力量恰恰在于拒绝单一而稳定的解释。",
+    "它把浪漫主义的黑暗推向关于暴力与无意识的现代焦虑。"
+  ],
+  "painterWorks/goya/2/exam": "可用《农神吞噬其子》讨论“黑色绘画”、梦魇图像，以及古典神话如何瓦解为现代恐怖。",
+  "painterWorks/turner/1/title": "雨、蒸汽和速度",
+  "painterWorks/turner/1/date": "1844年",
+  "painterWorks/turner/1/visual": [
+    "火车穿过雨幕与水汽驶来，形体消融在大气之中。",
+    "透纳用模糊与速度感，把工业现代性变成一种视觉体验，而非精确的描述。",
+    "铁路桥与火车切过风景，把自然与机器连接起来。"
+  ],
+  "painterWorks/turner/1/context": [
+    "这幅画把铁路记录为现代时间、速度与技术变革的象征。",
+    "这里的浪漫主义风景并不反现代；它把现代工业吸纳进崇高之中。",
+    "这件作品预示了后来的抽象，因为感官体验变得比轮廓更重要。"
+  ],
+  "painterWorks/turner/1/exam": "可用《雨、蒸汽和速度》讨论工业现代性、浪漫主义的崇高，以及形体如何消融为感官体验。",
+  "painterWorks/turner/2/title": "奴隶船",
+  "painterWorks/turner/2/date": "1840年",
+  "painterWorks/turner/2/visual": [
+    "猛烈的落日、汹涌的海面与散落的躯体，构成一幅被暴行玷污的美的图像。",
+    "人的形体渺小而破碎，几乎被海水与色彩吞没。",
+    "画面的大气力量使道德上的恐怖与视觉上的强烈密不可分。"
+  ],
+  "painterWorks/turner/2/context": [
+    "题材指涉为骗取保险赔偿而被抛入海中的被奴役者。",
+    "透纳把崇高风景用作社会抗议，将审美体验与废奴主义的愤慨联系起来。",
+    "这幅画让美变得复杂：绚丽的色彩在伦理上令人不安。"
+  ],
+  "painterWorks/turner/2/exam": "可用《奴隶船》讨论浪漫主义的崇高、废奴政治，以及美在道德上的不稳定性。",
+  "painterWorks/manet/1/title": "奥林匹亚",
+  "painterWorks/manet/1/date": "1863年",
+  "painterWorks/manet/1/visual": [
+    "一名裸体女子斜倚在卧榻上，脚边有一只小黑猫，身后一位黑人女仆手捧花束，花大概是某位顾客送来的。",
+    "《奥林匹亚》画法平涂，按学院标准看轮廓处理得很“差”，空间也刻意浅薄。古典纵深的缺席消解了幻觉主义，让绘画开始言说自身作为再现的处境。",
+    "她并没有披上神话的外衣。一个裸体女人的真实性就摆在眼前，而“奥林匹亚”这个名字在当时的巴黎常与妓女联系在一起。",
+    "她直视观者的目光拒绝了学院派裸体画所期待的被动角色；她作为社会中的行动者回望观者。"
+  ],
+  "painterWorks/manet/1/context": [
+    "题材是现代的：她身处当代巴黎的卖淫世界。",
+    "马奈的现代性不仅在于怎么画，也在于画什么：处于资产阶级常态之外的现代边缘人物。",
+    "这幅画对材料、题材、动机与欲望都毫不掩饰。它把理想化的维纳斯变成交际花，并揭示出观者自身也牵涉在观看之中。",
+    "丑闻源于一种古老的艺术史程式与一个毫无理想化、明确属于现代的女性之间的碰撞。"
+  ],
+  "painterWorks/manet/1/exam": "可用《奥林匹亚》论证：马奈通过剥去神话外衣、强调平面性，迫使观者直面现代的性、阶级、种族与观看关系，从而使裸体画现代化。",
+  "painterWorks/manet/2/title": "草地上的午餐",
+  "painterWorks/manet/2/date": "1863年",
+  "painterWorks/manet/2/visual": [
+    "这幅画被官方沙龙拒绝后在落选者沙龙展出，其题材与技法都引发了争议。",
+    "画中人物是现代巴黎人。裸体女子没有被神话或理想化拉开距离；她看起来就是一个真实的人，这让观者感到不适。",
+    "裸体女子直视画外，目光漫不经心却又引人对视。",
+    "人物以平面化方式处理，女性身体看上去像剪贴上去的。前景的草地和远处的草坪笔触松散，几乎没有学院式的精细收尾。"
+  ],
+  "painterWorks/manet/2/context": [
+    "这件作品一面援引传统，一面拒绝学院礼法，从而挑战了掌控法国艺术的权威。",
+    "它受提香启发，也借鉴了一幅与拉斐尔相关的构图——马奈通过版画《帕里斯的评判》得知这一构图。",
+    "它的重要性在于马奈为艺术自行作出决定，帮助开辟了通往19世纪晚期和20世纪现代主义的道路。",
+    "丑闻不只在于裸体，而在于可接受的距离崩塌了：这个裸体是当代的、在社会身份上可以辨认的，而且正在回望。"
+  ],
+  "painterWorks/manet/2/exam": "可用《草地上的午餐》讨论马奈对沙龙的挑战、他对形体的平面化处理，以及他如何以现代巴黎式的不适取代神话裸体传统。",
+  "painterWorks/monet/1/title": "印象·日出",
+  "painterWorks/monet/1/date": "1872年",
+  "painterWorks/monet/1/visual": [
+    "松散的笔触以极少的细节描绘港口、水面、烟雾与天空。",
+    "橙色的太阳及其倒影成为雾蒙蒙的蓝灰色场域中的视觉锚点。",
+    "按学院标准，这幅画看起来尚未完成，而这正是它带来现代冲击的核心。"
+  ],
+  "painterWorks/monet/1/context": [
+    "一位评论家用这个标题加以嘲讽，印象派由此得名。",
+    "题材是现代工业港口的生活，却经过了大气感受的过滤。",
+    "莫奈看重瞬间的印象，而非精雕细琢的历史叙事。"
+  ],
+  "painterWorks/monet/1/exam": "可用《印象·日出》讨论户外写生的观看方式、松散的笔触、现代的大气感，以及印象派名称的由来。",
+  "painterWorks/monet/2/title": "睡莲",
+  "painterWorks/monet/2/date": "1890年代—1920年代",
+  "painterWorks/monet/2/visual": [
+    "池塘水面占满画面，削弱了地平线和稳定的空间方位感。",
+    "倒影、花朵、水与天空融汇成一片色彩与笔触的场域。",
+    "晚期作品走向抽象，因为知觉变得具有沉浸性。"
+  ],
+  "painterWorks/monet/2/context": [
+    "莫奈在吉维尼的花园成为一处可控的系列观察场所。",
+    "这一系列体现了现代的时间性：同一母题，无尽差异。",
+    "晚年的大型画板影响了后来的抽象绘画与沉浸式绘画。"
+  ],
+  "painterWorks/monet/2/exam": "可用《睡莲》讨论系列性、知觉、晚期印象派，以及通往抽象的道路。",
+  "painterWorks/vangogh/1/title": "星月夜",
+  "painterWorks/vangogh/1/date": "1889年",
+  "painterWorks/vangogh/1/visual": [
+    "天空被旋转的节奏、厚重的笔触与夸张的星辰激活。",
+    "深色的柏树如火焰般升起，连接大地与天空。",
+    "村庄更为安静、更具几何感，以人类聚落对照宇宙的运动。"
+  ],
+  "painterWorks/vangogh/1/context": [
+    "这幅画作于梵高住在圣雷米期间，把观察到的风景转化为幻象般的体验。",
+    "它不只是一幅夜景，而是充满心理与精神强度的自然。",
+    "这幅画是后印象派的核心作品，因为表现压倒了视觉上的自然主义。"
+  ],
+  "painterWorks/vangogh/1/exam": "可用《星月夜》讨论表现性笔触、情感化色彩，以及后印象派如何超越印象派的知觉。",
+  "painterWorks/vangogh/2/title": "向日葵",
+  "painterWorks/vangogh/2/date": "1888年",
+  "painterWorks/vangogh/2/visual": [
+    "黄色主导画面，通过重复而非强烈对比营造和谐。",
+    "花朵处在不同的生命阶段，从盛开到凋零。",
+    "厚涂颜料赋予花瓣、花籽和花瓶可触摸般的质感。"
+  ],
+  "painterWorks/vangogh/2/context": [
+    "《向日葵》与梵高希望在阿尔勒建立艺术家群体的愿望相关联。",
+    "一幅简单的静物画成为关于色彩、友谊与强度的实验。",
+    "这幅画适合用来讨论平凡题材如何成为富有表现力的图像符号。"
+  ],
+  "painterWorks/vangogh/2/exam": "可用《向日葵》讨论色彩象征、厚涂、静物画，以及梵高对日常物品的表现性转化。",
+  "painterWorks/cezanne/1/title": "圣维克多山",
+  "painterWorks/cezanne/1/date": "1880年代—1900年代",
+  "painterWorks/cezanne/1/visual": [
+    "山体由一块块色彩搭建而成，而不是靠平滑的大气幻觉。",
+    "前景、树木、高架桥与山峦以块面相互咬合，使纵深显得是被建构出来的。",
+    "画面在风景观察与抽象结构之间取得平衡。"
+  ],
+  "painterWorks/cezanne/1/context": [
+    "塞尚反复回到这一母题，把风景当作知觉与形式的问题来处理。",
+    "他的方法影响了立体主义，因为物体可以被拆解为块面再重新组建。",
+    "这件作品之所以现代，是因为它让绘画的建构过程变得可见。"
+  ],
+  "painterWorks/cezanne/1/exam": "可用《圣维克多山》讨论建构性的观看、色彩块面、系列风景，以及通往立体主义的道路。",
+  "painterWorks/cezanne/2/title": "大浴女",
+  "painterWorks/cezanne/2/date": "1898—1905年",
+  "painterWorks/cezanne/2/visual": [
+    "人体与树木构成一个建筑般的三角形，而不是自然主义的解剖结构。",
+    "人物显得宏伟却简化，几乎与风景融为一体。",
+    "塞尚用色彩与结构稳定住一个在视觉上仍然躁动不安的场景。"
+  ],
+  "painterWorks/cezanne/2/context": [
+    "古典的沐浴题材被改造为现代的结构，而非追求感官上的精致收尾。",
+    "这幅画影响了后来关注几何、纪念碑性与抽象的现代主义者。",
+    "它适合用来把塞尚与文艺复兴构图以及立体主义的碎片化进行比较。"
+  ],
+  "painterWorks/cezanne/2/exam": "可用《大浴女》讨论现代古典主义、结构性构图，以及人物画的转变。",
+  "painterWorks/klimt/1/title": "吻",
+  "painterWorks/klimt/1/date": "1907—1908年",
+  "painterWorks/klimt/1/visual": [
+    "人物被包裹在金色的图案场域中，身体几乎消融为装饰。",
+    "男性的矩形纹样与女性的圆形纹样形成象征性的形式对比。",
+    "这对恋人立于花丛地面的边缘，亲密之中带着不稳定感。"
+  ],
+  "painterWorks/klimt/1/context": [
+    "这件作品属于克里姆特的“黄金时期”，反映了他对拜占庭镶嵌画与装饰性表面的兴趣。",
+    "它可以被解读为情欲的结合、审美的幻想，或性别张力的图像。",
+    "克里姆特的装饰性表面挑战了把绘画与实用艺术区分开来的等级秩序。"
+  ],
+  "painterWorks/klimt/1/exam": "可用《吻》讨论象征主义、维也纳分离派的装饰、情欲，以及人物在现代如何瓦解为装饰。",
+  "painterWorks/klimt/2/title": "阿黛尔·布洛赫-鲍尔肖像一号",
+  "painterWorks/klimt/2/date": "1907年",
+  "painterWorks/klimt/2/visual": [
+    "像主的面庞与双手从铺天盖地的金色装饰场域中浮现。",
+    "身体变成了图案、奢华与社会身份，而非解剖学意义上的形体。",
+    "这幅肖像把亲密与展示混合在一起，使地位与表面密不可分。"
+  ],
+  "painterWorks/klimt/2/context": [
+    "这幅肖像反映了维也纳犹太精英的赞助活动以及分离派文化。",
+    "它后来遭纳粹掠夺、又被归还的历史，使来源问题成为其现代意义的核心。",
+    "这件作品适合用来讨论赞助、装饰、身份与博物馆伦理。"
+  ],
+  "painterWorks/klimt/2/exam": "可用《阿黛尔·布洛赫-鲍尔肖像一号》讨论肖像画、装饰、赞助、文物归还，以及所有权的政治。"
+}

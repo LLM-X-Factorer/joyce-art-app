@@ -6,3 +6,14 @@ node_modules/
 dist/
 .vercel/
 coverage/
+*.tsbuildinfo
+# 运行时上传与本地数据
+/uploads/
+/data/
+/scripts/out/
+.test-uploads/
+e2e/.results/
+e2e/.shots/
+deploy/certs/*
+!deploy/certs/.gitkeep
+deploy/backups/

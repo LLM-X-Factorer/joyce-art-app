@@ -1,0 +1,36 @@
+# 宿主机 Nginx 反向代理示例（部署方式 A）。复制到 /etc/nginx/sites-available/<域名> 并替换域名与端口。
+# 先只启用 80 段申请证书：certbot certonly --webroot -w /var/www/<域名>/acme -d <域名>
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    server_name art.example.com;
+    ssl_certificate /etc/letsencrypt/live/art.example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/art.example.com/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    client_max_body_size 16m;
+    add_header Strict-Transport-Security "max-age=31536000" always;
+
+    location / {
+        proxy_pass http://127.0.0.1:3040;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_read_timeout 90s;
+    }
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name art.example.com;
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/art.example.com/acme;
+        try_files $uri =404;
+    }
+    location / { return 308 https://$host$request_uri; }
+}

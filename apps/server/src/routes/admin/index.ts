@@ -12,6 +12,7 @@ import {
 import { z } from "zod";
 import { schema } from "../../db/client.js";
 import { HttpError, noStore, parse, requireRole } from "../../lib/http.js";
+import { mail } from "../../lib/mailer.js";
 import { getSettings, saveSettings } from "../../lib/settings.js";
 import { adminContentRoutes } from "./content.js";
 import { adminImageRoutes } from "./images.js";
@@ -134,11 +135,7 @@ export async function adminRoutes(app: FastifyInstance) {
       await tx.update(schema.submissions).set({ status: "replied" }).where(eq(schema.submissions.id, id));
     });
     mailer
-      .send({
-        to: row.email,
-        subject: "艺术史公共书房 · 作者回复了你的练习",
-        text: `作者已经回复了你提交的练习，请到"我的书房"查看。\nThe author has replied to your submission. Open your study to read it.\n\n${config.PUBLIC_SITE_URL}/me`
-      })
+      .send(mail.replyNotice(row.email, config.PUBLIC_SITE_URL))
       .catch((error) => request.log.warn({ err: error }, "回复通知发送失败"));
     return { ok: true };
   });

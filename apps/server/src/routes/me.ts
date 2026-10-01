@@ -11,6 +11,7 @@ import {
 import { z } from "zod";
 import { schema, type Db } from "../db/client.js";
 import { HttpError, noStore, parse, requireUser } from "../lib/http.js";
+import { mail } from "../lib/mailer.js";
 import { getSettings } from "../lib/settings.js";
 
 async function workIdsBySlug(db: Db, slugs: string[]) {
@@ -220,11 +221,7 @@ export async function meRoutes(app: FastifyInstance) {
     const notify = app.ctx.config.AUTHOR_NOTIFY_EMAIL;
     if (notify) {
       app.ctx.mailer
-        .send({
-          to: notify,
-          subject: `新的练习提交 #${created.id}`,
-          text: `${user.email} 提交了一份练习（${input.workSlug}）。请到后台"回应工作台"查看。\n${app.ctx.config.PUBLIC_SITE_URL}/admin/`
-        })
+        .send(mail.authorNotice(notify, app.ctx.config.PUBLIC_SITE_URL, `新的练习提交 #${created.id}`, `作品 ${input.workSlug}，请在「回应工作台」查看`))
         .catch((error) => request.log.warn({ err: error }, "提交通知发送失败"));
     }
     reply.status(201);

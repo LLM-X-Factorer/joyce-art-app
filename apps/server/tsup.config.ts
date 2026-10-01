@@ -6,7 +6,8 @@ export default defineConfig({
     "scripts/migrate": "src/scripts/migrate.ts",
     "scripts/seed": "src/scripts/seed.ts",
     "scripts/create-admin": "src/scripts/create-admin.ts",
-    "scripts/create-user": "src/scripts/create-user.ts"
+    "scripts/create-user": "src/scripts/create-user.ts",
+    "scripts/send-test-mail": "src/scripts/send-test-mail.ts"
   },
   format: ["esm"],
   platform: "node",

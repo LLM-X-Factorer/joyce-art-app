@@ -63,7 +63,9 @@ docker compose logs -f server   # 看到 "Server listening" 即启动成功
 | `ICP_NUMBER` / `PSB_NUMBER` | 页脚显示的 ICP 备案号 / 公安备案号（构建时写入，修改后需 `--build`） |
 | `OPERATOR_NAME` / `CONTACT_EMAIL` | 隐私政策与用户协议中的运营者名称和联系邮箱（构建时写入） |
 | `AI_BASE_URL` / `AI_API_KEY` / `AI_MODEL` | OpenAI 兼容的国内模型接口。DeepSeek：`https://api.deepseek.com` + `deepseek-chat`；通义千问：`https://dashscope.aliyuncs.com/compatible-mode/v1` + `qwen-plus`。留空则问答使用本地馆藏笔记 |
-| `SMTP_*` | 发信账号。未配置时验证码只写入 `server` 日志，**用户将无法注册**，正式上线前必须配置 |
+| `MAIL_PROVIDER` | 发信方式：`auto`（有 `SMTP_HOST` 用 SMTP，否则只写日志）、`smtp`、`tencent_ses`、`log`。未配置发信时验证码只写入 `server` 日志，**用户将无法注册** |
+| `TENCENT_SECRET_ID` / `TENCENT_SECRET_KEY` / `SES_*` | 腾讯云邮件推送 API 发信（个人认证账号只能用这种方式）。密钥用只授权 SES 发信的子账号；四个模板的内容与变量见 [ses-templates.md](ses-templates.md)，审核通过后填入模板 ID |
+| `SMTP_*` | SMTP 发信账号（企业认证的腾讯云 SES、阿里云邮件推送、企业邮箱等） |
 | `AUTHOR_NOTIFY_EMAIL` | 有新提交、新工作坊申请时通知的邮箱 |
 | `ADMIN_BOOTSTRAP_EMAIL` | 用此邮箱注册的账号自动成为管理员 |
 | `ACCOUNTS_ENABLED` | `false` 时网站以游客模式运行：前台不显示登录与「我的书房」、不能注册、不能提交给作者；作者与管理员仍可登录后台。同时作用于前端构建与后端，修改后需 `--build` |
@@ -89,6 +91,16 @@ ssh <服务器> 'cd /opt/common-room/deploy && sudo docker compose up -d --build
 
 后端启动时会自动执行数据库迁移；初始内容只补齐缺失的记录，**不会覆盖后台编辑过的内容**。
 
+### 验证发信
+
+修改发信配置后只需重启后端（`docker compose up -d server`），然后发一封测试邮件，不需要开放注册：
+
+```bash
+docker compose exec server node dist/scripts/send-test-mail.js 你的邮箱 register_code
+```
+
+类型可选 `register_code`、`reset_code`、`reply_notice`、`author_notice`，建议四种都测一遍，并检查是否进了垃圾箱。
+
 ## 五、备份与恢复
 
 ```bash
@@ -112,7 +124,7 @@ docker compose exec -T postgres pg_restore -U common_room -d common_room --clean
 ## 七、上线前检查清单
 
 - [ ] `.env` 中 `SESSION_SECRET`、`POSTGRES_PASSWORD` 为随机值，`TLS=on`、`COOKIE_SECURE=true`
-- [ ] SMTP 已配置，用真实邮箱完成一次注册与找回密码
+- [ ] 发信已配置（SMTP 或腾讯云 SES），`send-test-mail` 四种类型都能收到，再用真实邮箱完成一次注册与找回密码
 - [ ] 配置 AI Key 后在咖啡馆提问，回答显示「AI 回答」标记；再确认后台额度符合预期
 - [ ] 页脚备案号正确，隐私政策与用户协议中的运营者信息已填写
 - [ ] 管理员 / 作者账号已创建，后台能看到练习提交与工作坊申请

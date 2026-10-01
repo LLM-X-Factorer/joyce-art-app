@@ -22,6 +22,19 @@ const envSchema = z.object({
   AI_API_KEY: z.string().default(""),
   AI_MODEL: z.string().default("deepseek-chat"),
   AI_TIMEOUT_MS: z.coerce.number().int().default(30000),
+  /** 发信方式：auto（配置了 SMTP_HOST 用 SMTP，否则只写日志）/ log / smtp / tencent_ses */
+  MAIL_PROVIDER: z.enum(["auto", "log", "smtp", "tencent_ses"]).default("auto"),
+  /** 腾讯云 API 密钥（建议使用只授权 SES 发信的子账号） */
+  TENCENT_SECRET_ID: z.string().default(""),
+  TENCENT_SECRET_KEY: z.string().default(""),
+  SES_REGION: z.enum(["ap-guangzhou", "ap-hongkong"]).default("ap-guangzhou"),
+  /** 例如：艺术史公共书房 <noreply@mail.example.com>（别名中不能含冒号） */
+  SES_FROM: z.string().default(""),
+  SES_REPLY_TO: z.string().default(""),
+  SES_TEMPLATE_REGISTER_CODE: z.coerce.number().int().default(0),
+  SES_TEMPLATE_RESET_CODE: z.coerce.number().int().default(0),
+  SES_TEMPLATE_REPLY_NOTICE: z.coerce.number().int().default(0),
+  SES_TEMPLATE_AUTHOR_NOTICE: z.coerce.number().int().default(0),
   SMTP_HOST: z.string().default(""),
   SMTP_PORT: z.coerce.number().int().default(465),
   SMTP_SECURE: bool.default(true),

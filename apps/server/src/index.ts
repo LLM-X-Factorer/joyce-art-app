@@ -12,7 +12,9 @@ const app = await buildApp({
 });
 
 if (!app.ctx.ai.configured) app.log.warn("AI_API_KEY 未配置：问答将使用本地馆藏笔记回答");
-if (!app.ctx.mailer.configured) app.log.warn("SMTP 未配置：验证码与通知邮件只输出到日志");
+if (!app.ctx.mailer.configured) {
+  app.log.warn(`发信服务未配置完整（${app.ctx.mailer.provider}）：验证码与通知邮件不会送达`);
+}
 
 const shutdown = async () => {
   await app.close();

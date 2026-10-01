@@ -301,6 +301,7 @@ const en: typeof zh = {
       code_invalid: "That code is wrong or has expired. Please request a new one.",
       code_cooldown: "Please wait a minute before requesting another code.",
       code_daily_limit: "Too many codes today. Please try again tomorrow.",
+      mail_failed: "We couldn't send the email. Please try again shortly.",
       rate_limited: "Too many attempts. Please try again shortly.",
       password_too_short: "Passwords need at least 8 characters.",
       validation_error: "Please check the highlighted fields.",

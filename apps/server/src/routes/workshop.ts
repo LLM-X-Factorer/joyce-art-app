@@ -3,6 +3,7 @@ import { localeSchema, pickLocale, workshopApplicationSchema } from "@common-roo
 import { z } from "zod";
 import { schema } from "../db/client.js";
 import { clientIp, HttpError, noStore, parse } from "../lib/http.js";
+import { mail } from "../lib/mailer.js";
 import { getSettings } from "../lib/settings.js";
 
 export async function workshopRoutes(app: FastifyInstance) {
@@ -38,23 +39,14 @@ export async function workshopRoutes(app: FastifyInstance) {
 
       if (config.AUTHOR_NOTIFY_EMAIL) {
         mailer
-          .send({
-            to: config.AUTHOR_NOTIFY_EMAIL,
-            subject: `工作坊新申请 #${row.id}：${input.name}`,
-            text: [
-              `姓名：${input.name}`,
-              `邮箱：${input.email}`,
-              `微信：${input.wechat || "-"}`,
-              `学校 / 年级：${input.school || "-"} / ${input.grade || "-"}`,
-              `考试局 / 考季：${input.examBoard || "-"} / ${input.examSession || "-"}`,
-              `期望形式：${input.preferredFormat || "-"}`,
-              "",
-              "当前需求：",
-              input.currentNeeds,
-              "",
-              `后台查看：${config.PUBLIC_SITE_URL}/admin/`
-            ].join("\n")
-          })
+          .send(
+            mail.authorNotice(
+              config.AUTHOR_NOTIFY_EMAIL,
+              config.PUBLIC_SITE_URL,
+              `工作坊新申请 #${row.id}`,
+              `${input.name}${input.examBoard ? `（${input.examBoard}）` : ""}，请在「工作坊申请」查看`
+            )
+          )
           .catch((error) => request.log.warn({ err: error }, "申请通知发送失败"));
       }
       reply.status(201);

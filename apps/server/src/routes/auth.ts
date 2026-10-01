@@ -11,6 +11,7 @@ import {
 } from "@common-room/shared";
 import { schema } from "../db/client.js";
 import { clientIp, HttpError, noStore, parse, requireUser } from "../lib/http.js";
+import { mail } from "../lib/mailer.js";
 import { generateCode, hashCode, hashPassword, safeEqualHex, verifyPassword } from "../lib/security.js";
 import { endSession, publicUser, startSession } from "../plugins/session.js";
 
@@ -84,19 +85,21 @@ export async function authRoutes(app: FastifyInstance) {
       if (recent.length >= CODE_DAILY_LIMIT) throw new HttpError(429, "code_daily_limit");
 
       const code = generateCode();
-      await db.insert(schema.emailCodes).values({
+      const [record] = await db.insert(schema.emailCodes).values({
         email,
         purpose,
         codeHash: hashCode(config.SESSION_SECRET, email, purpose, code),
         expiresAt: new Date(Date.now() + CODE_TTL_MS),
         ip: clientIp(request)
-      });
-      const subject = purpose === "register" ? "艺术史公共书房 · 注册验证码" : "艺术史公共书房 · 重置密码验证码";
-      await mailer.send({
-        to: email,
-        subject,
-        text: `你的验证码是 ${code}，10 分钟内有效。\nYour verification code is ${code}. It expires in 10 minutes.\n\n如果不是你本人操作，请忽略此邮件。`
-      });
+      }).returning({ id: schema.emailCodes.id });
+      try {
+        await mailer.send(mail.code(email, purpose, code));
+      } catch (error) {
+        // 发送失败时撤销这条验证码，用户可以立即重试
+        await db.delete(schema.emailCodes).where(eq(schema.emailCodes.id, record.id));
+        request.log.error({ err: error }, "验证码邮件发送失败");
+        throw new HttpError(502, "mail_failed");
+      }
       return { ok: true };
     }
   );

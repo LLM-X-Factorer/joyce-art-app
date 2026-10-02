@@ -24,6 +24,15 @@ export interface Mailer {
 
 // ---------------- 邮件内容 ----------------
 
+// SES 模板要求固定域名：模板中写 https://art.llmxfactor.cloud/{{url}}，url 只传不带开头斜杠的站内路径。
+// SMTP 与日志的纯文本正文仍使用基于 PUBLIC_SITE_URL 的完整链接。
+export const REPLY_NOTICE_PATH = "me?tab=submissions";
+export const AUTHOR_NOTICE_PATH = "admin/";
+
+function siteLink(siteUrl: string, path: string): string {
+  return `${siteUrl.replace(/\/+$/, "")}/${path}`;
+}
+
 export const mail = {
   code(to: string, purpose: "register" | "reset", code: string): MailMessage {
     const register = purpose === "register";
@@ -36,24 +45,22 @@ export const mail = {
     };
   },
   replyNotice(to: string, siteUrl: string): MailMessage {
-    const url = `${siteUrl}/me?tab=submissions`;
     return {
       to,
       kind: "reply_notice",
       subject: "艺术史公共书房 · 作者回复了你的练习",
-      text: `作者已经回复了你提交的练习，请到"我的书房"查看。\nThe author has replied to your submission. Open your study to read it.\n\n${url}`,
-      data: { url }
+      text: `作者已经回复了你提交的练习，请到"我的书房"查看。\nThe author has replied to your submission. Open your study to read it.\n\n${siteLink(siteUrl, REPLY_NOTICE_PATH)}`,
+      data: { url: REPLY_NOTICE_PATH }
     };
   },
   /** 通知作者有新内容待处理；只包含摘要，个人信息在后台查看 */
   authorNotice(to: string, siteUrl: string, item: string, summary: string): MailMessage {
-    const url = `${siteUrl}/admin/`;
     return {
       to,
       kind: "author_notice",
       subject: `艺术史公共书房 · ${item}`,
-      text: `${item}：${summary}\n请到管理后台查看：${url}`,
-      data: { item, summary, url }
+      text: `${item}：${summary}\n请到管理后台查看：${siteLink(siteUrl, AUTHOR_NOTICE_PATH)}`,
+      data: { item, summary, url: AUTHOR_NOTICE_PATH }
     };
   }
 };

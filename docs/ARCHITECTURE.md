@@ -116,7 +116,7 @@ sequenceDiagram
 `apps/server/src/lib/mailer.ts` 把每封邮件定义为带类型的消息（`register_code`、`reset_code`、`reply_notice`、`author_notice`），同时生成纯文本正文和模板变量：
 
 - `smtp`：nodemailer 发送主题与纯文本正文。
-- `tencent_ses`：调用腾讯云 SES `SendEmail` API（TC3-HMAC-SHA256 签名，与官方 Node SDK 一致），按类型选择模板 ID，`TriggerType=1`。个人认证账号只能用这种方式。
+- `tencent_ses`：调用腾讯云 SES `SendEmail` API（TC3-HMAC-SHA256 签名，与官方 Node SDK 一致），按类型选择模板 ID，`TriggerType=1`。个人认证账号只能用这种方式。通知模板中的链接写死域名 `https://art.llmxfactor.cloud/{{url}}`（腾讯云审核要求），`url` 只传站内路径（`me?tab=submissions`、`admin/`）。
 - `log`：只写日志（开发环境）。
 
 验证码邮件发送失败时返回 `502 mail_failed`，并删除刚生成的验证码，用户可以立即重试。通知邮件失败只记日志，不影响主流程。通知作者的邮件只含摘要，不含用户联系方式。
@@ -133,7 +133,7 @@ sequenceDiagram
 
 ## 验证范围
 
-- `pnpm test`：后端 22 项测试（集成测试含关闭公众账号的情况；另有 SES 签名、模板选择、错误处理与验证码发送失败回滚），覆盖内容接口、注册 / 登录 / 找回密码、验证码限制、来源校验、收藏合并、草稿、提交与容量、作者回复、用户停用、后台内容修改、工作坊申请与 CSV、问答的本地回退 / 模型调用 / 失败 / 额度。使用内存 PostgreSQL（PGlite）、内存邮件与桩模型。前端 4 项写作反馈单元测试。
+- `pnpm test`：后端 26 项测试（集成测试含关闭公众账号的情况；另有 SES 签名、模板选择、通知链接与模板文档一致性、错误处理与验证码发送失败回滚），覆盖内容接口、注册 / 登录 / 找回密码、验证码限制、来源校验、收藏合并、草稿、提交与容量、作者回复、用户停用、后台内容修改、工作坊申请与 CSV、问答的本地回退 / 模型调用 / 失败 / 额度。使用内存 PostgreSQL（PGlite）、内存邮件与桩模型。前端 4 项写作反馈单元测试。
 - `pnpm e2e`：Playwright 浏览器流程（游客收藏 → 注册合并 → 草稿保存与刷新 → 提交 → 问答 → 申请 → 后台回复 → 用户看到回复 → 中英切换 → 375px 窄屏无横向溢出）。已分别在开发服务器和本地 Docker 生产构建（Nginx）上通过。
 - 尚未验证：真实国内模型调用、真实 SMTP 发信、正式域名与证书、国内服务器上的镜像拉取与构建、微信 web-view 与小程序审核、中文初稿的学术准确性。
 

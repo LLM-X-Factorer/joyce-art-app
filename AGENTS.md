@@ -42,4 +42,5 @@ Node.js 22 以上，pnpm 9。本地数据库用 Docker，端口 5487；开发端
 - 用户流程或界面改动：运行 `pnpm e2e`（需 `pnpm dev`，后端日志写入 `/tmp/cr-server.log`），并在浏览器检查受影响页面与 375px 窄屏。
 - 部署相关改动：本地 `cd deploy && docker compose up -d --build` 验证（可用 `TLS=off`、`COOKIE_SECURE=false`、`HTTP_PORT=8088`）。
 - 架构、配置变量或运行命令变化时，同步更新 README、docs/ARCHITECTURE.md 与 deploy/README.md。
+- 版本发布：功能分支 → PR（CI 通过）→ 合并 `main` → 更新 CHANGELOG → 打 `vX.Y.Z` 标签 → 部署该标签 → GitHub Release，详见 deploy/README.md「发布新版本」。待办与缺陷记录在 GitHub Issues；仓库公开，issue 与提交中不要写服务器地址、账号或密钥。
 - 交付时说明改动、已完成验证和未验证范围。不要把本地成功写成云端部署、真实 AI 连接或业务验收成功。

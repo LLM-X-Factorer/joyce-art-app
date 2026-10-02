@@ -130,3 +130,22 @@ docker compose exec -T postgres pg_restore -U common_room -d common_room --clean
 - [ ] 管理员 / 作者账号已创建，后台能看到练习提交与工作坊申请
 - [ ] `./backup.sh` 能生成备份文件
 - [ ] 手机浏览器与微信内打开，作品图片正常显示
+
+## 八、发布新版本
+
+1. 在功能分支开发并自测：`pnpm typecheck && pnpm test`，涉及用户流程时再跑 `pnpm e2e`。
+2. 向 `main` 发 PR，GitHub Actions 会运行类型检查与测试；通过后合并。
+3. 在 [CHANGELOG.md](../CHANGELOG.md) 写明本版本的新增、修复与已知限制，确定版本号（例如 `v0.2.1` 修复、`v0.3.0` 新功能），在 `main` 上打标签并推送：
+   ```bash
+   git tag -a v0.3.0 -m "v0.3.0" && git push origin v0.3.0
+   ```
+4. 部署这个标签（只构建有变化的服务，例如只改后端就只构建 `server`），并记录线上版本：
+   ```bash
+   git archive --format=tar v0.3.0 | gzip | ssh <服务器> 'cd /opt/common-room && tar -xzf - && echo v0.3.0 > DEPLOYED_COMMIT'
+   ssh <服务器> 'cd /opt/common-room/deploy && sudo docker compose up -d --build server web'
+   ```
+5. 线上核对后发布 GitHub Release：`gh release create v0.3.0 --title "v0.3.0" --notes-file <说明文件>`，说明内容取自 CHANGELOG。
+6. 更新 README「线上状态」，关闭已完成的 issue。
+
+只改文档、不涉及运行代码时，同步文件即可，无需重建容器。
+

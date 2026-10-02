@@ -2,131 +2,98 @@
 
 **The Art Historian's Common Room** 是一个以作品为起点的艺术史学习网站：从时代地图进入展厅，观察作品、阅读背景与视觉分析，再通过复习卡片、写作练习和艺术史问答加深理解。
 
-项目采用原生 HTML、CSS 和 JavaScript，内容直接保存在代码中；可选的 Node.js 接口负责连接 OpenAI。没有前端框架、数据库或构建步骤。
+2026-09-30 起项目由原生单页改造为前后端项目（v0.2.0），线上地址 https://art.llmxfactor.cloud ：
 
-首次了解项目，建议先读本页并在本地体验，再读 [架构文档](docs/ARCHITECTURE.md)。后续参与开发时参考 [AGENTS.md](AGENTS.md)。
+| 部分 | 目录 | 技术 |
+| --- | --- | --- |
+| 用户端 H5（中英双语） | [apps/web](apps/web) | Vue 3 + Vite + Pinia + vue-i18n |
+| 管理后台 | [apps/admin](apps/admin) | Vue 3 + Element Plus，部署在 `/admin/` |
+| 后端 API | [apps/server](apps/server) | Node.js + Fastify + Drizzle ORM + PostgreSQL |
+| 共享类型与校验 | [packages/shared](packages/shared) | TypeScript + zod |
+| 小程序壳 | [apps/miniprogram](apps/miniprogram) | 微信小程序 web-view |
+| 部署 | [deploy](deploy) | Docker Compose + Nginx |
+| 旧版原生单页（只读参考） | [legacy](legacy) | 原 HTML / CSS / JS 与 Vercel 函数 |
 
-下一阶段建议先读 [用户需求、产品问题与执行方案](docs/NEXT_STAGE_EXECUTION_PLAN.md)，其中整理了首版范围、执行步骤、角色分工与验收标准。分析依据和更多讨论见 [产品迭代与早期运营分析](docs/PRODUCT_AND_OPERATIONS_STRATEGY.md)。这些方案中的新增功能尚未实施。
-
-A-level 商业方向见 [艺术史商业机会与执行方案](docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md)（[PDF 阅读版](docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.pdf)）。报告比较科目辅导、能力短课与学校合作，包含现有供给、首期服务、成本敏感性和六周验证计划；价格与人数均为试点假设，真实付费和教学效果尚待验证。[已确认的研究框架](docs/research/ALEVEL_ART_HISTORY_RESEARCH_FRAMEWORK.md)保留了分析过程中的判断修订。
+架构与数据流见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)，部署与发布见 [deploy/README.md](deploy/README.md)，开发约定见 [AGENTS.md](AGENTS.md)，版本变更见 [CHANGELOG.md](CHANGELOG.md)，待办事项记录在 [GitHub Issues](https://github.com/LLM-X-Factorer/joyce-art-app/issues)。
 
 ## 现在可以做什么
 
-以下基于 2026-09-19 的仓库代码核对，不代表线上部署或真实 AI 服务已经验收。
+以下为 v0.2.0 的代码能力；各功能在线上是否开放见下方「线上状态」。
 
-| 模块 | 使用方式 | 当前实现 |
+| 模块 | 用户能做什么 | 实现说明 |
 | --- | --- | --- |
-| 博物馆地图与时代展厅 | 点击首页 Map，按时代进入展厅 | 6 个时代、22 件馆藏作品，涵盖绘画、雕塑和建筑 |
-| 希腊艺术入门 | 浏览 Greek Art 展区 | 4 张入门作品卡，部分关联馆藏详情 |
-| 时间轴与画家档案 | 查看作品与画家所处年代，按时期、国家或关键词筛选画家 | 17 位画家、34 条画家作品笔记；与馆藏存在重叠，不应相加当成独立作品总数 |
-| 作品详情 | 查看历史语境、视觉证据、意义、问题与来源 | 静态编辑内容，图片主要来自 Wikimedia Commons |
-| Study Room | 收藏作品，用图片或文字线索回忆，再揭晓答案 | 有收藏时优先使用收藏池；收藏保存在当前浏览器 |
-| Essay Room | 选择视觉分析或论述练习，填写观点与正文，提交评分 | 浏览器按字数、关键词、论点等规则评分；不是 AI 批改，草稿未持久保存 |
-| Café 问答 | 选择饮品，向艺术史助手提问 | AI 接口可用时调用模型；否则返回本地馆藏笔记组合的临时回答 |
-| 随机探索 | 点击 Explore | 随机打开一件馆藏作品，带转场动画 |
-| 语言与离线 | 切换 English / 中文 / Français；可添加到主屏幕 | 翻译覆盖不完全；离线主要支持应用外壳和内置文字 |
+| 展厅与时间线 | 按 6 个时代浏览 22 件馆藏（绘画、雕塑、建筑），查看横向年代线、希腊入门展厅、17 位画家档案 | 内容存于数据库，后台可编辑；每件作品、每位画家有可分享的独立页面 `/works/<slug>`、`/painters/<slug>` |
+| 中英双语 | 界面与全部内容中英切换 | 原有中文保留为「已审校」；缺失的约 380 个中文字段由 AI 起草，标记为「中文待审」，需作者在后台核对。法语已移除 |
+| 账号 | 邮箱验证码注册、登录、找回密码、修改密码 | 浏览无需登录；游客收藏在登录后自动合并到账号 |
+| 我的书房 | 收藏、写作草稿、提交给作者的练习与回复、问答记录、工作坊申请状态 | 草稿自动保存到账号（游客保存在本机） |
+| 复习 | 看图或看记忆点猜作品，再揭晓答案 | 优先使用收藏的作品 |
+| 写作室 | 视觉分析 / 论述练习，获得练习反馈，可请作者回应（线上暂未开放） | 反馈是本地规则（字数、词汇、论点与意义提示），**不是 AI 批改或考试评分**；作者回应在后台完成 |
+| 咖啡馆问答 | 向艺术史学者提问 | 配置国内模型 Key 后由模型回答；未配置、超额或失败时用馆藏笔记回答。每条回答都标明来源 |
+| A-level 工作坊 | 查看介绍、填写意向申请（线上申请暂未开放） | 只登记意向，不收费；作者在后台查看、跟进、导出 |
+| 管理后台 | 概览、回应工作台、申请处理、内容编辑（中英并排）、图片库、用户与角色、站点设置 | 需「作者」或「管理员」角色 |
 
-“Buy coffee” 目前只是场景互动，没有订单或支付。中文覆盖界面与馆藏等内容，但画家笔记、写作区等仍有英文；法文主要覆盖界面，不能视为全站三语内容。
+作品图片已从 Wikimedia Commons 下载并转为 WebP，随仓库提供，由本站服务器提供，国内可访问。其中 9 张为 CC BY / CC BY-SA 许可，作品页显示作者与许可证。旧版中有 5 个图片文件名在 Commons 上不存在（旧站同样显示为裂图），本次已改用正确文件。
 
-## 本地初始化与启动
+## 本地开发
 
-安装 Node.js 22 或以上版本及随附的 npm。仓库的 [.nvmrc](.nvmrc) 选择 Node.js 24；使用 nvm 时可执行 `nvm install`、`nvm use`。版本背景可参考 [Node.js 官方发布计划](https://github.com/nodejs/Release)。
-
-在项目根目录执行：
+需要 Node.js 22+、pnpm 9 与 Docker（仅用于本地数据库）。
 
 ```bash
-npm run setup
-npm run dev
+pnpm install
+cp .env.example .env          # 本地配置，不要提交
+pnpm db:up                    # 启动本地 PostgreSQL（端口 5487）
+pnpm db:migrate               # 建表
+pnpm db:seed                  # 写入初始内容并复制作品图片到 uploads/
+pnpm dev                      # 同时启动后端 :4000、用户端 :5273、后台 :5274
 ```
 
-打开 **http://127.0.0.1:3000**，按 `Ctrl+C` 停止服务。没有第三方 npm 依赖，无需先执行 `npm install`。
-
-`setup` 从 `.env.example` 创建本地 `.env`，重复执行会保留现有配置。`dev` 同时提供静态页面和 `/api/chat`，默认仅监听本机。端口被占用时：
-
-```bash
-PORT=3001 npm run dev
-```
-
-建议第一次按这条路径体验：**Map → 选择时代 → 查看作品 → Save → Study Room → Reveal answer → Essay Room → Café**。即使不填写 API Key，也能浏览内容、练习和使用本地笔记回答。作品图片仍需要外网。
-
-### 可选：启用 AI 问答
-
-在本机编辑 `.env`，填入自己的 `OPENAI_API_KEY`，然后重启开发服务。不要把密钥放进 `script.js` 或提交到 Git。
-
-| 变量 | 默认值 | 用途 |
-| --- | --- | --- |
-| `OPENAI_API_KEY` | 空 | 仅服务端读取；为空时接口返回 503，页面自动使用本地笔记回答 |
-| `OPENAI_MODEL` | `gpt-5` | 当前代码的模型默认值；能否使用取决于账号权限和服务可用性 |
-| `PORT` | `3000` | 仅本地开发服务器端口 |
-
-启动程序只读取根目录 `.env`，不会自动读取 `.env.local`；已存在的进程环境变量优先。配置了 Key 只表示配置存在，不表示模型连接成功。真实请求会将问题、匹配的馆藏文字、近期聊天记录、语言及饮品选择发送到 OpenAI；当前接口不上传图片。
+- 用户端：http://localhost:5273
+- 管理后台：http://localhost:5274/admin/
+- 未配置 SMTP 时，注册验证码打印在后端日志中。把 `.env` 的 `ADMIN_BOOTSTRAP_EMAIL` 设为你的邮箱后注册，即成为管理员。
+- 未配置 `AI_API_KEY` 时，问答使用本地馆藏笔记，并在回答上标注「馆藏笔记」。
 
 ### 常用命令
 
 | 命令 | 作用 |
 | --- | --- |
-| `npm run setup` | 安全创建本地 `.env`，不覆盖已有配置 |
-| `npm run dev` | 启动本地静态页面与聊天接口，无热更新，修改后手动刷新 |
-| `npm run check` | 检查前端脚本、Service Worker、API 和开发脚本的 JavaScript 语法 |
-| `npm test` | 验证初始化幂等性、HTTP 静态资源、私有文件隔离、API 未配置回退及输入边界；不调用真实模型 |
+| `pnpm dev` | 启动三个开发服务（热更新） |
+| `pnpm typecheck` | 全部包的 TypeScript / Vue 类型检查 |
+| `pnpm test` | 后端集成测试（内存 PostgreSQL，不发邮件、不调用模型）与前端单元测试 |
+| `pnpm e2e` | 浏览器端到端测试；需先 `pnpm dev`，并把后端日志写到 `/tmp/cr-server.log`（用于读取验证码），见 [e2e/flow.spec.ts](e2e/flow.spec.ts) |
+| `pnpm build` | 构建全部应用 |
+| `pnpm content:extract` | 从 `legacy/script.js` 重新生成 `apps/server/seed/content.json`（合并 `scripts/translations/` 中的中文初稿） |
+| `pnpm images:mirror` | 从 Wikimedia 下载缺失的作品图片与许可信息（需能访问境外网络） |
+| `pnpm --filter @common-room/server db:generate` | 修改 `apps/server/src/db/schema.ts` 后生成迁移 |
 
-本次初始化已在 Node.js v25.8.2 环境执行 `setup`、语法检查和 6 项自动化测试；另在 Chrome 验证了时代地图、收藏刷新后保留、复习揭晓、本地问答回退与写作规则评分。真实 OpenAI 请求、线上环境以及手机安装体验需要另行验证。
+## 线上状态
 
-## 目录与阅读顺序
+部署在腾讯云轻量服务器，地址 https://art.llmxfactor.cloud （后台 `/admin/`），当前版本 v0.2.0。核对日期 2026-10-02：
 
-```text
-joyce-art-app/
-├── README.md                 # 项目介绍、运行方式与常见问题
-├── AGENTS.md                 # 后续开发的项目约定
-├── docs/ARCHITECTURE.md      # 模块、数据流、接口与现有边界
-├── index.html                # 单页结构、各学习区域与交互入口
-├── styles.css                # 视觉主题、布局、动画与移动端样式
-├── script.js                 # 内容数据、翻译、状态、渲染与业务交互
-├── api/chat.js               # 服务端 AI 问答接口，CommonJS handler
-├── service-worker.js         # PWA 安装与缓存策略
-├── manifest.webmanifest      # 安装名称、图标与应用快捷入口
-├── offline.html              # 离线兜底页面
-├── assets/                   # 图标、首页背景等本地素材
-├── scripts/
-│   ├── setup.cjs             # 初始化配置文件
-│   └── dev-server.cjs        # 本地 HTTP 与 API 适配器
-├── tests/dev-server.test.cjs # 初始化与本地服务器集成测试
-├── package.json              # 开发命令；无第三方依赖
-├── package-lock.json         # npm 项目锁文件
-├── .nvmrc                    # 建议使用的 Node.js 主版本
-└── .env.example              # 可提交的配置模板
-```
+| 功能 | 线上状态 |
+| --- | --- |
+| 浏览、双语、复习、写作练习、咖啡馆问答 | 已开放；问答尚未配置 AI Key，使用馆藏笔记回答 |
+| 注册、登录、找回密码、我的书房 | 已开放（2026-10-02），已用真实邮箱完成线上验收 |
+| 发信 | 腾讯云邮件推送 SES 模板发信，四类邮件已实际收信验收；全站每日验证码上限 200 |
+| 「请作者看看」练习提交 | 暂未开放（后台「站点设置」可开启） |
+| A-level 工作坊申请 | 暂未开放，只展示介绍（后台「站点设置」可开启） |
+| HTTPS / 备份 | 证书由服务器 certbot 自动续期；数据库与图片每天自动备份（保留 14 天，存于同一台服务器） |
 
-理解代码时，先看 `index.html` 的各个 `section`，再看 `script.js` 中的 `collectionWorks` / `collectionEras` / `painters`，随后看 `state` 和 `render*` 函数，最后看 `artHistorianReply()` 与 `api/chat.js`。
+尚未完成的事项见 [GitHub Issues](https://github.com/LLM-X-Factorer/joyce-art-app/issues)。
+
+## 部署
+
+生产环境使用 Docker Compose（Nginx + Node.js + PostgreSQL）部署在国内服务器，详见 [deploy/README.md](deploy/README.md)。上线前需要准备：已备案域名与 HTTPS 证书、SMTP 发信账号、国内模型 API Key（可选）、ICP 备案号，以及隐私政策中的运营者名称与联系邮箱。
+
+微信小程序通过 web-view 打开 H5，需要企业等非个人主体，并把域名配置为业务域名，见 [apps/miniprogram/README.md](apps/miniprogram/README.md)。
 
 ## 数据保存在哪里
 
-馆藏、画家和翻译文本都随 `script.js` 发布。浏览器只通过 `localStorage` 保存收藏作品 ID、语言选择与卡片密度；聊天记录、当前筛选和写作草稿没有写入数据库，刷新后不会恢复。
+- **数据库（PostgreSQL）**：内容（时代、作品、画家等）、账号、收藏、草稿、问答记录、练习提交与回复、工作坊申请、站点设置。
+- **uploads 卷**：作品图片与后台上传的图片。
+- **浏览器 localStorage**：语言选择、卡片密度、游客收藏与游客草稿（登录后合并到账号）。
+- 咖啡馆问题会连同相关馆藏笔记发送给所配置的模型服务商；隐私政策页已说明这一点。
 
-同一浏览器的不同地址（例如 `localhost`、`127.0.0.1` 或不同端口）分别保存数据。当前没有账号、跨设备同步、学习记录统计或内容管理后台。
+## 产品与商业资料
 
-## 部署方式
-
-**只展示与学习：** 静态托管即可。发布 `index.html`、`styles.css`、`script.js`、`assets/`、`manifest.webmanifest`、`service-worker.js` 和 `offline.html`。纯静态托管不会执行 `api/chat.js`，问答会回退到本地笔记。
-
-**需要真实 AI：** 现有 `api/chat.js` 是 Vercel 风格的 Node.js 函数。可在 Vercel 导入仓库，选择 `Other`，根目录为项目根目录，开启 Build Command 的 Override 并将命令留空，静态输出使用 `.`，在目标环境配置 `OPENAI_API_KEY` 和可选的 `OPENAI_MODEL`。平台配置依据见 [Vercel Node.js Runtime](https://vercel.com/docs/functions/runtimes/node-js) 与 [构建配置文档](https://vercel.com/docs/builds/configure-a-build)。这是部署指引，本次未创建或验证云端部署。
-
-部署到其他平台时，需要适配其请求/响应接口；`npm run dev` 是本地开发工具。使用域名部署 PWA 时需 HTTPS。当前聊天接口尚无用户鉴权、限流或应用层费用控制，公开开放前应明确访问和用量边界。
-
-## 常见问题
-
-**页面能打开，为什么没有真实 AI 回答？**
-
-先在浏览器 Network 面板查看 `/api/chat`：503 且 `needsConfiguration: true` 表示未配置 Key；404/405 可能是仅启动了静态服务器；其他错误可能来自上游 API。页面会统一显示本地笔记回退提示，因此“页面有回答”不能用来判断 AI 已接通。提示中目前固定提到 Vercel，本地开发实际应编辑 `.env`。
-
-**修改代码后为什么仍是旧页面？**
-
-现有 Service Worker 会缓存同源资源，开发服务器的 `no-store` 无法绕过它已写入的 Cache Storage。调试时可在浏览器 DevTools → Application → Service Workers 中启用 Bypass for network，或注销 Worker 并只删除该站点的 Cache Storage 后刷新；不要为了刷新代码清空保存收藏的 Local Storage。发布前需同步更新 `service-worker.js` 的 `CACHE_NAME` 和 `index.html` 中 CSS/JS 的 `?v=` 版本。
-
-**离线为什么看不到作品图片？**
-
-应用只预缓存本站外壳和本地素材；Wikimedia 图片没有被主动加入离线缓存。首次离线访问、从未安装缓存、或离线发起 AI 请求，都不属于完整支持范围。
-
-**想新增作品、调整界面或修改 AI，分别从哪里开始？**
-
-见 [架构文档中的修改入口](docs/ARCHITECTURE.md#修改入口)。目前 `script.js` 同时承载数据与交互，修改作品 ID、时代归属、翻译或 DOM 标识时，需要核对对应引用。
+- [用户需求、产品问题与执行方案](docs/NEXT_STAGE_EXECUTION_PLAN.md)、[产品迭代与早期运营分析](docs/PRODUCT_AND_OPERATIONS_STRATEGY.md)：2026-09-19 的讨论记录。其中的账号、我的书房、作者回应、作者工作台等功能已在 v0.2.0 实现首版；学习路线、运营事件记录等尚未实现，已记录为 issue。
+- [艺术史商业机会与执行方案](docs/research/ALEVEL_ART_HISTORY_BUSINESS_RESEARCH.md)：A-level 工作坊方向的研究。本次只实现了意向申请入口，不含报名、收费或课程交付。

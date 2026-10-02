@@ -1,0 +1,14 @@
+# TLS=off：只监听 80。用于前面已有 HTTPS 反向代理（例如宿主机 Nginx）的情况。
+# 信任内网代理传来的 X-Real-IP，使后端频率限制按真实访客 IP 计算。
+server {
+  listen 80;
+  server_name ${SERVER_NAME};
+
+  set_real_ip_from 10.0.0.0/8;
+  set_real_ip_from 172.16.0.0/12;
+  set_real_ip_from 192.168.0.0/16;
+  set_real_ip_from 127.0.0.1;
+  real_ip_header X-Real-IP;
+
+  include /etc/nginx/snippets/app.conf;
+}

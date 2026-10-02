@@ -1,0 +1,71 @@
+# 生产部署：在 deploy/ 目录执行 docker compose up -d --build
+# 配置见 deploy/.env（从 .env.example 复制），说明见 deploy/README.md
+# 本文件只发布 HTTP 端口；独占服务器、由容器自己提供 HTTPS 时，再叠加 docker-compose.tls.yml
+name: common-room
+
+services:
+  postgres:
+    image: ${POSTGRES_IMAGE:-postgres:16-alpine}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: common_room
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?请在 deploy/.env 设置 POSTGRES_PASSWORD}
+      POSTGRES_DB: common_room
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U common_room"]
+      interval: 5s
+      retries: 20
+
+  server:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.server
+      args:
+        NODE_IMAGE: ${NODE_IMAGE:-node:22-alpine}
+        NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmmirror.com}
+    image: common-room-server:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://common_room:${POSTGRES_PASSWORD}@postgres:5432/common_room
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: "4000"
+      UPLOAD_DIR: /data/uploads
+    volumes:
+      - uploads:/data/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.web
+      args:
+        NODE_IMAGE: ${NODE_IMAGE:-node:22-alpine}
+        NGINX_IMAGE: ${NGINX_IMAGE:-nginx:1.27-alpine}
+        NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmmirror.com}
+        VITE_ICP_NUMBER: ${ICP_NUMBER:-}
+        VITE_PSB_NUMBER: ${PSB_NUMBER:-}
+        VITE_OPERATOR_NAME: ${OPERATOR_NAME:-}
+        VITE_CONTACT_EMAIL: ${CONTACT_EMAIL:-}
+        VITE_ACCOUNTS_ENABLED: ${ACCOUNTS_ENABLED:-true}
+    image: common-room-web:latest
+    restart: unless-stopped
+    environment:
+      SERVER_NAME: ${SERVER_NAME:-_}
+      TLS: ${TLS:-on}
+    ports:
+      - "${HTTP_BIND:-0.0.0.0}:${HTTP_PORT:-80}:80"
+    volumes:
+      - uploads:/data/uploads:ro
+      - ./verify:/usr/share/nginx/verify:ro
+    depends_on:
+      - server
+
+volumes:
+  pgdata:
+  uploads:

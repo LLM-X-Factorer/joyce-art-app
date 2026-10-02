@@ -1,0 +1,4457 @@
+{
+  "generatedFrom": "legacy/script.js",
+  "images": [
+    {
+      "key": "the-parthenon-in-athens",
+      "commonsFile": "The Parthenon in Athens.jpg"
+    },
+    {
+      "key": "pantheon-rome-dome-interior",
+      "commonsFile": "Pantheon (Rome) - Dome interior.jpg"
+    },
+    {
+      "key": "interior-of-hagia-sophia",
+      "commonsFile": "Interior of Hagia sophia.JPG"
+    },
+    {
+      "key": "westfassade-chartres",
+      "commonsFile": "Westfassade Chartres.jpg"
+    },
+    {
+      "key": "kouros-nama-3851-athens-greece",
+      "commonsFile": "Kouros NAMA 3851 Athens Greece.jpg"
+    },
+    {
+      "key": "1981-11-statue-of-the-aphrodite-of-knidos",
+      "commonsFile": "1981.11 - Statue of the Aphrodite of Knidos.jpg"
+    },
+    {
+      "key": "laocoon-and-his-sons-group",
+      "commonsFile": "Laocoön and his sons group.jpg"
+    },
+    {
+      "key": "michelangelo-s-david-1",
+      "commonsFile": "Michelangelo's David 1.jpg"
+    },
+    {
+      "key": "sandro-botticelli-la-nascita-di-venere-google-art-project-edited",
+      "commonsFile": "Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg"
+    },
+    {
+      "key": "las-meninas-01",
+      "commonsFile": "Las Meninas 01.jpg"
+    },
+    {
+      "key": "manet-edouard-olympia",
+      "commonsFile": "Manet, Édouard - Olympia.jpg"
+    },
+    {
+      "key": "van-gogh-starry-night-google-art-project",
+      "commonsFile": "Van Gogh - Starry Night - Google Art Project.jpg"
+    },
+    {
+      "key": "greek-amphora-storage-jar-with-herakles-carrying-the-erymanthian-boar-athens-c-5",
+      "commonsFile": "Greek Amphora Storage Jar with Herakles Carrying the Erymanthian Boar, Athens, c. 510 BC (10455496763).jpg"
+    },
+    {
+      "key": "portrait-of-the-boy-eutyches-metmuseum-18-9-2",
+      "commonsFile": "Portrait of the Boy Eutyches - Metmuseum 18.9.2.jpg"
+    },
+    {
+      "key": "tesoro-di-san-pietro-sarcofago-di-giunio-basso",
+      "commonsFile": "Tesoro di san pietro, sarcofago di giunio basso.JPG"
+    },
+    {
+      "key": "wilton-diptych",
+      "commonsFile": "Wilton diptych.jpg"
+    },
+    {
+      "key": "chartres-south-portal-central-bay",
+      "commonsFile": "Chartres - south portal - central bay -.jpg"
+    },
+    {
+      "key": "01-bramante-tempietto-exterior",
+      "commonsFile": "01 Bramante Tempietto Exterior.jpg"
+    },
+    {
+      "key": "ecstasy-of-st-theresa",
+      "commonsFile": "Ecstasy of St. Theresa.jpg"
+    },
+    {
+      "key": "san-carlo-alle-quattro-fontane-front",
+      "commonsFile": "San Carlo alle Quattro Fontane - Front.jpg"
+    },
+    {
+      "key": "the-thinker-met-11405",
+      "commonsFile": "The Thinker MET 11405.jpg"
+    },
+    {
+      "key": "eiffel-tower-at-exposition-universelle-paris-1889",
+      "commonsFile": "Eiffel tower at Exposition Universelle, Paris, 1889.jpg"
+    },
+    {
+      "key": "botticelli-primavera",
+      "commonsFile": "Botticelli-primavera.jpg"
+    },
+    {
+      "key": "artemisia-gentileschi-judith-beheading-holofernes-wga8563",
+      "commonsFile": "Artemisia Gentileschi - Judith Beheading Holofernes - WGA8563.jpg"
+    },
+    {
+      "key": "self-portrait-as-the-allegory-of-painting-la-pittura-artemisia-gentileschi",
+      "commonsFile": "Self-portrait as the Allegory of Painting (La Pittura) - Artemisia Gentileschi.jpg"
+    },
+    {
+      "key": "1665-girl-with-a-pearl-earring",
+      "commonsFile": "1665 Girl with a Pearl Earring.jpg"
+    },
+    {
+      "key": "johannes-vermeer-het-melkmeisje-google-art-project",
+      "commonsFile": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg"
+    },
+    {
+      "key": "la-liberte-guidant-le-peuple-eugene-delacroix-musee-du-louvre-peintures-rf-129-a",
+      "commonsFile": "La Liberté guidant le peuple - Eugène Delacroix - Musée du Louvre Peintures RF 129 - après restauration 2024.jpg"
+    },
+    {
+      "key": "eugene-delacroix-the-death-of-sardanapalus-wga6173",
+      "commonsFile": "Eugène Delacroix - The Death of Sardanapalus - WGA6173.jpg"
+    },
+    {
+      "key": "mary-stevenson-cassatt-in-the-loge-google-art-project",
+      "commonsFile": "Mary Stevenson Cassatt - In the Loge - Google Art Project.jpg"
+    },
+    {
+      "key": "mary-cassatt-the-child-s-bath-google-art-project",
+      "commonsFile": "Mary Cassatt - The Child's Bath - Google Art Project.jpg"
+    },
+    {
+      "key": "mona-lisa",
+      "commonsFile": "Mona Lisa.jpg"
+    },
+    {
+      "key": "leonardo-da-vinci-the-last-supper-high-res",
+      "commonsFile": "Leonardo da Vinci - The Last Supper high res.jpg"
+    },
+    {
+      "key": "the-calling-of-saint-matthew-caravaggo-1599-1600",
+      "commonsFile": "The Calling of Saint Matthew-Caravaggo (1599-1600).jpg"
+    },
+    {
+      "key": "caravaggio-judith-beheading-holofernes",
+      "commonsFile": "Judith Beheading Holofernes - Caravaggio.jpg"
+    },
+    {
+      "key": "the-night-watch-hd",
+      "commonsFile": "The Night Watch - HD.jpg"
+    },
+    {
+      "key": "rembrandt-harmensz-van-rijn-self-portrait-google-art-project",
+      "commonsFile": "Rembrandt Harmensz. van Rijn - Self-Portrait - Google Art Project.jpg"
+    },
+    {
+      "key": "velazquez-the-surrender-of-breda",
+      "commonsFile": "Velazquez-The Surrender of Breda.jpg"
+    },
+    {
+      "key": "great-wave-off-kanagawa2",
+      "commonsFile": "Great Wave off Kanagawa2.jpg"
+    },
+    {
+      "key": "red-fuji-south-wind-clear-morning",
+      "commonsFile": "Katsushika Hokusai - Fine Wind, Clear Morning (Gaifū kaisei) - Google Art Project.jpg"
+    },
+    {
+      "key": "el-tres-de-mayo-by-francisco-de-goya-from-prado-thin-black-margin",
+      "commonsFile": "El Tres de Mayo, by Francisco de Goya, from Prado thin black margin.jpg"
+    },
+    {
+      "key": "francisco-de-goya-saturno-devorando-a-su-hijo-1819-1823",
+      "commonsFile": "Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg"
+    },
+    {
+      "key": "rain-steam-and-speed-the-great-western-railway",
+      "commonsFile": "Rain Steam and Speed the Great Western Railway.jpg"
+    },
+    {
+      "key": "slave-ship",
+      "commonsFile": "Slave-ship.jpg"
+    },
+    {
+      "key": "edouard-manet-luncheon-on-the-grass-google-art-project",
+      "commonsFile": "Edouard Manet - Luncheon on the Grass - Google Art Project.jpg"
+    },
+    {
+      "key": "claude-monet-impression-soleil-levant",
+      "commonsFile": "Claude Monet, Impression, soleil levant.jpg"
+    },
+    {
+      "key": "claude-monet-water-lilies-1906-ryerson",
+      "commonsFile": "Claude Monet - Water Lilies - 1906, Ryerson.jpg"
+    },
+    {
+      "key": "vincent-van-gogh-sunflowers-vgm-f458",
+      "commonsFile": "Vincent van Gogh - Sunflowers - VGM F458.jpg"
+    },
+    {
+      "key": "paul-cezanne-mont-sainte-victoire-and-the-viaduct-of-the-arc-river-valley",
+      "commonsFile": "Paul Cézanne - Mont Sainte-Victoire and the Viaduct of the Arc River Valley (Metropolitan Museum of Art).jpg"
+    },
+    {
+      "key": "paul-cezanne-les-grandes-baigneuses",
+      "commonsFile": "Paul Cézanne, French - The Large Bathers - Google Art Project.jpg"
+    },
+    {
+      "key": "the-kiss-gustav-klimt-google-cultural-institute",
+      "commonsFile": "The Kiss - Gustav Klimt - Google Cultural Institute.jpg"
+    },
+    {
+      "key": "gustav-klimt-046",
+      "commonsFile": "Gustav Klimt 046.jpg"
+    }
+  ],
+  "eras": [
+    {
+      "slug": "ancient",
+      "number": "01",
+      "sortOrder": 1,
+      "label": {
+        "en": "Ancient Greek & Hellenistic",
+        "zh": "古希腊与希腊化"
+      },
+      "range": {
+        "en": "c. 600-20 BCE",
+        "zh": "约公元前600—前20年"
+      },
+      "summary": {
+        "en": "Myth, civic identity, the ideal body, temple form, vase painting, and Hellenistic drama.",
+        "zh": "神话、公民身份、理想身体、神庙形式、瓶画与希腊化戏剧性。"
+      },
+      "startYear": -600,
+      "endYear": -20,
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "roman-byzantine",
+      "number": "02",
+      "sortOrder": 2,
+      "label": {
+        "en": "Roman, Early Christian & Byzantine",
+        "zh": "罗马、早期基督教与拜占庭"
+      },
+      "range": {
+        "en": "c. 100-537 CE",
+        "zh": "约公元100—537年"
+      },
+      "summary": {
+        "en": "Concrete space, imperial authority, funerary portraiture, Christian relief, and luminous sacred interiors.",
+        "zh": "混凝土空间、帝国权威、丧葬肖像、基督教浮雕与发光的神圣室内。"
+      },
+      "startYear": 100,
+      "endYear": 537,
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "gothic",
+      "number": "03",
+      "sortOrder": 3,
+      "label": {
+        "en": "Medieval Gothic",
+        "zh": "中世纪哥特"
+      },
+      "range": {
+        "en": "1194-c. 1399",
+        "zh": "1194—约1399年"
+      },
+      "summary": {
+        "en": "Cathedral structure, portal sculpture, stained light, devotional preciousness, and public theology.",
+        "zh": "大教堂结构、门廊雕塑、彩色光线、虔敬的珍贵材料与公共神学。"
+      },
+      "startYear": 1194,
+      "endYear": 1399,
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "renaissance",
+      "number": "04",
+      "sortOrder": 4,
+      "label": {
+        "en": "Renaissance",
+        "zh": "文艺复兴"
+      },
+      "range": {
+        "en": "c. 1485-1504",
+        "zh": "约1485—1504年"
+      },
+      "summary": {
+        "en": "Classical revival, humanist beauty, ideal proportion, civic bodies, and central-plan architecture.",
+        "zh": "古典复兴、人文主义美、理想比例、公民身体与集中式建筑。"
+      },
+      "startYear": 1485,
+      "endYear": 1504,
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "baroque",
+      "number": "05",
+      "sortOrder": 5,
+      "label": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "range": {
+        "en": "1638-1677",
+        "zh": "1638—1677年"
+      },
+      "summary": {
+        "en": "Theatrical space, religious persuasion, court spectatorship, motion, and psychological drama.",
+        "zh": "戏剧化空间、宗教说服、宫廷观看、运动感与心理戏剧。"
+      },
+      "startYear": 1638,
+      "endYear": 1677,
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "modern",
+      "number": "06",
+      "sortOrder": 6,
+      "label": {
+        "en": "Modernity",
+        "zh": "现代性"
+      },
+      "range": {
+        "en": "1863-1889",
+        "zh": "1863—1889年"
+      },
+      "summary": {
+        "en": "Modern spectatorship, exposed structure, expressive surface, urban spectacle, and subjective vision.",
+        "zh": "现代观看、暴露的结构、表现性的画面表面、城市景观与主观视觉。"
+      },
+      "startYear": 1863,
+      "endYear": 1889,
+      "zhStatus": "draft"
+    }
+  ],
+  "works": [
+    {
+      "slug": "parthenon-collection",
+      "eraSlug": "ancient",
+      "sortOrder": 3,
+      "category": "architecture",
+      "title": {
+        "en": "Parthenon",
+        "zh": "帕特农神庙"
+      },
+      "date": {
+        "en": "447-432 BCE",
+        "zh": "公元前447—前432年"
+      },
+      "startYear": -447,
+      "endYear": -432,
+      "culture": {
+        "en": "Classical Athens",
+        "zh": "古典雅典"
+      },
+      "imageKey": "the-parthenon-in-athens",
+      "imagePosition": null,
+      "context": {
+        "en": "Built on the Acropolis after the Persian sack of Athens, the Parthenon is both a temple to Athena and a public statement about Athenian power. It turns civic wealth, religious devotion, military memory, and democratic self-image into architecture.",
+        "zh": "帕特农神庙建于波斯人洗劫雅典之后的卫城上，既是献给雅典娜的神庙，也是雅典权力的公共宣言。它把城邦财富、宗教虔敬、战争记忆和民主自我形象转化为建筑。"
+      },
+      "visual": {
+        "en": [
+          "The Doric colonnade gives the building a severe rhythm: repeated columns, heavy entablature, and a calm rectangular body.",
+          "Its optical refinements slightly curve and adjust the architecture so the temple appears more perfect to the human eye.",
+          "Sculpture and procession mattered as much as structure; the building taught viewers how Athens wanted to be seen.",
+          "The temple is not just a shell for worship. It is a total visual system: proportion, myth, ritual, and civic pride."
+        ],
+        "zh": [
+          "多立克柱廊给建筑带来严肃的节奏：重复的柱子、厚重的檐部和冷静的矩形主体。",
+          "建筑中的视觉修正略微弯曲并调整形体，让神庙在人眼中显得更完美。",
+          "雕塑和游行与结构同样重要；建筑教导观看者雅典希望自己如何被看见。",
+          "神庙不是单纯的礼拜外壳，而是一套完整的视觉系统：比例、神话、仪式和公民骄傲。"
+        ]
+      },
+      "implications": {
+        "en": "The Parthenon shows that architecture can create political memory. Marble becomes a language for authority, order, victory, and cultural inheritance.",
+        "zh": "帕特农神庙说明建筑可以创造政治记忆。大理石成为权威、秩序、胜利和文化继承的语言。"
+      },
+      "questions": {
+        "en": [
+          "When does a sacred building become a political monument?",
+          "How does proportion make power feel natural?",
+          "What changes when we view the Parthenon as a damaged historical survivor rather than a timeless ideal?"
+        ],
+        "zh": [
+          "神圣建筑在什么时候变成政治纪念碑？",
+          "比例如何让权力显得自然？",
+          "当我们把帕特农看作受损的历史幸存物，而不是永恒理想时，会发生什么变化？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/the-parthenon-athens/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "pantheon",
+      "eraSlug": "roman-byzantine",
+      "sortOrder": 2,
+      "category": "architecture",
+      "title": {
+        "en": "Pantheon",
+        "zh": "万神殿"
+      },
+      "date": {
+        "en": "c. 125 CE",
+        "zh": "约公元125年"
+      },
+      "startYear": 125,
+      "endYear": 125,
+      "culture": {
+        "en": "Imperial Rome",
+        "zh": "罗马帝国"
+      },
+      "imageKey": "pantheon-rome-dome-interior",
+      "imagePosition": null,
+      "context": {
+        "en": "The Pantheon joins temple, imperial space, engineering experiment, and later Christian church. Its survival depends partly on reuse: the building kept living because its meaning could change.",
+        "zh": "万神殿结合了神庙、帝国空间、工程实验，以及后来的基督教教堂。它能保存至今，部分原因在于再利用：建筑因意义可以改变而继续存活。"
+      },
+      "visual": {
+        "en": [
+          "The exterior portico looks like a traditional temple front, but the interior opens into a vast circular rotunda.",
+          "The coffered concrete dome lightens mass while turning structure into ornament.",
+          "The oculus is the only major direct light source, so sunlight moves through the building like a visible cosmic instrument.",
+          "The geometry of circle, square, dome, and floor makes the visitor feel placed inside an ordered universe."
+        ],
+        "zh": [
+          "外部柱廊像传统神庙正面，内部却打开为巨大的圆形大厅。",
+          "带藻井的混凝土穹顶减轻重量，同时把结构变成装饰。",
+          "穹顶圆孔是主要自然光源，阳光在室内移动，像可见的宇宙仪器。",
+          "圆、方、穹顶和地面的几何关系，让参观者感到自己置身有序宇宙之中。"
+        ]
+      },
+      "implications": {
+        "en": "Roman architecture does not only imitate Greek forms; it transforms space through concrete, scale, and interior experience. The Pantheon makes power feel cosmic.",
+        "zh": "罗马建筑不只是模仿希腊形式；它通过混凝土、尺度和室内经验改造空间。万神殿让权力显得具有宇宙秩序。"
+      },
+      "questions": {
+        "en": [
+          "Why does the interior matter more than the facade here?",
+          "How does moving light change the meaning of architecture?",
+          "What does reuse do to a monument's identity?"
+        ],
+        "zh": [
+          "为什么这里的内部比立面更重要？",
+          "移动的光如何改变建筑的意义？",
+          "再利用会怎样改变一座纪念物的身份？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/the-pantheon/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "hagia-sophia",
+      "eraSlug": "roman-byzantine",
+      "sortOrder": 4,
+      "category": "architecture",
+      "title": {
+        "en": "Hagia Sophia",
+        "zh": "圣索菲亚大教堂"
+      },
+      "date": {
+        "en": "532-537 CE",
+        "zh": "公元532—537年"
+      },
+      "startYear": 532,
+      "endYear": 537,
+      "culture": {
+        "en": "Byzantine Constantinople",
+        "zh": "拜占庭君士坦丁堡"
+      },
+      "imageKey": "interior-of-hagia-sophia",
+      "imagePosition": null,
+      "context": {
+        "en": "Built under Emperor Justinian in Constantinople, Hagia Sophia was designed as a Christian imperial church at the center of Byzantine power. Its later lives as mosque, museum, and mosque again show how architecture can carry layered religious and political histories.",
+        "zh": "圣索菲亚大教堂由查士丁尼皇帝在君士坦丁堡建造，是拜占庭权力中心的基督教帝国教堂。它后来作为清真寺、博物馆、再度成为清真寺的生命，显示建筑能承载多层宗教与政治历史。"
+      },
+      "visual": {
+        "en": [
+          "The huge central dome appears to float because windows around its base dissolve the weight of the structure.",
+          "Pendentives solve the technical problem of placing a round dome over a square bay.",
+          "Marble revetment, mosaics, and light make the interior feel less like stone mass and more like atmosphere.",
+          "The building uses scale and radiance to make empire feel divinely ordered."
+        ],
+        "zh": [
+          "巨大的中央穹顶似乎在漂浮，因为底部一圈窗户消解了结构重量。",
+          "帆拱解决了把圆形穹顶放在方形空间上的技术问题。",
+          "大理石贴面、镶嵌画和光线让室内不再像沉重石块，而像一种气氛。",
+          "建筑用尺度与光辉让帝国显得由神圣秩序支撑。"
+        ]
+      },
+      "implications": {
+        "en": "Hagia Sophia changes architecture from a stable classical body into an immersive spiritual environment. It is engineering used for wonder.",
+        "zh": "圣索菲亚把建筑从稳定的古典身体转向沉浸式的精神环境。它是为惊奇服务的工程。"
+      },
+      "questions": {
+        "en": [
+          "How can architecture make weight seem weightless?",
+          "What happens when one building serves different religions across time?",
+          "Is light here decoration, theology, or political theater?"
+        ],
+        "zh": [
+          "建筑如何让重量看起来失重？",
+          "一座建筑在不同时期服务不同宗教时会发生什么？",
+          "这里的光是装饰、神学，还是政治剧场？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/hagia-sophia-istanbul/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "chartres",
+      "eraSlug": "gothic",
+      "sortOrder": 1,
+      "category": "architecture",
+      "title": {
+        "en": "Chartres Cathedral",
+        "zh": "沙特尔大教堂"
+      },
+      "date": {
+        "en": "main campaign after 1194",
+        "zh": "主体工程始于1194年之后"
+      },
+      "startYear": 1194,
+      "endYear": 1194,
+      "culture": {
+        "en": "French Gothic",
+        "zh": "法国哥特"
+      },
+      "imageKey": "westfassade-chartres",
+      "imagePosition": null,
+      "context": {
+        "en": "Chartres was rebuilt after a major fire and became one of the clearest statements of Gothic ambition. Pilgrimage, Marian devotion, urban pride, stained glass, and guild labor all meet in the cathedral.",
+        "zh": "沙特尔大教堂在大火后重建，成为哥特雄心最清晰的宣言之一。朝圣、圣母崇拜、城市骄傲、彩色玻璃和行会劳动都在这座教堂中相遇。"
+      },
+      "visual": {
+        "en": [
+          "Pointed arches, rib vaults, and flying buttresses move weight outward so walls can open for glass.",
+          "The west facade combines portal sculpture with towers, making theology legible before one enters.",
+          "Stained glass transforms daylight into colored narrative and sacred atmosphere.",
+          "The building is a system: structure, sculpture, glass, procession, and sound all work together."
+        ],
+        "zh": [
+          "尖拱、肋拱和飞扶壁把重量向外转移，使墙面可以打开给玻璃。",
+          "西立面把门廊雕塑与塔楼结合，让神学在进入之前就可被阅读。",
+          "彩色玻璃把日光转化为有颜色的叙事和神圣气氛。",
+          "建筑是一个系统：结构、雕塑、玻璃、游行和声音共同工作。"
+        ]
+      },
+      "implications": {
+        "en": "Chartres shows Gothic architecture as a technology of height, light, and collective belief. It makes the city itself participate in sacred spectacle.",
+        "zh": "沙特尔展示哥特建筑作为高度、光线和集体信仰的技术。它让城市本身参与神圣景观。"
+      },
+      "questions": {
+        "en": [
+          "Why did medieval builders want walls to disappear into glass?",
+          "How does a cathedral teach people who cannot read texts?",
+          "What is the relationship between engineering and devotion?"
+        ],
+        "zh": [
+          "为什么中世纪建筑师希望墙面消失为玻璃？",
+          "一座大教堂如何教导不能阅读文字的人？",
+          "工程与虔敬之间是什么关系？"
+        ]
+      },
+      "source": "Chartres Cathedral",
+      "sourceUrl": "https://www.cathedrale-chartres.org/en/cathedrale/monument/larchitecture/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "kouros-collection",
+      "eraSlug": "ancient",
+      "sortOrder": 2,
+      "category": "sculpture",
+      "title": {
+        "en": "Kouros Figure",
+        "zh": "库罗斯立像"
+      },
+      "date": {
+        "en": "c. 590-580 BCE",
+        "zh": "约公元前590—前580年"
+      },
+      "startYear": -590,
+      "endYear": -580,
+      "culture": {
+        "en": "Archaic Greece",
+        "zh": "古风希腊"
+      },
+      "imageKey": "kouros-nama-3851-athens-greece",
+      "imagePosition": "center 18%",
+      "context": {
+        "en": "The kouros belongs to an early Greek sculptural culture that used the standing male body for grave markers, dedications, and ideals of youth. It is not portraiture in the modern sense; it is a public grammar of the body.",
+        "zh": "青年立像属于早期希腊雕塑文化，站立的男性身体被用作墓碑、奉献物和青春理想。它不是现代意义上的肖像，而是身体的公共语法。"
+      },
+      "visual": {
+        "en": [
+          "The figure is frontal, symmetrical, and rigid, with one foot forward but little sense of natural walking.",
+          "Anatomy is patterned and stylized: hair, knees, torso, and smile behave like signs of life rather than observed flesh.",
+          "The body is nude, youthful, and idealized, connecting beauty with status and sacred/public memory.",
+          "The sculpture still carries traces of Egyptian frontality while pushing toward a distinct Greek interest in the free-standing body."
+        ],
+        "zh": [
+          "人物正面、对称、僵直，一脚向前却几乎没有自然行走的感觉。",
+          "解剖被图案化和程式化：头发、膝盖、躯干和微笑像生命的符号，而不是观察到的肉身。",
+          "身体裸体、年轻且理想化，把美与身份、神圣/公共记忆连接起来。",
+          "雕塑仍带有埃及正面性的痕迹，同时走向希腊对独立站立身体的兴趣。"
+        ]
+      },
+      "implications": {
+        "en": "The kouros helps explain why the human body becomes central in Greek art: not only as anatomy, but as social ideal, offering, memory, and measure.",
+        "zh": "青年立像帮助解释为什么人体成为希腊艺术的核心：不仅是解剖，也是社会理想、奉献、记忆和尺度。"
+      },
+      "questions": {
+        "en": [
+          "What does an ideal body communicate before it becomes realistic?",
+          "Why might a culture choose nudity for public honor?",
+          "How is stillness different from lifelessness?"
+        ],
+        "zh": [
+          "一个理想身体在变得写实之前能传达什么？",
+          "为什么一种文化会选择裸体作为公共荣誉的形式？",
+          "静止与无生命有什么不同？"
+        ]
+      },
+      "source": "Met Museum Heilbrunn",
+      "sourceUrl": "https://www.metmuseum.org/essays/greek-art-in-the-archaic-period",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "aphrodite-knidos-collection",
+      "eraSlug": "ancient",
+      "sortOrder": 4,
+      "category": "sculpture",
+      "title": {
+        "en": "Aphrodite of Knidos",
+        "zh": "克尼多斯的阿佛洛狄忒"
+      },
+      "date": {
+        "en": "Roman copy after Praxiteles, c. 350 BCE",
+        "zh": "罗马复制品，原作为普拉克西特列斯，约公元前350年"
+      },
+      "startYear": -350,
+      "endYear": -350,
+      "culture": {
+        "en": "Late Classical Greece",
+        "zh": "晚期古典希腊"
+      },
+      "imageKey": "1981-11-statue-of-the-aphrodite-of-knidos",
+      "imagePosition": "center 16%",
+      "context": {
+        "en": "Praxiteles' Aphrodite became famous as a decisive image of the monumental female nude. Unlike male athletic nudity, this goddess stages beauty, vulnerability, modesty, and desire inside a single viewing encounter.",
+        "zh": "普拉克西特列斯的阿佛洛狄忒作为纪念性女性裸体的关键图像而著名。不同于男性运动裸体，这位女神把美、脆弱、羞怯和欲望放进同一次观看相遇中。"
+      },
+      "visual": {
+        "en": [
+          "The body turns gently, creating softness rather than kouros-like frontality.",
+          "The covering gesture both hides and focuses attention, making the viewer conscious of looking.",
+          "The goddess is divine, but the pose makes her seem caught in a human moment.",
+          "The sculpture helped set the long Western tradition of Venus images: ideal beauty mixed with erotic spectatorship."
+        ],
+        "zh": [
+          "身体轻柔转动，产生柔软感，而不是青年立像式的正面性。",
+          "遮掩手势既隐藏又集中注意力，让观看者意识到自己在观看。",
+          "她是女神，但姿态让她像是被捕捉在一个人的瞬间。",
+          "雕塑帮助确立了西方维纳斯图像的长传统：理想美与情色观看混合在一起。"
+        ]
+      },
+      "implications": {
+        "en": "The work matters because it changes what can be shown. It makes the female nude a prestigious subject while also raising the problem of desire, power, and the viewer's gaze.",
+        "zh": "这件作品重要，因为它改变了什么可以被展示。它使女性裸体成为高贵主题，同时也提出欲望、权力与观看者凝视的问题。"
+      },
+      "questions": {
+        "en": [
+          "Is the modest gesture protective, theatrical, or erotic?",
+          "What changes when divinity is shown as vulnerable?",
+          "How does this sculpture shape later images of Venus?"
+        ],
+        "zh": [
+          "遮掩手势是保护性的、戏剧性的，还是情色的？",
+          "当神性被表现为脆弱时会改变什么？",
+          "这件雕塑如何塑造后来维纳斯图像？"
+        ]
+      },
+      "source": "Met Museum Heilbrunn",
+      "sourceUrl": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "laocoon",
+      "eraSlug": "ancient",
+      "sortOrder": 5,
+      "category": "sculpture",
+      "title": {
+        "en": "Laocoon and His Sons",
+        "zh": "拉奥孔群像"
+      },
+      "date": {
+        "en": "c. 40-20 BCE",
+        "zh": "约公元前40—前20年"
+      },
+      "startYear": -40,
+      "endYear": -20,
+      "culture": {
+        "en": "Hellenistic / Roman collection",
+        "zh": "希腊化 / 罗马收藏"
+      },
+      "imageKey": "laocoon-and-his-sons-group",
+      "imagePosition": null,
+      "context": {
+        "en": "Laocoon, the Trojan priest who warned against the wooden horse, is destroyed with his sons by sea serpents. Rediscovered in Rome in 1506, the group became a touchstone for Renaissance artists fascinated by anatomy, agony, and expressive motion.",
+        "zh": "拉奥孔是警告特洛伊人不要接受木马的祭司，他和儿子被海蛇毁灭。1506年在罗马被重新发现后，这组雕塑成为文艺复兴艺术家研究解剖、痛苦和运动表现的关键对象。"
+      },
+      "visual": {
+        "en": [
+          "The bodies twist in a knot of muscle, serpents, panic, and resistance.",
+          "Laocoon's central torso is heroic in scale, but heroism is trapped inside suffering.",
+          "The composition stretches one instant of pain into a theatrical arrangement of diagonals.",
+          "Unlike calm Classical idealism, this sculpture makes emotion, bodily strain, and pathos the main event."
+        ],
+        "zh": [
+          "身体、蛇、恐慌和抵抗扭结在一团肌肉之中。",
+          "拉奥孔中央躯干具有英雄尺度，但英雄性被困在痛苦中。",
+          "构图把痛苦的一瞬间拉长为充满对角线的戏剧安排。",
+          "不同于冷静的古典理想，这件雕塑让情感、身体紧张和悲怆成为主体。"
+        ]
+      },
+      "implications": {
+        "en": "Laocoon shows the Hellenistic taste for drama and psychological extremity. It also shows how rediscovery can remake art history: ancient sculpture became fuel for Renaissance ambition.",
+        "zh": "拉奥孔显示希腊化艺术对戏剧性和心理极端的兴趣，也说明重新发现如何重塑艺术史：古代雕塑成为文艺复兴雄心的燃料。"
+      },
+      "questions": {
+        "en": [
+          "Why is suffering so visually compelling here?",
+          "Does the group ask for pity, admiration, or horror?",
+          "How did ancient art become modern again through Renaissance rediscovery?"
+        ],
+        "zh": [
+          "为什么痛苦在这里如此具有视觉吸引力？",
+          "这组雕塑要求我们怜悯、敬佩，还是恐惧？",
+          "古代艺术如何通过文艺复兴的重新发现再次变得现代？"
+        ]
+      },
+      "source": "Vatican Museums",
+      "sourceUrl": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "michelangelo-david",
+      "eraSlug": "renaissance",
+      "sortOrder": 3,
+      "category": "sculpture",
+      "title": {
+        "en": "Michelangelo, David",
+        "zh": "米开朗基罗，大卫"
+      },
+      "date": {
+        "en": "1501-1504",
+        "zh": "1501—1504年"
+      },
+      "startYear": 1501,
+      "endYear": 1504,
+      "culture": {
+        "en": "Florentine Renaissance",
+        "zh": "佛罗伦萨文艺复兴"
+      },
+      "imageKey": "michelangelo-s-david-1",
+      "imagePosition": "center 12%",
+      "context": {
+        "en": "David was carved for Florence and quickly became a political symbol of the republic. The biblical underdog becomes a civic body: beautiful, alert, threatened, and ready.",
+        "zh": "《大卫》为佛罗伦萨而雕，很快成为共和国的政治象征。圣经中的弱者变成一种城市身体：美丽、警觉、受威胁，并准备行动。"
+      },
+      "visual": {
+        "en": [
+          "Michelangelo shows the moment before action, not the victory after Goliath's defeat.",
+          "Contrapposto makes the figure relaxed and tense at once: weight rests, but the gaze is alert.",
+          "The enlarged head and hands help the statue read from below and intensify thought and action.",
+          "The nude body competes with ancient sculpture while giving the biblical hero a Renaissance humanist dignity."
+        ],
+        "zh": [
+          "米开朗基罗表现的是行动前的瞬间，而不是战胜歌利亚之后。",
+          "对立式姿态让人物同时放松又紧张：重量休息，目光却警觉。",
+          "放大的头和手帮助雕像从下方观看时更清楚，也强化思想与行动。",
+          "裸体身体与古代雕塑竞争，同时赋予圣经英雄文艺复兴人文主义的尊严。"
+        ]
+      },
+      "implications": {
+        "en": "David turns sculpture into political psychology. The body is not only ideal form; it is the image of a city imagining its courage.",
+        "zh": "《大卫》把雕塑变成政治心理学。身体不仅是理想形式，也是一个城市想象自身勇气的图像。"
+      },
+      "questions": {
+        "en": [
+          "Why show David before the fight instead of after?",
+          "How can a nude biblical hero become a political symbol?",
+          "What does the statue say about Renaissance competition with antiquity?"
+        ],
+        "zh": [
+          "为什么表现战斗前的大卫，而不是胜利后的大卫？",
+          "裸体的圣经英雄如何成为政治象征？",
+          "这座雕像如何回应文艺复兴与古代的竞争？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/michelangelo-david/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "birth-of-venus-collection",
+      "eraSlug": "renaissance",
+      "sortOrder": 1,
+      "category": "painting",
+      "title": {
+        "en": "Botticelli, The Birth of Venus",
+        "zh": "波提切利，维纳斯的诞生"
+      },
+      "date": {
+        "en": "c. 1485",
+        "zh": "约1485年"
+      },
+      "startYear": 1485,
+      "endYear": 1485,
+      "culture": {
+        "en": "Florentine Renaissance",
+        "zh": "佛罗伦萨文艺复兴"
+      },
+      "imageKey": "sandro-botticelli-la-nascita-di-venere-google-art-project-edited",
+      "imagePosition": null,
+      "context": {
+        "en": "The painting belongs to elite Florentine humanist culture, where classical myth could become a learned, poetic, and socially refined subject. It makes pagan beauty newly available inside Renaissance visual culture.",
+        "zh": "这幅画属于佛罗伦萨精英人文主义文化，在那里古典神话可以成为有学问、诗意且社会上精致的题材。它使异教之美重新进入文艺复兴视觉文化。"
+      },
+      "visual": {
+        "en": [
+          "Venus stands on a shell in the Venus pudica pose, covering herself while becoming the center of looking.",
+          "Botticelli privileges contour, rhythm, hair, flowers, and drapery more than convincing spatial depth.",
+          "The shallow stage and linear bodies make the scene feel poetic rather than naturalistic.",
+          "The painting turns the nude into an idea of beauty: vulnerable, ideal, decorative, and intellectually framed."
+        ],
+        "zh": [
+          "维纳斯站在贝壳上，采用维纳斯羞怯式姿态，一边遮掩自己，一边成为观看中心。",
+          "波提切利更重视轮廓、节奏、头发、花朵和衣褶，而不是令人信服的空间深度。",
+          "浅舞台和线性身体让场景显得诗意，而不是自然主义。",
+          "绘画把裸体转化为美的观念：脆弱、理想、装饰性，并被知识框架包围。"
+        ]
+      },
+      "implications": {
+        "en": "This work is crucial for understanding Renaissance humanism: antiquity is not copied passively, but transformed into courtly poetry, desire, and philosophical beauty.",
+        "zh": "这件作品对理解文艺复兴人文主义很关键：古代不是被被动复制，而是被转化为宫廷诗意、欲望和哲学之美。"
+      },
+      "questions": {
+        "en": [
+          "How does mythology make the nude socially acceptable?",
+          "Is Venus a body, an idea, or both?",
+          "Why does Botticelli choose line over realism?"
+        ],
+        "zh": [
+          "神话如何让裸体在社会上变得可接受？",
+          "维纳斯是身体、观念，还是两者兼有？",
+          "为什么波提切利选择线条而不是写实？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/sandro-botticelli-the-birth-of-venus/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "las-meninas-collection",
+      "eraSlug": "baroque",
+      "sortOrder": 3,
+      "category": "painting",
+      "title": {
+        "en": "Velazquez, Las Meninas",
+        "zh": "委拉斯开兹，宫娥"
+      },
+      "date": {
+        "en": "1656",
+        "zh": "1656年"
+      },
+      "startYear": 1656,
+      "endYear": 1656,
+      "culture": {
+        "en": "Spanish Baroque",
+        "zh": "西班牙巴洛克"
+      },
+      "imageKey": "las-meninas-01",
+      "imagePosition": null,
+      "context": {
+        "en": "Las Meninas is a court painting that refuses to behave like a simple royal portrait. It places the painter, princess, attendants, royal reflection, and viewer inside one unstable system of looking.",
+        "zh": "《宫娥》是一幅拒绝成为简单王室肖像的宫廷绘画。它把画家、公主、侍从、王室倒影和观看者放进一个不稳定的观看系统。"
+      },
+      "visual": {
+        "en": [
+          "The Infanta is brightly lit at the center, but the true subject may be the act of painting itself.",
+          "The mirror reflects the king and queen, implying that they stand where the viewer stands.",
+          "Velazquez includes himself before a large canvas, elevating the painter's role within court power.",
+          "Open doors, mirrors, gazes, and brushwork make space feel intellectual as well as physical."
+        ],
+        "zh": [
+          "公主在中心被明亮照亮，但真正主题可能是绘画行为本身。",
+          "镜子反射国王和王后，暗示他们站在观看者的位置。",
+          "委拉斯开兹把自己画在巨大画布前，提升了画家在宫廷权力中的地位。",
+          "打开的门、镜子、目光和笔触让空间既是物理的，也是智性的。"
+        ]
+      },
+      "implications": {
+        "en": "The painting asks who controls representation. It is about monarchy, artistic status, spectatorship, and the strange power of images to include the viewer.",
+        "zh": "这幅画追问谁控制再现。它关于君主制、艺术家地位、观看关系，以及图像把观看者纳入其中的奇异力量。"
+      },
+      "questions": {
+        "en": [
+          "Who is the painting really for?",
+          "Where exactly are we standing as viewers?",
+          "How does Velazquez make painting seem like thought?"
+        ],
+        "zh": [
+          "这幅画真正是为谁而画？",
+          "作为观看者，我们到底站在哪里？",
+          "委拉斯开兹如何让绘画看起来像思考？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/diego-velazquez-las-meninas/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "olympia-collection",
+      "eraSlug": "modern",
+      "sortOrder": 1,
+      "category": "painting",
+      "title": {
+        "en": "Manet, Olympia",
+        "zh": "马奈，奥林匹亚"
+      },
+      "date": {
+        "en": "1863",
+        "zh": "1863年"
+      },
+      "startYear": 1863,
+      "endYear": 1863,
+      "culture": {
+        "en": "Modern Paris",
+        "zh": "现代巴黎"
+      },
+      "imageKey": "manet-edouard-olympia",
+      "imagePosition": null,
+      "context": {
+        "en": "Olympia replaces the mythological nude with a modern woman associated with Parisian prostitution. Manet forces academic tradition, modern sex work, race, money, and spectatorship into the same room.",
+        "zh": "《奥林匹亚》用一个与巴黎性交易相关的现代女性取代了神话裸体。马奈把学院传统、现代卖淫、种族、金钱和观看关系强行放进同一房间。"
+      },
+      "visual": {
+        "en": [
+          "The nude body is flat, pale, sharply lit, and deliberately resistant to academic idealization.",
+          "Olympia's gaze is direct; she does not disappear into fantasy for the viewer's comfort.",
+          "The Black servant, flowers, slippers, bracelet, and cat make the scene socially specific rather than timeless.",
+          "The painting declares its surface through blunt contours and shallow space."
+        ],
+        "zh": [
+          "裸体身体扁平、苍白、光线锐利，并有意抵抗学院派理想化。",
+          "奥林匹亚直视观众；她不会为了观看者的舒适而消失进幻想。",
+          "黑人女仆、花束、拖鞋、手镯和猫让场景具有明确社会身份，而不是永恒神话。",
+          "这幅画通过生硬轮廓和浅空间宣告自身的画面表面。"
+        ]
+      },
+      "implications": {
+        "en": "Olympia matters because it makes modernity visible as discomfort. It exposes the social contract behind the nude: who looks, who pays, who is named, and who is made invisible.",
+        "zh": "《奥林匹亚》重要，因为它把现代性表现为不适。它暴露了裸体背后的社会契约：谁在观看、谁在付钱、谁被命名、谁被隐形。"
+      },
+      "questions": {
+        "en": [
+          "Why was this nude more scandalous than mythological nudes?",
+          "What work does Olympia's gaze do?",
+          "How does Manet connect flatness with social honesty?"
+        ],
+        "zh": [
+          "为什么这个裸体比神话裸体更具丑闻性？",
+          "奥林匹亚的目光在做什么？",
+          "马奈如何把扁平性与社会诚实连接起来？"
+        ]
+      },
+      "source": "Musee d'Orsay",
+      "sourceUrl": "https://www.musee-orsay.fr/en/artworks/olympia-712",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "starry-night-collection",
+      "eraSlug": "modern",
+      "sortOrder": 4,
+      "category": "painting",
+      "title": {
+        "en": "Van Gogh, The Starry Night",
+        "zh": "梵高，星月夜"
+      },
+      "date": {
+        "en": "1889",
+        "zh": "1889年"
+      },
+      "startYear": 1889,
+      "endYear": 1889,
+      "culture": {
+        "en": "Post-Impressionism",
+        "zh": "后印象主义"
+      },
+      "imageKey": "van-gogh-starry-night-google-art-project",
+      "imagePosition": null,
+      "context": {
+        "en": "Painted while Van Gogh was at Saint-Remy, The Starry Night transforms landscape into emotional and spiritual pressure. It moves beyond Impressionist perception toward expressive vision.",
+        "zh": "《星月夜》画于梵高在圣雷米期间，它把风景转化为情感和精神压力。它超越印象派的知觉，走向表现性的视觉。"
+      },
+      "visual": {
+        "en": [
+          "The sky churns with thick, directional brushstrokes that make night feel alive and unstable.",
+          "The cypress rises like a dark flame, connecting earth, village, and sky.",
+          "The village is calmer and more geometric, a human counterpoint to cosmic movement.",
+          "Color and line do not merely describe the view; they generate feeling."
+        ],
+        "zh": [
+          "天空以厚重而有方向的笔触旋转，让夜晚显得有生命且不稳定。",
+          "柏树像黑色火焰升起，连接土地、村庄和天空。",
+          "村庄更安静、更几何，是宇宙运动的人类对照。",
+          "色彩和线条不只是描述景色，而是在生成情感。"
+        ]
+      },
+      "implications": {
+        "en": "The painting teaches a modern lesson: accuracy is not the same as truth. Van Gogh makes inner intensity visible through external landscape.",
+        "zh": "这幅画教给我们一个现代经验：准确不等于真实。梵高通过外部风景让内在强度可见。"
+      },
+      "questions": {
+        "en": [
+          "What does the painting gain by exaggerating nature?",
+          "Is the night comforting, terrifying, or sacred?",
+          "How does brushwork become emotion?"
+        ],
+        "zh": [
+          "夸张自然让这幅画获得了什么？",
+          "这个夜晚是安慰的、恐怖的，还是神圣的？",
+          "笔触如何变成情感？"
+        ]
+      },
+      "source": "MoMA",
+      "sourceUrl": "https://www.moma.org/collection/works/79802",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "black-figure-amphora-collection",
+      "eraSlug": "ancient",
+      "sortOrder": 1,
+      "category": "painting",
+      "title": {
+        "en": "Athenian Black-Figure Amphora",
+        "zh": "雅典黑绘双耳瓶"
+      },
+      "date": {
+        "en": "6th century BCE",
+        "zh": "公元前6世纪"
+      },
+      "startYear": -599,
+      "endYear": -500,
+      "culture": {
+        "en": "Archaic Greece",
+        "zh": "古风希腊"
+      },
+      "imageKey": "greek-amphora-storage-jar-with-herakles-carrying-the-erymanthian-boar-athens-c-5",
+      "imagePosition": null,
+      "context": {
+        "en": "Greek painting did not only live on walls and panels. Much of what survives is vase painting: portable, usable, traded objects that carried myth into dining, ritual, storage, burial, and domestic life.",
+        "zh": "希腊绘画并不只存在于墙面和画板上。幸存下来的很多是陶瓶画：可携带、可使用、可交易的物体，把神话带入宴饮、仪式、储藏、墓葬和家庭生活。"
+      },
+      "visual": {
+        "en": [
+          "Dark silhouettes sit against the warm clay ground, making bodies legible through contour.",
+          "Incised details cut into the black slip add anatomy, pattern, textile, and weapon detail.",
+          "The curved vessel forces the image to become rhythmic; narrative wraps around an object held in the hand.",
+          "Myth is compressed into a few essential poses so the story can be recognized quickly."
+        ],
+        "zh": [
+          "深色剪影立在温暖陶土底色上，通过轮廓让身体变得清晰。",
+          "刻线切入黑色陶衣，补充解剖、图案、织物和武器细节。",
+          "弯曲的器形迫使图像形成节奏；叙事围绕着手中可握的物体展开。",
+          "神话被压缩成几个关键姿态，使故事能被迅速识别。"
+        ]
+      },
+      "implications": {
+        "en": "The amphora breaks the museum habit of separating art from use. Greek image-making was social, portable, and lived with.",
+        "zh": "陶瓶打破了博物馆把艺术与使用分离的习惯。希腊图像制造是社会性的、可携带的，并且与生活同在。"
+      },
+      "questions": {
+        "en": [
+          "How does a usable object change the meaning of an image?",
+          "What gets simplified when myth has to fit a curved surface?",
+          "Why does vase painting survive when so much ancient panel painting does not?"
+        ],
+        "zh": [
+          "可使用的物体如何改变图像意义？",
+          "当神话必须适应弯曲表面时，什么会被简化？",
+          "为什么陶瓶画幸存下来，而许多古代板画没有？"
+        ]
+      },
+      "source": "Met Museum Heilbrunn",
+      "sourceUrl": "https://www.metmuseum.org/essays/greek-art-in-the-archaic-period",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "fayum-portrait",
+      "eraSlug": "roman-byzantine",
+      "sortOrder": 1,
+      "category": "painting",
+      "title": {
+        "en": "Fayum Mummy Portrait",
+        "zh": "法尤姆木乃伊肖像"
+      },
+      "date": {
+        "en": "c. 100-150 CE",
+        "zh": "约公元100—150年"
+      },
+      "startYear": 100,
+      "endYear": 150,
+      "culture": {
+        "en": "Roman Egypt",
+        "zh": "罗马埃及"
+      },
+      "imageKey": "portrait-of-the-boy-eutyches-metmuseum-18-9-2",
+      "imagePosition": null,
+      "context": {
+        "en": "Fayum mummy portraits come from Roman Egypt, where Greek, Roman, and Egyptian traditions overlapped. Naturalistic painted faces were attached to mummified bodies, joining Roman-style portraiture to Egyptian funerary practice.",
+        "zh": "法尤姆木乃伊肖像来自罗马埃及，希腊、罗马和埃及传统在此重叠。自然主义的绘制面孔被附在木乃伊身体上，把罗马式肖像与埃及丧葬实践连接起来。"
+      },
+      "visual": {
+        "en": [
+          "The frontal gaze makes the dead feel vividly present rather than remote.",
+          "Soft modeling, large eyes, and encaustic surface create a charged intimacy.",
+          "The head is individualized, but the object still belongs to ritual and burial.",
+          "The portrait sits between life likeness and afterlife image."
+        ],
+        "zh": [
+          "正面凝视让死者显得鲜活在场，而不是遥远。",
+          "柔和塑造、大眼睛和蜡画表面创造出强烈亲密感。",
+          "头部具有个体性，但对象仍属于仪式和墓葬。",
+          "肖像处在生前相貌与来世图像之间。"
+        ]
+      },
+      "implications": {
+        "en": "This work complicates neat period labels. Roman, Egyptian, Greek, painting, portrait, and funerary object all occupy the same surface.",
+        "zh": "这件作品复杂化了整齐的时代标签。罗马、埃及、希腊、绘画、肖像和丧葬物体都占据同一表面。"
+      },
+      "questions": {
+        "en": [
+          "Is this a portrait, a memorial, or a ritual object?",
+          "How does the direct gaze change our relation to the dead?",
+          "What does cultural mixture look like in visual form?"
+        ],
+        "zh": [
+          "这是肖像、纪念物，还是仪式物？",
+          "直接凝视如何改变我们与死者的关系？",
+          "文化混合在视觉形式中是什么样子？"
+        ]
+      },
+      "source": "Met Museum",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/547951",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "junius-bassus",
+      "eraSlug": "roman-byzantine",
+      "sortOrder": 3,
+      "category": "sculpture",
+      "title": {
+        "en": "Sarcophagus of Junius Bassus",
+        "zh": "尤尼乌斯·巴苏斯石棺"
+      },
+      "date": {
+        "en": "359 CE",
+        "zh": "公元359年"
+      },
+      "startYear": 359,
+      "endYear": 359,
+      "culture": {
+        "en": "Early Christian Rome",
+        "zh": "早期基督教罗马"
+      },
+      "imageKey": "tesoro-di-san-pietro-sarcofago-di-giunio-basso",
+      "imagePosition": null,
+      "context": {
+        "en": "Made for an elite Roman convert shortly after Christianity became legally accepted, this sarcophagus shows Christian stories using inherited classical forms. It is a monument to religious change without a clean break from Rome.",
+        "zh": "这具石棺为一位罗马精英皈依者制作，时间在基督教合法化不久后。它用继承自古典世界的形式表现基督教故事，是宗教转变的纪念物，却没有与罗马彻底断裂。"
+      },
+      "visual": {
+        "en": [
+          "Biblical scenes are organized into architectural compartments, like a carved theological archive.",
+          "Christ appears with imperial authority, borrowing Roman visual language for Christian meaning.",
+          "Drapery, bodies, and calm ordering preserve classical dignity inside a new religious program.",
+          "The surface reads as both narrative and status: faith and elite identity are carved together."
+        ],
+        "zh": [
+          "圣经场景被组织在建筑隔间中，像一座雕刻的神学档案。",
+          "基督以帝国权威出现，借用罗马视觉语言来表达基督教意义。",
+          "衣褶、身体和冷静秩序在新宗教内容中保留古典尊严。",
+          "表面既是叙事，也是身份：信仰与精英身份被一起雕刻。"
+        ]
+      },
+      "implications": {
+        "en": "The sarcophagus shows Christianity absorbing and redirecting classical culture rather than simply replacing it.",
+        "zh": "石棺显示基督教并非简单取代古典文化，而是吸收并重新导向它。"
+      },
+      "questions": {
+        "en": [
+          "What happens when a new religion uses the visual grammar of an older empire?",
+          "Why would an elite convert want classical style on a Christian tomb?",
+          "How does relief sculpture organize belief?"
+        ],
+        "zh": [
+          "新宗教使用旧帝国的视觉语法时会发生什么？",
+          "为什么精英皈依者会想要基督教墓葬上的古典风格？",
+          "浮雕如何组织信仰？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/sarcophagus-of-junius-bassus/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "wilton-diptych",
+      "eraSlug": "gothic",
+      "sortOrder": 3,
+      "category": "painting",
+      "title": {
+        "en": "The Wilton Diptych",
+        "zh": "威尔顿双联画"
+      },
+      "date": {
+        "en": "c. 1395-1399",
+        "zh": "约1395—1399年"
+      },
+      "startYear": 1395,
+      "endYear": 1399,
+      "culture": {
+        "en": "International Gothic England",
+        "zh": "英国国际哥特"
+      },
+      "imageKey": "wilton-diptych",
+      "imagePosition": null,
+      "context": {
+        "en": "This small hinged devotional painting was made for Richard II. It turns royal identity, private prayer, precious materials, and courtly Gothic refinement into an intimate object.",
+        "zh": "这件小型可折叠虔敬画为理查二世制作，把王权身份、私人祈祷、珍贵材料和宫廷哥特的精致感转化为亲密物件。"
+      },
+      "visual": {
+        "en": [
+          "Gold ground and ultramarine blue make the object feel jewel-like rather than earthly.",
+          "The hinged diptych format makes the painting portable and protective, like a private shrine.",
+          "Richard II is shown kneeling before sacred figures, making kingship dependent on divine favor.",
+          "Pattern, delicacy, and preciousness matter more than naturalistic depth."
+        ],
+        "zh": [
+          "金地和群青蓝让作品像宝石一样，而不是尘世空间。",
+          "双联画形式使它可携带、可保护，像私人圣龛。",
+          "理查二世跪在圣人面前，使王权显得依赖神恩。",
+          "图案、精细和珍贵性比自然主义深度更重要。"
+        ]
+      },
+      "implications": {
+        "en": "The Wilton Diptych shows medieval painting as political devotion: power appears humble, but that humility is itself carefully staged.",
+        "zh": "《威尔顿双联画》显示中世纪绘画是一种政治化的虔敬：权力表现为谦卑，但这种谦卑本身也被精心安排。"
+      },
+      "questions": {
+        "en": [
+          "How can a private prayer object also be royal propaganda?",
+          "Why does material preciousness matter spiritually?",
+          "What does Gothic painting gain by not pursuing Renaissance naturalism?"
+        ],
+        "zh": [
+          "私人祈祷物如何同时成为王室宣传？",
+          "材料的珍贵性为什么具有精神意义？",
+          "哥特绘画不追求文艺复兴自然主义时获得了什么？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/the-wilton-diptych/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "chartres-portal",
+      "eraSlug": "gothic",
+      "sortOrder": 2,
+      "category": "sculpture",
+      "title": {
+        "en": "Chartres Portal Sculpture",
+        "zh": "沙特尔大教堂门廊雕塑"
+      },
+      "date": {
+        "en": "12th-13th century",
+        "zh": "12—13世纪"
+      },
+      "startYear": 1100,
+      "endYear": 1299,
+      "culture": {
+        "en": "French Gothic",
+        "zh": "法国哥特"
+      },
+      "imageKey": "chartres-south-portal-central-bay",
+      "imagePosition": null,
+      "context": {
+        "en": "The portals of Chartres turn the cathedral threshold into carved theology. Before entering, viewers encounter saints, prophets, biblical history, labor, time, judgment, and salvation in stone.",
+        "zh": "沙特尔的门廊把大教堂门槛变成雕刻神学。进入之前，观看者就会在石头中遇见圣徒、先知、圣经历史、劳动、时间、审判和救赎。"
+      },
+      "visual": {
+        "en": [
+          "Figures stretch with the architecture, attached to columns and portals like a sacred procession.",
+          "Drapery, gesture, and facial expression vary across workshops, giving theology a human register.",
+          "The sculpture works with the building rather than standing apart from it.",
+          "Narrative is arranged around the act of entry: the viewer physically passes through doctrine."
+        ],
+        "zh": [
+          "人物随建筑被拉长，依附于柱子和门廊，像神圣游行。",
+          "衣褶、手势和面部表情在不同工坊间变化，让神学有了人的维度。",
+          "雕塑与建筑共同工作，而不是独立存在。",
+          "叙事围绕进入这一行为安排：观看者身体穿过教义。"
+        ]
+      },
+      "implications": {
+        "en": "Gothic sculpture makes architecture readable. It teaches with bodies, thresholds, and repeated viewing rather than with text alone.",
+        "zh": "哥特雕塑让建筑可被阅读。它用身体、门槛和反复观看来教学，而不只依靠文字。"
+      },
+      "questions": {
+        "en": [
+          "How does sculpture change when it is built into architecture?",
+          "What does it mean to walk through an image program?",
+          "How did medieval art teach through repetition and location?"
+        ],
+        "zh": [
+          "当雕塑建入建筑中时，它会如何改变？",
+          "穿过一个图像系统意味着什么？",
+          "中世纪艺术如何通过重复和位置来教学？"
+        ]
+      },
+      "source": "Chartres CSM",
+      "sourceUrl": "https://www.chartres-csm.org/en/the-cathedral/the-sculptures-on-the-transept-portals/the-north-portal/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "bramante-tempietto",
+      "eraSlug": "renaissance",
+      "sortOrder": 2,
+      "category": "architecture",
+      "title": {
+        "en": "Bramante, Tempietto",
+        "zh": "布拉曼特，坦比哀多小神殿"
+      },
+      "date": {
+        "en": "c. 1502",
+        "zh": "约1502年"
+      },
+      "startYear": 1502,
+      "endYear": 1502,
+      "culture": {
+        "en": "High Renaissance Rome",
+        "zh": "罗马盛期文艺复兴"
+      },
+      "imageKey": "01-bramante-tempietto-exterior",
+      "imagePosition": null,
+      "context": {
+        "en": "The Tempietto marks the supposed site of Saint Peter's crucifixion while reviving the language of antique centralized architecture. It is small, but it became a manifesto for Renaissance order.",
+        "zh": "小圣堂标记圣彼得殉难的假定地点，同时复兴古代集中式建筑语言。它体量很小，却成为文艺复兴秩序的宣言。"
+      },
+      "visual": {
+        "en": [
+          "The circular plan, dome, steps, and Doric colonnade create a self-contained classical ideal.",
+          "Its scale is intimate, but its proportions make it feel complete and authoritative.",
+          "The building looks backward to antiquity and forward to High Renaissance central-plan ambitions.",
+          "Architecture becomes argument: perfect form can frame sacred memory."
+        ],
+        "zh": [
+          "圆形平面、穹顶、台阶和多立克柱廊创造出自足的古典理想。",
+          "尺度亲密，但比例让它显得完整且有权威。",
+          "建筑回望古代，同时预示盛期文艺复兴对集中式平面的雄心。",
+          "建筑成为论证：完美形式可以框定神圣记忆。"
+        ]
+      },
+      "implications": {
+        "en": "The Tempietto shows Renaissance classicism as disciplined invention, not mere copying. Antiquity becomes a tool for Christian monumentality.",
+        "zh": "小圣堂显示文艺复兴古典主义是一种有纪律的发明，而不是简单复制。古代成为基督教纪念性的工具。"
+      },
+      "questions": {
+        "en": [
+          "Why does a martyrdom site get a classical circular temple form?",
+          "How can a tiny building become historically enormous?",
+          "What does symmetry promise to the viewer?"
+        ],
+        "zh": [
+          "为什么殉难地点会使用古典圆形神庙形式？",
+          "一座很小的建筑如何在历史上变得巨大？",
+          "对称向观看者承诺了什么？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/donato-bramante-tempietto-rome/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "ecstasy-teresa",
+      "eraSlug": "baroque",
+      "sortOrder": 2,
+      "category": "sculpture",
+      "title": {
+        "en": "Bernini, Ecstasy of Saint Teresa",
+        "zh": "贝尼尼，圣特蕾莎的狂喜"
+      },
+      "date": {
+        "en": "1647-1652",
+        "zh": "1647—1652年"
+      },
+      "startYear": 1647,
+      "endYear": 1652,
+      "culture": {
+        "en": "Roman Baroque",
+        "zh": "罗马巴洛克"
+      },
+      "imageKey": "ecstasy-of-st-theresa",
+      "imagePosition": null,
+      "context": {
+        "en": "Bernini's chapel sculpture stages Teresa of Avila's mystical vision as a theatrical event. Sculpture, architecture, light, patron portraits, and bodily sensation are fused into one Baroque machine.",
+        "zh": "贝尼尼的礼拜堂雕塑把阿维拉的德兰的神秘幻象组织成戏剧事件。雕塑、建筑、光线、赞助人肖像和身体感受融合成一台巴洛克机器。"
+      },
+      "visual": {
+        "en": [
+          "Teresa collapses backward while the angel calmly prepares the arrow, making spiritual experience bodily.",
+          "Marble turns into flesh, cloth, cloud, and theatrical motion.",
+          "Hidden light and gilded rays make divine presence feel staged and real at once.",
+          "The Cornaro family appears in side boxes, as if watching sacred theater."
+        ],
+        "zh": [
+          "德兰向后瘫倒，天使平静地准备箭矢，使精神经验变得身体化。",
+          "大理石变成肉体、布料、云朵和戏剧性运动。",
+          "隐藏光源与镀金光线让神圣在场既像舞台效果又像真实经验。",
+          "科尔纳罗家族出现在侧面包厢中，仿佛观看神圣剧场。"
+        ]
+      },
+      "implications": {
+        "en": "The work shows Baroque art as persuasion through total environment. It wants belief to be felt in the nerves.",
+        "zh": "这件作品显示巴洛克艺术通过总体环境进行说服。它希望信仰被神经感受到。"
+      },
+      "questions": {
+        "en": [
+          "Where is the line between devotion and theater?",
+          "Why does Baroque spirituality often use the body so intensely?",
+          "How do sculpture, architecture, and light become one artwork?"
+        ],
+        "zh": [
+          "虔敬与剧场之间的界线在哪里？",
+          "为什么巴洛克精神性常常如此强烈地使用身体？",
+          "雕塑、建筑和光如何成为一件作品？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/bernini-ecstasy-of-st-teresa/",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "san-carlo",
+      "eraSlug": "baroque",
+      "sortOrder": 1,
+      "category": "architecture",
+      "title": {
+        "en": "Borromini, San Carlo alle Quattro Fontane",
+        "zh": "博罗米尼，四泉圣卡罗教堂"
+      },
+      "date": {
+        "en": "1638-1677",
+        "zh": "1638—1677年"
+      },
+      "startYear": 1638,
+      "endYear": 1677,
+      "culture": {
+        "en": "Roman Baroque",
+        "zh": "罗马巴洛克"
+      },
+      "imageKey": "san-carlo-alle-quattro-fontane-front",
+      "imagePosition": null,
+      "context": {
+        "en": "Borromini's small Roman church turns limited urban space into restless architectural invention. Its facade and interior reject static Renaissance balance for movement, compression, and release.",
+        "zh": "博罗米尼的小型罗马教堂把有限城市空间转化为充满动势的建筑发明。立面和内部拒绝静态的文艺复兴平衡，转向运动、压缩和释放。"
+      },
+      "visual": {
+        "en": [
+          "The facade curves in and out, making stone behave almost like a living surface.",
+          "Columns, niches, and entablatures create vertical rhythm while the wall undulates horizontally.",
+          "The oval interior and coffered dome make space feel elastic rather than fixed.",
+          "The building is compact, but its geometry creates drama from constraint."
+        ],
+        "zh": [
+          "立面向内外弯曲，使石头几乎像有生命的表面。",
+          "柱子、壁龛和檐部创造垂直节奏，而墙面在水平方向起伏。",
+          "椭圆形内部和藻井穹顶让空间显得富有弹性，而不是固定。",
+          "建筑很小，但几何从限制中制造戏剧性。"
+        ]
+      },
+      "implications": {
+        "en": "San Carlo shows Baroque architecture thinking through motion. Space becomes active, psychological, and theatrical.",
+        "zh": "圣卡洛显示巴洛克建筑通过运动思考。空间变得主动、心理化、戏剧化。"
+      },
+      "questions": {
+        "en": [
+          "How can a facade seem to move?",
+          "What happens when architecture is designed from pressure and constraint?",
+          "Why did Baroque Rome value spatial drama?"
+        ],
+        "zh": [
+          "立面如何看起来像在运动？",
+          "当建筑从压力和限制中设计出来时会发生什么？",
+          "为什么巴洛克罗马重视空间戏剧性？"
+        ]
+      },
+      "source": "Wikimedia Commons / Borromini object record",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Carlo_alle_Quattro_Fontane_-_Front.jpg",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "rodin-thinker",
+      "eraSlug": "modern",
+      "sortOrder": 2,
+      "category": "sculpture",
+      "title": {
+        "en": "Rodin, The Thinker",
+        "zh": "罗丹，思想者"
+      },
+      "date": {
+        "en": "1881-1883",
+        "zh": "1881—1883年"
+      },
+      "startYear": 1881,
+      "endYear": 1883,
+      "culture": {
+        "en": "Modern sculpture",
+        "zh": "现代雕塑"
+      },
+      "imageKey": "the-thinker-met-11405",
+      "imagePosition": null,
+      "context": {
+        "en": "Rodin's figure began in relation to The Gates of Hell and became a freestanding icon of modern thought. It is heroic, but not serenely classical: thinking is shown as bodily compression.",
+        "zh": "罗丹的这个人物最初与《地狱之门》相关，后来成为现代思想的独立象征。它是英雄性的，但并不宁静古典：思考被表现为身体的压缩。"
+      },
+      "visual": {
+        "en": [
+          "The body folds inward with chin on hand, making thought look muscular and heavy.",
+          "The rough surface keeps the sculpture alive, resisting polished academic finish.",
+          "The figure is monumental but psychologically unsettled.",
+          "Rodin makes interior life visible through tension, mass, and touch."
+        ],
+        "zh": [
+          "身体向内折叠，下巴抵在手上，使思想看起来肌肉化、沉重。",
+          "粗糙表面让雕塑保持活性，抵抗学院派光滑完成度。",
+          "人物具有纪念性，却在心理上不安定。",
+          "罗丹通过紧张、体量和触感让内在生活可见。"
+        ]
+      },
+      "implications": {
+        "en": "The Thinker modernizes sculpture by making mind and body inseparable. It is not an ideal athlete; it is a body under mental pressure.",
+        "zh": "《思想者》通过让心智和身体不可分来现代化雕塑。它不是理想运动员，而是处在精神压力下的身体。"
+      },
+      "questions": {
+        "en": [
+          "Why does thought need a body in this sculpture?",
+          "How does rough surface change our sense of finish?",
+          "Is the figure heroic, trapped, or both?"
+        ],
+        "zh": [
+          "为什么这件雕塑中的思想需要身体？",
+          "粗糙表面如何改变我们对完成度的理解？",
+          "这个人物是英雄、被困者，还是两者兼有？"
+        ]
+      },
+      "source": "Met Museum",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/191805",
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "eiffel-tower",
+      "eraSlug": "modern",
+      "sortOrder": 3,
+      "category": "architecture",
+      "title": {
+        "en": "Eiffel Tower",
+        "zh": "埃菲尔铁塔"
+      },
+      "date": {
+        "en": "1887-1889",
+        "zh": "1887—1889年"
+      },
+      "startYear": 1887,
+      "endYear": 1889,
+      "culture": {
+        "en": "Third Republic France",
+        "zh": "法兰西第三共和国"
+      },
+      "imageKey": "eiffel-tower-at-exposition-universelle-paris-1889",
+      "imagePosition": null,
+      "context": {
+        "en": "Built for the 1889 Universal Exposition, the Eiffel Tower made engineering, iron, industry, spectacle, and national ambition visible on an unprecedented scale.",
+        "zh": "埃菲尔铁塔为1889年世界博览会建造，以前所未有的尺度让工程、铁、工业、景观和国家雄心变得可见。"
+      },
+      "visual": {
+        "en": [
+          "The exposed iron lattice refuses the disguise of traditional masonry architecture.",
+          "Its tapering structure turns engineering necessity into a new kind of beauty.",
+          "The tower is both machine-like and ornamental, unsettling older ideas of monumentality.",
+          "Its height turns modern technology into public spectacle."
+        ],
+        "zh": [
+          "暴露的铁格构拒绝传统砌体建筑的伪装。",
+          "逐渐收束的结构把工程必要性转化为新的美。",
+          "铁塔既像机器又有装饰性，动摇了旧的纪念性观念。",
+          "它的高度把现代技术转化为公共景观。"
+        ]
+      },
+      "implications": {
+        "en": "The Eiffel Tower shows modern architecture breaking from stone, wall, and historical style. Structure itself becomes image.",
+        "zh": "埃菲尔铁塔显示现代建筑脱离石材、墙体和历史风格。结构本身成为图像。"
+      },
+      "questions": {
+        "en": [
+          "When does engineering become architecture?",
+          "Why did exposed metal feel shocking in the nineteenth century?",
+          "How does scale create national myth?"
+        ],
+        "zh": [
+          "工程在什么时候变成建筑？",
+          "为什么暴露金属在十九世纪会令人震惊？",
+          "尺度如何创造国家神话？"
+        ]
+      },
+      "source": "Smarthistory",
+      "sourceUrl": "https://smarthistory.org/gustave-eiffel-tower/",
+      "zhStatus": "draft"
+    }
+  ],
+  "greekHighlights": [
+    {
+      "workSlug": "parthenon-collection",
+      "sortOrder": 1,
+      "imagePosition": null,
+      "theme": {
+        "en": "Temple, city, proportion",
+        "zh": "神庙、城市、比例"
+      },
+      "lookFor": {
+        "en": [
+          "Doric columns supporting a massive entablature without decorative scrolls.",
+          "A measured balance between heavy stone and optical refinement.",
+          "The temple as a public image of Athens, not just a religious container."
+        ],
+        "zh": [
+          "多立克柱式支撑着厚重的檐部，没有装饰性的涡卷。",
+          "沉重石材与视觉修正之间形成有节制的平衡。",
+          "神庙不仅是宗教容器，也是雅典公共形象。"
+        ]
+      },
+      "whyItMatters": {
+        "en": "It teaches you that Greek architecture is political and visual at the same time: proportion becomes a language of civic authority.",
+        "zh": "它说明希腊建筑同时是政治的、也是视觉的：比例变成了公民权威的语言。"
+      },
+      "note": {
+        "en": "Athenian power becomes architecture. The Parthenon is not only a temple to Athena; it is a civic argument in marble, using proportion, procession, sculpture, and optical refinement to turn the city into an image of order.",
+        "zh": "雅典的权力变成了建筑。帕特农神庙不仅是献给雅典娜的神庙，也是一篇用大理石写成的城市论证：比例、游行、雕塑和视觉修正共同把城邦塑造成秩序的图像。"
+      },
+      "zhStatus": "reviewed"
+    },
+    {
+      "workSlug": "kouros-collection",
+      "sortOrder": 2,
+      "imagePosition": "center 18%",
+      "theme": {
+        "en": "Ideal body, frontality",
+        "zh": "理想身体、正面性"
+      },
+      "lookFor": {
+        "en": [
+          "A rigid frontal pose with one foot stepping forward.",
+          "A body organized by symmetry, youth, and ideal proportion.",
+          "The archaic smile and stylized anatomy rather than full naturalism."
+        ],
+        "zh": [
+          "正面而僵直的站姿，一只脚向前迈出。",
+          "身体被对称、青春和理想比例组织起来。",
+          "古风微笑与程式化解剖，而不是完全自然主义。"
+        ]
+      },
+      "whyItMatters": {
+        "en": "It shows the early Greek attempt to turn the human body into an ideal public form before classical naturalism fully develops.",
+        "zh": "它展示了早期希腊如何在古典自然主义成熟之前，把人体转化为一种理想的公共形式。"
+      },
+      "note": {
+        "en": "The archaic kouros gives the human body a public grammar: upright, frontal, balanced, and idealized. It is not yet naturalistic in the later classical sense, but it makes the body a carrier of youth, status, memory, and sacred presence.",
+        "zh": "古风时期的青年立像为人体建立了一套公共语法：直立、正面、平衡、理想化。它还不是后来的古典自然主义，但已经让身体承载青春、身份、记忆和神圣在场。"
+      },
+      "zhStatus": "reviewed"
+    },
+    {
+      "workSlug": "aphrodite-knidos-collection",
+      "sortOrder": 3,
+      "imagePosition": "center 16%",
+      "theme": {
+        "en": "Female nude, divinity, desire",
+        "zh": "女性裸体、神性、欲望"
+      },
+      "lookFor": {
+        "en": [
+          "A nude goddess shown with human vulnerability rather than remote sacred distance.",
+          "The hand gesture that both conceals and draws attention to the body.",
+          "The shift from male athletic nudity toward the female nude as a major subject of classical sculpture."
+        ],
+        "zh": [
+          "裸体女神带有人的脆弱感，而不是遥远的神圣距离。",
+          "遮掩的手势既隐藏身体，也把观看引向身体。",
+          "从男性运动员裸体转向女性裸体成为古典雕塑的重要主题。"
+        ]
+      },
+      "whyItMatters": {
+        "en": "This is one of the decisive moments in the history of the nude. The goddess Aphrodite becomes a body to be viewed, desired, protected, and interpreted, which shapes later Western images of Venus for centuries.",
+        "zh": "这是裸体艺术史中的决定性时刻之一。阿佛洛狄忒成为被观看、被欲望、被保护和被解释的身体，影响了后来数百年的维纳斯图像。"
+      },
+      "note": {
+        "en": "The Aphrodite of Knidos, associated with Praxiteles, is famous as a breakthrough in the monumental female nude. Unlike the kouros or athlete, this body is not about civic youth or athletic control; it joins divinity, beauty, modesty, and erotic looking. It is a crucial bridge between Greek ideals of the body and the long later tradition of Venus images.",
+        "zh": "与普拉克西特列斯相关的《克尼多斯的阿佛洛狄忒》以纪念性女性裸体的突破而著名。不同于青年立像或运动员，这个身体不再只是公民青春或运动控制，而是把神性、美、羞怯与欲望观看结合起来。"
+      },
+      "zhStatus": "reviewed"
+    },
+    {
+      "workSlug": "black-figure-amphora-collection",
+      "sortOrder": 4,
+      "imagePosition": null,
+      "theme": {
+        "en": "Myth as portable image",
+        "zh": "作为可携带图像的神话"
+      },
+      "lookFor": {
+        "en": [
+          "Black figures organized clearly against the clay ground.",
+          "Mythic action compressed onto a curved everyday object.",
+          "The vase as both usable object and storytelling surface."
+        ],
+        "zh": [
+          "黑色人物清晰地组织在陶土底色上。",
+          "神话行动被压缩到弯曲的日用物体表面。",
+          "陶瓶既是可用之物，也是讲故事的表面。"
+        ]
+      },
+      "whyItMatters": {
+        "en": "It reminds you that Greek art was not only temples and statues. Images also moved through lived objects, trade, ritual, and domestic life.",
+        "zh": "它提醒我们希腊艺术不只有神庙和雕像。图像也通过生活器物、贸易、仪式和家庭空间流动。"
+      },
+      "note": {
+        "en": "Painted pottery carried stories through daily life, ritual, trade, and burial. Before museums made art feel separate from use, Greek images lived on objects that could be handled, filled, exchanged, and remembered.",
+        "zh": "彩绘陶器把故事带入日常生活、仪式、贸易与墓葬。在博物馆把艺术从使用中分离出来之前，希腊图像就生活在可以被拿起、盛装、交换和记忆的物体上。"
+      },
+      "zhStatus": "reviewed"
+    }
+  ],
+  "painters": [
+    {
+      "slug": "botticelli",
+      "sortOrder": 1,
+      "name": {
+        "en": "Sandro Botticelli",
+        "zh": "桑德罗·波提切利"
+      },
+      "years": {
+        "en": "c. 1445-1510",
+        "zh": "约1445—1510年"
+      },
+      "birthYear": 1445,
+      "deathYear": 1510,
+      "countryKey": "italy",
+      "country": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "periodKey": "early-renaissance",
+      "period": {
+        "en": "Early Renaissance",
+        "zh": "早期文艺复兴"
+      },
+      "movement": {
+        "en": "Florentine Renaissance",
+        "zh": "佛罗伦萨文艺复兴"
+      },
+      "hook": {
+        "en": "Mythology, line, courtly beauty, and humanist poetry become painting.",
+        "zh": "神话、线条、宫廷之美与人文主义诗歌化为绘画。"
+      },
+      "position": {
+        "en": "Botticelli is central for understanding how Renaissance Florence turned classical mythology into elite visual culture. His paintings do not pursue Leonardo's atmospheric naturalism; they privilege contour, rhythm, poetic beauty, and the intellectual world of Medici humanism.",
+        "zh": "要理解文艺复兴时期的佛罗伦萨如何把古典神话转化为精英视觉文化，波提切利是核心人物。他的绘画并不追求列奥纳多那种大气氤氲的自然主义，而是看重轮廓、节奏、诗意之美，以及美第奇人文主义的知识世界。"
+      },
+      "sources": [
+        "Smarthistory: Botticelli, The Birth of Venus",
+        "Uffizi: The Birth of Venus",
+        "Uffizi: Primavera"
+      ],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "artemisia",
+      "sortOrder": 2,
+      "name": {
+        "en": "Artemisia Gentileschi",
+        "zh": "阿尔泰米西娅·真蒂莱斯基"
+      },
+      "years": {
+        "en": "1593-c. 1656",
+        "zh": "1593—约1656年"
+      },
+      "birthYear": 1593,
+      "deathYear": 1656,
+      "countryKey": "italy",
+      "country": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "periodKey": "baroque",
+      "period": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "movement": {
+        "en": "Caravaggesque Baroque",
+        "zh": "卡拉瓦乔派巴洛克"
+      },
+      "hook": {
+        "en": "Biblical heroines become forceful, physical, and psychologically credible.",
+        "zh": "圣经中的女英雄变得有力、具身，且在心理上令人信服。"
+      },
+      "position": {
+        "en": "Artemisia Gentileschi is essential because she transforms Baroque drama through female agency. Her paintings use Caravaggio's darkness and realism, but her heroines are not decorative victims; they act, resist, calculate, and survive.",
+        "zh": "阿尔泰米西娅·真蒂莱斯基之所以不可或缺，在于她借女性的能动性改写了巴洛克的戏剧性。她的绘画沿用卡拉瓦乔的幽暗与写实，但她笔下的女英雄不是装饰性的受害者；她们行动、抵抗、谋划，并且幸存下来。"
+      },
+      "sources": [
+        "Smarthistory: Artemisia Gentileschi, Judith Slaying Holofernes",
+        "Uffizi: Judith Beheading Holofernes",
+        "Royal Collection Trust: Self-Portrait as the Allegory of Painting"
+      ],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "vermeer",
+      "sortOrder": 3,
+      "name": {
+        "en": "Johannes Vermeer",
+        "zh": "约翰内斯·维米尔"
+      },
+      "years": {
+        "en": "1632-1675",
+        "zh": "1632—1675年"
+      },
+      "birthYear": 1632,
+      "deathYear": 1675,
+      "countryKey": "netherlands",
+      "country": {
+        "en": "Netherlands",
+        "zh": "荷兰"
+      },
+      "periodKey": "baroque",
+      "period": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "movement": {
+        "en": "Dutch Golden Age",
+        "zh": "荷兰黄金时代"
+      },
+      "hook": {
+        "en": "Quiet interiors turn light, looking, and ordinary activity into mystery.",
+        "zh": "静谧的室内让光线、观看与日常活动化为谜。"
+      },
+      "position": {
+        "en": "Vermeer is crucial for understanding the Dutch Golden Age as a culture of domestic interiors, optical subtlety, and concentrated looking. His paintings are small in action but vast in attention: light, silence, labor, and gaze become subjects in themselves.",
+        "zh": "要把荷兰黄金时代理解为一种关于家居室内、光学微妙与专注观看的文化，维米尔至关重要。他的画中动作很小，注意力却极为广阔：光线、寂静、劳作与凝视本身都成为主题。"
+      },
+      "sources": [
+        "Mauritshuis: Girl with a Pearl Earring",
+        "Rijksmuseum: The Milkmaid",
+        "Smarthistory: Vermeer"
+      ],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "delacroix",
+      "sortOrder": 4,
+      "name": {
+        "en": "Eugene Delacroix",
+        "zh": "欧仁·德拉克洛瓦"
+      },
+      "years": {
+        "en": "1798-1863",
+        "zh": "1798—1863年"
+      },
+      "birthYear": 1798,
+      "deathYear": 1863,
+      "countryKey": "france",
+      "country": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "periodKey": "romanticism",
+      "period": {
+        "en": "Romanticism",
+        "zh": "浪漫主义"
+      },
+      "movement": {
+        "en": "French Romanticism",
+        "zh": "法国浪漫主义"
+      },
+      "hook": {
+        "en": "Color, violence, politics, and emotion become engines of modern history painting.",
+        "zh": "色彩、暴力、政治与情感成为现代历史画的驱动力。"
+      },
+      "position": {
+        "en": "Delacroix is one of the defining painters of French Romanticism. Against academic restraint and Neoclassical clarity, he makes color, movement, emotion, and political intensity central to painting.",
+        "zh": "德拉克洛瓦是定义法国浪漫主义的画家之一。他反对学院派的克制与新古典主义的明晰，把色彩、运动、情感和政治张力置于绘画的核心。"
+      },
+      "sources": [
+        "Smarthistory: Delacroix, Liberty Leading the People",
+        "Louvre: Delacroix exhibition",
+        "Wikimedia/Louvre records for public-domain images"
+      ],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "cassatt",
+      "sortOrder": 5,
+      "name": {
+        "en": "Mary Cassatt",
+        "zh": "玛丽·卡萨特"
+      },
+      "years": {
+        "en": "1844-1926",
+        "zh": "1844—1926年"
+      },
+      "birthYear": 1844,
+      "deathYear": 1926,
+      "countryKey": "united-states-france",
+      "country": {
+        "en": "United States / France",
+        "zh": "美国 / 法国"
+      },
+      "periodKey": "impressionism",
+      "period": {
+        "en": "Impressionism",
+        "zh": "印象派"
+      },
+      "movement": {
+        "en": "Impressionism",
+        "zh": "印象派"
+      },
+      "hook": {
+        "en": "Modern women look, care, move, and occupy public/private space with agency.",
+        "zh": "现代女性以自主的姿态观看、照料、行动，并占据公共与私人空间。"
+      },
+      "position": {
+        "en": "Mary Cassatt gives Impressionism a different social geography. Instead of only cafes, boulevards, and male flaneurs, she studies women in theaters, domestic interiors, gardens, boats, and intimate acts of care, often making looking itself a gendered subject.",
+        "zh": "玛丽·卡萨特为印象派带来了另一种社会地理。她关注的不只是咖啡馆、林荫大道和男性漫游者，而是剧院、家居室内、花园、小船中的女性，以及亲密的照料行为；她常常让观看本身成为带有性别意味的主题。"
+      },
+      "sources": [
+        "Smarthistory: Mary Cassatt, In the Loge",
+        "Smarthistory: Mary Cassatt, The Child's Bath",
+        "Art Institute of Chicago: The Child's Bath",
+        "National Gallery of Art: The Boating Party"
+      ],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "leonardo",
+      "sortOrder": 6,
+      "name": {
+        "en": "Leonardo da Vinci",
+        "zh": "列奥纳多·达·芬奇"
+      },
+      "years": {
+        "en": "1452-1519",
+        "zh": "1452—1519年"
+      },
+      "birthYear": 1452,
+      "deathYear": 1519,
+      "countryKey": "italy",
+      "country": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "periodKey": "high-renaissance",
+      "period": {
+        "en": "High Renaissance",
+        "zh": "盛期文艺复兴"
+      },
+      "movement": {
+        "en": "Renaissance humanism",
+        "zh": "文艺复兴人文主义"
+      },
+      "hook": {
+        "en": "Painting becomes inquiry: anatomy, optics, psychology, atmosphere.",
+        "zh": "绘画成为探究：解剖、光学、心理与大气。"
+      },
+      "position": {
+        "en": "Leonardo represents the High Renaissance ideal of art joined to scientific observation. His paintings do not only describe bodies; they test how bodies, air, light, psychology, and sacred narrative can be made believable through visual intelligence.",
+        "zh": "列奥纳多代表了盛期文艺复兴中艺术与科学观察相结合的理想。他的绘画不只是描绘身体，更在检验身体、空气、光线、心理和神圣叙事如何借助视觉智慧变得可信。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "caravaggio",
+      "sortOrder": 7,
+      "name": {
+        "en": "Caravaggio",
+        "zh": "卡拉瓦乔"
+      },
+      "years": {
+        "en": "1571-1610",
+        "zh": "1571—1610年"
+      },
+      "birthYear": 1571,
+      "deathYear": 1610,
+      "countryKey": "italy",
+      "country": {
+        "en": "Italy",
+        "zh": "意大利"
+      },
+      "periodKey": "baroque",
+      "period": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "movement": {
+        "en": "Tenebrism",
+        "zh": "暗色调主义"
+      },
+      "hook": {
+        "en": "Saints, sinners, and spectators are pulled into theatrical light.",
+        "zh": "圣徒、罪人与观者一同被拉进戏剧性的光中。"
+      },
+      "position": {
+        "en": "Caravaggio makes sacred scenes immediate, bodily, and morally urgent. He rejects idealized beauty in favor of ordinary models, dirty feet, violent light, and the sense that divine events interrupt the real world.",
+        "zh": "卡拉瓦乔让神圣场景变得直接、具身，并带有道德上的紧迫感。他拒绝理想化的美，转而采用普通模特、沾满尘土的双脚和猛烈的光线，让人感到神圣事件闯入了真实世界。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "rembrandt",
+      "sortOrder": 8,
+      "name": {
+        "en": "Rembrandt van Rijn",
+        "zh": "伦勃朗·凡·莱因"
+      },
+      "years": {
+        "en": "1606-1669",
+        "zh": "1606—1669年"
+      },
+      "birthYear": 1606,
+      "deathYear": 1669,
+      "countryKey": "netherlands",
+      "country": {
+        "en": "Netherlands",
+        "zh": "荷兰"
+      },
+      "periodKey": "baroque",
+      "period": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "movement": {
+        "en": "Dutch Golden Age",
+        "zh": "荷兰黄金时代"
+      },
+      "hook": {
+        "en": "Paint turns inward: light becomes a tool for conscience and aging.",
+        "zh": "颜料转向内心：光成为良知与衰老的工具。"
+      },
+      "position": {
+        "en": "Rembrandt's importance lies in making painting psychologically dense. Instead of polished ideal beauty, he gives viewers age, doubt, tenderness, conscience, and the material richness of paint itself.",
+        "zh": "伦勃朗的重要性在于让绘画具有浓厚的心理密度。他给予观者的不是光洁的理想之美，而是年岁、疑虑、温情、良知，以及颜料本身丰富的物质性。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "velazquez",
+      "sortOrder": 9,
+      "name": {
+        "en": "Diego Velazquez",
+        "zh": "迭戈·委拉斯开兹"
+      },
+      "years": {
+        "en": "1599-1660",
+        "zh": "1599—1660年"
+      },
+      "birthYear": 1599,
+      "deathYear": 1660,
+      "countryKey": "spain",
+      "country": {
+        "en": "Spain",
+        "zh": "西班牙"
+      },
+      "periodKey": "baroque",
+      "period": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "movement": {
+        "en": "Spanish court painting",
+        "zh": "西班牙宫廷绘画"
+      },
+      "hook": {
+        "en": "Painting asks who is looking, who is seen, and who controls representation.",
+        "zh": "绘画追问：谁在观看，谁被看见，谁掌控再现。"
+      },
+      "position": {
+        "en": "Velazquez turns court painting into a philosophical problem. His art often asks what painting can represent, where the viewer stands, and how power circulates through looking.",
+        "zh": "委拉斯开兹把宫廷绘画变成了一个哲学问题。他的艺术常常追问绘画能够再现什么、观者站在何处，以及权力如何通过观看流转。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "hokusai",
+      "sortOrder": 10,
+      "name": {
+        "en": "Katsushika Hokusai",
+        "zh": "葛饰北斋"
+      },
+      "years": {
+        "en": "1760-1849",
+        "zh": "1760—1849年"
+      },
+      "birthYear": 1760,
+      "deathYear": 1849,
+      "countryKey": "japan",
+      "country": {
+        "en": "Japan",
+        "zh": "日本"
+      },
+      "periodKey": "edo",
+      "period": {
+        "en": "Edo",
+        "zh": "江户时代"
+      },
+      "movement": {
+        "en": "Ukiyo-e",
+        "zh": "浮世绘"
+      },
+      "hook": {
+        "en": "Popular print culture makes nature, labor, and design radically portable.",
+        "zh": "大众版画文化让自然、劳动与设计变得前所未有地便于流传。"
+      },
+      "position": {
+        "en": "Hokusai shows that art history cannot be told only through European oil painting. His woodblock prints combine popular culture, refined design, serial production, and a view of nature that deeply affected European modernism.",
+        "zh": "北斋提醒我们，艺术史不能只靠欧洲油画来讲述。他的木版画把大众文化、精妙设计、系列化生产与一种自然观结合在一起，并深刻影响了欧洲现代主义。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "goya",
+      "sortOrder": 11,
+      "name": {
+        "en": "Francisco Goya",
+        "zh": "弗朗西斯科·戈雅"
+      },
+      "years": {
+        "en": "1746-1828",
+        "zh": "1746—1828年"
+      },
+      "birthYear": 1746,
+      "deathYear": 1828,
+      "countryKey": "spain",
+      "country": {
+        "en": "Spain",
+        "zh": "西班牙"
+      },
+      "periodKey": "romanticism",
+      "period": {
+        "en": "Romanticism",
+        "zh": "浪漫主义"
+      },
+      "movement": {
+        "en": "Spanish Romanticism",
+        "zh": "西班牙浪漫主义"
+      },
+      "hook": {
+        "en": "Modern violence, nightmare, politics, and private terror enter painting.",
+        "zh": "现代暴力、梦魇、政治与私人恐惧进入绘画。"
+      },
+      "position": {
+        "en": "Goya is a hinge between Enlightenment, Romanticism, and modern political art. He exposes irrationality, state violence, superstition, and the collapse of heroic history painting.",
+        "zh": "戈雅是连接启蒙运动、浪漫主义与现代政治艺术的枢纽。他揭露非理性、国家暴力与迷信，也见证了英雄式历史画的崩塌。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "turner",
+      "sortOrder": 12,
+      "name": {
+        "en": "J. M. W. Turner",
+        "zh": "J. M. W. 透纳"
+      },
+      "years": {
+        "en": "1775-1851",
+        "zh": "1775—1851年"
+      },
+      "birthYear": 1775,
+      "deathYear": 1851,
+      "countryKey": "britain",
+      "country": {
+        "en": "Britain",
+        "zh": "英国"
+      },
+      "periodKey": "romanticism",
+      "period": {
+        "en": "Romanticism",
+        "zh": "浪漫主义"
+      },
+      "movement": {
+        "en": "Romantic landscape",
+        "zh": "浪漫主义风景画"
+      },
+      "hook": {
+        "en": "Landscape dissolves into light, weather, industry, and sensation.",
+        "zh": "风景消融于光线、天气、工业与感官体验之中。"
+      },
+      "position": {
+        "en": "Turner makes landscape unstable. Rather than showing nature as a calm stage, he paints atmosphere, storm, steam, fire, and light as forces that overwhelm fixed form.",
+        "zh": "透纳让风景变得不稳定。他不把自然当作平静的舞台，而是把大气、风暴、蒸汽、火焰和光描绘成压倒固定形体的力量。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "manet",
+      "sortOrder": 13,
+      "name": {
+        "en": "Edouard Manet",
+        "zh": "爱德华·马奈"
+      },
+      "years": {
+        "en": "1832-1883",
+        "zh": "1832—1883年"
+      },
+      "birthYear": 1832,
+      "deathYear": 1883,
+      "countryKey": "france",
+      "country": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "periodKey": "modernism-begins",
+      "period": {
+        "en": "Modernism begins",
+        "zh": "现代主义开端"
+      },
+      "movement": {
+        "en": "Realism / Impressionism precursor",
+        "zh": "现实主义 / 印象派先驱"
+      },
+      "hook": {
+        "en": "Often called the father of Impressionism; makes modern life and painting's flatness impossible to ignore.",
+        "zh": "常被称为“印象派之父”；让现代生活与绘画的平面性变得无法忽视。"
+      },
+      "position": {
+        "en": "Manet is often referred to as the father of Impressionism, but he never simply dissolves into Impressionism. The Impressionists, who formed as a group around 1871, inherited his rebel status. Clement Greenberg later described Manet's paintings as early modernist because they frankly declared the flat surface on which they were painted. His modernity is both formal and social: he paints modern Paris while making painting admit that it is painted.",
+        "zh": "马奈常被称为“印象派之父”，但他从未简单地融入印象派。约1871年结成群体的印象派画家继承了他的反叛者身份。克莱门特·格林伯格后来把马奈的绘画视为早期现代主义作品，因为它们坦率地宣告了自身所依托的平面。他的现代性既是形式上的，也是社会上的：他描绘现代巴黎，同时让绘画承认自己是被画出来的。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "monet",
+      "sortOrder": 14,
+      "name": {
+        "en": "Claude Monet",
+        "zh": "克劳德·莫奈"
+      },
+      "years": {
+        "en": "1840-1926",
+        "zh": "1840—1926年"
+      },
+      "birthYear": 1840,
+      "deathYear": 1926,
+      "countryKey": "france",
+      "country": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "periodKey": "impressionism",
+      "period": {
+        "en": "Impressionism",
+        "zh": "印象派"
+      },
+      "movement": {
+        "en": "Impressionism",
+        "zh": "印象派"
+      },
+      "hook": {
+        "en": "Painting becomes perception: light, atmosphere, and serial looking.",
+        "zh": "绘画成为知觉本身：光线、大气与系列化的观看。"
+      },
+      "position": {
+        "en": "Monet makes painting into the record of changing perception. He does not define objects by stable contour; he shows them as they appear under changing light, weather, and time.",
+        "zh": "莫奈把绘画变成对变化中知觉的记录。他不用稳定的轮廓来界定物体，而是呈现它们在变化的光线、天气与时间中显现的样子。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "vangogh",
+      "sortOrder": 15,
+      "name": {
+        "en": "Vincent van Gogh",
+        "zh": "文森特·梵高"
+      },
+      "years": {
+        "en": "1853-1890",
+        "zh": "1853—1890年"
+      },
+      "birthYear": 1853,
+      "deathYear": 1890,
+      "countryKey": "netherlands-france",
+      "country": {
+        "en": "Netherlands / France",
+        "zh": "荷兰 / 法国"
+      },
+      "periodKey": "post-impressionism",
+      "period": {
+        "en": "Post-Impressionism",
+        "zh": "后印象派"
+      },
+      "movement": {
+        "en": "Expressive color",
+        "zh": "表现性色彩"
+      },
+      "hook": {
+        "en": "Brushstroke and color turn perception into emotional intensity.",
+        "zh": "笔触与色彩把知觉转化为强烈的情感。"
+      },
+      "position": {
+        "en": "Van Gogh transforms visible nature into emotional and spiritual force. His paintings make brushstroke, color, and line carry feeling rather than merely describe appearances.",
+        "zh": "梵高把可见的自然转化为情感与精神的力量。在他的画中，笔触、色彩和线条承载的是感受，而不只是描摹外观。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "cezanne",
+      "sortOrder": 16,
+      "name": {
+        "en": "Paul Cezanne",
+        "zh": "保罗·塞尚"
+      },
+      "years": {
+        "en": "1839-1906",
+        "zh": "1839—1906年"
+      },
+      "birthYear": 1839,
+      "deathYear": 1906,
+      "countryKey": "france",
+      "country": {
+        "en": "France",
+        "zh": "法国"
+      },
+      "periodKey": "post-impressionism",
+      "period": {
+        "en": "Post-Impressionism",
+        "zh": "后印象派"
+      },
+      "movement": {
+        "en": "Structural painting",
+        "zh": "结构性绘画"
+      },
+      "hook": {
+        "en": "Rebuilds vision through planes, color patches, and constructive form.",
+        "zh": "以块面、色块与建构性的形式重建视觉。"
+      },
+      "position": {
+        "en": "Cezanne is crucial because he makes seeing feel constructed. Instead of capturing a quick impression, he builds form through repeated planes of color, making painting analytical and unstable at once.",
+        "zh": "塞尚之所以关键，是因为他让观看显得是被建构出来的。他不去捕捉转瞬的印象，而是通过层层重复的色彩块面来建立形体，使绘画同时具有分析性与不稳定性。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "klimt",
+      "sortOrder": 17,
+      "name": {
+        "en": "Gustav Klimt",
+        "zh": "古斯塔夫·克里姆特"
+      },
+      "years": {
+        "en": "1862-1918",
+        "zh": "1862—1918年"
+      },
+      "birthYear": 1862,
+      "deathYear": 1918,
+      "countryKey": "austria",
+      "country": {
+        "en": "Austria",
+        "zh": "奥地利"
+      },
+      "periodKey": "symbolism",
+      "period": {
+        "en": "Symbolism",
+        "zh": "象征主义"
+      },
+      "movement": {
+        "en": "Vienna Secession",
+        "zh": "维也纳分离派"
+      },
+      "hook": {
+        "en": "Decoration, eroticism, gold, and modern anxiety merge.",
+        "zh": "装饰、情欲、金色与现代焦虑交融在一起。"
+      },
+      "position": {
+        "en": "Klimt collapses the boundary between fine art and decoration. His paintings combine erotic intimacy, symbolic pattern, Byzantine gold, and the tensions of fin-de-siecle Vienna.",
+        "zh": "克里姆特消解了纯艺术与装饰之间的界限。他的绘画结合了情欲的亲密感、象征性图案、拜占庭式的金色，以及世纪末维也纳的种种张力。"
+      },
+      "sources": [],
+      "zhStatus": "draft"
+    }
+  ],
+  "painterWorks": [
+    {
+      "painterSlug": "botticelli",
+      "sortOrder": 1,
+      "workSlug": "birth-of-venus-collection",
+      "title": {
+        "en": "The Birth of Venus",
+        "zh": "维纳斯的诞生"
+      },
+      "date": {
+        "en": "c. 1485",
+        "zh": "约1485年"
+      },
+      "startYear": 1485,
+      "imageKey": "sandro-botticelli-la-nascita-di-venere-google-art-project-edited",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Venus stands on a giant shell, slightly off balance, using the Venus pudica gesture to cover herself while still becoming the focus of desire.",
+          "The figures are defined by clear, elegant contour rather than heavy anatomical volume; Botticelli's line makes bodies feel lyrical and ornamental.",
+          "The sea, wind, flowers, hair, and drapery create a decorative rhythm that matters as much as spatial realism.",
+          "The shallow space makes the image feel like a poetic stage rather than a convincing natural environment."
+        ],
+        "zh": [
+          "维纳斯站在一只巨大的贝壳上，身体略失平衡，以“贞洁的维纳斯”（Venus pudica）手势遮掩自己，却依然成为欲望的焦点。",
+          "人物由清晰优雅的轮廓界定，而非厚重的解剖体积；波提切利的线条让身体显得抒情而富有装饰性。",
+          "海浪、风、花朵、发丝和衣褶形成装饰性的节奏，其重要性不亚于空间的真实感。",
+          "浅近的空间让画面更像诗意的舞台，而不是令人信服的自然环境。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The scene shows Venus arriving on shore after birth from the sea, blown by wind figures and received by a figure offering a flowered cloak.",
+          "The painting belongs to a learned Florentine culture that revived classical mythology through Renaissance humanism.",
+          "Unlike a Christian altarpiece, this mythological nude makes pagan beauty intellectually and socially acceptable within an elite courtly setting.",
+          "The work is useful for studying how Renaissance art could join sensual beauty, poetry, classical learning, and patronage."
+        ],
+        "zh": [
+          "画面表现维纳斯自海中诞生后登岸：风神将她吹送而来，岸边一位人物递上饰有花朵的斗篷迎接她。",
+          "这幅画属于佛罗伦萨博学的文化圈，这一文化借文艺复兴人文主义复兴了古典神话。",
+          "与基督教祭坛画不同，这幅神话裸体画让异教之美在精英宫廷环境中获得了知识上和社会上的正当性。",
+          "这件作品有助于研究文艺复兴艺术如何把感官之美、诗歌、古典学问与赞助结合在一起。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Birth of Venus to discuss Renaissance humanism, mythological subject matter, ideal beauty, and Botticelli's linear style.",
+        "zh": "可用《维纳斯的诞生》讨论文艺复兴人文主义、神话题材、理想美以及波提切利的线性风格。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "botticelli",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Primavera",
+        "zh": "春"
+      },
+      "date": {
+        "en": "c. 1480-1482",
+        "zh": "约1480—1482年"
+      },
+      "startYear": 1480,
+      "imageKey": "botticelli-primavera",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Nine mythological figures stand in an orange grove, arranged almost like a frieze across a shallow foreground.",
+          "The right side shows Zephyrus pursuing Chloris, whose transformation into Flora is visualized through flowers and spring abundance.",
+          "Venus stands near the center under a natural arch of trees, organizing the scene as a presiding force of love and harmony.",
+          "The painting's beauty depends on line, pattern, textile-like detail, and botanical richness rather than perspectival depth."
+        ],
+        "zh": [
+          "九位神话人物站在橘树林中，几乎像横饰带一样排列在浅近的前景上。",
+          "画面右侧表现西风之神泽费罗斯追逐克洛里斯，她化身为花神芙罗拉的过程通过花朵和春日的丰饶得以呈现。",
+          "维纳斯站在接近中央的位置，头顶是树木形成的天然拱门，她作为爱与和谐的主宰力量统摄整个场景。",
+          "这幅画的美依赖于线条、图案、织物般的细节和丰富的植物描绘，而不是透视纵深。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The subject is famously difficult to interpret, which makes it a strong example of Renaissance allegory and elite learned viewing.",
+          "Its mythological program likely relates to love, spring, fertility, transformation, and Medici courtly culture.",
+          "The painting turns classical myth into a sophisticated social object: it rewards viewers who can read poetry, symbols, and philosophical references.",
+          "It shows how Renaissance painting could function as intellectual display as much as decoration."
+        ],
+        "zh": [
+          "这一主题以难以解读著称，因此成为文艺复兴寓意画和精英式博学观看的有力例证。",
+          "其神话图像方案很可能涉及爱情、春天、丰饶、变形以及美第奇宫廷文化。",
+          "这幅画把古典神话变成一件精致的社交物品：能读懂诗歌、象征和哲学典故的观者才能从中获得回报。",
+          "它说明文艺复兴绘画既可以是装饰，也同样可以是知识的展示。"
+        ]
+      },
+      "exam": {
+        "en": "Use Primavera to discuss allegory, Medici humanism, mythological complexity, and Botticelli's decorative linear intelligence.",
+        "zh": "可用《春》讨论寓意、美第奇人文主义、神话的复杂性，以及波提切利富于装饰性的线性智慧。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "artemisia",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Judith Slaying Holofernes",
+        "zh": "朱迪斯斩杀荷罗孚尼"
+      },
+      "date": {
+        "en": "c. 1620-1621",
+        "zh": "约1620—1621年"
+      },
+      "startYear": 1620,
+      "imageKey": "artemisia-gentileschi-judith-beheading-holofernes-wga8563",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The scene is compressed around the physical act of beheading, with Judith and her maidservant leaning into the violence rather than recoiling from it.",
+          "Strong chiaroscuro focuses the viewer on arms, sheets, blood, and the locked struggle between bodies.",
+          "Unlike many earlier Judith images, Artemisia's heroine feels physically capable; the act requires effort, pressure, and collaboration.",
+          "The realism of blood and force makes the biblical story immediate rather than distant or decorative."
+        ],
+        "zh": [
+          "场景紧紧围绕斩首这一身体动作展开，朱迪斯和她的女仆俯身投入暴力之中，而不是退缩回避。",
+          "强烈的明暗对照法把观者的注意力集中在手臂、床单、鲜血以及身体之间胶着的搏斗上。",
+          "与许多更早的朱迪斯图像不同，阿尔泰米西娅笔下的女英雄在身体上显得有能力完成此事；这一行动需要力气、压制与合作。",
+          "鲜血与力量的写实感让圣经故事变得迫在眼前，而非遥远或仅具装饰性。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The subject comes from the story of Judith, who saves her people by killing the Assyrian general Holofernes.",
+          "Artemisia's version is often read through the realities of gender, violence, and power in seventeenth-century Italy, though it should not be reduced only to biography.",
+          "The painting belongs to Baroque visual culture because it stages emotion and bodily action at maximum intensity.",
+          "Its modern importance lies in how it changes the image of the female hero: Judith becomes an agent, not an accessory to male drama."
+        ],
+        "zh": [
+          "题材出自朱迪斯的故事：她杀死亚述将军荷罗孚尼，拯救了自己的民族。",
+          "阿尔泰米西娅的版本常被放在十七世纪意大利性别、暴力与权力的现实中解读，但不应仅仅被简化为传记。",
+          "这幅画属于巴洛克视觉文化，因为它把情感和身体动作推到了最强烈的程度。",
+          "它在现代的重要性在于改变了女英雄的形象：朱迪斯成为行动者，而不是男性戏剧的陪衬。"
+        ]
+      },
+      "exam": {
+        "en": "Use Judith Slaying Holofernes to discuss Baroque violence, Caravaggesque light, female agency, and the physical credibility of Artemisia's heroines.",
+        "zh": "可用《朱迪斯斩杀荷罗孚尼》讨论巴洛克的暴力、卡拉瓦乔式光线、女性能动性，以及阿尔泰米西娅笔下女英雄在身体上的可信度。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "artemisia",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Self-Portrait as the Allegory of Painting",
+        "zh": "作为绘画寓意的自画像"
+      },
+      "date": {
+        "en": "c. 1638-1639",
+        "zh": "约1638—1639年"
+      },
+      "startYear": 1638,
+      "imageKey": "self-portrait-as-the-allegory-of-painting-la-pittura-artemisia-gentileschi",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Artemisia shows herself in the act of painting, twisting across the canvas with energetic concentration.",
+          "The body is active and diagonal, refusing the passive stillness expected of many female portraits.",
+          "By identifying herself with the allegorical figure of Painting, she collapses artist, subject, and concept into one image.",
+          "The work gives artistic labor a physical presence: hand, brush, torso, and attention are all part of making."
+        ],
+        "zh": [
+          "阿尔泰米西娅把自己表现为正在作画的样子，身体扭转着探向画布，充满专注的能量。",
+          "身体动态而呈对角线，拒绝了许多女性肖像被期待的那种被动静止。",
+          "通过把自己等同于“绘画”的寓意形象，她把艺术家、主题和概念合而为一。",
+          "作品让艺术劳动具有了身体的在场感：手、画笔、躯干和专注都是创作的一部分。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Traditional allegories of Painting were often female personifications made by male artists; Artemisia could uniquely represent herself as both woman and painter.",
+          "The painting asserts professional identity inside a culture where women's artistic authority was exceptional and contested.",
+          "It is a self-portrait, an allegory, and an argument for authorship at the same time.",
+          "The work is useful for studying gender, artistic status, and self-fashioning in the Baroque period."
+        ],
+        "zh": [
+          "传统的“绘画”寓意形象往往是男性艺术家创作的女性拟人像；阿尔泰米西娅却能以独特的方式同时把自己表现为女性和画家。",
+          "在女性艺术权威极为罕见且备受争议的文化中，这幅画宣示了她的职业身份。",
+          "它同时是一幅自画像、一则寓意，也是一种关于作者身份的主张。",
+          "这件作品有助于研究巴洛克时期的性别、艺术家地位与自我塑造。"
+        ]
+      },
+      "exam": {
+        "en": "Use Self-Portrait as the Allegory of Painting to discuss authorship, gender, allegory, and Artemisia's claim to professional artistic authority.",
+        "zh": "可用《作为绘画寓意的自画像》讨论作者身份、性别、寓意，以及阿尔泰米西娅对职业艺术权威的主张。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "vermeer",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Girl with a Pearl Earring",
+        "zh": "戴珍珠耳环的少女"
+      },
+      "date": {
+        "en": "c. 1665",
+        "zh": "约1665年"
+      },
+      "startYear": 1665,
+      "imageKey": "1665-girl-with-a-pearl-earring",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The figure turns over her shoulder, lips parted, as if caught in a moment between silence and speech.",
+          "The dark background removes narrative setting, making the face, turban, and earring appear luminous.",
+          "The painting is not a conventional portrait but a tronie: a study of type, expression, costume, and visual effect.",
+          "The pearl is oversized and almost abstract, made from highlights more than detailed description."
+        ],
+        "zh": [
+          "人物越过肩头回望，双唇微启，仿佛被定格在沉默与开口之间的一瞬。",
+          "深暗的背景去除了叙事性场景，让面庞、头巾和耳环显得熠熠生光。",
+          "这幅画并非传统肖像，而是一幅“特罗尼”（tronie）：一种关于类型、表情、服饰和视觉效果的习作。",
+          "珍珠大得出奇，几近抽象，主要由高光而非细致的描绘构成。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The Mauritshuis identifies the work as a tronie rather than a portrait of a known individual.",
+          "The image depends on fantasy and theatrical costume, not everyday Dutch dress.",
+          "Its power comes from intimacy without biography: the viewer feels addressed but cannot fully know the sitter.",
+          "The work is useful for studying how Dutch painting could turn optical effect and ambiguity into emotional presence."
+        ],
+        "zh": [
+          "莫瑞泰斯皇家美术馆将这件作品认定为特罗尼，而非某位已知人物的肖像。",
+          "画面依赖于想象和戏剧化的服饰，而不是荷兰人的日常衣着。",
+          "它的力量来自没有传记的亲密感：观者感到自己被注视、被召唤，却无法真正了解画中人。",
+          "这件作品有助于研究荷兰绘画如何把光学效果与含混性转化为情感上的在场。"
+        ]
+      },
+      "exam": {
+        "en": "Use Girl with a Pearl Earring to discuss the tronie, intimacy, optical luminosity, and Vermeer's transformation of looking into mystery.",
+        "zh": "可用《戴珍珠耳环的少女》讨论特罗尼、亲密感、光学上的明亮效果，以及维米尔如何把观看转化为谜。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "vermeer",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Milkmaid",
+        "zh": "倒牛奶的女仆"
+      },
+      "date": {
+        "en": "c. 1660",
+        "zh": "约1660年"
+      },
+      "startYear": 1660,
+      "imageKey": "johannes-vermeer-het-melkmeisje-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A maidservant pours milk in a quiet interior where almost everything is still except the thin stream of liquid.",
+          "Vermeer monumentalizes a humble domestic task by giving the figure sculptural weight and concentrated attention.",
+          "Light from the left touches bread, cloth, ceramic, wall, and skin, turning surfaces into subtle optical events.",
+          "The composition is simple but exact: table, wall, window, figure, and objects form a world of disciplined stillness."
+        ],
+        "zh": [
+          "一名女仆在安静的室内倒牛奶，除了那道细细的奶流，几乎一切都静止不动。",
+          "维米尔赋予人物雕塑般的分量和专注的神情，让一项卑微的家务显得庄重宏伟。",
+          "来自左侧的光落在面包、布料、陶器、墙面和皮肤上，把各种表面变成微妙的光学事件。",
+          "构图简单却精确：桌子、墙、窗、人物和器物构成一个秩序井然的静谧世界。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The Rijksmuseum emphasizes how Vermeer makes a simple everyday activity impressive through stillness and light.",
+          "The painting belongs to Dutch genre painting, but it resists moral caricature by granting dignity to labor.",
+          "The maid is absorbed in her work, which shifts attention from narrative drama to attention itself.",
+          "The work is useful for discussing class, domesticity, gendered labor, and the moral seriousness of ordinary life."
+        ],
+        "zh": [
+          "荷兰国立博物馆强调，维米尔借助静谧与光线让一项简单的日常活动变得动人。",
+          "这幅画属于荷兰风俗画，但它赋予劳动以尊严，从而避免了道德讽刺。",
+          "女仆全神贯注于手头的工作，这让注意力从叙事戏剧转向专注本身。",
+          "这件作品有助于讨论阶级、家居生活、性别化的劳动，以及日常生活的道德分量。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Milkmaid to discuss Dutch genre painting, domestic labor, stillness, and Vermeer's mastery of light.",
+        "zh": "可用《倒牛奶的女仆》讨论荷兰风俗画、家务劳动、静谧感以及维米尔对光的驾驭。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "delacroix",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Liberty Leading the People",
+        "zh": "自由引导人民"
+      },
+      "date": {
+        "en": "1830",
+        "zh": "1830年"
+      },
+      "startYear": 1830,
+      "imageKey": "la-liberte-guidant-le-peuple-eugene-delacroix-musee-du-louvre-peintures-rf-129-a",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Liberty strides over bodies and barricade debris, holding the tricolor flag in one hand and a musket in the other.",
+          "She is both allegorical goddess and woman of the people, which gives the painting its unstable modern charge.",
+          "The fighters around her represent different social classes, turning revolution into a collective urban body.",
+          "Smoke, diagonal movement, exposed bodies, and vivid color make history feel immediate and dangerous."
+        ],
+        "zh": [
+          "自由女神跨过尸体和街垒残骸大步向前，一手高举三色旗，一手握着步枪。",
+          "她既是寓意中的女神，又是人民中的女性，这赋予画面一种不稳定的现代张力。",
+          "她周围的战斗者代表不同的社会阶层，让革命成为一个集体的城市身体。",
+          "硝烟、对角线运动、裸露的身体和鲜明的色彩，让历史显得迫在眼前且充满危险。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The painting commemorates the July Revolution of 1830, not the French Revolution of 1789.",
+          "Delacroix turns a recent political event into a modern history painting, joining allegory to journalism-like immediacy.",
+          "The image became politically charged because Liberty is inspiring but also insurgent; she cannot be fully domesticated by the state.",
+          "The work is useful for studying Romanticism as emotion, politics, violence, and national myth."
+        ],
+        "zh": [
+          "这幅画纪念的是1830年的七月革命，而不是1789年的法国大革命。",
+          "德拉克洛瓦把一个近期的政治事件变成现代历史画，将寓意与近乎新闻报道般的即时性结合起来。",
+          "这幅图像之所以带有政治敏感性，是因为自由女神既鼓舞人心又具有反叛性；国家无法将她完全驯服。",
+          "这件作品有助于把浪漫主义作为情感、政治、暴力与民族神话来研究。"
+        ]
+      },
+      "exam": {
+        "en": "Use Liberty Leading the People to discuss Romantic political painting, allegory, class, revolution, and the modern public image.",
+        "zh": "可用《自由引导人民》讨论浪漫主义政治绘画、寓意、阶级、革命以及现代公共图像。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "delacroix",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Death of Sardanapalus",
+        "zh": "萨达那帕拉之死"
+      },
+      "date": {
+        "en": "1827",
+        "zh": "1827年"
+      },
+      "startYear": 1827,
+      "imageKey": "eugene-delacroix-the-death-of-sardanapalus-wga6173",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The composition is a chaotic diagonal avalanche of red, gold, flesh, fabric, violence, and luxury.",
+          "Sardanapalus reclines above the destruction he has ordered, emotionally detached from the suffering below.",
+          "The painting rejects calm Neoclassical order in favor of excess, color, sensuality, and horror.",
+          "The eye cannot settle easily; the image produces instability as a visual experience."
+        ],
+        "zh": [
+          "构图是一场混乱的对角线雪崩，充斥着红色、金色、肉体、织物、暴力与奢华。",
+          "萨达那帕拉斜倚在他亲自下令制造的毁灭之上，对下方的苦难漠不关心。",
+          "这幅画拒绝平静的新古典主义秩序，转而拥抱过度、色彩、感官性与恐怖。",
+          "视线难以安顿下来；画面把不稳定本身制造成一种视觉体验。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The subject comes from the legendary Assyrian king who destroys his possessions before his own death.",
+          "The painting was controversial because of its violence, eroticism, and refusal of academic restraint.",
+          "It is Romantic not because it is sentimental, but because it pushes emotion, imagination, and extremity past classical order.",
+          "The work is useful for discussing Orientalism, spectacle, fantasy, and the politics of representing violence."
+        ],
+        "zh": [
+          "题材来自传说中的亚述国王，他在自己死前毁掉了所拥有的一切。",
+          "这幅画因其暴力、情色以及对学院派克制的拒绝而饱受争议。",
+          "它之所以是浪漫主义的，并非因为多愁善感，而是因为它把情感、想象和极端推到古典秩序之外。",
+          "这件作品有助于讨论东方主义、奇观、幻想，以及再现暴力的政治。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Death of Sardanapalus to discuss Romantic excess, color, violence, Orientalism, and the rejection of Neoclassical restraint.",
+        "zh": "可用《萨达那帕拉之死》讨论浪漫主义的过度、色彩、暴力、东方主义，以及对新古典主义克制的拒绝。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "cassatt",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "In the Loge",
+        "zh": "在包厢里"
+      },
+      "date": {
+        "en": "1878",
+        "zh": "1878年"
+      },
+      "startYear": 1878,
+      "imageKey": "mary-stevenson-cassatt-in-the-loge-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A woman in black sits in a theater box and looks through opera glasses, taking up the foreground with alert self-possession.",
+          "A man in the background looks at her, creating a chain of looking: she watches, he watches her, and we watch both.",
+          "The sharp cropping, elevated viewpoint, and public leisure setting connect the work to Impressionist modern life.",
+          "Cassatt makes the female spectator active rather than merely decorative."
+        ],
+        "zh": [
+          "一位黑衣女子坐在剧院包厢中，举着观剧镜观看，以警觉而沉着的姿态占据前景。",
+          "背景中一位男子正在看她，形成一条观看之链：她在看，他在看她，而我们看着他们二人。",
+          "果断的裁切、抬高的视点和公共休闲场景，把这件作品与印象派的现代生活题材联系起来。",
+          "卡萨特让女性观看者成为主动者，而不仅仅是装饰。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The opera was a modern social space where spectators watched performances and each other.",
+          "Cassatt differs from many male Impressionists by focusing on women's agency within public spaces.",
+          "The painting analyzes the gender politics of looking: a woman can be both viewer and viewed.",
+          "The work is useful for studying modernity, spectatorship, gender, and Impressionist social space."
+        ],
+        "zh": [
+          "歌剧院是一个现代社交空间，观众既观看演出，也彼此观看。",
+          "与许多男性印象派画家不同，卡萨特关注的是女性在公共空间中的能动性。",
+          "这幅画剖析了观看中的性别政治：女性既可以是观看者，也可以是被观看者。",
+          "这件作品有助于研究现代性、观看行为、性别以及印象派的社会空间。"
+        ]
+      },
+      "exam": {
+        "en": "Use In the Loge to discuss female spectatorship, modern public leisure, Impressionism, and the gendered power of looking.",
+        "zh": "可用《在包厢里》讨论女性观看、现代公共休闲、印象派以及观看中带有性别意味的权力。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "cassatt",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Child's Bath",
+        "zh": "孩子的沐浴"
+      },
+      "date": {
+        "en": "1893",
+        "zh": "1893年"
+      },
+      "startYear": 1893,
+      "imageKey": "mary-cassatt-the-child-s-bath-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The composition is cropped and tilted downward, compressing mother, child, basin, and patterned surfaces into an intimate structure.",
+          "Flattened pattern and unusual viewpoint show the influence of Japanese prints on Cassatt's mature style.",
+          "The gestures are gentle but firm: one hand supports, another washes, making care visible as action.",
+          "The painting avoids sentimentality by focusing on concentration, touch, and bodily closeness."
+        ],
+        "zh": [
+          "构图经过裁切并向下倾斜，把母亲、孩子、水盆和带图案的表面压缩成一个亲密的结构。",
+          "扁平化的图案和不寻常的视点，显示出日本浮世绘版画对卡萨特成熟期风格的影响。",
+          "手势温柔而坚定：一只手托扶，另一只手清洗，让照料作为行动变得可见。",
+          "这幅画聚焦于专注、触摸和身体的贴近，从而避免了多愁善感。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Cassatt repeatedly explored mother-child subjects, but she treated them as psychologically and formally serious rather than merely sweet.",
+          "The Art Institute describes the work as a tender portrayal of familial closeness, a theme Cassatt returned to throughout her career.",
+          "The domestic subject becomes modern because composition, cropping, and pattern make it visually experimental.",
+          "The work is useful for studying care, gender, Japonisme, and the dignity of everyday intimacy."
+        ],
+        "zh": [
+          "卡萨特反复探索母与子题材，但她在心理和形式上都严肃对待这一主题，而不只是追求甜美。",
+          "芝加哥艺术博物馆将这件作品描述为对家庭亲密关系的温柔描绘，这是卡萨特在整个艺术生涯中不断回归的主题。",
+          "由于构图、裁切和图案带来的视觉实验性，这一家庭题材变得现代。",
+          "这件作品有助于研究照料、性别、日本主义以及日常亲密关系的尊严。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Child's Bath to discuss maternal intimacy, Japonisme, modern cropping, and Cassatt's transformation of domestic care into serious modern painting.",
+        "zh": "可用《孩子的沐浴》讨论母性的亲密、日本主义、现代式裁切，以及卡萨特如何把家庭照料转化为严肃的现代绘画。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "leonardo",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Mona Lisa",
+        "zh": "蒙娜丽莎"
+      },
+      "date": {
+        "en": "c. 1503-1506",
+        "zh": "约1503—1506年"
+      },
+      "startYear": 1503,
+      "imageKey": "mona-lisa",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The sitter is turned in a three-quarter pose, which makes the body feel both stable and psychologically present.",
+          "Leonardo uses sfumato, soft transitions without hard outlines, to make the face and hands seem alive rather than sharply drawn.",
+          "The background landscape recedes into atmospheric haze, linking the human body to nature, distance, and mystery."
+        ],
+        "zh": [
+          "画中人以四分之三侧身的姿势坐着，这让身体既显得稳定，又具有心理上的在场感。",
+          "列奥纳多使用晕涂法，以不带硬朗轮廓的柔和过渡，让面庞和双手显得鲜活，而不是被生硬地描画出来。",
+          "背景风景在大气的朦胧中渐渐远去，把人的身体与自然、距离和神秘联系在一起。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The portrait becomes more than likeness; it turns portraiture into a study of inner life.",
+          "Her ambiguous smile creates a modern problem of interpretation: the viewer cannot fully possess or resolve her expression.",
+          "The painting shows Renaissance humanism because individual presence becomes worthy of sustained attention."
+        ],
+        "zh": [
+          "这幅肖像不止于形似；它把肖像画变成对内心生活的研究。",
+          "她含混的微笑制造了一个现代的阐释难题：观者无法完全占有或解开她的表情。",
+          "这幅画体现了文艺复兴人文主义，因为个体的在场变得值得长久凝视。"
+        ]
+      },
+      "exam": {
+        "en": "Use Mona Lisa to discuss sfumato, psychological ambiguity, and the Renaissance elevation of portraiture into a study of human interiority.",
+        "zh": "可用《蒙娜丽莎》讨论晕涂法、心理上的含混性，以及文艺复兴如何把肖像画提升为对人的内在世界的研究。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "leonardo",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Last Supper",
+        "zh": "最后的晚餐"
+      },
+      "date": {
+        "en": "1495-1498",
+        "zh": "1495—1498年"
+      },
+      "startYear": 1495,
+      "imageKey": "leonardo-da-vinci-the-last-supper-high-res",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The composition is organized by strict linear perspective, with Christ at the vanishing point.",
+          "The apostles react in varied emotional groups, turning a biblical moment into a study of human psychology.",
+          "The calm central figure of Christ contrasts with the agitation around him, creating spiritual and compositional order."
+        ],
+        "zh": [
+          "构图以严格的线性透视组织，基督位于灭点之上。",
+          "使徒们分成几组，作出各不相同的情绪反应，把一个圣经时刻变成对人类心理的研究。",
+          "居中的基督神情平静，与周围的骚动形成对比，营造出精神上和构图上的秩序。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Painted for a monastery refectory, the scene mirrored the dining space of the monks.",
+          "Leonardo shifts the emphasis from symbolic hierarchy to dramatic human response.",
+          "The work became fragile because of Leonardo's experimental technique, making conservation part of its history."
+        ],
+        "zh": [
+          "这幅画绘于一座修道院的食堂，画中场景映照着修士们用餐的空间。",
+          "列奥纳多把重心从象征性的等级秩序转向戏剧性的人类反应。",
+          "由于列奥纳多采用了实验性的技法，作品变得十分脆弱，修复保护也因此成为其历史的一部分。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Last Supper to connect perspective, narrative drama, and Renaissance belief in rational visual order.",
+        "zh": "可用《最后的晚餐》把透视、叙事戏剧性与文艺复兴对理性视觉秩序的信念联系起来。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "caravaggio",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "The Calling of Saint Matthew",
+        "zh": "圣马太蒙召"
+      },
+      "date": {
+        "en": "1599-1600",
+        "zh": "1599—1600年"
+      },
+      "startYear": 1599,
+      "imageKey": "the-calling-of-saint-matthew-caravaggo-1599-1600",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A beam of light cuts across a dark tavern-like space and transforms an ordinary room into a scene of revelation.",
+          "Christ's gesture echoes Michelangelo's Creation of Adam, but the setting is modern and humble.",
+          "The figures look like everyday men rather than ideal saints, making conversion feel psychologically immediate."
+        ],
+        "zh": [
+          "一束光划过幽暗的、酒馆般的空间，把一间普通的屋子变成天启的场景。",
+          "基督的手势呼应了米开朗琪罗的《创造亚当》，但场景却是当代而简陋的。",
+          "人物看上去像日常生活中的普通男子，而不是理想化的圣徒，让皈依在心理上显得真切而直接。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The painting belongs to Counter-Reformation visual culture, where clarity, emotional force, and religious persuasion mattered.",
+          "Caravaggio brings sacred history into contemporary life, collapsing the distance between biblical past and viewer's present.",
+          "The work challenges decorum by making holiness appear in a low, worldly environment."
+        ],
+        "zh": [
+          "这幅画属于反宗教改革的视觉文化，在这一文化中，明晰、情感力量和宗教说服力都至关重要。",
+          "卡拉瓦乔把神圣历史带入当代生活，消弭了圣经往昔与观者当下之间的距离。",
+          "这件作品让神圣出现在低微、世俗的环境中，从而挑战了得体规范。"
+        ]
+      },
+      "exam": {
+        "en": "Use this work for tenebrism, Counter-Reformation immediacy, and Baroque theatrical realism.",
+        "zh": "可用这件作品讨论暗色调主义、反宗教改革的直接性以及巴洛克的戏剧性写实。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "caravaggio",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Judith Beheading Holofernes",
+        "zh": "朱迪斯斩首荷罗孚尼"
+      },
+      "date": {
+        "en": "c. 1598-1599",
+        "zh": "约1598—1599年"
+      },
+      "startYear": 1598,
+      "imageKey": "caravaggio-judith-beheading-holofernes",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The scene freezes the moment of violence with stark light, compressed space, and intense physical tension.",
+          "Judith's expression mixes determination and recoil, complicating the heroic act.",
+          "Blood, fabric, and gesture are staged with a directness that refuses polite distance."
+        ],
+        "zh": [
+          "场景以强烈的光线、压缩的空间和紧绷的身体张力，定格了暴力发生的瞬间。",
+          "朱迪斯的表情混合着决绝与退缩，使这一英雄行为变得复杂。",
+          "鲜血、织物和手势被直截了当地呈现出来，拒绝了礼貌的距离。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The biblical subject becomes a scene of psychological and bodily confrontation.",
+          "Caravaggio's realism turns moral drama into something the viewer almost witnesses at close range.",
+          "The painting is useful for discussing Baroque affect: art that moves, shocks, and persuades."
+        ],
+        "zh": [
+          "这一圣经题材成为心理与身体正面交锋的场景。",
+          "卡拉瓦乔的写实主义把道德戏剧变成观者几乎近距离目击的事件。",
+          "这幅画有助于讨论巴洛克的情感感染力：艺术能够打动、震撼并说服观者。"
+        ]
+      },
+      "exam": {
+        "en": "Use Judith to discuss violence, theatrical light, gendered power, and Baroque emotional intensity.",
+        "zh": "可用《朱迪斯斩首荷罗孚尼》讨论暴力、戏剧性光线、带有性别意味的权力以及巴洛克的情感强度。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "rembrandt",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "The Night Watch",
+        "zh": "夜巡"
+      },
+      "date": {
+        "en": "1642",
+        "zh": "1642年"
+      },
+      "startYear": 1642,
+      "imageKey": "the-night-watch-hd",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A civic guard portrait is transformed into a dynamic public drama with movement, light, and overlapping figures.",
+          "The composition breaks the static conventions of group portraiture by staging the militia as if they are moving into action.",
+          "Light organizes attention, especially around the captain, lieutenant, and mysterious young girl."
+        ],
+        "zh": [
+          "一幅民兵团体肖像被转化为一场充满动感的公共戏剧，有运动、光线和彼此交叠的人物。",
+          "构图打破了团体肖像静态的惯例，把民兵队伍表现得仿佛正在出发行动。",
+          "光线组织着观者的注意力，尤其聚焦于队长、副官和那个神秘的小女孩周围。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Dutch group portraits often recorded civic identity, wealth, and public status.",
+          "Rembrandt turns collective identity into theater, making the image feel historical and unstable.",
+          "The painting reveals the Dutch Republic's culture of urban militia, commerce, and civic pride."
+        ],
+        "zh": [
+          "荷兰团体肖像通常记录市民身份、财富和公共地位。",
+          "伦勃朗把集体身份变成戏剧，让画面显得既有历史感又不稳定。",
+          "这幅画揭示了荷兰共和国城市民兵、商业与市民自豪感的文化。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Night Watch to explain how Rembrandt transforms group portraiture into Baroque movement and civic drama.",
+        "zh": "可用《夜巡》说明伦勃朗如何把团体肖像转化为巴洛克式的运动与市民戏剧。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "rembrandt",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Self-Portraits",
+        "zh": "自画像系列"
+      },
+      "date": {
+        "en": "1620s-1660s",
+        "zh": "1620年代—1660年代"
+      },
+      "startYear": 1620,
+      "imageKey": "rembrandt-harmensz-van-rijn-self-portrait-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Rembrandt repeatedly studies his own face across youth, prosperity, loss, and old age.",
+          "The late portraits use thick paint, warm darkness, and direct gaze to make aging visible as experience.",
+          "The surface of paint becomes part of the meaning: roughness suggests lived time."
+        ],
+        "zh": [
+          "伦勃朗在青年、富足、失去与老年的各个阶段反复研究自己的面容。",
+          "晚期肖像以厚涂的颜料、温暖的幽暗和直视的目光，让衰老作为一种经历变得可见。",
+          "颜料的表面成为意义的一部分：粗糙的质感暗示着亲身经历过的时间。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The self-portraits are not simple vanity; they form a lifelong inquiry into identity and artistic self-fashioning.",
+          "They also function as market demonstrations of expression, costume, lighting, and painterly skill.",
+          "The late works resist idealization and give dignity to vulnerability."
+        ],
+        "zh": [
+          "这些自画像并非单纯的虚荣；它们构成了一场对身份与艺术家自我塑造的终生探究。",
+          "它们同时也在市场上展示了表情、服饰、布光和绘画技巧。",
+          "晚期作品抗拒理想化，赋予脆弱以尊严。"
+        ]
+      },
+      "exam": {
+        "en": "Use Rembrandt's self-portraits for identity, aging, Protestant introspection, and painterly surface.",
+        "zh": "可用伦勃朗的自画像讨论身份、衰老、新教的内省以及绘画性的画面表面。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "velazquez",
+      "sortOrder": 1,
+      "workSlug": "las-meninas-collection",
+      "title": {
+        "en": "Las Meninas",
+        "zh": "宫娥"
+      },
+      "date": {
+        "en": "1656",
+        "zh": "1656年"
+      },
+      "startYear": 1656,
+      "imageKey": "las-meninas-01",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The painting shows the Infanta, attendants, dwarfs, a dog, the painter, a mirror, and a doorway in a complex court space.",
+          "The mirror reflects the king and queen, implying that they occupy the viewer's space.",
+          "Velazquez includes himself at the canvas, making painting, power, and spectatorship the subject."
+        ],
+        "zh": [
+          "画面在一个复杂的宫廷空间中呈现了公主、侍从、侏儒、一只狗、画家、一面镜子和一道门。",
+          "镜子映出国王和王后，暗示他们正处在观者所在的位置。",
+          "委拉斯开兹把自己画在画布前，让绘画、权力和观看本身成为主题。"
+        ]
+      },
+      "context": {
+        "en": [
+          "This is a court image, but it refuses to behave as a simple royal portrait.",
+          "It elevates the painter's intellectual status by showing Velazquez as participant in royal representation.",
+          "The work is central for discussions of meta-painting: painting about the act and politics of painting."
+        ],
+        "zh": [
+          "这是一幅宫廷图像，却拒绝表现为一幅简单的王室肖像。",
+          "它把委拉斯开兹表现为王室再现的参与者，从而提升了画家的知识地位。",
+          "这件作品是讨论“元绘画”的核心：关于绘画行为及其政治的绘画。"
+        ]
+      },
+      "exam": {
+        "en": "Use Las Meninas to discuss spectatorship, royal power, illusion, and painting's self-awareness.",
+        "zh": "可用《宫娥》讨论观看、王室权力、错觉以及绘画的自我意识。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "velazquez",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Surrender of Breda",
+        "zh": "布雷达的投降"
+      },
+      "date": {
+        "en": "1634-1635",
+        "zh": "1634—1635年"
+      },
+      "startYear": 1634,
+      "imageKey": "velazquez-the-surrender-of-breda",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The composition centers on the exchange of keys between defeated and victorious leaders.",
+          "Velazquez avoids humiliating the defeated commander; the gesture is restrained and dignified.",
+          "The forest of lances creates military order while the human exchange softens the image of conquest."
+        ],
+        "zh": [
+          "构图以战败方与胜利方将领之间交接钥匙的场面为中心。",
+          "委拉斯开兹避免羞辱战败的指挥官；这一姿态克制而有尊严。",
+          "林立的长矛营造出军事秩序，而人与人之间的交接则柔化了征服的形象。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The painting served Spanish imperial memory and court propaganda.",
+          "Its emotional tone is unusual because victory is represented through magnanimity rather than cruelty.",
+          "It reveals how history painting can convert political violence into noble ceremony."
+        ],
+        "zh": [
+          "这幅画服务于西班牙帝国的记忆建构和宫廷宣传。",
+          "它的情感基调不同寻常，因为胜利是通过宽宏大度而非残酷来表现的。",
+          "它揭示了历史画如何把政治暴力转化为高贵的仪式。"
+        ]
+      },
+      "exam": {
+        "en": "Use this painting to discuss Spanish power, history painting, and the visual rhetoric of honorable conquest.",
+        "zh": "可用这幅画讨论西班牙的权力、历史画以及体面征服的视觉修辞。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "hokusai",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "The Great Wave off Kanagawa",
+        "zh": "神奈川冲浪里"
+      },
+      "date": {
+        "en": "c. 1831",
+        "zh": "约1831年"
+      },
+      "startYear": 1831,
+      "imageKey": "great-wave-off-kanagawa2",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The wave curls like a claw over small boats, making nature monumental and human labor fragile.",
+          "Mount Fuji appears tiny but stable in the distance, contrasting permanence with violent motion.",
+          "Flat color, contour, rhythm, and cropped composition create an image that feels graphic and modern."
+        ],
+        "zh": [
+          "巨浪像利爪一样卷向小船，让自然显得宏伟，人的劳作显得脆弱。",
+          "远处的富士山显得渺小却稳定，以永恒对照剧烈的运动。",
+          "平涂色彩、轮廓线、节奏感与裁切式构图，使画面显得富有图形感和现代感。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The work belongs to Thirty-six Views of Mount Fuji, a commercial print series.",
+          "Its reproducibility matters: this was art made for circulation, collection, and popular viewing.",
+          "The print later shaped Japonisme and European modernist interest in flatness, asymmetry, and cropping."
+        ],
+        "zh": [
+          "这件作品属于商业版画系列《富岳三十六景》。",
+          "它的可复制性至关重要：这是为流通、收藏和大众观看而制作的艺术。",
+          "这幅版画后来影响了日本主义，以及欧洲现代主义对平面性、不对称与裁切的兴趣。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Great Wave for ukiyo-e, print culture, nature, labor, and cross-cultural influence on modernism.",
+        "zh": "可用《神奈川冲浪里》讨论浮世绘、版画文化、自然、劳动，以及跨文化因素对现代主义的影响。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "hokusai",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Fine Wind, Clear Morning",
+        "zh": "凯风快晴"
+      },
+      "date": {
+        "en": "c. 1830-1832",
+        "zh": "约1830—1832年"
+      },
+      "startYear": 1830,
+      "imageKey": "red-fuji-south-wind-clear-morning",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Mount Fuji is simplified into a bold triangular mass with red body, white snow, and patterned clouds.",
+          "The image is less narrative than iconic: a mountain becomes design, weather, season, and national symbol.",
+          "The flat planes of color show Hokusai's power to reduce nature into memorable structure."
+        ],
+        "zh": [
+          "富士山被简化为醒目的三角形体块：赤红的山体、白色的积雪与图案化的云朵。",
+          "画面的叙事性弱于象征性：一座山变成了设计、天气、季节与民族象征。",
+          "平涂的色块显示出北斋把自然提炼为令人难忘的结构的能力。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Like The Great Wave, this print is part of a serial study of Fuji under changing conditions.",
+          "It shows that repetition can generate difference: same subject, altered atmosphere.",
+          "The work is useful for comparing serial vision in Hokusai and later Monet."
+        ],
+        "zh": [
+          "与《神奈川冲浪里》一样，这幅版画属于在不同条件下描绘富士山的系列研究。",
+          "它表明重复可以生成差异：同一题材，不同的大气。",
+          "这件作品适合用来比较北斋与后来莫奈的系列化观看。"
+        ]
+      },
+      "exam": {
+        "en": "Use Red Fuji to discuss seriality, landscape as symbol, and the design intelligence of ukiyo-e.",
+        "zh": "可用《赤富士》讨论系列性、作为象征的风景，以及浮世绘的设计智慧。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "goya",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "The Third of May 1808",
+        "zh": "1808年5月3日"
+      },
+      "date": {
+        "en": "1814",
+        "zh": "1814年"
+      },
+      "startYear": 1814,
+      "imageKey": "el-tres-de-mayo-by-francisco-de-goya-from-prado-thin-black-margin",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The central victim raises his arms in a pose that recalls crucifixion, but the scene is modern execution rather than sacred redemption.",
+          "The French soldiers form a faceless machine of violence, while the victims are individualized by gesture and fear.",
+          "The lantern creates harsh illumination, making violence public, theatrical, and unbearable."
+        ],
+        "zh": [
+          "中央的受害者高举双臂，姿态令人联想到十字架受难，但这里是现代的处决，而非神圣的救赎。",
+          "法国士兵构成一台没有面孔的暴力机器，受害者则通过各自的姿态与恐惧被个体化。",
+          "灯笼投下刺眼的光，使暴力变得公开、戏剧化且令人难以承受。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The painting responds to Napoleon's occupation of Spain and the execution of Spanish civilians.",
+          "Goya rejects heroic battle imagery; war is shown as terror inflicted on bodies.",
+          "The work becomes a foundation for modern anti-war painting."
+        ],
+        "zh": [
+          "这幅画回应了拿破仑占领西班牙以及对西班牙平民的处决。",
+          "戈雅拒绝英雄式的战争图像；战争被呈现为施加于身体的恐怖。",
+          "这件作品成为现代反战绘画的奠基之作。"
+        ]
+      },
+      "exam": {
+        "en": "Use Third of May for Romantic political emotion, anti-heroic history painting, and modern images of state violence.",
+        "zh": "可用《1808年5月3日》讨论浪漫主义的政治情感、反英雄的历史画，以及国家暴力的现代图像。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "goya",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Saturn Devouring His Son",
+        "zh": "农神吞噬其子"
+      },
+      "date": {
+        "en": "c. 1819-1823",
+        "zh": "约1819—1823年"
+      },
+      "startYear": 1819,
+      "imageKey": "francisco-de-goya-saturno-devorando-a-su-hijo-1819-1823",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The figure of Saturn emerges from darkness, wide-eyed and monstrous, gripping a mutilated body.",
+          "The brushwork is rough and the space is nearly void, intensifying the psychological horror.",
+          "Myth is stripped of classical beauty and becomes an image of madness, appetite, and destruction."
+        ],
+        "zh": [
+          "萨图尔努斯从黑暗中浮现，双目圆睁、形同怪物，紧抓着一具残缺的躯体。",
+          "笔触粗粝，空间近乎虚空，加剧了心理上的恐怖。",
+          "神话被剥去古典之美，成为疯狂、贪欲与毁灭的图像。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Part of Goya's Black Paintings, originally painted on the walls of his own house.",
+          "The image can be read politically, psychologically, or existentially; its force lies in refusing one stable explanation.",
+          "It pushes Romantic darkness toward modern anxieties about violence and the unconscious."
+        ],
+        "zh": [
+          "这是戈雅“黑色绘画”系列之一，最初直接画在他自家住宅的墙上。",
+          "这幅图像可以从政治、心理或存在的角度解读；它的力量恰恰在于拒绝单一而稳定的解释。",
+          "它把浪漫主义的黑暗推向关于暴力与无意识的现代焦虑。"
+        ]
+      },
+      "exam": {
+        "en": "Use Saturn for the Black Paintings, nightmare imagery, and the breakdown of classical myth into modern terror.",
+        "zh": "可用《农神吞噬其子》讨论“黑色绘画”、梦魇图像，以及古典神话如何瓦解为现代恐怖。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "turner",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Rain, Steam and Speed",
+        "zh": "雨、蒸汽和速度"
+      },
+      "date": {
+        "en": "1844",
+        "zh": "1844年"
+      },
+      "startYear": 1844,
+      "imageKey": "rain-steam-and-speed-the-great-western-railway",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The train emerges through rain and vapor, with forms dissolving into atmosphere.",
+          "Turner uses blur and speed to make industrial modernity a visual experience rather than a precise description.",
+          "The bridge and train cut through landscape, joining nature and machine."
+        ],
+        "zh": [
+          "火车穿过雨幕与水汽驶来，形体消融在大气之中。",
+          "透纳用模糊与速度感，把工业现代性变成一种视觉体验，而非精确的描述。",
+          "铁路桥与火车切过风景，把自然与机器连接起来。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The painting registers the railway as a symbol of modern time, speed, and technological transformation.",
+          "Romantic landscape here is not anti-modern; it absorbs modern industry into the sublime.",
+          "The work anticipates later abstraction because sensation becomes more important than contour."
+        ],
+        "zh": [
+          "这幅画把铁路记录为现代时间、速度与技术变革的象征。",
+          "这里的浪漫主义风景并不反现代；它把现代工业吸纳进崇高之中。",
+          "这件作品预示了后来的抽象，因为感官体验变得比轮廓更重要。"
+        ]
+      },
+      "exam": {
+        "en": "Use this work for industrial modernity, the Romantic sublime, and the dissolution of form into sensation.",
+        "zh": "可用《雨、蒸汽和速度》讨论工业现代性、浪漫主义的崇高，以及形体如何消融为感官体验。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "turner",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Slave Ship",
+        "zh": "奴隶船"
+      },
+      "date": {
+        "en": "1840",
+        "zh": "1840年"
+      },
+      "startYear": 1840,
+      "imageKey": "slave-ship",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A violent sunset, stormy sea, and scattered bodies create an image of beauty contaminated by atrocity.",
+          "Human forms are small and fragmented, nearly swallowed by water and color.",
+          "The painting's atmospheric force makes moral horror inseparable from visual intensity."
+        ],
+        "zh": [
+          "猛烈的落日、汹涌的海面与散落的躯体，构成一幅被暴行玷污的美的图像。",
+          "人的形体渺小而破碎，几乎被海水与色彩吞没。",
+          "画面的大气力量使道德上的恐怖与视觉上的强烈密不可分。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The subject refers to enslaved people thrown overboard for insurance claims.",
+          "Turner uses sublime landscape as social protest, linking aesthetic experience to abolitionist outrage.",
+          "The painting complicates beauty: gorgeous color becomes ethically disturbing."
+        ],
+        "zh": [
+          "题材指涉为骗取保险赔偿而被抛入海中的被奴役者。",
+          "透纳把崇高风景用作社会抗议，将审美体验与废奴主义的愤慨联系起来。",
+          "这幅画让美变得复杂：绚丽的色彩在伦理上令人不安。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Slave Ship for Romantic sublime, abolitionist politics, and the moral instability of beauty.",
+        "zh": "可用《奴隶船》讨论浪漫主义的崇高、废奴政治，以及美在道德上的不稳定性。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "manet",
+      "sortOrder": 1,
+      "workSlug": "olympia-collection",
+      "title": {
+        "en": "Olympia",
+        "zh": "奥林匹亚"
+      },
+      "date": {
+        "en": "1863",
+        "zh": "1863年"
+      },
+      "startYear": 1863,
+      "imageKey": "manet-edouard-olympia",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "A nude woman reclines on a lounge with a small black cat at her feet and a Black female servant behind her holding a bouquet, presumably sent by a customer.",
+          "Olympia is flatly painted, poorly contoured by academic standards, and deliberately shallow. The lack of classical depth dissolves illusionism and makes painting speak about its own condition as representation.",
+          "She is not clothed by mythology. The reality of a nude woman is present, and the name Olympia was commonly associated with prostitutes in Paris.",
+          "Her direct gaze refuses the passive role expected of the academic nude; she looks back at the viewer as a social actor."
+        ],
+        "zh": [
+          "一名裸体女子斜倚在卧榻上，脚边有一只小黑猫，身后一位黑人女仆手捧花束，花大概是某位顾客送来的。",
+          "《奥林匹亚》画法平涂，按学院标准看轮廓处理得很“差”，空间也刻意浅薄。古典纵深的缺席消解了幻觉主义，让绘画开始言说自身作为再现的处境。",
+          "她并没有披上神话的外衣。一个裸体女人的真实性就摆在眼前，而“奥林匹亚”这个名字在当时的巴黎常与妓女联系在一起。",
+          "她直视观者的目光拒绝了学院派裸体画所期待的被动角色；她作为社会中的行动者回望观者。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The subject is modern: she inhabits the contemporary world of Parisian prostitution.",
+          "Manet's modernity is not only how he painted, but what he painted: modern marginal figures outside bourgeois normalcy.",
+          "The painting is candid about materials, subject, motives, and desire. It transforms the ideal Venus into a courtesan and exposes the viewer's implication in looking.",
+          "The scandal came from the collision of an old art-historical format with an unmistakably modern, unidealized woman."
+        ],
+        "zh": [
+          "题材是现代的：她身处当代巴黎的卖淫世界。",
+          "马奈的现代性不仅在于怎么画，也在于画什么：处于资产阶级常态之外的现代边缘人物。",
+          "这幅画对材料、题材、动机与欲望都毫不掩饰。它把理想化的维纳斯变成交际花，并揭示出观者自身也牵涉在观看之中。",
+          "丑闻源于一种古老的艺术史程式与一个毫无理想化、明确属于现代的女性之间的碰撞。"
+        ]
+      },
+      "exam": {
+        "en": "Use Olympia to argue that Manet modernizes the nude by stripping away mythology, emphasizing flatness, and forcing viewers to confront modern sexuality, class, race, and spectatorship.",
+        "zh": "可用《奥林匹亚》论证：马奈通过剥去神话外衣、强调平面性，迫使观者直面现代的性、阶级、种族与观看关系，从而使裸体画现代化。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "manet",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Le Dejeuner sur l'herbe",
+        "zh": "草地上的午餐"
+      },
+      "date": {
+        "en": "1863",
+        "zh": "1863年"
+      },
+      "startYear": 1863,
+      "imageKey": "edouard-manet-luncheon-on-the-grass-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The painting was exhibited at the Salon des Refuses after exclusion from the official Salon and caused controversy through both subject and technique.",
+          "The figures are modern Parisian figures. The nude woman is not distanced by mythology or idealization; she looks like a real person, creating discomfort for viewers.",
+          "The nude woman looks directly outward with a gaze that is nonchalant yet engaging.",
+          "The figures are rendered flatly; the female body can feel like a cutout. The foreground grass and distant meadow use loose brushwork with little academic finish."
+        ],
+        "zh": [
+          "这幅画被官方沙龙拒绝后在落选者沙龙展出，其题材与技法都引发了争议。",
+          "画中人物是现代巴黎人。裸体女子没有被神话或理想化拉开距离；她看起来就是一个真实的人，这让观者感到不适。",
+          "裸体女子直视画外，目光漫不经心却又引人对视。",
+          "人物以平面化方式处理，女性身体看上去像剪贴上去的。前景的草地和远处的草坪笔触松散，几乎没有学院式的精细收尾。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The work challenges the authorities controlling art in France by quoting tradition while refusing academic decorum.",
+          "It is inspired by Titian and by a Raphael-related composition known to Manet through an engraving of The Judgment of Paris.",
+          "Its importance lies in Manet making his own decisions for art, helping open the path toward late nineteenth-century and twentieth-century modernism.",
+          "The scandal is not nudity alone, but the collapse of acceptable distance: the nude is contemporary, socially legible, and looking back."
+        ],
+        "zh": [
+          "这件作品一面援引传统，一面拒绝学院礼法，从而挑战了掌控法国艺术的权威。",
+          "它受提香启发，也借鉴了一幅与拉斐尔相关的构图——马奈通过版画《帕里斯的评判》得知这一构图。",
+          "它的重要性在于马奈为艺术自行作出决定，帮助开辟了通往19世纪晚期和20世纪现代主义的道路。",
+          "丑闻不只在于裸体，而在于可接受的距离崩塌了：这个裸体是当代的、在社会身份上可以辨认的，而且正在回望。"
+        ]
+      },
+      "exam": {
+        "en": "Use Le Dejeuner sur l'herbe to discuss Manet's challenge to the Salon, his flattening of form, and his replacement of mythological nude tradition with modern Parisian discomfort.",
+        "zh": "可用《草地上的午餐》讨论马奈对沙龙的挑战、他对形体的平面化处理，以及他如何以现代巴黎式的不适取代神话裸体传统。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "monet",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Impression, Sunrise",
+        "zh": "印象·日出"
+      },
+      "date": {
+        "en": "1872",
+        "zh": "1872年"
+      },
+      "startYear": 1872,
+      "imageKey": "claude-monet-impression-soleil-levant",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Loose brushstrokes describe harbor, water, smoke, and sky with minimal detail.",
+          "The orange sun and its reflection become optical anchors inside a misty blue-gray field.",
+          "The image looks unfinished by academic standards, which was central to its modern shock."
+        ],
+        "zh": [
+          "松散的笔触以极少的细节描绘港口、水面、烟雾与天空。",
+          "橙色的太阳及其倒影成为雾蒙蒙的蓝灰色场域中的视觉锚点。",
+          "按学院标准，这幅画看起来尚未完成，而这正是它带来现代冲击的核心。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The title helped give Impressionism its name after a critic used it mockingly.",
+          "The subject is modern industrial harbor life, but filtered through atmospheric sensation.",
+          "Monet values the impression of a moment over polished historical narrative."
+        ],
+        "zh": [
+          "一位评论家用这个标题加以嘲讽，印象派由此得名。",
+          "题材是现代工业港口的生活，却经过了大气感受的过滤。",
+          "莫奈看重瞬间的印象，而非精雕细琢的历史叙事。"
+        ]
+      },
+      "exam": {
+        "en": "Use Impression, Sunrise for plein-air vision, loose brushwork, modern atmosphere, and the naming of Impressionism.",
+        "zh": "可用《印象·日出》讨论户外写生的观看方式、松散的笔触、现代的大气感，以及印象派名称的由来。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "monet",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Water Lilies",
+        "zh": "睡莲"
+      },
+      "date": {
+        "en": "1890s-1920s",
+        "zh": "1890年代—1920年代"
+      },
+      "startYear": 1890,
+      "imageKey": "claude-monet-water-lilies-1906-ryerson",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The pond surface fills the picture, reducing horizon and stable spatial orientation.",
+          "Reflections, flowers, water, and sky merge into a field of color and brushwork.",
+          "The late works move toward abstraction because perception becomes immersive."
+        ],
+        "zh": [
+          "池塘水面占满画面，削弱了地平线和稳定的空间方位感。",
+          "倒影、花朵、水与天空融汇成一片色彩与笔触的场域。",
+          "晚期作品走向抽象，因为知觉变得具有沉浸性。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Monet's garden at Giverny became a controlled site for serial observation.",
+          "The series shows modern temporality: same motif, endless difference.",
+          "The large late panels helped shape later abstract and immersive painting."
+        ],
+        "zh": [
+          "莫奈在吉维尼的花园成为一处可控的系列观察场所。",
+          "这一系列体现了现代的时间性：同一母题，无尽差异。",
+          "晚年的大型画板影响了后来的抽象绘画与沉浸式绘画。"
+        ]
+      },
+      "exam": {
+        "en": "Use Water Lilies to discuss seriality, perception, late Impressionism, and the path toward abstraction.",
+        "zh": "可用《睡莲》讨论系列性、知觉、晚期印象派，以及通往抽象的道路。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "vangogh",
+      "sortOrder": 1,
+      "workSlug": "starry-night-collection",
+      "title": {
+        "en": "The Starry Night",
+        "zh": "星月夜"
+      },
+      "date": {
+        "en": "1889",
+        "zh": "1889年"
+      },
+      "startYear": 1889,
+      "imageKey": "van-gogh-starry-night-google-art-project",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The sky is animated by swirling rhythms, thick brushwork, and exaggerated stars.",
+          "The dark cypress rises like a flame, connecting earth and sky.",
+          "The village is quieter and more geometric, contrasting human settlement with cosmic motion."
+        ],
+        "zh": [
+          "天空被旋转的节奏、厚重的笔触与夸张的星辰激活。",
+          "深色的柏树如火焰般升起，连接大地与天空。",
+          "村庄更为安静、更具几何感，以人类聚落对照宇宙的运动。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Painted while Van Gogh was at Saint-Remy, the work turns observed landscape into visionary experience.",
+          "It is not simply a night view; it is nature charged with psychological and spiritual intensity.",
+          "The painting is central to Post-Impressionism because expression overtakes optical naturalism."
+        ],
+        "zh": [
+          "这幅画作于梵高住在圣雷米期间，把观察到的风景转化为幻象般的体验。",
+          "它不只是一幅夜景，而是充满心理与精神强度的自然。",
+          "这幅画是后印象派的核心作品，因为表现压倒了视觉上的自然主义。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Starry Night for expressive brushwork, emotional color, and the Post-Impressionist move beyond Impressionist perception.",
+        "zh": "可用《星月夜》讨论表现性笔触、情感化色彩，以及后印象派如何超越印象派的知觉。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "vangogh",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Sunflowers",
+        "zh": "向日葵"
+      },
+      "date": {
+        "en": "1888",
+        "zh": "1888年"
+      },
+      "startYear": 1888,
+      "imageKey": "vincent-van-gogh-sunflowers-vgm-f458",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Yellow dominates the image, creating harmony through repetition rather than strong contrast.",
+          "The flowers appear at different stages of life, from bloom to decay.",
+          "Thick impasto gives petals, seeds, and vase a tactile presence."
+        ],
+        "zh": [
+          "黄色主导画面，通过重复而非强烈对比营造和谐。",
+          "花朵处在不同的生命阶段，从盛开到凋零。",
+          "厚涂颜料赋予花瓣、花籽和花瓶可触摸般的质感。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The Sunflowers were connected to Van Gogh's hope for an artists' community in Arles.",
+          "A simple still life becomes an experiment in color, friendship, and intensity.",
+          "The painting is useful for discussing how ordinary subjects can become expressive icons."
+        ],
+        "zh": [
+          "《向日葵》与梵高希望在阿尔勒建立艺术家群体的愿望相关联。",
+          "一幅简单的静物画成为关于色彩、友谊与强度的实验。",
+          "这幅画适合用来讨论平凡题材如何成为富有表现力的图像符号。"
+        ]
+      },
+      "exam": {
+        "en": "Use Sunflowers for color symbolism, impasto, still life, and Van Gogh's expressive transformation of ordinary objects.",
+        "zh": "可用《向日葵》讨论色彩象征、厚涂、静物画，以及梵高对日常物品的表现性转化。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "cezanne",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "Mont Sainte-Victoire",
+        "zh": "圣维克多山"
+      },
+      "date": {
+        "en": "1880s-1900s",
+        "zh": "1880年代—1900年代"
+      },
+      "startYear": 1880,
+      "imageKey": "paul-cezanne-mont-sainte-victoire-and-the-viaduct-of-the-arc-river-valley",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The mountain is built from patches of color rather than smooth atmospheric illusion.",
+          "Foreground, trees, viaduct, and mountain interlock as planes, making depth feel constructed.",
+          "The image balances landscape observation with abstract structure."
+        ],
+        "zh": [
+          "山体由一块块色彩搭建而成，而不是靠平滑的大气幻觉。",
+          "前景、树木、高架桥与山峦以块面相互咬合，使纵深显得是被建构出来的。",
+          "画面在风景观察与抽象结构之间取得平衡。"
+        ]
+      },
+      "context": {
+        "en": [
+          "Cezanne returned to the motif repeatedly, treating landscape as a problem of perception and form.",
+          "His method influenced Cubism because objects could be broken into planes and rebuilt.",
+          "The work is modern because it makes painting's construction visible."
+        ],
+        "zh": [
+          "塞尚反复回到这一母题，把风景当作知觉与形式的问题来处理。",
+          "他的方法影响了立体主义，因为物体可以被拆解为块面再重新组建。",
+          "这件作品之所以现代，是因为它让绘画的建构过程变得可见。"
+        ]
+      },
+      "exam": {
+        "en": "Use Mont Sainte-Victoire to discuss constructed vision, color planes, serial landscape, and the road to Cubism.",
+        "zh": "可用《圣维克多山》讨论建构性的观看、色彩块面、系列风景，以及通往立体主义的道路。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "cezanne",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "The Large Bathers",
+        "zh": "大浴女"
+      },
+      "date": {
+        "en": "1898-1905",
+        "zh": "1898—1905年"
+      },
+      "startYear": 1898,
+      "imageKey": "paul-cezanne-les-grandes-baigneuses",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "Bodies and trees form an architectural triangle rather than naturalistic anatomy.",
+          "The figures feel monumental but simplified, almost fused with landscape.",
+          "Cezanne uses color and structure to stabilize a scene that remains visually unsettled."
+        ],
+        "zh": [
+          "人体与树木构成一个建筑般的三角形，而不是自然主义的解剖结构。",
+          "人物显得宏伟却简化，几乎与风景融为一体。",
+          "塞尚用色彩与结构稳定住一个在视觉上仍然躁动不安的场景。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The classical bathing theme is reworked into modern structure rather than sensual finish.",
+          "The painting influenced later modernists interested in geometry, monumentality, and abstraction.",
+          "It is useful for comparing Cezanne with both Renaissance composition and Cubist fragmentation."
+        ],
+        "zh": [
+          "古典的沐浴题材被改造为现代的结构，而非追求感官上的精致收尾。",
+          "这幅画影响了后来关注几何、纪念碑性与抽象的现代主义者。",
+          "它适合用来把塞尚与文艺复兴构图以及立体主义的碎片化进行比较。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Large Bathers for modern classicism, structural composition, and the transformation of figure painting.",
+        "zh": "可用《大浴女》讨论现代古典主义、结构性构图，以及人物画的转变。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "klimt",
+      "sortOrder": 1,
+      "workSlug": null,
+      "title": {
+        "en": "The Kiss",
+        "zh": "吻"
+      },
+      "date": {
+        "en": "1907-1908",
+        "zh": "1907—1908年"
+      },
+      "startYear": 1907,
+      "imageKey": "the-kiss-gustav-klimt-google-cultural-institute",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The figures are wrapped in a gold patterned field that nearly dissolves their bodies into ornament.",
+          "Male rectangular motifs and female circular motifs create a symbolic contrast of forms.",
+          "The couple stands at the edge of a flowered ground, combining intimacy with instability."
+        ],
+        "zh": [
+          "人物被包裹在金色的图案场域中，身体几乎消融为装饰。",
+          "男性的矩形纹样与女性的圆形纹样形成象征性的形式对比。",
+          "这对恋人立于花丛地面的边缘，亲密之中带着不稳定感。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The work belongs to Klimt's Golden Phase and reflects interest in Byzantine mosaics and decorative surface.",
+          "It can be read as erotic union, aesthetic fantasy, or an image of gendered tension.",
+          "Klimt's decorative surface challenged hierarchies that separated painting from applied arts."
+        ],
+        "zh": [
+          "这件作品属于克里姆特的“黄金时期”，反映了他对拜占庭镶嵌画与装饰性表面的兴趣。",
+          "它可以被解读为情欲的结合、审美的幻想，或性别张力的图像。",
+          "克里姆特的装饰性表面挑战了把绘画与实用艺术区分开来的等级秩序。"
+        ]
+      },
+      "exam": {
+        "en": "Use The Kiss for Symbolism, Vienna Secession decoration, eroticism, and the modern collapse of figure into ornament.",
+        "zh": "可用《吻》讨论象征主义、维也纳分离派的装饰、情欲，以及人物在现代如何瓦解为装饰。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "painterSlug": "klimt",
+      "sortOrder": 2,
+      "workSlug": null,
+      "title": {
+        "en": "Portrait of Adele Bloch-Bauer I",
+        "zh": "阿黛尔·布洛赫-鲍尔肖像一号"
+      },
+      "date": {
+        "en": "1907",
+        "zh": "1907年"
+      },
+      "startYear": 1907,
+      "imageKey": "gustav-klimt-046",
+      "imagePosition": null,
+      "visual": {
+        "en": [
+          "The sitter's face and hands emerge from an overwhelming gold ornamental field.",
+          "The body becomes pattern, luxury, and social identity rather than anatomical form.",
+          "The portrait mixes intimacy with display, making status and surface inseparable."
+        ],
+        "zh": [
+          "像主的面庞与双手从铺天盖地的金色装饰场域中浮现。",
+          "身体变成了图案、奢华与社会身份，而非解剖学意义上的形体。",
+          "这幅肖像把亲密与展示混合在一起，使地位与表面密不可分。"
+        ]
+      },
+      "context": {
+        "en": [
+          "The portrait reflects elite Jewish patronage in Vienna and the culture of the Secession.",
+          "Its later Nazi looting and restitution history make provenance central to its modern meaning.",
+          "The work is useful for discussing patronage, ornament, identity, and museum ethics."
+        ],
+        "zh": [
+          "这幅肖像反映了维也纳犹太精英的赞助活动以及分离派文化。",
+          "它后来遭纳粹掠夺、又被归还的历史，使来源问题成为其现代意义的核心。",
+          "这件作品适合用来讨论赞助、装饰、身份与博物馆伦理。"
+        ]
+      },
+      "exam": {
+        "en": "Use Adele Bloch-Bauer for portraiture, ornament, patronage, restitution, and the politics of ownership.",
+        "zh": "可用《阿黛尔·布洛赫-鲍尔肖像一号》讨论肖像画、装饰、赞助、文物归还，以及所有权的政治。"
+      },
+      "zhStatus": "draft"
+    }
+  ],
+  "conceptGuides": [
+    {
+      "key": "modernity",
+      "sortOrder": 1,
+      "label": {
+        "en": "modernity",
+        "zh": "现代性"
+      },
+      "keywords": {
+        "en": [
+          "modern",
+          "modernity",
+          "modernism",
+          "manet",
+          "olympia",
+          "city",
+          "paris",
+          "scandal",
+          "realism"
+        ],
+        "zh": [
+          "现代",
+          "现代性",
+          "现代主义",
+          "马奈",
+          "奥林匹亚",
+          "城市",
+          "巴黎",
+          "丑闻",
+          "现实主义",
+          "梵高",
+          "埃菲尔"
+        ]
+      },
+      "workSlugs": [
+        "olympia-collection",
+        "eiffel-tower",
+        "starry-night-collection"
+      ],
+      "response": {
+        "en": "For modernity, look for art becoming honest about its own time. Manet makes the nude socially specific instead of mythological; the Eiffel Tower makes exposed engineering into a public image; Van Gogh makes inner intensity more truthful than optical calm.",
+        "zh": "理解现代性，可以留意艺术如何开始诚实面对自己的时代。马奈让裸体具有明确的社会身份，而不再借助神话；埃菲尔铁塔把裸露的工程结构变成公共形象；梵高则让内在的强度比光学上的平静更加真实。"
+      },
+      "implication": {
+        "en": "The implication is that modern art often stops pretending to be timeless; it shows the conditions of modern life, including money, technology, alienation, and the act of looking.",
+        "zh": "由此可见，现代艺术常常不再假装超越时间；它呈现现代生活的种种条件，包括金钱、技术、疏离，以及观看这一行为本身。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "the-body",
+      "sortOrder": 2,
+      "label": {
+        "en": "the body",
+        "zh": "身体"
+      },
+      "keywords": {
+        "en": [
+          "body",
+          "nude",
+          "venus",
+          "aphrodite",
+          "kouros",
+          "david",
+          "figure",
+          "ideal",
+          "beauty",
+          "human"
+        ],
+        "zh": [
+          "身体",
+          "裸体",
+          "人体",
+          "维纳斯",
+          "阿佛洛狄忒",
+          "库罗斯",
+          "大卫",
+          "形体",
+          "理想",
+          "美",
+          "人像"
+        ]
+      },
+      "workSlugs": [
+        "kouros-collection",
+        "aphrodite-knidos-collection",
+        "michelangelo-david"
+      ],
+      "response": {
+        "en": "When art history studies the body, it is rarely just anatomy. The body can be civic ideal, divine beauty, erotic gaze, political courage, or psychological pressure.",
+        "zh": "艺术史研究身体时，关注的很少只是解剖。身体可以是公民理想、神圣之美、情欲凝视、政治勇气，也可以是心理压力。"
+      },
+      "implication": {
+        "en": "The implication is that the body is a cultural argument. Each period decides what kind of body can stand for beauty, virtue, divinity, desire, or thought.",
+        "zh": "由此可见，身体本身就是一种文化论证。每个时代都在决定：什么样的身体可以代表美、德行、神性、欲望或思想。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "architecture-and-space",
+      "sortOrder": 3,
+      "label": {
+        "en": "architecture and space",
+        "zh": "建筑与空间"
+      },
+      "keywords": {
+        "en": [
+          "architecture",
+          "building",
+          "space",
+          "temple",
+          "cathedral",
+          "dome",
+          "columns",
+          "light",
+          "structure"
+        ],
+        "zh": [
+          "建筑",
+          "建筑物",
+          "空间",
+          "神庙",
+          "教堂",
+          "大教堂",
+          "穹顶",
+          "柱子",
+          "柱廊",
+          "光线",
+          "结构"
+        ]
+      },
+      "workSlugs": [
+        "parthenon-collection",
+        "pantheon",
+        "hagia-sophia",
+        "chartres"
+      ],
+      "response": {
+        "en": "Architecture answers with space. Ask how the building controls your body: procession at the Parthenon, cosmic interior at the Pantheon, floating light at Hagia Sophia, teaching-through-glass at Chartres.",
+        "zh": "建筑用空间作答。不妨问问：这座建筑如何支配你的身体？帕特农神庙的游行路线，万神殿宇宙般的室内，圣索菲亚大教堂漂浮的光，沙特尔大教堂透过彩色玻璃进行的教导。"
+      },
+      "implication": {
+        "en": "The implication is that architecture is not background. It scripts movement, frames authority, and turns belief or power into something you physically enter.",
+        "zh": "由此可见，建筑并不是背景。它编排人的移动，框定权威，把信仰或权力变成可以亲身进入的空间。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "gothic",
+      "sortOrder": 4,
+      "label": {
+        "en": "Gothic",
+        "zh": "哥特"
+      },
+      "keywords": {
+        "en": [
+          "gothic",
+          "medieval",
+          "chartres",
+          "cathedral",
+          "stained",
+          "glass",
+          "portal",
+          "light"
+        ],
+        "zh": [
+          "哥特",
+          "中世纪",
+          "沙特尔",
+          "大教堂",
+          "彩色玻璃",
+          "花窗",
+          "玻璃",
+          "门廊",
+          "光线"
+        ]
+      },
+      "workSlugs": [
+        "chartres",
+        "chartres-portal",
+        "wilton-diptych"
+      ],
+      "response": {
+        "en": "Gothic art is not dark or primitive; it is an intelligent system of height, light, sculpture, ritual, and public teaching. The cathedral turns belief into a spatial experience.",
+        "zh": "哥特艺术并不阴暗，也不原始；它是一套融合高度、光线、雕塑、仪式与公共教化的精密系统。大教堂把信仰转化为一种空间经验。"
+      },
+      "implication": {
+        "en": "The implication is that Gothic art makes theology environmental: stone, glass, sculpture, height, and colored light work together as one public teaching system.",
+        "zh": "由此可见，哥特艺术让神学成为可以置身其中的环境：石头、玻璃、雕塑、高度与彩色光线协同运作，构成一套完整的公共教化系统。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "renaissance",
+      "sortOrder": 5,
+      "label": {
+        "en": "Renaissance",
+        "zh": "文艺复兴"
+      },
+      "keywords": {
+        "en": [
+          "renaissance",
+          "humanism",
+          "botticelli",
+          "michelangelo",
+          "david",
+          "bramante",
+          "perspective",
+          "classical"
+        ],
+        "zh": [
+          "文艺复兴",
+          "人文主义",
+          "波提切利",
+          "米开朗基罗",
+          "大卫",
+          "布拉曼特",
+          "透视",
+          "古典"
+        ]
+      },
+      "workSlugs": [
+        "birth-of-venus-collection",
+        "bramante-tempietto",
+        "michelangelo-david"
+      ],
+      "response": {
+        "en": "Renaissance art often asks how antiquity can be reborn for a new social world. Look for measured form, classical reference, ideal bodies, and human presence treated as intellectually serious.",
+        "zh": "文艺复兴艺术常常追问：古代如何能为一个新的社会世界而重生？可以留意有分寸的形式、古典引用、理想化的身体，以及被当作严肃思想对象来对待的人的存在。"
+      },
+      "implication": {
+        "en": "The implication is that Renaissance artists use antiquity to invent a new dignity for human presence, not simply to copy old forms.",
+        "zh": "由此可见，文艺复兴艺术家借用古代，并不只是为了模仿旧形式，而是为人的存在创造一种新的尊严。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "baroque",
+      "sortOrder": 6,
+      "label": {
+        "en": "Baroque",
+        "zh": "巴洛克"
+      },
+      "keywords": {
+        "en": [
+          "baroque",
+          "bernini",
+          "velazquez",
+          "drama",
+          "theater",
+          "emotion",
+          "movement",
+          "power"
+        ],
+        "zh": [
+          "巴洛克",
+          "贝尼尼",
+          "委拉斯开兹",
+          "戏剧",
+          "剧场",
+          "情感",
+          "情绪",
+          "运动",
+          "动感",
+          "权力"
+        ]
+      },
+      "workSlugs": [
+        "ecstasy-teresa",
+        "san-carlo",
+        "las-meninas-collection"
+      ],
+      "response": {
+        "en": "Baroque art is built to move you. It uses theatrical light, unstable space, bodily intensity, and staged spectatorship so belief and power feel immediate.",
+        "zh": "巴洛克艺术生来就是为了打动你。它运用戏剧性的光线、不稳定的空间、身体的强烈张力和精心安排的观看，让信仰与权力显得近在眼前。"
+      },
+      "implication": {
+        "en": "The implication is that Baroque art wants to persuade through experience: it uses motion, light, and theatrical pressure to make belief feel immediate.",
+        "zh": "由此可见，巴洛克艺术希望通过经验来说服：它借助运动、光线和剧场般的压迫感，让信仰变得直接而迫切。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "painting-surface",
+      "sortOrder": 7,
+      "label": {
+        "en": "painting surface",
+        "zh": "绘画表面"
+      },
+      "keywords": {
+        "en": [
+          "painting",
+          "brush",
+          "brushwork",
+          "flat",
+          "surface",
+          "color",
+          "line",
+          "composition",
+          "visual"
+        ],
+        "zh": [
+          "绘画",
+          "油画",
+          "笔触",
+          "用笔",
+          "平面",
+          "扁平",
+          "表面",
+          "色彩",
+          "颜色",
+          "线条",
+          "构图",
+          "视觉"
+        ]
+      },
+      "workSlugs": [
+        "birth-of-venus-collection",
+        "olympia-collection",
+        "starry-night-collection"
+      ],
+      "response": {
+        "en": "Painting often thinks through surface. Botticelli makes line poetic, Manet makes flatness socially blunt, and Van Gogh makes brushstroke carry feeling.",
+        "zh": "绘画常常通过表面来思考。波提切利让线条富有诗意，马奈让平面感带有社会层面的直白，梵高则让笔触承载情感。"
+      },
+      "implication": {
+        "en": "The implication is that painting can think through its own material surface. Brushwork, flatness, line, and color are not decoration; they are arguments.",
+        "zh": "由此可见，绘画可以通过自身的物质表面来思考。笔触、平面感、线条和色彩并不是装饰，而是论点。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "key": "power",
+      "sortOrder": 8,
+      "label": {
+        "en": "power",
+        "zh": "权力"
+      },
+      "keywords": {
+        "en": [
+          "power",
+          "political",
+          "empire",
+          "king",
+          "city",
+          "public",
+          "state",
+          "authority",
+          "social"
+        ],
+        "zh": [
+          "权力",
+          "政治",
+          "帝国",
+          "国王",
+          "君主",
+          "城市",
+          "城邦",
+          "公共",
+          "国家",
+          "权威",
+          "社会"
+        ]
+      },
+      "workSlugs": [
+        "parthenon-collection",
+        "pantheon",
+        "las-meninas-collection",
+        "olympia-collection"
+      ],
+      "response": {
+        "en": "Art handles power by making it visible and natural. Temples, courts, portraits, and even scandalous modern paintings all ask who gets seen, who commands space, and who controls looking.",
+        "zh": "艺术处理权力的方式，是让它变得可见、显得自然。神庙、宫廷、肖像，乃至引发丑闻的现代绘画，都在追问：谁被看见，谁占据空间，谁掌控观看。"
+      },
+      "implication": {
+        "en": "The implication is that power becomes more convincing when it is made visible as beauty, order, ceremony, scale, or even scandal.",
+        "zh": "由此可见，当权力以美、秩序、仪式、尺度，甚至丑闻的形式被呈现出来时，它会显得更有说服力。"
+      },
+      "zhStatus": "draft"
+    }
+  ],
+  "coffeeOptions": [
+    {
+      "slug": "latte",
+      "sortOrder": 1,
+      "name": {
+        "en": "Latte",
+        "zh": "拿铁"
+      },
+      "description": {
+        "en": "silky milk, soft crema",
+        "zh": "丝滑牛奶，柔软奶沫"
+      },
+      "note": {
+        "en": "A silky bowl of milk and crema for looking carefully at marble, myth, and brushwork.",
+        "zh": "一碗丝滑的牛奶与奶沫，适合细细端详大理石、神话与笔触。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "hot-chocolate",
+      "sortOrder": 2,
+      "name": {
+        "en": "Hot Chocolate",
+        "zh": "热可可"
+      },
+      "description": {
+        "en": "dark cocoa, cream, warmth",
+        "zh": "浓郁可可，奶油，温暖"
+      },
+      "note": {
+        "en": "Dark cocoa, soft cream, and a slower kind of thinking for difficult paintings.",
+        "zh": "浓郁可可配柔软奶油，陪你用更慢的节奏思考那些难懂的画。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "espresso",
+      "sortOrder": 3,
+      "name": {
+        "en": "Espresso",
+        "zh": "意式浓缩"
+      },
+      "description": {
+        "en": "small, sharp, serious",
+        "zh": "小杯，浓烈，认真"
+      },
+      "note": {
+        "en": "A sharp little shot for Baroque drama, Manet scandals, and fast visual analysis.",
+        "zh": "一小杯利落的浓缩，配巴洛克的戏剧、马奈的丑闻和快节奏的视觉分析。"
+      },
+      "zhStatus": "draft"
+    },
+    {
+      "slug": "tea",
+      "sortOrder": 4,
+      "name": {
+        "en": "Tea",
+        "zh": "茶"
+      },
+      "description": {
+        "en": "quiet pot, long reading",
+        "zh": "静静一壶，慢慢长读"
+      },
+      "note": {
+        "en": "A quieter pot for Gothic light, Renaissance line, and long museum wandering.",
+        "zh": "更安静的一壶茶，配哥特的光、文艺复兴的线条，和博物馆里漫长的闲逛。"
+      },
+      "zhStatus": "draft"
+    }
+  ]
+}

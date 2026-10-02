@@ -1,0 +1,319 @@
+{
+  "painters/botticelli/name": "桑德罗·波提切利",
+  "painters/botticelli/years": "约1445—1510年",
+  "painters/botticelli/country": "意大利",
+  "painters/botticelli/period": "早期文艺复兴",
+  "painters/botticelli/movement": "佛罗伦萨文艺复兴",
+  "painters/botticelli/hook": "神话、线条、宫廷之美与人文主义诗歌化为绘画。",
+  "painters/botticelli/position": "要理解文艺复兴时期的佛罗伦萨如何把古典神话转化为精英视觉文化，波提切利是核心人物。他的绘画并不追求列奥纳多那种大气氤氲的自然主义，而是看重轮廓、节奏、诗意之美，以及美第奇人文主义的知识世界。",
+  "painters/artemisia/name": "阿尔泰米西娅·真蒂莱斯基",
+  "painters/artemisia/years": "1593—约1656年",
+  "painters/artemisia/country": "意大利",
+  "painters/artemisia/period": "巴洛克",
+  "painters/artemisia/movement": "卡拉瓦乔派巴洛克",
+  "painters/artemisia/hook": "圣经中的女英雄变得有力、具身，且在心理上令人信服。",
+  "painters/artemisia/position": "阿尔泰米西娅·真蒂莱斯基之所以不可或缺，在于她借女性的能动性改写了巴洛克的戏剧性。她的绘画沿用卡拉瓦乔的幽暗与写实，但她笔下的女英雄不是装饰性的受害者；她们行动、抵抗、谋划，并且幸存下来。",
+  "painters/vermeer/name": "约翰内斯·维米尔",
+  "painters/vermeer/years": "1632—1675年",
+  "painters/vermeer/country": "荷兰",
+  "painters/vermeer/period": "巴洛克",
+  "painters/vermeer/movement": "荷兰黄金时代",
+  "painters/vermeer/hook": "静谧的室内让光线、观看与日常活动化为谜。",
+  "painters/vermeer/position": "要把荷兰黄金时代理解为一种关于家居室内、光学微妙与专注观看的文化，维米尔至关重要。他的画中动作很小，注意力却极为广阔：光线、寂静、劳作与凝视本身都成为主题。",
+  "painters/delacroix/name": "欧仁·德拉克洛瓦",
+  "painters/delacroix/years": "1798—1863年",
+  "painters/delacroix/country": "法国",
+  "painters/delacroix/period": "浪漫主义",
+  "painters/delacroix/movement": "法国浪漫主义",
+  "painters/delacroix/hook": "色彩、暴力、政治与情感成为现代历史画的驱动力。",
+  "painters/delacroix/position": "德拉克洛瓦是定义法国浪漫主义的画家之一。他反对学院派的克制与新古典主义的明晰，把色彩、运动、情感和政治张力置于绘画的核心。",
+  "painters/cassatt/name": "玛丽·卡萨特",
+  "painters/cassatt/years": "1844—1926年",
+  "painters/cassatt/country": "美国 / 法国",
+  "painters/cassatt/period": "印象派",
+  "painters/cassatt/movement": "印象派",
+  "painters/cassatt/hook": "现代女性以自主的姿态观看、照料、行动，并占据公共与私人空间。",
+  "painters/cassatt/position": "玛丽·卡萨特为印象派带来了另一种社会地理。她关注的不只是咖啡馆、林荫大道和男性漫游者，而是剧院、家居室内、花园、小船中的女性，以及亲密的照料行为；她常常让观看本身成为带有性别意味的主题。",
+  "painters/leonardo/name": "列奥纳多·达·芬奇",
+  "painters/leonardo/years": "1452—1519年",
+  "painters/leonardo/country": "意大利",
+  "painters/leonardo/period": "盛期文艺复兴",
+  "painters/leonardo/movement": "文艺复兴人文主义",
+  "painters/leonardo/hook": "绘画成为探究：解剖、光学、心理与大气。",
+  "painters/leonardo/position": "列奥纳多代表了盛期文艺复兴中艺术与科学观察相结合的理想。他的绘画不只是描绘身体，更在检验身体、空气、光线、心理和神圣叙事如何借助视觉智慧变得可信。",
+  "painters/caravaggio/name": "卡拉瓦乔",
+  "painters/caravaggio/years": "1571—1610年",
+  "painters/caravaggio/country": "意大利",
+  "painters/caravaggio/period": "巴洛克",
+  "painters/caravaggio/movement": "暗色调主义",
+  "painters/caravaggio/hook": "圣徒、罪人与观者一同被拉进戏剧性的光中。",
+  "painters/caravaggio/position": "卡拉瓦乔让神圣场景变得直接、具身，并带有道德上的紧迫感。他拒绝理想化的美，转而采用普通模特、沾满尘土的双脚和猛烈的光线，让人感到神圣事件闯入了真实世界。",
+  "painters/rembrandt/name": "伦勃朗·凡·莱因",
+  "painters/rembrandt/years": "1606—1669年",
+  "painters/rembrandt/country": "荷兰",
+  "painters/rembrandt/period": "巴洛克",
+  "painters/rembrandt/movement": "荷兰黄金时代",
+  "painters/rembrandt/hook": "颜料转向内心：光成为良知与衰老的工具。",
+  "painters/rembrandt/position": "伦勃朗的重要性在于让绘画具有浓厚的心理密度。他给予观者的不是光洁的理想之美，而是年岁、疑虑、温情、良知，以及颜料本身丰富的物质性。",
+  "painters/velazquez/name": "迭戈·委拉斯开兹",
+  "painters/velazquez/years": "1599—1660年",
+  "painters/velazquez/country": "西班牙",
+  "painters/velazquez/period": "巴洛克",
+  "painters/velazquez/movement": "西班牙宫廷绘画",
+  "painters/velazquez/hook": "绘画追问：谁在观看，谁被看见，谁掌控再现。",
+  "painters/velazquez/position": "委拉斯开兹把宫廷绘画变成了一个哲学问题。他的艺术常常追问绘画能够再现什么、观者站在何处，以及权力如何通过观看流转。",
+  "painterWorks/botticelli/1/title": "维纳斯的诞生",
+  "painterWorks/botticelli/1/date": "约1485年",
+  "painterWorks/botticelli/1/visual": [
+    "维纳斯站在一只巨大的贝壳上，身体略失平衡，以“贞洁的维纳斯”（Venus pudica）手势遮掩自己，却依然成为欲望的焦点。",
+    "人物由清晰优雅的轮廓界定，而非厚重的解剖体积；波提切利的线条让身体显得抒情而富有装饰性。",
+    "海浪、风、花朵、发丝和衣褶形成装饰性的节奏，其重要性不亚于空间的真实感。",
+    "浅近的空间让画面更像诗意的舞台，而不是令人信服的自然环境。"
+  ],
+  "painterWorks/botticelli/1/context": [
+    "画面表现维纳斯自海中诞生后登岸：风神将她吹送而来，岸边一位人物递上饰有花朵的斗篷迎接她。",
+    "这幅画属于佛罗伦萨博学的文化圈，这一文化借文艺复兴人文主义复兴了古典神话。",
+    "与基督教祭坛画不同，这幅神话裸体画让异教之美在精英宫廷环境中获得了知识上和社会上的正当性。",
+    "这件作品有助于研究文艺复兴艺术如何把感官之美、诗歌、古典学问与赞助结合在一起。"
+  ],
+  "painterWorks/botticelli/1/exam": "可用《维纳斯的诞生》讨论文艺复兴人文主义、神话题材、理想美以及波提切利的线性风格。",
+  "painterWorks/botticelli/2/title": "春",
+  "painterWorks/botticelli/2/date": "约1480—1482年",
+  "painterWorks/botticelli/2/visual": [
+    "九位神话人物站在橘树林中，几乎像横饰带一样排列在浅近的前景上。",
+    "画面右侧表现西风之神泽费罗斯追逐克洛里斯，她化身为花神芙罗拉的过程通过花朵和春日的丰饶得以呈现。",
+    "维纳斯站在接近中央的位置，头顶是树木形成的天然拱门，她作为爱与和谐的主宰力量统摄整个场景。",
+    "这幅画的美依赖于线条、图案、织物般的细节和丰富的植物描绘，而不是透视纵深。"
+  ],
+  "painterWorks/botticelli/2/context": [
+    "这一主题以难以解读著称，因此成为文艺复兴寓意画和精英式博学观看的有力例证。",
+    "其神话图像方案很可能涉及爱情、春天、丰饶、变形以及美第奇宫廷文化。",
+    "这幅画把古典神话变成一件精致的社交物品：能读懂诗歌、象征和哲学典故的观者才能从中获得回报。",
+    "它说明文艺复兴绘画既可以是装饰，也同样可以是知识的展示。"
+  ],
+  "painterWorks/botticelli/2/exam": "可用《春》讨论寓意、美第奇人文主义、神话的复杂性，以及波提切利富于装饰性的线性智慧。",
+  "painterWorks/artemisia/1/title": "朱迪斯斩杀荷罗孚尼",
+  "painterWorks/artemisia/1/date": "约1620—1621年",
+  "painterWorks/artemisia/1/visual": [
+    "场景紧紧围绕斩首这一身体动作展开，朱迪斯和她的女仆俯身投入暴力之中，而不是退缩回避。",
+    "强烈的明暗对照法把观者的注意力集中在手臂、床单、鲜血以及身体之间胶着的搏斗上。",
+    "与许多更早的朱迪斯图像不同，阿尔泰米西娅笔下的女英雄在身体上显得有能力完成此事；这一行动需要力气、压制与合作。",
+    "鲜血与力量的写实感让圣经故事变得迫在眼前，而非遥远或仅具装饰性。"
+  ],
+  "painterWorks/artemisia/1/context": [
+    "题材出自朱迪斯的故事：她杀死亚述将军荷罗孚尼，拯救了自己的民族。",
+    "阿尔泰米西娅的版本常被放在十七世纪意大利性别、暴力与权力的现实中解读，但不应仅仅被简化为传记。",
+    "这幅画属于巴洛克视觉文化，因为它把情感和身体动作推到了最强烈的程度。",
+    "它在现代的重要性在于改变了女英雄的形象：朱迪斯成为行动者，而不是男性戏剧的陪衬。"
+  ],
+  "painterWorks/artemisia/1/exam": "可用《朱迪斯斩杀荷罗孚尼》讨论巴洛克的暴力、卡拉瓦乔式光线、女性能动性，以及阿尔泰米西娅笔下女英雄在身体上的可信度。",
+  "painterWorks/artemisia/2/title": "作为绘画寓意的自画像",
+  "painterWorks/artemisia/2/date": "约1638—1639年",
+  "painterWorks/artemisia/2/visual": [
+    "阿尔泰米西娅把自己表现为正在作画的样子，身体扭转着探向画布，充满专注的能量。",
+    "身体动态而呈对角线，拒绝了许多女性肖像被期待的那种被动静止。",
+    "通过把自己等同于“绘画”的寓意形象，她把艺术家、主题和概念合而为一。",
+    "作品让艺术劳动具有了身体的在场感：手、画笔、躯干和专注都是创作的一部分。"
+  ],
+  "painterWorks/artemisia/2/context": [
+    "传统的“绘画”寓意形象往往是男性艺术家创作的女性拟人像；阿尔泰米西娅却能以独特的方式同时把自己表现为女性和画家。",
+    "在女性艺术权威极为罕见且备受争议的文化中，这幅画宣示了她的职业身份。",
+    "它同时是一幅自画像、一则寓意，也是一种关于作者身份的主张。",
+    "这件作品有助于研究巴洛克时期的性别、艺术家地位与自我塑造。"
+  ],
+  "painterWorks/artemisia/2/exam": "可用《作为绘画寓意的自画像》讨论作者身份、性别、寓意，以及阿尔泰米西娅对职业艺术权威的主张。",
+  "painterWorks/vermeer/1/title": "戴珍珠耳环的少女",
+  "painterWorks/vermeer/1/date": "约1665年",
+  "painterWorks/vermeer/1/visual": [
+    "人物越过肩头回望，双唇微启，仿佛被定格在沉默与开口之间的一瞬。",
+    "深暗的背景去除了叙事性场景，让面庞、头巾和耳环显得熠熠生光。",
+    "这幅画并非传统肖像，而是一幅“特罗尼”（tronie）：一种关于类型、表情、服饰和视觉效果的习作。",
+    "珍珠大得出奇，几近抽象，主要由高光而非细致的描绘构成。"
+  ],
+  "painterWorks/vermeer/1/context": [
+    "莫瑞泰斯皇家美术馆将这件作品认定为特罗尼，而非某位已知人物的肖像。",
+    "画面依赖于想象和戏剧化的服饰，而不是荷兰人的日常衣着。",
+    "它的力量来自没有传记的亲密感：观者感到自己被注视、被召唤，却无法真正了解画中人。",
+    "这件作品有助于研究荷兰绘画如何把光学效果与含混性转化为情感上的在场。"
+  ],
+  "painterWorks/vermeer/1/exam": "可用《戴珍珠耳环的少女》讨论特罗尼、亲密感、光学上的明亮效果，以及维米尔如何把观看转化为谜。",
+  "painterWorks/vermeer/2/title": "倒牛奶的女仆",
+  "painterWorks/vermeer/2/date": "约1660年",
+  "painterWorks/vermeer/2/visual": [
+    "一名女仆在安静的室内倒牛奶，除了那道细细的奶流，几乎一切都静止不动。",
+    "维米尔赋予人物雕塑般的分量和专注的神情，让一项卑微的家务显得庄重宏伟。",
+    "来自左侧的光落在面包、布料、陶器、墙面和皮肤上，把各种表面变成微妙的光学事件。",
+    "构图简单却精确：桌子、墙、窗、人物和器物构成一个秩序井然的静谧世界。"
+  ],
+  "painterWorks/vermeer/2/context": [
+    "荷兰国立博物馆强调，维米尔借助静谧与光线让一项简单的日常活动变得动人。",
+    "这幅画属于荷兰风俗画，但它赋予劳动以尊严，从而避免了道德讽刺。",
+    "女仆全神贯注于手头的工作，这让注意力从叙事戏剧转向专注本身。",
+    "这件作品有助于讨论阶级、家居生活、性别化的劳动，以及日常生活的道德分量。"
+  ],
+  "painterWorks/vermeer/2/exam": "可用《倒牛奶的女仆》讨论荷兰风俗画、家务劳动、静谧感以及维米尔对光的驾驭。",
+  "painterWorks/delacroix/1/title": "自由引导人民",
+  "painterWorks/delacroix/1/date": "1830年",
+  "painterWorks/delacroix/1/visual": [
+    "自由女神跨过尸体和街垒残骸大步向前，一手高举三色旗，一手握着步枪。",
+    "她既是寓意中的女神，又是人民中的女性，这赋予画面一种不稳定的现代张力。",
+    "她周围的战斗者代表不同的社会阶层，让革命成为一个集体的城市身体。",
+    "硝烟、对角线运动、裸露的身体和鲜明的色彩，让历史显得迫在眼前且充满危险。"
+  ],
+  "painterWorks/delacroix/1/context": [
+    "这幅画纪念的是1830年的七月革命，而不是1789年的法国大革命。",
+    "德拉克洛瓦把一个近期的政治事件变成现代历史画，将寓意与近乎新闻报道般的即时性结合起来。",
+    "这幅图像之所以带有政治敏感性，是因为自由女神既鼓舞人心又具有反叛性；国家无法将她完全驯服。",
+    "这件作品有助于把浪漫主义作为情感、政治、暴力与民族神话来研究。"
+  ],
+  "painterWorks/delacroix/1/exam": "可用《自由引导人民》讨论浪漫主义政治绘画、寓意、阶级、革命以及现代公共图像。",
+  "painterWorks/delacroix/2/title": "萨达那帕拉之死",
+  "painterWorks/delacroix/2/date": "1827年",
+  "painterWorks/delacroix/2/visual": [
+    "构图是一场混乱的对角线雪崩，充斥着红色、金色、肉体、织物、暴力与奢华。",
+    "萨达那帕拉斜倚在他亲自下令制造的毁灭之上，对下方的苦难漠不关心。",
+    "这幅画拒绝平静的新古典主义秩序，转而拥抱过度、色彩、感官性与恐怖。",
+    "视线难以安顿下来；画面把不稳定本身制造成一种视觉体验。"
+  ],
+  "painterWorks/delacroix/2/context": [
+    "题材来自传说中的亚述国王，他在自己死前毁掉了所拥有的一切。",
+    "这幅画因其暴力、情色以及对学院派克制的拒绝而饱受争议。",
+    "它之所以是浪漫主义的，并非因为多愁善感，而是因为它把情感、想象和极端推到古典秩序之外。",
+    "这件作品有助于讨论东方主义、奇观、幻想，以及再现暴力的政治。"
+  ],
+  "painterWorks/delacroix/2/exam": "可用《萨达那帕拉之死》讨论浪漫主义的过度、色彩、暴力、东方主义，以及对新古典主义克制的拒绝。",
+  "painterWorks/cassatt/1/title": "在包厢里",
+  "painterWorks/cassatt/1/date": "1878年",
+  "painterWorks/cassatt/1/visual": [
+    "一位黑衣女子坐在剧院包厢中，举着观剧镜观看，以警觉而沉着的姿态占据前景。",
+    "背景中一位男子正在看她，形成一条观看之链：她在看，他在看她，而我们看着他们二人。",
+    "果断的裁切、抬高的视点和公共休闲场景，把这件作品与印象派的现代生活题材联系起来。",
+    "卡萨特让女性观看者成为主动者，而不仅仅是装饰。"
+  ],
+  "painterWorks/cassatt/1/context": [
+    "歌剧院是一个现代社交空间，观众既观看演出，也彼此观看。",
+    "与许多男性印象派画家不同，卡萨特关注的是女性在公共空间中的能动性。",
+    "这幅画剖析了观看中的性别政治：女性既可以是观看者，也可以是被观看者。",
+    "这件作品有助于研究现代性、观看行为、性别以及印象派的社会空间。"
+  ],
+  "painterWorks/cassatt/1/exam": "可用《在包厢里》讨论女性观看、现代公共休闲、印象派以及观看中带有性别意味的权力。",
+  "painterWorks/cassatt/2/title": "孩子的沐浴",
+  "painterWorks/cassatt/2/date": "1893年",
+  "painterWorks/cassatt/2/visual": [
+    "构图经过裁切并向下倾斜，把母亲、孩子、水盆和带图案的表面压缩成一个亲密的结构。",
+    "扁平化的图案和不寻常的视点，显示出日本浮世绘版画对卡萨特成熟期风格的影响。",
+    "手势温柔而坚定：一只手托扶，另一只手清洗，让照料作为行动变得可见。",
+    "这幅画聚焦于专注、触摸和身体的贴近，从而避免了多愁善感。"
+  ],
+  "painterWorks/cassatt/2/context": [
+    "卡萨特反复探索母与子题材，但她在心理和形式上都严肃对待这一主题，而不只是追求甜美。",
+    "芝加哥艺术博物馆将这件作品描述为对家庭亲密关系的温柔描绘，这是卡萨特在整个艺术生涯中不断回归的主题。",
+    "由于构图、裁切和图案带来的视觉实验性，这一家庭题材变得现代。",
+    "这件作品有助于研究照料、性别、日本主义以及日常亲密关系的尊严。"
+  ],
+  "painterWorks/cassatt/2/exam": "可用《孩子的沐浴》讨论母性的亲密、日本主义、现代式裁切，以及卡萨特如何把家庭照料转化为严肃的现代绘画。",
+  "painterWorks/leonardo/1/title": "蒙娜丽莎",
+  "painterWorks/leonardo/1/date": "约1503—1506年",
+  "painterWorks/leonardo/1/visual": [
+    "画中人以四分之三侧身的姿势坐着，这让身体既显得稳定，又具有心理上的在场感。",
+    "列奥纳多使用晕涂法，以不带硬朗轮廓的柔和过渡，让面庞和双手显得鲜活，而不是被生硬地描画出来。",
+    "背景风景在大气的朦胧中渐渐远去，把人的身体与自然、距离和神秘联系在一起。"
+  ],
+  "painterWorks/leonardo/1/context": [
+    "这幅肖像不止于形似；它把肖像画变成对内心生活的研究。",
+    "她含混的微笑制造了一个现代的阐释难题：观者无法完全占有或解开她的表情。",
+    "这幅画体现了文艺复兴人文主义，因为个体的在场变得值得长久凝视。"
+  ],
+  "painterWorks/leonardo/1/exam": "可用《蒙娜丽莎》讨论晕涂法、心理上的含混性，以及文艺复兴如何把肖像画提升为对人的内在世界的研究。",
+  "painterWorks/leonardo/2/title": "最后的晚餐",
+  "painterWorks/leonardo/2/date": "1495—1498年",
+  "painterWorks/leonardo/2/visual": [
+    "构图以严格的线性透视组织，基督位于灭点之上。",
+    "使徒们分成几组，作出各不相同的情绪反应，把一个圣经时刻变成对人类心理的研究。",
+    "居中的基督神情平静，与周围的骚动形成对比，营造出精神上和构图上的秩序。"
+  ],
+  "painterWorks/leonardo/2/context": [
+    "这幅画绘于一座修道院的食堂，画中场景映照着修士们用餐的空间。",
+    "列奥纳多把重心从象征性的等级秩序转向戏剧性的人类反应。",
+    "由于列奥纳多采用了实验性的技法，作品变得十分脆弱，修复保护也因此成为其历史的一部分。"
+  ],
+  "painterWorks/leonardo/2/exam": "可用《最后的晚餐》把透视、叙事戏剧性与文艺复兴对理性视觉秩序的信念联系起来。",
+  "painterWorks/caravaggio/1/title": "圣马太蒙召",
+  "painterWorks/caravaggio/1/date": "1599—1600年",
+  "painterWorks/caravaggio/1/visual": [
+    "一束光划过幽暗的、酒馆般的空间，把一间普通的屋子变成天启的场景。",
+    "基督的手势呼应了米开朗琪罗的《创造亚当》，但场景却是当代而简陋的。",
+    "人物看上去像日常生活中的普通男子，而不是理想化的圣徒，让皈依在心理上显得真切而直接。"
+  ],
+  "painterWorks/caravaggio/1/context": [
+    "这幅画属于反宗教改革的视觉文化，在这一文化中，明晰、情感力量和宗教说服力都至关重要。",
+    "卡拉瓦乔把神圣历史带入当代生活，消弭了圣经往昔与观者当下之间的距离。",
+    "这件作品让神圣出现在低微、世俗的环境中，从而挑战了得体规范。"
+  ],
+  "painterWorks/caravaggio/1/exam": "可用这件作品讨论暗色调主义、反宗教改革的直接性以及巴洛克的戏剧性写实。",
+  "painterWorks/caravaggio/2/title": "朱迪斯斩首荷罗孚尼",
+  "painterWorks/caravaggio/2/date": "约1598—1599年",
+  "painterWorks/caravaggio/2/visual": [
+    "场景以强烈的光线、压缩的空间和紧绷的身体张力，定格了暴力发生的瞬间。",
+    "朱迪斯的表情混合着决绝与退缩，使这一英雄行为变得复杂。",
+    "鲜血、织物和手势被直截了当地呈现出来，拒绝了礼貌的距离。"
+  ],
+  "painterWorks/caravaggio/2/context": [
+    "这一圣经题材成为心理与身体正面交锋的场景。",
+    "卡拉瓦乔的写实主义把道德戏剧变成观者几乎近距离目击的事件。",
+    "这幅画有助于讨论巴洛克的情感感染力：艺术能够打动、震撼并说服观者。"
+  ],
+  "painterWorks/caravaggio/2/exam": "可用《朱迪斯斩首荷罗孚尼》讨论暴力、戏剧性光线、带有性别意味的权力以及巴洛克的情感强度。",
+  "painterWorks/rembrandt/1/title": "夜巡",
+  "painterWorks/rembrandt/1/date": "1642年",
+  "painterWorks/rembrandt/1/visual": [
+    "一幅民兵团体肖像被转化为一场充满动感的公共戏剧，有运动、光线和彼此交叠的人物。",
+    "构图打破了团体肖像静态的惯例，把民兵队伍表现得仿佛正在出发行动。",
+    "光线组织着观者的注意力，尤其聚焦于队长、副官和那个神秘的小女孩周围。"
+  ],
+  "painterWorks/rembrandt/1/context": [
+    "荷兰团体肖像通常记录市民身份、财富和公共地位。",
+    "伦勃朗把集体身份变成戏剧，让画面显得既有历史感又不稳定。",
+    "这幅画揭示了荷兰共和国城市民兵、商业与市民自豪感的文化。"
+  ],
+  "painterWorks/rembrandt/1/exam": "可用《夜巡》说明伦勃朗如何把团体肖像转化为巴洛克式的运动与市民戏剧。",
+  "painterWorks/rembrandt/2/title": "自画像系列",
+  "painterWorks/rembrandt/2/date": "1620年代—1660年代",
+  "painterWorks/rembrandt/2/visual": [
+    "伦勃朗在青年、富足、失去与老年的各个阶段反复研究自己的面容。",
+    "晚期肖像以厚涂的颜料、温暖的幽暗和直视的目光，让衰老作为一种经历变得可见。",
+    "颜料的表面成为意义的一部分：粗糙的质感暗示着亲身经历过的时间。"
+  ],
+  "painterWorks/rembrandt/2/context": [
+    "这些自画像并非单纯的虚荣；它们构成了一场对身份与艺术家自我塑造的终生探究。",
+    "它们同时也在市场上展示了表情、服饰、布光和绘画技巧。",
+    "晚期作品抗拒理想化，赋予脆弱以尊严。"
+  ],
+  "painterWorks/rembrandt/2/exam": "可用伦勃朗的自画像讨论身份、衰老、新教的内省以及绘画性的画面表面。",
+  "painterWorks/velazquez/1/title": "宫娥",
+  "painterWorks/velazquez/1/date": "1656年",
+  "painterWorks/velazquez/1/visual": [
+    "画面在一个复杂的宫廷空间中呈现了公主、侍从、侏儒、一只狗、画家、一面镜子和一道门。",
+    "镜子映出国王和王后，暗示他们正处在观者所在的位置。",
+    "委拉斯开兹把自己画在画布前，让绘画、权力和观看本身成为主题。"
+  ],
+  "painterWorks/velazquez/1/context": [
+    "这是一幅宫廷图像，却拒绝表现为一幅简单的王室肖像。",
+    "它把委拉斯开兹表现为王室再现的参与者，从而提升了画家的知识地位。",
+    "这件作品是讨论“元绘画”的核心：关于绘画行为及其政治的绘画。"
+  ],
+  "painterWorks/velazquez/1/exam": "可用《宫娥》讨论观看、王室权力、错觉以及绘画的自我意识。",
+  "painterWorks/velazquez/2/title": "布雷达的投降",
+  "painterWorks/velazquez/2/date": "1634—1635年",
+  "painterWorks/velazquez/2/visual": [
+    "构图以战败方与胜利方将领之间交接钥匙的场面为中心。",
+    "委拉斯开兹避免羞辱战败的指挥官；这一姿态克制而有尊严。",
+    "林立的长矛营造出军事秩序，而人与人之间的交接则柔化了征服的形象。"
+  ],
+  "painterWorks/velazquez/2/context": [
+    "这幅画服务于西班牙帝国的记忆建构和宫廷宣传。",
+    "它的情感基调不同寻常，因为胜利是通过宽宏大度而非残酷来表现的。",
+    "它揭示了历史画如何把政治暴力转化为高贵的仪式。"
+  ],
+  "painterWorks/velazquez/2/exam": "可用这幅画讨论西班牙的权力、历史画以及体面征服的视觉修辞。"
+}

@@ -1,0 +1,25 @@
+# 后端镜像。国内服务器构建时可用 --build-arg NODE_IMAGE=<镜像加速地址>/library/node:22-alpine
+ARG NODE_IMAGE=node:22-alpine
+
+FROM ${NODE_IMAGE} AS build
+ARG NPM_REGISTRY=https://registry.npmmirror.com
+WORKDIR /repo
+RUN npm install -g pnpm@9.15.9 --registry=${NPM_REGISTRY}
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
+COPY packages/shared/package.json packages/shared/
+COPY apps/server/package.json apps/server/
+RUN pnpm config set registry ${NPM_REGISTRY} \
+  && pnpm install --frozen-lockfile --filter "@common-room/server..."
+COPY packages/shared packages/shared
+COPY apps/server apps/server
+RUN pnpm --filter @common-room/server build \
+  && pnpm --filter @common-room/server deploy --prod /out \
+  && rm -rf /out/src /out/test /out/.test-uploads
+
+FROM ${NODE_IMAGE}
+WORKDIR /app
+ENV NODE_ENV=production HOST=0.0.0.0 PORT=4000 UPLOAD_DIR=/data/uploads
+COPY --from=build /out ./
+EXPOSE 4000
+# 启动时执行迁移，并补齐缺失的初始内容（不会覆盖后台已编辑的内容）
+CMD ["sh", "-c", "node dist/scripts/migrate.js && node dist/scripts/seed.js && exec node dist/index.js"]

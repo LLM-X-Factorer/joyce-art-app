@@ -1,0 +1,19 @@
+{
+  "name": "艺术史公共书房 · The Art Historian's Common Room",
+  "short_name": "Common Room",
+  "description": "以作品为起点的艺术史学习空间",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3eee3",
+  "theme_color": "#2f7690",
+  "icons": [
+    { "src": "/assets/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/assets/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Museum map", "short_name": "Map", "url": "/map" },
+    { "name": "Café", "short_name": "Café", "url": "/cafe" }
+  ]
+}

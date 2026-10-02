@@ -1,0 +1,12 @@
+{
+  "description": "艺术史公共书房小程序壳：用 web-view 打开 H5 站点",
+  "appid": "touristappid",
+  "projectname": "common-room-miniprogram",
+  "compileType": "miniprogram",
+  "libVersion": "3.0.0",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "minified": true
+  }
+}

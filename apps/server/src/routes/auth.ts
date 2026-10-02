@@ -12,6 +12,8 @@ import {
 import { schema } from "../db/client.js";
 import { clientIp, HttpError, noStore, parse, requireUser } from "../lib/http.js";
 import { mail } from "../lib/mailer.js";
+import { getSettings } from "../lib/settings.js";
+import { incrementUsage } from "../lib/usage.js";
 import { generateCode, hashCode, hashPassword, safeEqualHex, verifyPassword } from "../lib/security.js";
 import { endSession, publicUser, startSession } from "../plugins/session.js";
 
@@ -83,6 +85,12 @@ export async function authRoutes(app: FastifyInstance) {
         throw new HttpError(429, "code_cooldown");
       }
       if (recent.length >= CODE_DAILY_LIMIT) throw new HttpError(429, "code_daily_limit");
+      // 全站每日上限：多 IP 批量刷验证码时保护发信额度与域名信誉
+      const { verificationDailyLimit } = await getSettings(db);
+      if ((await incrementUsage(db, "mail:verification")) > verificationDailyLimit) {
+        request.log.warn({ limit: verificationDailyLimit }, "今日验证码发信量已达上限");
+        throw new HttpError(429, "code_service_busy");
+      }
 
       const code = generateCode();
       const [record] = await db.insert(schema.emailCodes).values({

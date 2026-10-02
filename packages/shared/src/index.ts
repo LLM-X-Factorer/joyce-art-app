@@ -142,7 +142,9 @@ export const siteSettingsSchema = z.object({
   workshopTitle: localizedText,
   workshopIntro: localizedText,
   aiDailyQuotaUser: z.number().int().min(0).max(1000),
-  aiDailyQuotaGuest: z.number().int().min(0).max(1000)
+  aiDailyQuotaGuest: z.number().int().min(0).max(1000),
+  /** 全站每天最多发送的验证码邮件数，防止被批量刷信耗尽额度 */
+  verificationDailyLimit: z.number().int().min(0).max(5000)
 });
 export type SiteSettings = z.infer<typeof siteSettingsSchema>;
 

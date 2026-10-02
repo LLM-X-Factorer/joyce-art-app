@@ -49,6 +49,11 @@ async function save() {
       <el-form-item label="登录用户每天次数"><el-input-number v-model="settings.aiDailyQuotaUser" :min="0" :max="1000" /></el-form-item>
       <el-form-item label="游客（按 IP）每天次数"><el-input-number v-model="settings.aiDailyQuotaGuest" :min="0" :max="1000" /></el-form-item>
     </el-card>
+    <el-card shadow="never" style="margin-bottom: 16px">
+      <template #header>验证码邮件</template>
+      <p class="muted">全站每天最多发送的注册 / 找回密码验证码数（北京时间自然日）。达到后当天暂停发送，防止被批量刷信耗尽发信额度。腾讯云发信域名另有每日 500 封的上限。</p>
+      <el-form-item label="每天上限"><el-input-number v-model="settings.verificationDailyLimit" :min="0" :max="5000" /></el-form-item>
+    </el-card>
     <el-button type="primary" @click="save">保存设置</el-button>
   </el-form>
 </template>

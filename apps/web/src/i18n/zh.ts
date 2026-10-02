@@ -287,6 +287,7 @@ export default {
       code_cooldown: "发送太频繁了，请稍等一分钟再试。",
       code_daily_limit: "今天发送的验证码次数过多，请明天再试。",
       mail_failed: "邮件发送失败，请稍后重试。",
+      code_service_busy: "今天的验证码发送量已达上限，请明天再试。",
       rate_limited: "操作太频繁，请稍后再试。",
       password_too_short: "密码至少需要 8 位。",
       validation_error: "请检查填写的内容。",

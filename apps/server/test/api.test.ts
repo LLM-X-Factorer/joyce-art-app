@@ -137,6 +137,19 @@ describe("注册、登录与找回密码", () => {
     expect(me.json().user.role).toBe("admin");
   });
 
+  it("全站每日验证码上限", async () => {
+    // 管理员账号由上一个测试注册
+    const login = await t.app.inject({ method: "POST", url: "/api/auth/login", payload: { email: "admin@example.com", password: "correct-horse" } });
+    const admin = sessionCookie(login);
+    const settings = (await t.app.inject({ url: "/api/admin/settings", headers: { cookie: admin } })).json().settings;
+    expect(settings.verificationDailyLimit).toBe(200);
+    await t.app.inject({ method: "PUT", url: "/api/admin/settings", headers: { cookie: admin }, payload: { ...settings, verificationDailyLimit: 0 } });
+    const res = await t.app.inject({ method: "POST", url: "/api/auth/send-code", payload: { email: "late@example.com", purpose: "register" } });
+    expect(res.statusCode).toBe(429);
+    expect(res.json().error).toBe("code_service_busy");
+    await t.app.inject({ method: "PUT", url: "/api/admin/settings", headers: { cookie: admin }, payload: settings });
+  });
+
   it("拒绝其他来源的写请求", async () => {
     const res = await t.app.inject({
       method: "POST",

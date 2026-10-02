@@ -62,14 +62,21 @@
 
 ## 4. 待处理通知（变量：item、summary、url = `admin/`）
 
-发给作者本人，不含用户的联系方式等个人信息，详情在后台查看。
+站内事务通知，仅发送给书房作者或授权管理员（`AUTHOR_NOTIFY_EMAIL`），不发给普通用户，不含用户的联系方式等个人信息，详情在后台查看。变量的实际取值由后端固定格式生成（见 `apps/server/src/routes/me.ts`、`workshop.ts`）：
+
+| 触发场景 | `item`（新内容标题） | `summary`（内容摘要） |
+| --- | --- | --- |
+| 用户提交练习 | `新的练习提交 #12` | `作品 olympia-collection，请在「回应工作台」查看` |
+| 工作坊意向申请 | `工作坊新申请 #3` | `林同学（Pearson Edexcel 9HT0），请在「工作坊申请」查看` |
 
 ```html
 <div style="font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #231f19; line-height: 1.7; max-width: 520px;">
-  <p>「艺术史公共书房」有一项新内容需要处理：</p>
-  <p><b>{{item}}</b></p>
-  <p>{{summary}}</p>
-  <p>请登录管理后台查看：<a href="https://art.llmxfactor.cloud/{{url}}" style="color: #2f7690;">https://art.llmxfactor.cloud/{{url}}</a></p>
+  <p>你好，</p>
+  <p>这是一封来自「艺术史公共书房」的站内事务通知，仅发送给书房作者或授权管理员。</p>
+  <p>本站收到了一条新的练习提交或工作坊申请，需要你登录管理后台查看和处理。</p>
+  <p>新内容标题：<b>{{item}}</b><br />内容摘要：{{summary}}</p>
+  <p>以上摘要用于提示待处理事项，完整内容和处理状态请以管理后台中的记录为准。工作坊申请不代表报名成功，也不涉及收费。</p>
+  <p>请登录管理后台查看：<br /><a href="https://art.llmxfactor.cloud/{{url}}" style="color: #2f7690;">https://art.llmxfactor.cloud/{{url}}</a></p>
   <p style="color: #71695e; font-size: 12px;">此邮件由系统自动发送，请勿直接回复。</p>
 </div>
 ```

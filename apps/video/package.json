@@ -1,0 +1,15 @@
+{
+  "name": "@common-room/video",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "主题课短视频渲染：分镜 + 旁白 → 竖屏 MP4",
+  "scripts": {
+    "render": "node src/render.mjs",
+    "stills": "node src/render.mjs --stills",
+    "script": "node src/script.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1"
+  }
+}

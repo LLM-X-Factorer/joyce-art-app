@@ -107,6 +107,12 @@ importers:
         specifier: ^3
         version: 3.2.7(@types/node@22.20.4)(tsx@4.23.15)
 
+  apps/video:
+    devDependencies:
+      '@playwright/test':
+        specifier: ^1
+        version: 1.63.0
+
   apps/web:
     dependencies:
       '@common-room/shared':

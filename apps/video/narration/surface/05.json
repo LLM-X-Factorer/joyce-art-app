@@ -1,0 +1,239 @@
+{
+  "segment": "05",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "当时的批评一点不客气。据说库尔贝的评价是：太平了，没有体积，像扑克牌里刚出浴的黑桃皇后。",
+  "spoken_text": "当时的批评一点不客气。据说库尔贝的评价是：太平了，没有体积，像扑克牌里刚出浴的黑桃皇后。",
+  "spoken_sha256": "0ad1ab94464ae26145f75f7046857c9eee24bf7d7b7f67bf2162f43e9d0cf9b1",
+  "heard_text": "当时的批评一点不客气。据说库尔贝的评价是：太平了，没有体积，像扑克牌里刚出浴的黑桃皇后。",
+  "subtitle_match": 1,
+  "duration": 8.544,
+  "request_id": "cb8efff7-99f2-458c-8bd5-92f3b64253ba",
+  "logid": "20261005002842D5BEBDECACE961C763AC",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "ba034a756e01189ceddb72931f9c3ff30c172a303e22c80859d3722ccefb446c",
+  "words": [
+    {
+      "end_time": 320,
+      "start_time": 200,
+      "text": "当"
+    },
+    {
+      "end_time": 440,
+      "start_time": 320,
+      "text": "时"
+    },
+    {
+      "end_time": 560,
+      "start_time": 440,
+      "text": "的"
+    },
+    {
+      "end_time": 680,
+      "start_time": 560,
+      "text": "批"
+    },
+    {
+      "end_time": 960,
+      "start_time": 880,
+      "text": "评"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1120,
+      "text": "一"
+    },
+    {
+      "end_time": 1320,
+      "start_time": 1200,
+      "text": "点"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1320,
+      "text": "不"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1480,
+      "text": "客"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1640,
+      "text": "气"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1760,
+      "text": "。"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2040,
+      "text": "据"
+    },
+    {
+      "end_time": 2400,
+      "start_time": 2240,
+      "text": "说"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2520,
+      "text": "库"
+    },
+    {
+      "end_time": 2840,
+      "start_time": 2720,
+      "text": "尔"
+    },
+    {
+      "end_time": 3000,
+      "start_time": 2920,
+      "text": "贝"
+    },
+    {
+      "end_time": 3200,
+      "start_time": 3080,
+      "text": "的"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3200,
+      "text": "评"
+    },
+    {
+      "end_time": 3520,
+      "start_time": 3360,
+      "text": "价"
+    },
+    {
+      "end_time": 3720,
+      "start_time": 3560,
+      "text": "是"
+    },
+    {
+      "end_time": 3720,
+      "start_time": 3720,
+      "text": "："
+    },
+    {
+      "end_time": 4240,
+      "start_time": 4040,
+      "text": "太"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4320,
+      "text": "平"
+    },
+    {
+      "end_time": 4800,
+      "start_time": 4520,
+      "text": "了"
+    },
+    {
+      "end_time": 4800,
+      "start_time": 4800,
+      "text": "，"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 5000,
+      "text": "没"
+    },
+    {
+      "end_time": 5240,
+      "start_time": 5160,
+      "text": "有"
+    },
+    {
+      "end_time": 5440,
+      "start_time": 5240,
+      "text": "体"
+    },
+    {
+      "end_time": 5560,
+      "start_time": 5480,
+      "text": "积"
+    },
+    {
+      "end_time": 5560,
+      "start_time": 5560,
+      "text": "，"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5840,
+      "text": "像"
+    },
+    {
+      "end_time": 6200,
+      "start_time": 6080,
+      "text": "扑"
+    },
+    {
+      "end_time": 6400,
+      "start_time": 6360,
+      "text": "克"
+    },
+    {
+      "end_time": 6720,
+      "start_time": 6520,
+      "text": "牌"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6720,
+      "text": "里"
+    },
+    {
+      "end_time": 7080,
+      "start_time": 6920,
+      "text": "刚"
+    },
+    {
+      "end_time": 7280,
+      "start_time": 7080,
+      "text": "出"
+    },
+    {
+      "end_time": 7400,
+      "start_time": 7360,
+      "text": "浴"
+    },
+    {
+      "end_time": 7680,
+      "start_time": 7480,
+      "text": "的"
+    },
+    {
+      "end_time": 7840,
+      "start_time": 7680,
+      "text": "黑"
+    },
+    {
+      "end_time": 7960,
+      "start_time": 7880,
+      "text": "桃"
+    },
+    {
+      "end_time": 8280,
+      "start_time": 8080,
+      "text": "皇"
+    },
+    {
+      "end_time": 8400,
+      "start_time": 8280,
+      "text": "后"
+    },
+    {
+      "end_time": 8400,
+      "start_time": 8400,
+      "text": "。"
+    }
+  ]
+}

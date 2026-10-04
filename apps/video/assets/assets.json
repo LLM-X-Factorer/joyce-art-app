@@ -43,5 +43,65 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Strebewerk.jpg",
     "width": 2000,
     "height": 1500
+  },
+  {
+    "key": "venus-hair-detail",
+    "title": "File:Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg",
+    "license": "Public domain",
+    "author": "Sandro Botticelli",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "width": 2000,
+    "height": 1974,
+    "crop": [
+      0.49,
+      0.07,
+      0.14,
+      0.22
+    ]
+  },
+  {
+    "key": "starry-sky-detail",
+    "title": "File:Van Gogh - Starry Night - Google Art Project-x0-y0.jpg",
+    "license": "Public domain",
+    "author": "Vincent van Gogh",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project-x0-y0.jpg",
+    "width": 2000,
+    "height": 2000,
+    "crop": [
+      0.66,
+      0.36,
+      0.18,
+      0.18
+    ]
+  },
+  {
+    "key": "olympia-face-detail",
+    "title": "File:Edouard Manet - Olympia - Google Art Project.jpg",
+    "license": "Public domain",
+    "author": "Édouard Manet",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_Project.jpg",
+    "width": 940,
+    "height": 914,
+    "crop": [
+      0.17,
+      0.19,
+      0.16,
+      0.23
+    ]
+  },
+  {
+    "key": "venus-gold-detail",
+    "title": "File:Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg",
+    "license": "Public domain",
+    "author": "Sandro Botticelli",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "width": 1350,
+    "height": 1507,
+    "crop": [
+      0.555,
+      0.1,
+      0.045,
+      0.08
+    ]
   }
 ]

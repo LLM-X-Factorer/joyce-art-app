@@ -52,6 +52,15 @@ node src/seed-audio.mjs modernity           # 生成其余段落（只生成文�
 
 字幕按句切分；有 Seed 配音时按逐字时间戳对齐，否则按字数估算。
 
+## 外部素材
+
+```bash
+node src/fetch-asset.mjs <key> "File:…jpg"                                  # 只接受公有领域、CC0、CC BY
+node src/fetch-asset.mjs <key> "File:…jpg" --crop 0.555,0.1,0.045,0.08 --original  # 从原图裁局部（笔触特写）
+```
+
+`--crop x,y,w,h` 为原图内 0–1 比例；Commons 缩略图最大 3840 px，特写要用 `--original` 下载原图（缓存在 `.cache/originals/`，可能有几百 MB，不进仓库）。许可与裁剪参数记录在 `assets/assets.json`。
+
 ## 新增一个主题
 
 1. 从 [课程大纲](../../docs/video/课程大纲.md) 选主题，确认作品图片许可（优先 ✅ 公有领域），按指南第四节做事实核对，只用有出处的史实与引文。

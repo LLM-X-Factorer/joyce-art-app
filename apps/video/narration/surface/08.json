@@ -1,0 +1,214 @@
+{
+  "segment": "08",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "凑近看，天空是一层没干，下一层就压上去。笔触顺着漩涡走，缝里还露着底下的画布。",
+  "spoken_text": "凑近看，天空是一层没干，下一层就压上去。笔触顺着漩涡走，缝里还露着底下的画布。",
+  "spoken_sha256": "ca717b01f15a9ce0fc93c3338b1978c999a7d11dbbd6a2fc84ae398c1efa7956",
+  "heard_text": "凑近看，天空是一层没干，下一层就压上去。笔触顺着漩涡走，缝里还露着底下的画布。",
+  "subtitle_match": 1,
+  "duration": 9.912,
+  "request_id": "13b7f558-c6d3-4397-9988-9dea62952f08",
+  "logid": "2026100500295206F39DE3C7A9D653FBA0",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "b74bfa80329a202c1f62bb5fcf24a1bd98fbdc7c0b284156cbf398a9f70ac5a5",
+  "words": [
+    {
+      "end_time": 480,
+      "start_time": 400,
+      "text": "凑"
+    },
+    {
+      "end_time": 760,
+      "start_time": 680,
+      "text": "近"
+    },
+    {
+      "end_time": 1160,
+      "start_time": 880,
+      "text": "看"
+    },
+    {
+      "end_time": 1160,
+      "start_time": 1160,
+      "text": "，"
+    },
+    {
+      "end_time": 1360,
+      "start_time": 1160,
+      "text": "天"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1360,
+      "text": "空"
+    },
+    {
+      "end_time": 1680,
+      "start_time": 1560,
+      "text": "是"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1680,
+      "text": "一"
+    },
+    {
+      "end_time": 1960,
+      "start_time": 1800,
+      "text": "层"
+    },
+    {
+      "end_time": 2120,
+      "start_time": 2080,
+      "text": "没"
+    },
+    {
+      "end_time": 2480,
+      "start_time": 2320,
+      "text": "干"
+    },
+    {
+      "end_time": 2480,
+      "start_time": 2480,
+      "text": "，"
+    },
+    {
+      "end_time": 2920,
+      "start_time": 2720,
+      "text": "下"
+    },
+    {
+      "end_time": 3040,
+      "start_time": 2920,
+      "text": "一"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3040,
+      "text": "层"
+    },
+    {
+      "end_time": 3440,
+      "start_time": 3240,
+      "text": "就"
+    },
+    {
+      "end_time": 3720,
+      "start_time": 3440,
+      "text": "压"
+    },
+    {
+      "end_time": 3920,
+      "start_time": 3760,
+      "text": "上"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 3920,
+      "text": "去"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 4120,
+      "text": "。"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4680,
+      "text": "笔"
+    },
+    {
+      "end_time": 5040,
+      "start_time": 4960,
+      "text": "触"
+    },
+    {
+      "end_time": 5320,
+      "start_time": 5160,
+      "text": "顺"
+    },
+    {
+      "end_time": 5440,
+      "start_time": 5320,
+      "text": "着"
+    },
+    {
+      "end_time": 5600,
+      "start_time": 5520,
+      "text": "漩"
+    },
+    {
+      "end_time": 5880,
+      "start_time": 5800,
+      "text": "涡"
+    },
+    {
+      "end_time": 6320,
+      "start_time": 6040,
+      "text": "走"
+    },
+    {
+      "end_time": 6320,
+      "start_time": 6320,
+      "text": "，"
+    },
+    {
+      "end_time": 6720,
+      "start_time": 6560,
+      "text": "缝"
+    },
+    {
+      "end_time": 7040,
+      "start_time": 6800,
+      "text": "里"
+    },
+    {
+      "end_time": 7200,
+      "start_time": 7040,
+      "text": "还"
+    },
+    {
+      "end_time": 7400,
+      "start_time": 7200,
+      "text": "露"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7400,
+      "text": "着"
+    },
+    {
+      "end_time": 7760,
+      "start_time": 7560,
+      "text": "底"
+    },
+    {
+      "end_time": 7920,
+      "start_time": 7760,
+      "text": "下"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7920,
+      "text": "的"
+    },
+    {
+      "end_time": 8200,
+      "start_time": 8080,
+      "text": "画"
+    },
+    {
+      "end_time": 8440,
+      "start_time": 8360,
+      "text": "布"
+    },
+    {
+      "end_time": 8440,
+      "start_time": 8440,
+      "text": "。"
+    }
+  ]
+}

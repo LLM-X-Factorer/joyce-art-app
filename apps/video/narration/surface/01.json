@@ -1,0 +1,159 @@
+{
+  "segment": "01",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "这是维纳斯的一缕头发。凑近看，上面这些细细的亮线，是金。",
+  "spoken_text": "这是维纳斯的一缕头发。凑近看，上面这些细细的亮线，是金。",
+  "spoken_sha256": "535efd7142f02305a66d6467bf2e3edb7243d2e7a3459c77ad29ba6e35b4c879",
+  "heard_text": "这是维纳斯的一缕头发。凑近看，上面这些细细的亮线，是金。",
+  "subtitle_match": 1,
+  "duration": 5.424,
+  "request_id": "6b9c293d-6f7b-4a05-9583-1e9e3b4279ad",
+  "logid": "2026100500265504C1A8BFA30B20C93FB1",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "865b48641db478bb779ee231be6d81bc2cc6d56c2475b4c393e235efe963d05b",
+  "words": [
+    {
+      "end_time": 360,
+      "start_time": 120,
+      "text": "这"
+    },
+    {
+      "end_time": 520,
+      "start_time": 360,
+      "text": "是"
+    },
+    {
+      "end_time": 680,
+      "start_time": 560,
+      "text": "维"
+    },
+    {
+      "end_time": 960,
+      "start_time": 840,
+      "text": "纳"
+    },
+    {
+      "end_time": 1160,
+      "start_time": 1040,
+      "text": "斯"
+    },
+    {
+      "end_time": 1320,
+      "start_time": 1200,
+      "text": "的"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1320,
+      "text": "一"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1560,
+      "text": "缕"
+    },
+    {
+      "end_time": 1880,
+      "start_time": 1720,
+      "text": "头"
+    },
+    {
+      "end_time": 2080,
+      "start_time": 1880,
+      "text": "发"
+    },
+    {
+      "end_time": 2080,
+      "start_time": 2080,
+      "text": "。"
+    },
+    {
+      "end_time": 2760,
+      "start_time": 2680,
+      "text": "凑"
+    },
+    {
+      "end_time": 3000,
+      "start_time": 2960,
+      "text": "近"
+    },
+    {
+      "end_time": 3400,
+      "start_time": 3120,
+      "text": "看"
+    },
+    {
+      "end_time": 3400,
+      "start_time": 3400,
+      "text": "，"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3400,
+      "text": "上"
+    },
+    {
+      "end_time": 3680,
+      "start_time": 3560,
+      "text": "面"
+    },
+    {
+      "end_time": 3760,
+      "start_time": 3680,
+      "text": "这"
+    },
+    {
+      "end_time": 3880,
+      "start_time": 3760,
+      "text": "些"
+    },
+    {
+      "end_time": 4040,
+      "start_time": 3920,
+      "text": "细"
+    },
+    {
+      "end_time": 4200,
+      "start_time": 4160,
+      "text": "细"
+    },
+    {
+      "end_time": 4400,
+      "start_time": 4280,
+      "text": "的"
+    },
+    {
+      "end_time": 4480,
+      "start_time": 4400,
+      "text": "亮"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4640,
+      "text": "线"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4760,
+      "text": "，"
+    },
+    {
+      "end_time": 5040,
+      "start_time": 4840,
+      "text": "是"
+    },
+    {
+      "end_time": 5200,
+      "start_time": 5160,
+      "text": "金"
+    },
+    {
+      "end_time": 5200,
+      "start_time": 5200,
+      "text": "。"
+    }
+  ]
+}

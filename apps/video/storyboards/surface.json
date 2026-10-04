@@ -1,0 +1,467 @@
+{
+  "id": "surface",
+  "series": "艺术史公共书房 · 主题课",
+  "theme": "绘画表面",
+  "episode": "03",
+  "title": "凑近了看：三个人怎么下笔",
+  "titleLines": [
+    "凑近了看：",
+    "三个人怎么下笔"
+  ],
+  "cover": {
+    "work": "goldhair",
+    "camera": [
+      {
+        "cx": 0.45,
+        "cy": 0.5,
+        "zoom": 1.1
+      }
+    ]
+  },
+  "sources": "史实来源见 docs/video/写稿与画面指南.md「第 03 课事实核对」：乌菲兹美术馆、美第奇-里卡迪宫资料库、瓦萨里《名人传》1568 年版、《费加罗报》1883 年 5 月 1 日、安托南·普鲁斯特回忆录、左拉《爱德华·马奈》、MoMA 出版物、梵高书信集（vangoghletters.org）、莫里斯·德尼 1890 年文章",
+  "works": {
+    "goldhair": {
+      "image": "venus-gold-detail",
+      "asset": true,
+      "title": "维纳斯的诞生（局部）",
+      "meta": "桑德罗·波提切利 · 约 1485 年",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "venus": {
+      "image": "sandro-botticelli-la-nascita-di-venere-google-art-project-edited",
+      "title": "维纳斯的诞生",
+      "meta": "桑德罗·波提切利 · 约 1485 年 · 乌菲兹美术馆",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "venusface": {
+      "image": "venus-hair-detail",
+      "asset": true,
+      "title": "维纳斯的诞生（局部）",
+      "meta": "桑德罗·波提切利 · 约 1485 年",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "olyface": {
+      "image": "olympia-face-detail",
+      "asset": true,
+      "title": "奥林匹亚（局部）",
+      "meta": "爱德华·马奈 · 1863 年 · 奥赛博物馆",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "olympia": {
+      "image": "manet-edouard-olympia",
+      "title": "奥林匹亚",
+      "meta": "爱德华·马奈 · 1863 年 · 奥赛博物馆",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "starry": {
+      "image": "van-gogh-starry-night-google-art-project",
+      "title": "星月夜",
+      "meta": "文森特·梵高 · 1889 年 · 纽约现代艺术博物馆",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "starrysky": {
+      "image": "starry-sky-detail",
+      "asset": true,
+      "title": "星月夜（局部）",
+      "meta": "文森特·梵高 · 1889 年",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "kouros": {
+      "image": "kouros-nama-3851-athens-greece",
+      "title": "库罗斯立像",
+      "meta": "约公元前 590—前 580 年",
+      "credit": "CC0 · Wikimedia Commons"
+    }
+  },
+  "segments": [
+    {
+      "id": "01",
+      "note": "开场：微距看头发上的金线，先不说是哪幅画",
+      "scene": {
+        "type": "artwork",
+        "work": "goldhair",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.45,
+            "cy": 0.5,
+            "zoom": 1.05
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.45,
+            "zoom": 1.3
+          }
+        ]
+      },
+      "narration": "这是维纳斯的一缕头发。凑近看，上面这些细细的亮线，是金。"
+    },
+    {
+      "id": "02",
+      "note": "拉远到全画；瓦萨里《名人传》1568 年版（金匠经历只有这一个来源，故用「据瓦萨里说」）",
+      "scene": {
+        "type": "artwork",
+        "work": "venus",
+        "mode": "fit",
+        "fitCenter": 760,
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1.05
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "spotlight",
+            "x": 0.56,
+            "y": 0.17,
+            "rx": 0.07,
+            "ry": 0.13,
+            "label": "刚才那缕头发",
+            "at": 0.15,
+            "until": 0.6
+          }
+        ]
+      },
+      "narration": "波提切利画《维纳斯的诞生》，大约在1485年。据瓦萨里说，他少年时在金匠铺里学过手艺。"
+    },
+    {
+      "id": "03",
+      "note": "线：蛋彩干得快，靠线造型；人物没有投影（乌菲兹：Tempera on canvas）",
+      "scene": {
+        "type": "artwork",
+        "work": "venusface",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.32,
+            "cy": 0.4,
+            "zoom": 1.05
+          },
+          {
+            "cx": 0.3,
+            "cy": 0.42,
+            "zoom": 1.15
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "trace",
+            "points": [
+              [
+                0.182,
+                0.22
+              ],
+              [
+                0.202,
+                0.36
+              ],
+              [
+                0.262,
+                0.47
+              ],
+              [
+                0.342,
+                0.52
+              ],
+              [
+                0.422,
+                0.47
+              ]
+            ],
+            "label": "一条线勾到底",
+            "at": 0.35,
+            "draw": 0.3,
+            "labelAt": 0
+          }
+        ]
+      },
+      "narration": "他用的是蛋彩，干得快，很难把颜色揉开。所以他靠线，轮廓一笔勾到底。画里的人，连影子都没有。"
+    },
+    {
+      "id": "04",
+      "note": "平：中间色调几乎没有（安托南·普鲁斯特回忆录，1913）",
+      "scene": {
+        "type": "artwork",
+        "work": "olyface",
+        "mode": "fit",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1.05
+          }
+        ],
+        "fitCenter": 760
+      },
+      "narration": "第一课看过奥林匹亚的眼神，这次看她的脸：从亮到暗，中间几乎没有过渡。马奈的朋友回忆，他恨不得把中间色调全去掉。"
+    },
+    {
+      "id": "05",
+      "note": "库尔贝语，最早见于阿尔贝·沃尔夫写的马奈讣告（《费加罗报》1883 年 5 月 1 日），属转述",
+      "scene": {
+        "type": "quote",
+        "work": "olympia",
+        "camera": [
+          {
+            "cx": 0.3,
+            "cy": 0.45,
+            "zoom": 1.1
+          },
+          {
+            "cx": 0.3,
+            "cy": 0.42,
+            "zoom": 1.2
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「太平了，没有体积。<br />像一张扑克牌里，<br />刚出浴的黑桃皇后。」",
+            "source": "库尔贝语，据《费加罗报》1883 年转述",
+            "at": 0.06
+          }
+        ]
+      },
+      "narration": "当时的批评一点不客气。据说库尔贝的评价是：太平了，没有体积，像扑克牌里刚出浴的黑桃皇后。"
+    },
+    {
+      "id": "06",
+      "note": "马奈回嘴（同一篇讣告）；左拉 1867 年《爱德华·马奈》：第一眼只看到两种色调",
+      "scene": {
+        "type": "artwork",
+        "work": "olympia",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.3,
+            "cy": 0.42,
+            "zoom": 1.15
+          },
+          {
+            "cx": 0.32,
+            "cy": 0.4,
+            "zoom": 1.3
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "swatch",
+            "regions": [
+              [
+                0.27,
+                0.47,
+                0.03,
+                0.03
+              ],
+              [
+                0.45,
+                0.14,
+                0.04,
+                0.04
+              ]
+            ],
+            "names": [
+              "亮",
+              "暗"
+            ],
+            "label": "左拉：第一眼只看到两种色调",
+            "at": 0.4
+          }
+        ]
+      },
+      "narration": "马奈也不客气，说库尔贝讲究的立体感，说到底就是一颗台球。两年后左拉替他说话：这幅画第一眼只看得到两种色调。"
+    },
+    {
+      "id": "07",
+      "note": "厚：MoMA 出版物（Richard Thomson）：两三次画完；星星先留空位，后补",
+      "scene": {
+        "type": "artwork",
+        "work": "starry",
+        "mode": "fit",
+        "fitCenter": 760,
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1.05
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "spotlight",
+            "x": 0.355,
+            "y": 0.525,
+            "rx": 0.07,
+            "ry": 0.09,
+            "label": "先留空，最后补上",
+            "at": 0.5
+          }
+        ]
+      },
+      "narration": "梵高的《星月夜》画得很快，大概两三次就完成了。星星的位置他先空着，最后才补上去。"
+    },
+    {
+      "id": "08",
+      "note": "湿画法（MoMA 出版物）；笔触顺着物体走向（致提奥，1889 年 9 月，第 801 封）",
+      "scene": {
+        "type": "artwork",
+        "work": "starrysky",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.45,
+            "cy": 0.55,
+            "zoom": 1.05
+          },
+          {
+            "cx": 0.45,
+            "cy": 0.6,
+            "zoom": 1.1
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "trace",
+            "points": [
+              [
+                0.25,
+                0.48
+              ],
+              [
+                0.3,
+                0.6
+              ],
+              [
+                0.4,
+                0.69
+              ],
+              [
+                0.52,
+                0.75
+              ],
+              [
+                0.64,
+                0.78
+              ]
+            ],
+            "arrow": true,
+            "label": "顺着漩涡下笔",
+            "at": 0.3,
+            "draw": 0.3,
+            "labelAt": 3
+          }
+        ]
+      },
+      "narration": "凑近看，天空是一层没干，下一层就压上去。笔触顺着漩涡走，缝里还露着底下的画布。"
+    },
+    {
+      "id": "09",
+      "note": "梵高致埃米尔·贝尔纳，1888 年 4 月（第 596 封）",
+      "scene": {
+        "type": "quote",
+        "work": "starrysky",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.4,
+            "zoom": 1.1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.38,
+            "zoom": 1.2
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「我的笔触没有任何章法，<br />不规则地敲在画布上，<br />就让它们那样留着。」",
+            "source": "梵高致埃米尔·贝尔纳的信，1888 年",
+            "at": 0.06
+          }
+        ]
+      },
+      "narration": "早一年，他给画家朋友贝尔纳写信：我的笔触没有任何章法，不规则地敲在画布上，就让它们那样留着。"
+    },
+    {
+      "id": "10",
+      "note": "莫里斯·德尼，1890 年 8 月《Art et Critique》（压缩转述，原句列举战马、裸女、轶事）",
+      "scene": {
+        "type": "triptych",
+        "works": [
+          "goldhair",
+          "olyface",
+          "starrysky"
+        ],
+        "words": [
+          "线",
+          "平",
+          "厚"
+        ],
+        "focus": [
+          "45% 50%",
+          "55% 45%",
+          "45% 55%"
+        ]
+      },
+      "narration": "梵高去世那年，年轻画家莫里斯·德尼写道：一幅画在讲任何故事之前，先是一个平面，上面按一定秩序涂着颜色。同一个平面，波提切利用线，马奈铺平，梵高往上堆。"
+    },
+    {
+      "id": "11",
+      "scene": {
+        "type": "outro",
+        "eyebrow": "留一个问题给你",
+        "question": "这三幅画，<br />你最想站到哪一幅跟前看？",
+        "siteNote": "三幅画的背景、视觉分析与延伸问题"
+      },
+      "narration": "在美术馆看油画，可以侧过身，斜着看画面的反光，颜料厚的地方一下就看出来了。这三幅画，你最想站到哪一幅跟前看？"
+    },
+    {
+      "id": "12",
+      "note": "片尾：下一课预告（身体；下一课主题可在此修改）",
+      "scene": {
+        "type": "endcard",
+        "work": "kouros",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.2,
+            "zoom": 2.3
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.18,
+            "zoom": 2.4
+          }
+        ],
+        "next": {
+          "label": "下一课",
+          "title": "一尊站得笔直的石像，<br />怎么慢慢动起来",
+          "sub": "身体 · 库罗斯 / 阿佛洛狄忒 / 大卫"
+        }
+      },
+      "narration": "下一课讲身体：一尊站得笔直的希腊石像，是怎么一点点动起来的。"
+    }
+  ]
+}

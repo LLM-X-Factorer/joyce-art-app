@@ -1,0 +1,25 @@
+{
+  "engine": "seed-audio-1.0",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "doc": "沿用 diantou-cs-basic-course 的 Seed Audio 1.0 调用方式（tools/seed_audio.py）",
+  "reference": {
+    "name": "sweet-girl",
+    "audio": "voices/sweet-girl.mp3"
+  },
+  "prompt_template": "@音频1 这位讲解员用同样的音色、语速和语气，在安静的录音室里说：“{text}”",
+  "audio_config": {
+    "format": "mp3",
+    "sample_rate": 48000,
+    "speech_rate": 0,
+    "loudness_rate": 0,
+    "pitch_rate": 0,
+    "enable_subtitle": true
+  },
+  "watermark": {
+    "aigc_watermark": false,
+    "aigc_metadata": {
+      "enable": true
+    }
+  }
+}

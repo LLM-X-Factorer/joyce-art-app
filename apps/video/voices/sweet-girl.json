@@ -1,0 +1,15 @@
+{
+  "name": "sweet-girl",
+  "duration": 17.136,
+  "adopted_on": "2026-10-01",
+  "design": {
+    "name": "sweet-girl",
+    "label": "甜妹学霸",
+    "description": "一位二十岁出头的女生，声音甜美清亮、带少女感和笑意，语气活泼可爱，但讲解认真、逻辑清楚，像学霸同学给你讲题。音调不要太高，不嗲、不夹子音，吐字干净，不要营销号腔调。"
+  },
+  "spoken_text": "输入 google 点 com，电脑还得先知道它的 IP 地址。解析器先问根服务器，根说：去问点 com；点 com 又说：去问 N S 一。问到第三台，才终于拿到地址：十点零点一点二。你看，前两次拿到的都不是答案，只是“去问谁”。",
+  "request_id": "4d0e6c0f-46c6-4757-aff5-fe880be73672",
+  "audio": "voices/sweet-girl.mp3",
+  "audio_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "origin": "复制自 diantou-cs-basic-course/videos/voices/sweet-girl.mp3（Seed Audio 1.0 音色设计生成，2026-10-01 选定）"
+}

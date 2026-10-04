@@ -1,0 +1,450 @@
+{
+  "id": "modernity",
+  "series": "艺术史公共书房 · 主题课",
+  "theme": "现代性",
+  "episode": "01",
+  "title": "被骂出来的「现代」",
+  "titleLines": [
+    "被骂出来的",
+    "「现代」"
+  ],
+  "cover": {
+    "work": "olympia",
+    "camera": [
+      {
+        "cx": 0.27,
+        "cy": 0.33,
+        "zoom": 1.5
+      }
+    ]
+  },
+  "sources": "史实来源见 docs/video/写稿与画面指南.md「本期事实核对」：奥赛博物馆、MoMA、埃菲尔铁塔官网、vangoghletters.org 等",
+  "works": {
+    "olympia": {
+      "image": "manet-edouard-olympia",
+      "title": "奥林匹亚",
+      "meta": "爱德华·马奈 · 1863年作，1865年展出",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "titian": {
+      "image": "titian-venus-of-urbino",
+      "asset": true,
+      "title": "乌尔比诺的维纳斯",
+      "meta": "提香 · 1538年",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "eiffel": {
+      "image": "eiffel-tower-at-exposition-universelle-paris-1889",
+      "title": "埃菲尔铁塔",
+      "meta": "1889年世界博览会 · 摄影：Neurdein",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "starry": {
+      "image": "van-gogh-starry-night-google-art-project",
+      "title": "星月夜",
+      "meta": "文森特·梵高 · 1889年",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "chartres": {
+      "image": "westfassade-chartres",
+      "title": "沙特尔大教堂",
+      "meta": "西立面",
+      "credit": "公有领域 · Wikimedia Commons"
+    }
+  },
+  "segments": [
+    {
+      "id": "01",
+      "note": "开场直接给细节：只看眼睛",
+      "scene": {
+        "type": "artwork",
+        "work": "olympia",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.26,
+            "cy": 0.31,
+            "zoom": 2.6
+          },
+          {
+            "cx": 0.26,
+            "cy": 0.32,
+            "zoom": 2.25
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "spotlight",
+            "x": 0.255,
+            "y": 0.29,
+            "rx": 0.075,
+            "ry": 0.085,
+            "at": 0.05
+          }
+        ]
+      },
+      "narration": "先别管她是谁，看她的眼睛。"
+    },
+    {
+      "id": "02",
+      "note": "年份印章交代时间地点；接受史用一句可查的回忆",
+      "scene": {
+        "type": "artwork",
+        "work": "olympia",
+        "mode": "fit",
+        "fitCenter": 780,
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1.06
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "year",
+            "text": "1865",
+            "at": 0.05,
+            "until": 0.95
+          }
+        ]
+      },
+      "narration": "1865年巴黎沙龙，人们挤在这张画前骂声一片。马奈的朋友回忆，要不是展方特意防着，它差点被人毁掉。"
+    },
+    {
+      "id": "03",
+      "note": "来源作品对比：先看整体相似，再推到狗和猫",
+      "scene": {
+        "type": "compare",
+        "panes": [
+          {
+            "work": "titian",
+            "label": "提香",
+            "sub": "1538",
+            "camera": [
+              {
+                "cx": 0.5,
+                "cy": 0.5,
+                "zoom": 1
+              },
+              {
+                "cx": 0.88,
+                "cy": 0.66,
+                "zoom": 2.4
+              }
+            ]
+          },
+          {
+            "work": "olympia",
+            "label": "马奈",
+            "sub": "1863",
+            "camera": [
+              {
+                "cx": 0.5,
+                "cy": 0.5,
+                "zoom": 1
+              },
+              {
+                "cx": 0.94,
+                "cy": 0.6,
+                "zoom": 2.4
+              }
+            ]
+          }
+        ]
+      },
+      "narration": "可这构图一点都不新。三百多年前，提香就画过一样的姿势、一样的床。只不过他脚边睡着一只小狗，马奈换成了一只弓着背的黑猫。"
+    },
+    {
+      "id": "04",
+      "note": "两种眼神：主画面聚光奥林匹亚，小卡片放提香的维纳斯",
+      "scene": {
+        "type": "artwork",
+        "work": "olympia",
+        "mode": "cover",
+        "camera": [
+          {
+            "cx": 0.26,
+            "cy": 0.36,
+            "zoom": 1.9
+          },
+          {
+            "cx": 0.26,
+            "cy": 0.33,
+            "zoom": 2.1
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "inset",
+            "work": "titian",
+            "x": 0.11,
+            "y": 0.32,
+            "w": 0.15,
+            "h": 0.2,
+            "label": "维纳斯：邀请",
+            "position": "top",
+            "at": 0.08
+          },
+          {
+            "type": "spotlight",
+            "x": 0.255,
+            "y": 0.29,
+            "rx": 0.07,
+            "ry": 0.08,
+            "label": "奥林匹亚：打量",
+            "at": 0.4
+          }
+        ]
+      },
+      "narration": "两个女人都在看你。可维纳斯的眼神是邀请，奥林匹亚的眼神是打量。站在画前的人，忽然有点心虚。"
+    },
+    {
+      "id": "05",
+      "note": "接受史：当年抗议书的原话",
+      "scene": {
+        "type": "quote",
+        "work": "eiffel",
+        "camera": [
+          {
+            "cx": 0.48,
+            "cy": 0.3,
+            "zoom": 1.3
+          },
+          {
+            "cx": 0.48,
+            "cy": 0.25,
+            "zoom": 1.4
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「无用而可怕的<br />埃菲尔铁塔」",
+            "source": "1887年2月14日《时报》· 古诺、莫泊桑、加尼耶等艺术家联名抗议书",
+            "at": 0.06
+          }
+        ]
+      },
+      "narration": "1887年，巴黎又炸了一次锅：一群艺术家联名登报，骂一座刚开工的铁塔「无用而可怕」。"
+    },
+    {
+      "id": "06",
+      "note": "工程尺度：镜头从塔基升到塔顶，数字滚动",
+      "scene": {
+        "type": "artwork",
+        "work": "eiffel",
+        "mode": "cover",
+        "label": false,
+        "camera": [
+          {
+            "cx": 0.48,
+            "cy": 0.62,
+            "zoom": 1.3
+          },
+          {
+            "cx": 0.48,
+            "cy": 0.18,
+            "zoom": 1.3
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "stat",
+            "value": 18038,
+            "label": "个铁件，外加 250 万颗铆钉",
+            "at": 0.25
+          }
+        ]
+      },
+      "narration": "它确实很不体面：没有一面石墙，一万八千多个铁件、两百五十万颗铆钉，全都露在外面。"
+    },
+    {
+      "id": "07",
+      "scene": {
+        "type": "artwork",
+        "work": "eiffel",
+        "mode": "fit",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.45,
+            "zoom": 1.08
+          }
+        ]
+      },
+      "narration": "它本来只打算留二十年。现在，它就是巴黎。"
+    },
+    {
+      "id": "08",
+      "scene": {
+        "type": "artwork",
+        "work": "starry",
+        "mode": "fit",
+        "fitCenter": 790,
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1.05
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "year",
+            "text": "1889",
+            "at": 0.05,
+            "until": 0.95
+          }
+        ]
+      },
+      "narration": "同一年，南法的一家疗养院里，梵高画下了这片星空。"
+    },
+    {
+      "id": "09",
+      "note": "观察与想象：聚光先落在虚构的村庄，再移到过大的星星",
+      "scene": {
+        "type": "artwork",
+        "work": "starry",
+        "mode": "cover",
+        "camera": [
+          {
+            "cx": 0.42,
+            "cy": 0.42,
+            "zoom": 1.2
+          },
+          {
+            "cx": 0.38,
+            "cy": 0.46,
+            "zoom": 1.3
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "inset",
+            "x": 0.44,
+            "y": 0.73,
+            "w": 0.42,
+            "h": 0.22,
+            "label": "窗外看不到的村庄",
+            "position": "top",
+            "at": 0.06,
+            "until": 0.5,
+            "width": 820
+          },
+          {
+            "type": "spotlight",
+            "x": 0.355,
+            "y": 0.525,
+            "rx": 0.07,
+            "label": "大得离谱的星星",
+            "at": 0.58
+          }
+        ]
+      },
+      "narration": "可这个村庄，他从窗口根本看不见，是自己加上去的。星星也画得大得离谱。"
+    },
+    {
+      "id": "10",
+      "note": "画家自己的话（书信第822封）",
+      "scene": {
+        "type": "quote",
+        "work": "starry",
+        "camera": [
+          {
+            "cx": 0.4,
+            "cy": 0.35,
+            "zoom": 1.4
+          },
+          {
+            "cx": 0.45,
+            "cy": 0.32,
+            "zoom": 1.55
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「我又一次放任自己<br />把星星画得太大……<br />又一次挫败。」",
+            "source": "梵高致埃米尔·贝尔纳，1889年11月（书信第822封）",
+            "at": 0.06
+          }
+        ]
+      },
+      "narration": "几个月后他在信里抱怨：又把星星画得太大了，又搞砸一次。"
+    },
+    {
+      "id": "11",
+      "scene": {
+        "type": "triptych",
+        "works": [
+          "olympia",
+          "eiffel",
+          "starry"
+        ],
+        "words": [
+          "被骂的那幅画",
+          "被骂的那座塔",
+          "画家自己都嫌弃的星空"
+        ],
+        "focus": [
+          "26% 32%",
+          "48% 30%",
+          "50% 36%"
+        ]
+      },
+      "narration": "被骂的那幅画，被骂的那座塔，连画家自己都嫌弃的星空，后来都成了那个时代的脸。"
+    },
+    {
+      "id": "12",
+      "scene": {
+        "type": "outro",
+        "question": "你最近看着别扭的东西里，<br />会不会就有下一个？",
+        "siteNote": "三件作品的背景、视觉分析与延伸问题"
+      },
+      "narration": "也许「现代」，就是先让人不舒服。你最近看着别扭的东西里，会不会就有下一个？"
+    },
+    {
+      "id": "13",
+      "note": "片尾：品牌 + 下一课预告（下一课主题可在此修改）",
+      "scene": {
+        "type": "endcard",
+        "work": "chartres",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.35,
+            "zoom": 1.05
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.3,
+            "zoom": 1.15
+          }
+        ],
+        "next": {
+          "label": "下一课",
+          "title": "一面墙，<br />怎么变成一片光？",
+          "sub": "哥特 · 沙特尔大教堂"
+        }
+      },
+      "narration": "下一课，去沙特尔大教堂看看：一面墙，怎么变成一片彩色的光。"
+    }
+  ]
+}

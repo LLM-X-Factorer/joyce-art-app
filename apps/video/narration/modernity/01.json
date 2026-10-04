@@ -1,0 +1,83 @@
+{
+  "segment": "01",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "spoken_text": "先别管她是谁，看她的眼睛。",
+  "spoken_sha256": "7101f7f4adb2a41ca692cfff5d528e133e16b9a5f314b10a0f74405ce0e06130",
+  "heard_text": "先别管她是谁，看她的眼睛。",
+  "subtitle_match": 1,
+  "duration": 2.376,
+  "request_id": "a73c0a05-f467-44fc-814f-e014a26be1d8",
+  "logid": "202610042230308C5EF0594D89FCADF939",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "c7946c79d8b62d661bcf922e94581629d1c0f00165eb445fcb82026ffe681756",
+  "words": [
+    {
+      "end_time": 440,
+      "start_time": 160,
+      "text": "先"
+    },
+    {
+      "end_time": 600,
+      "start_time": 440,
+      "text": "别"
+    },
+    {
+      "end_time": 800,
+      "start_time": 600,
+      "text": "管"
+    },
+    {
+      "end_time": 920,
+      "start_time": 840,
+      "text": "她"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 960,
+      "text": "是"
+    },
+    {
+      "end_time": 1280,
+      "start_time": 1080,
+      "text": "谁"
+    },
+    {
+      "end_time": 1280,
+      "start_time": 1280,
+      "text": "，"
+    },
+    {
+      "end_time": 1720,
+      "start_time": 1480,
+      "text": "看"
+    },
+    {
+      "end_time": 1840,
+      "start_time": 1760,
+      "text": "她"
+    },
+    {
+      "end_time": 1960,
+      "start_time": 1840,
+      "text": "的"
+    },
+    {
+      "end_time": 2080,
+      "start_time": 1960,
+      "text": "眼"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2080,
+      "text": "睛"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2240,
+      "text": "。"
+    }
+  ]
+}

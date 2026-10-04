@@ -1,0 +1,204 @@
+{
+  "segment": "05",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "1887年，巴黎又炸了一次锅：一群艺术家联名登报，骂一座刚开工的铁塔「无用而可怕」。",
+  "spoken_text": "1887年，巴黎又炸了一次锅：一群艺术家联名登报，骂一座刚开工的铁塔无用而可怕。",
+  "spoken_sha256": "a1f2e4b7822316790e89d86f455fa07955741c435c352f83e034e0f6fa1def99",
+  "heard_text": "1887年，巴黎又炸了一次锅：一群艺术家联名登报，骂一座刚开工的铁塔无用而可怕。",
+  "subtitle_match": 1,
+  "duration": 7.128,
+  "request_id": "3fa3aada-6e05-4b19-b67f-7e420ab553b0",
+  "logid": "20261004223730E331B5F6114E507A093B",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "145d770b832880fa94ce513b3ad8fc74b623baad0ff63e9f7648bd71e764fdc8",
+  "words": [
+    {
+      "end_time": 1520,
+      "start_time": 0,
+      "text": "1887"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1520,
+      "text": "年"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1560,
+      "text": "，"
+    },
+    {
+      "end_time": 1600,
+      "start_time": 1560,
+      "text": "巴"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1600,
+      "text": "黎"
+    },
+    {
+      "end_time": 1920,
+      "start_time": 1760,
+      "text": "又"
+    },
+    {
+      "end_time": 2120,
+      "start_time": 1920,
+      "text": "炸"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2120,
+      "text": "了"
+    },
+    {
+      "end_time": 2280,
+      "start_time": 2240,
+      "text": "一"
+    },
+    {
+      "end_time": 2440,
+      "start_time": 2280,
+      "text": "次"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2440,
+      "text": "锅"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2680,
+      "text": "："
+    },
+    {
+      "end_time": 2960,
+      "start_time": 2840,
+      "text": "一"
+    },
+    {
+      "end_time": 3080,
+      "start_time": 2960,
+      "text": "群"
+    },
+    {
+      "end_time": 3280,
+      "start_time": 3120,
+      "text": "艺"
+    },
+    {
+      "end_time": 3440,
+      "start_time": 3280,
+      "text": "术"
+    },
+    {
+      "end_time": 3640,
+      "start_time": 3440,
+      "text": "家"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3640,
+      "text": "联"
+    },
+    {
+      "end_time": 3920,
+      "start_time": 3840,
+      "text": "名"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 4040,
+      "text": "登"
+    },
+    {
+      "end_time": 4320,
+      "start_time": 4240,
+      "text": "报"
+    },
+    {
+      "end_time": 4320,
+      "start_time": 4320,
+      "text": "，"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 4480,
+      "text": "骂"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4720,
+      "text": "一"
+    },
+    {
+      "end_time": 5000,
+      "start_time": 4840,
+      "text": "座"
+    },
+    {
+      "end_time": 5120,
+      "start_time": 5000,
+      "text": "刚"
+    },
+    {
+      "end_time": 5280,
+      "start_time": 5120,
+      "text": "开"
+    },
+    {
+      "end_time": 5440,
+      "start_time": 5320,
+      "text": "工"
+    },
+    {
+      "end_time": 5600,
+      "start_time": 5440,
+      "text": "的"
+    },
+    {
+      "end_time": 5800,
+      "start_time": 5600,
+      "text": "铁"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5840,
+      "text": "塔"
+    },
+    {
+      "end_time": 6320,
+      "start_time": 6160,
+      "text": "无"
+    },
+    {
+      "end_time": 6480,
+      "start_time": 6320,
+      "text": "用"
+    },
+    {
+      "end_time": 6640,
+      "start_time": 6480,
+      "text": "而"
+    },
+    {
+      "end_time": 6800,
+      "start_time": 6640,
+      "text": "可"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6800,
+      "text": "怕"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6920,
+      "text": "。"
+    }
+  ]
+}

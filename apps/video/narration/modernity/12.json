@@ -1,0 +1,194 @@
+{
+  "segment": "12",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "也许「现代」，就是先让人不舒服。你最近看着别扭的东西里，会不会就有下一个？",
+  "spoken_text": "也许现代，就是先让人不舒服。你最近看着别扭的东西里，会不会就有下一个？",
+  "spoken_sha256": "b2d753fbab566ab3fd1216c50d234fadce1c3d0b683996c30e668807ced0cd78",
+  "heard_text": "也许现代，就是先让人不舒服。你最近看着别扭的东西里，会不会就有下一个？",
+  "subtitle_match": 1,
+  "duration": 6.24,
+  "request_id": "5959292f-84af-4a68-961e-ddc8b5cd114f",
+  "logid": "202610042238166C79F8AF41A88747F0D3",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "15ebd46023a696652ab57365004e6ad734d36e720d635e136a3199e11d749a28",
+  "words": [
+    {
+      "end_time": 400,
+      "start_time": 200,
+      "text": "也"
+    },
+    {
+      "end_time": 560,
+      "start_time": 400,
+      "text": "许"
+    },
+    {
+      "end_time": 840,
+      "start_time": 720,
+      "text": "现"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 880,
+      "text": "代"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 1040,
+      "text": "，"
+    },
+    {
+      "end_time": 1440,
+      "start_time": 1240,
+      "text": "就"
+    },
+    {
+      "end_time": 1600,
+      "start_time": 1440,
+      "text": "是"
+    },
+    {
+      "end_time": 1880,
+      "start_time": 1600,
+      "text": "先"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1880,
+      "text": "让"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2040,
+      "text": "人"
+    },
+    {
+      "end_time": 2360,
+      "start_time": 2240,
+      "text": "不"
+    },
+    {
+      "end_time": 2520,
+      "start_time": 2360,
+      "text": "舒"
+    },
+    {
+      "end_time": 2640,
+      "start_time": 2520,
+      "text": "服"
+    },
+    {
+      "end_time": 2640,
+      "start_time": 2640,
+      "text": "。"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3360,
+      "text": "你"
+    },
+    {
+      "end_time": 3640,
+      "start_time": 3560,
+      "text": "最"
+    },
+    {
+      "end_time": 3760,
+      "start_time": 3640,
+      "text": "近"
+    },
+    {
+      "end_time": 3920,
+      "start_time": 3760,
+      "text": "看"
+    },
+    {
+      "end_time": 4040,
+      "start_time": 3920,
+      "text": "着"
+    },
+    {
+      "end_time": 4200,
+      "start_time": 4160,
+      "text": "别"
+    },
+    {
+      "end_time": 4480,
+      "start_time": 4400,
+      "text": "扭"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4600,
+      "text": "的"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4760,
+      "text": "东"
+    },
+    {
+      "end_time": 4960,
+      "start_time": 4840,
+      "text": "西"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 4960,
+      "text": "里"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 5160,
+      "text": "，"
+    },
+    {
+      "end_time": 5280,
+      "start_time": 5160,
+      "text": "会"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5280,
+      "text": "不"
+    },
+    {
+      "end_time": 5480,
+      "start_time": 5400,
+      "text": "会"
+    },
+    {
+      "end_time": 5640,
+      "start_time": 5480,
+      "text": "就"
+    },
+    {
+      "end_time": 5800,
+      "start_time": 5640,
+      "text": "有"
+    },
+    {
+      "end_time": 5960,
+      "start_time": 5800,
+      "text": "下"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5960,
+      "text": "一"
+    },
+    {
+      "end_time": 6160,
+      "start_time": 6040,
+      "text": "个"
+    },
+    {
+      "end_time": 6160,
+      "start_time": 6160,
+      "text": "？"
+    }
+  ]
+}

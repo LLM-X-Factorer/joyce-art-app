@@ -1,0 +1,153 @@
+{
+  "segment": "10",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "spoken_text": "几个月后他在信里抱怨：又把星星画得太大了，又搞砸一次。",
+  "spoken_sha256": "b6593dcb5462b75c83bf259e1449b45ead0737e43408ccce9671c0836a1be4d1",
+  "heard_text": "几个月后他在信里抱怨：又把星星画得太大了，又搞砸一次。",
+  "subtitle_match": 1,
+  "duration": 8.424,
+  "request_id": "26cfdf31-e4cc-42ac-b02e-8db8dbbb5975",
+  "logid": "202610042235195E57588CC903E41B9393",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "00237a59a150145f0aa23c93b1e442865418828675cae35a8977fa8cbdd9b82d",
+  "words": [
+    {
+      "end_time": 2200,
+      "start_time": 1960,
+      "text": "几"
+    },
+    {
+      "end_time": 2280,
+      "start_time": 2200,
+      "text": "个"
+    },
+    {
+      "end_time": 2440,
+      "start_time": 2280,
+      "text": "月"
+    },
+    {
+      "end_time": 2600,
+      "start_time": 2440,
+      "text": "后"
+    },
+    {
+      "end_time": 2800,
+      "start_time": 2600,
+      "text": "他"
+    },
+    {
+      "end_time": 3000,
+      "start_time": 2800,
+      "text": "在"
+    },
+    {
+      "end_time": 3120,
+      "start_time": 3040,
+      "text": "信"
+    },
+    {
+      "end_time": 3320,
+      "start_time": 3240,
+      "text": "里"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3400,
+      "text": "抱"
+    },
+    {
+      "end_time": 3760,
+      "start_time": 3560,
+      "text": "怨"
+    },
+    {
+      "end_time": 3760,
+      "start_time": 3760,
+      "text": "："
+    },
+    {
+      "end_time": 4120,
+      "start_time": 3960,
+      "text": "又"
+    },
+    {
+      "end_time": 4280,
+      "start_time": 4120,
+      "text": "把"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4360,
+      "text": "星"
+    },
+    {
+      "end_time": 4640,
+      "start_time": 4600,
+      "text": "星"
+    },
+    {
+      "end_time": 4960,
+      "start_time": 4840,
+      "text": "画"
+    },
+    {
+      "end_time": 5200,
+      "start_time": 5000,
+      "text": "得"
+    },
+    {
+      "end_time": 5320,
+      "start_time": 5200,
+      "text": "太"
+    },
+    {
+      "end_time": 5560,
+      "start_time": 5320,
+      "text": "大"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5560,
+      "text": "了"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5840,
+      "text": "，"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5840,
+      "text": "又"
+    },
+    {
+      "end_time": 6280,
+      "start_time": 6040,
+      "text": "搞"
+    },
+    {
+      "end_time": 6440,
+      "start_time": 6320,
+      "text": "砸"
+    },
+    {
+      "end_time": 6760,
+      "start_time": 6560,
+      "text": "一"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6760,
+      "text": "次"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6920,
+      "text": "。"
+    }
+  ]
+}

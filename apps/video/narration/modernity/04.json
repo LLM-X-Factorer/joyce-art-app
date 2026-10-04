@@ -1,0 +1,243 @@
+{
+  "segment": "04",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "spoken_text": "两个女人都在看你。可维纳斯的眼神是邀请，奥林匹亚的眼神是打量。站在画前的人，忽然有点心虚。",
+  "spoken_sha256": "f74a8fe4efcfbf9f1558c49245d7c998b40fa570bd9b3cb77356f1603839c71f",
+  "heard_text": "两个女人都在看你。可维纳斯的眼神是邀请，奥林匹亚的眼神是打量。站在画前的人，忽然有点心虚。",
+  "subtitle_match": 1,
+  "duration": 10.632,
+  "request_id": "c3e48b68-397f-450a-81ca-6cbeb730e4c7",
+  "logid": "20261004223203911077FF32BAE846AF4E",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "8aa2d5da155aacf0eafea5b487aabfb919fa453a0a87c0be58c7210b26392e74",
+  "words": [
+    {
+      "end_time": 720,
+      "start_time": 480,
+      "text": "两"
+    },
+    {
+      "end_time": 840,
+      "start_time": 720,
+      "text": "个"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 840,
+      "text": "女"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1040,
+      "text": "人"
+    },
+    {
+      "end_time": 1360,
+      "start_time": 1200,
+      "text": "都"
+    },
+    {
+      "end_time": 1520,
+      "start_time": 1360,
+      "text": "在"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1520,
+      "text": "看"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1760,
+      "text": "你"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 2040,
+      "text": "。"
+    },
+    {
+      "end_time": 2600,
+      "start_time": 2480,
+      "text": "可"
+    },
+    {
+      "end_time": 2840,
+      "start_time": 2760,
+      "text": "维"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3000,
+      "text": "纳"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3200,
+      "text": "斯"
+    },
+    {
+      "end_time": 3600,
+      "start_time": 3440,
+      "text": "的"
+    },
+    {
+      "end_time": 3760,
+      "start_time": 3600,
+      "text": "眼"
+    },
+    {
+      "end_time": 3960,
+      "start_time": 3760,
+      "text": "神"
+    },
+    {
+      "end_time": 4200,
+      "start_time": 3960,
+      "text": "是"
+    },
+    {
+      "end_time": 4520,
+      "start_time": 4240,
+      "text": "邀"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 4520,
+      "text": "请"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 4720,
+      "text": "，"
+    },
+    {
+      "end_time": 5480,
+      "start_time": 5320,
+      "text": "奥"
+    },
+    {
+      "end_time": 5680,
+      "start_time": 5560,
+      "text": "林"
+    },
+    {
+      "end_time": 5880,
+      "start_time": 5800,
+      "text": "匹"
+    },
+    {
+      "end_time": 6120,
+      "start_time": 6040,
+      "text": "亚"
+    },
+    {
+      "end_time": 6400,
+      "start_time": 6240,
+      "text": "的"
+    },
+    {
+      "end_time": 6520,
+      "start_time": 6400,
+      "text": "眼"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6520,
+      "text": "神"
+    },
+    {
+      "end_time": 6880,
+      "start_time": 6680,
+      "text": "是"
+    },
+    {
+      "end_time": 7040,
+      "start_time": 6880,
+      "text": "打"
+    },
+    {
+      "end_time": 7240,
+      "start_time": 7200,
+      "text": "量"
+    },
+    {
+      "end_time": 7240,
+      "start_time": 7240,
+      "text": "。"
+    },
+    {
+      "end_time": 8280,
+      "start_time": 8080,
+      "text": "站"
+    },
+    {
+      "end_time": 8480,
+      "start_time": 8280,
+      "text": "在"
+    },
+    {
+      "end_time": 8720,
+      "start_time": 8560,
+      "text": "画"
+    },
+    {
+      "end_time": 8960,
+      "start_time": 8760,
+      "text": "前"
+    },
+    {
+      "end_time": 9160,
+      "start_time": 8960,
+      "text": "的"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9160,
+      "text": "人"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9440,
+      "text": "，"
+    },
+    {
+      "end_time": 9640,
+      "start_time": 9480,
+      "text": "忽"
+    },
+    {
+      "end_time": 9760,
+      "start_time": 9640,
+      "text": "然"
+    },
+    {
+      "end_time": 9880,
+      "start_time": 9760,
+      "text": "有"
+    },
+    {
+      "end_time": 10040,
+      "start_time": 9880,
+      "text": "点"
+    },
+    {
+      "end_time": 10200,
+      "start_time": 10040,
+      "text": "心"
+    },
+    {
+      "end_time": 10440,
+      "start_time": 10360,
+      "text": "虚"
+    },
+    {
+      "end_time": 10440,
+      "start_time": 10440,
+      "text": "。"
+    }
+  ]
+}

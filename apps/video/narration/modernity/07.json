@@ -1,0 +1,118 @@
+{
+  "segment": "07",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "spoken_text": "它本来只打算留二十年。现在，它就是巴黎。",
+  "spoken_sha256": "d83d57800a986dde5aaf71455bdc298654ae342b2535971d50ee1c5b691b177d",
+  "heard_text": "它本来只打算留二十年。现在，它就是巴黎。",
+  "subtitle_match": 1,
+  "duration": 3.936,
+  "request_id": "a79ca36d-bb70-4c38-9019-bb100b327f5c",
+  "logid": "20261004223309F316B4054AA586A65DCA",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "4f4c4dc7f020bc4c75e8bc3b71b708b50f02e5e3ef887592d4338116fee21dfe",
+  "words": [
+    {
+      "end_time": 400,
+      "start_time": 160,
+      "text": "它"
+    },
+    {
+      "end_time": 560,
+      "start_time": 400,
+      "text": "本"
+    },
+    {
+      "end_time": 680,
+      "start_time": 560,
+      "text": "来"
+    },
+    {
+      "end_time": 800,
+      "start_time": 680,
+      "text": "只"
+    },
+    {
+      "end_time": 920,
+      "start_time": 800,
+      "text": "打"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 920,
+      "text": "算"
+    },
+    {
+      "end_time": 1280,
+      "start_time": 1080,
+      "text": "留"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1360,
+      "text": "二"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1480,
+      "text": "十"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1560,
+      "text": "年"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1800,
+      "text": "。"
+    },
+    {
+      "end_time": 2600,
+      "start_time": 2440,
+      "text": "现"
+    },
+    {
+      "end_time": 2800,
+      "start_time": 2600,
+      "text": "在"
+    },
+    {
+      "end_time": 2800,
+      "start_time": 2800,
+      "text": "，"
+    },
+    {
+      "end_time": 3080,
+      "start_time": 2840,
+      "text": "它"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3080,
+      "text": "就"
+    },
+    {
+      "end_time": 3400,
+      "start_time": 3240,
+      "text": "是"
+    },
+    {
+      "end_time": 3600,
+      "start_time": 3520,
+      "text": "巴"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3760,
+      "text": "黎"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3800,
+      "text": "。"
+    }
+  ]
+}

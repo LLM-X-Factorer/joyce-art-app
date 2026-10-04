@@ -33,11 +33,19 @@ mkdirSync(cacheDir, { recursive: true });
 const probe = (args) => execFileSync("ffprobe", ["-v", "error", ...args], { encoding: "utf8" }).trim();
 const duration = (file) => Number(probe(["-show_entries", "format=duration", "-of", "csv=p=0", file]));
 
-// ---------- 旁白音频 ----------
+// ---------- 旁白音频：真人录音 > Seed Audio 配音（narration/）> 系统朗读临时配音 ----------
 function segmentAudio(seg) {
   for (const ext of ["wav", "m4a", "mp3", "aac", "aiff"]) {
     const file = join(ROOT, "audio", id, `${seg.id}.${ext}`);
     if (existsSync(file)) return { file, voice: "recorded" };
+  }
+  const seedFile = join(ROOT, "narration", id, `${seg.id}.mp3`);
+  const seedRecord = join(ROOT, "narration", id, `${seg.id}.json`);
+  if (existsSync(seedFile) && existsSync(seedRecord)) {
+    const record = JSON.parse(readFileSync(seedRecord, "utf8"));
+    // 以实际朗读的文字判断是否过期（「」不朗读）
+    if (record.spoken_text === seg.narration.replace(/[「」]/g, "")) return { file: seedFile, voice: "seed", words: record.words };
+    console.warn(`段落 ${seg.id} 的文字已修改，Seed 配音已过期（运行 node src/seed-audio.mjs ${id} 重新生成），暂用临时配音`);
   }
   const hash = createHash("sha1").update(seg.narration).digest("hex").slice(0, 10);
   const file = join(cacheDir, `${seg.id}-tts-${hash}.aiff`);
@@ -49,7 +57,7 @@ function segmentAudio(seg) {
 
 const audios = storyboard.segments.map(segmentAudio);
 const voices = new Set(audios.map((a) => a.voice));
-const voiceTag = voices.size === 1 && voices.has("recorded") ? "voice" : voices.has("recorded") ? "mixed" : "scratch";
+const voiceTag = voices.size > 1 ? "mixed" : { recorded: "voice", seed: "seed", tts: "scratch" }[[...voices][0]];
 
 // ---------- 时间轴 ----------
 let cursor = TITLE_LEAD;
@@ -71,19 +79,53 @@ function chunksOf(text) {
   }
   return out.map((c) => c.trim()).filter(Boolean);
 }
+const SKIP = new Set([..."，。、；：？！「」“”‘’（）《》…—,.;:?!\"'()· \n"]);
+
+/** 把语音返回的逐字时间戳展开成「每个非标点字符的起止时间」（秒，相对本段开头） */
+function timedChars(words) {
+  const out = [];
+  for (const w of words ?? []) {
+    const chars = [...w.text].filter((ch) => !SKIP.has(ch));
+    chars.forEach((_, k) => {
+      const span = (w.end_time - w.start_time) / chars.length;
+      out.push({ start: (w.start_time + span * k) / 1000, end: (w.start_time + span * (k + 1)) / 1000 });
+    });
+  }
+  return out;
+}
+
 const captions = [];
 storyboard.segments.forEach((seg, i) => {
   const { audioStart, audioEnd } = timeline[i];
   const parts = chunksOf(seg.narration);
-  const weights = parts.map((p) => p.replace(/[，。？！：；、「」]/g, "").length || 1);
-  const sum = weights.reduce((a, b) => a + b, 0);
+  const counts = parts.map((p) => [...p].filter((ch) => !SKIP.has(ch)).length);
+  const timed = timedChars(audios[i].words);
+  const aligned = timed.length === counts.reduce((a, b) => a + b, 0);
+  const sum = counts.reduce((a, b) => a + b, 0) || 1;
+  let cursorChar = 0;
   let t = audioStart;
   parts.forEach((p, k) => {
-    const len = ((audioEnd - audioStart) * weights[k]) / sum;
-    captions.push({ text: p.replace(/[，。；：]$/, ""), start: t, end: k === parts.length - 1 ? audioEnd + 0.25 : t + len });
-    t += len;
+    let start;
+    let end;
+    if (aligned && counts[k] > 0) {
+      start = audioStart + timed[cursorChar].start;
+      end = audioStart + timed[cursorChar + counts[k] - 1].end;
+    } else {
+      start = t;
+      end = t + ((audioEnd - audioStart) * (counts[k] || 1)) / sum;
+    }
+    cursorChar += counts[k];
+    t = end;
+    captions.push({ text: p.replace(/[，。；：]$/, ""), start, end });
   });
 });
+// 同一段内字幕首尾相接，避免停顿时闪空；每段最后一条多停留 0.25 秒
+for (let k = 0; k < captions.length; k += 1) {
+  const next = captions[k + 1];
+  const segEnd = timeline.find((slot) => captions[k].start >= slot.audioStart - 0.01 && captions[k].start <= slot.audioEnd)?.audioEnd;
+  if (next && next.start <= (segEnd ?? 0)) captions[k].end = next.start;
+  else captions[k].end = Math.max(captions[k].end, (segEnd ?? captions[k].end) + 0.25);
+}
 
 // ---------- 图片：网站镜像（seed/media）或视频专用素材（assets/，见 assets/assets.json） ----------
 const ASSET_DIR = join(ROOT, "assets");

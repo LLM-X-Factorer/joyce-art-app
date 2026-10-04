@@ -1,0 +1,313 @@
+{
+  "segment": "03",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "spoken_text": "可这构图一点都不新。三百多年前，提香就画过一样的姿势、一样的床。只不过他脚边睡着一只小狗，马奈换成了一只弓着背的黑猫。",
+  "spoken_sha256": "2d27acd67b50ac515ca6dcc2a905bc5115a7ed8d194f6fbbe21d8c01d95c2110",
+  "heard_text": "可这构图一点都不新。三百多年前，提香就画过一样的姿势、一样的床。只不过他脚边睡着一只小狗，马奈换成了一只弓着背的黑猫。",
+  "subtitle_match": 1,
+  "duration": 11.64,
+  "request_id": "713c2831-df4f-416d-bf1b-f989232b9659",
+  "logid": "20261004223139EF01FFD0800AF79C0396",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "b1d8eb6c66ace5b60c3c2e90db9518b2f52706224969311f42d36cd7347d7133",
+  "words": [
+    {
+      "end_time": 520,
+      "start_time": 280,
+      "text": "可"
+    },
+    {
+      "end_time": 720,
+      "start_time": 520,
+      "text": "这"
+    },
+    {
+      "end_time": 840,
+      "start_time": 800,
+      "text": "构"
+    },
+    {
+      "end_time": 1160,
+      "start_time": 1040,
+      "text": "图"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1320,
+      "text": "一"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1400,
+      "text": "点"
+    },
+    {
+      "end_time": 1720,
+      "start_time": 1560,
+      "text": "都"
+    },
+    {
+      "end_time": 1880,
+      "start_time": 1720,
+      "text": "不"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1880,
+      "text": "新"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 2040,
+      "text": "。"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2720,
+      "text": "三"
+    },
+    {
+      "end_time": 3040,
+      "start_time": 2880,
+      "text": "百"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3040,
+      "text": "多"
+    },
+    {
+      "end_time": 3320,
+      "start_time": 3160,
+      "text": "年"
+    },
+    {
+      "end_time": 3520,
+      "start_time": 3320,
+      "text": "前"
+    },
+    {
+      "end_time": 3520,
+      "start_time": 3520,
+      "text": "，"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3720,
+      "text": "提"
+    },
+    {
+      "end_time": 4080,
+      "start_time": 4000,
+      "text": "香"
+    },
+    {
+      "end_time": 4400,
+      "start_time": 4200,
+      "text": "就"
+    },
+    {
+      "end_time": 4600,
+      "start_time": 4440,
+      "text": "画"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4600,
+      "text": "过"
+    },
+    {
+      "end_time": 4960,
+      "start_time": 4840,
+      "text": "一"
+    },
+    {
+      "end_time": 5040,
+      "start_time": 4960,
+      "text": "样"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 5040,
+      "text": "的"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5160,
+      "text": "姿"
+    },
+    {
+      "end_time": 5520,
+      "start_time": 5400,
+      "text": "势"
+    },
+    {
+      "end_time": 5520,
+      "start_time": 5520,
+      "text": "、"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5720,
+      "text": "一"
+    },
+    {
+      "end_time": 5960,
+      "start_time": 5840,
+      "text": "样"
+    },
+    {
+      "end_time": 6080,
+      "start_time": 5960,
+      "text": "的"
+    },
+    {
+      "end_time": 6360,
+      "start_time": 6080,
+      "text": "床"
+    },
+    {
+      "end_time": 6360,
+      "start_time": 6360,
+      "text": "。"
+    },
+    {
+      "end_time": 7120,
+      "start_time": 6960,
+      "text": "只"
+    },
+    {
+      "end_time": 7200,
+      "start_time": 7120,
+      "text": "不"
+    },
+    {
+      "end_time": 7280,
+      "start_time": 7200,
+      "text": "过"
+    },
+    {
+      "end_time": 7520,
+      "start_time": 7280,
+      "text": "他"
+    },
+    {
+      "end_time": 7640,
+      "start_time": 7560,
+      "text": "脚"
+    },
+    {
+      "end_time": 7880,
+      "start_time": 7760,
+      "text": "边"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7880,
+      "text": "睡"
+    },
+    {
+      "end_time": 8240,
+      "start_time": 8080,
+      "text": "着"
+    },
+    {
+      "end_time": 8360,
+      "start_time": 8240,
+      "text": "一"
+    },
+    {
+      "end_time": 8440,
+      "start_time": 8360,
+      "text": "只"
+    },
+    {
+      "end_time": 8600,
+      "start_time": 8440,
+      "text": "小"
+    },
+    {
+      "end_time": 8880,
+      "start_time": 8600,
+      "text": "狗"
+    },
+    {
+      "end_time": 8880,
+      "start_time": 8880,
+      "text": "，"
+    },
+    {
+      "end_time": 9160,
+      "start_time": 9000,
+      "text": "马"
+    },
+    {
+      "end_time": 9360,
+      "start_time": 9320,
+      "text": "奈"
+    },
+    {
+      "end_time": 9760,
+      "start_time": 9560,
+      "text": "换"
+    },
+    {
+      "end_time": 9880,
+      "start_time": 9760,
+      "text": "成"
+    },
+    {
+      "end_time": 10000,
+      "start_time": 9880,
+      "text": "了"
+    },
+    {
+      "end_time": 10080,
+      "start_time": 10000,
+      "text": "一"
+    },
+    {
+      "end_time": 10160,
+      "start_time": 10080,
+      "text": "只"
+    },
+    {
+      "end_time": 10360,
+      "start_time": 10320,
+      "text": "弓"
+    },
+    {
+      "end_time": 10640,
+      "start_time": 10480,
+      "text": "着"
+    },
+    {
+      "end_time": 10800,
+      "start_time": 10760,
+      "text": "背"
+    },
+    {
+      "end_time": 11040,
+      "start_time": 10880,
+      "text": "的"
+    },
+    {
+      "end_time": 11200,
+      "start_time": 11040,
+      "text": "黑"
+    },
+    {
+      "end_time": 11400,
+      "start_time": 11200,
+      "text": "猫"
+    },
+    {
+      "end_time": 11400,
+      "start_time": 11400,
+      "text": "。"
+    }
+  ]
+}

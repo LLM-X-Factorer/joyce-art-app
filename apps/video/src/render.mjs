@@ -6,7 +6,7 @@
 // 旁白：apps/video/audio/<主题id>/<段号>.(wav|m4a|mp3|aac|aiff) 存在时使用真人录音，
 //       否则用 macOS 朗读（婷婷）生成临时配音，仅供预览节奏。
 import { createHash } from "node:crypto";
-import { spawn, execFileSync } from "node:child_process";
+import { spawn, spawnSync, execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -56,13 +56,39 @@ function segmentAudio(seg) {
 }
 
 const audios = storyboard.segments.map(segmentAudio);
+
+// ---------- 每段音频的处理参数：裁掉多余静音、统一响度 ----------
+const HEAD = 0.12; // 语音前保留的空隙（秒）
+const TAILPAD = 0.18; // 语音后保留的空隙（秒）
+const PUNCT = /^[，。、；：？！「」“”…—\s]*$/;
+/** 测量整段响度（LUFS） */
+function integratedLufs(file) {
+  const result = spawnSync("ffmpeg", ["-hide_banner", "-nostats", "-i", file, "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" });
+  const summary = result.stderr.slice(result.stderr.lastIndexOf("Summary"));
+  return Number(summary.match(/I:\s+(-?[\d.]+) LUFS/)[1]);
+}
+for (const audio of audios) {
+  const full = duration(audio.file);
+  let trimStart = 0;
+  let trimEnd = full;
+  const spoken = (audio.words ?? []).filter((w) => !PUNCT.test(w.text));
+  if (spoken.length) {
+    // Seed 配音前后常带长短不一的静音，按逐字时间戳裁掉，节奏更紧凑
+    trimStart = Math.max(0, spoken[0].start_time / 1000 - HEAD);
+    trimEnd = Math.min(full, spoken.at(-1).end_time / 1000 + TAILPAD);
+    audio.words = audio.words.map((w) => ({ ...w, start_time: w.start_time - trimStart * 1000, end_time: w.end_time - trimStart * 1000 }));
+  }
+  audio.trimStart = trimStart;
+  audio.length = trimEnd - trimStart;
+  audio.gainDb = -16 - integratedLufs(audio.file); // 每段先单独调到 −16 LUFS
+}
 const voices = new Set(audios.map((a) => a.voice));
 const voiceTag = voices.size > 1 ? "mixed" : { recorded: "voice", seed: "seed", tts: "scratch" }[[...voices][0]];
 
 // ---------- 时间轴 ----------
 let cursor = TITLE_LEAD;
 const timeline = storyboard.segments.map((seg, i) => {
-  const d = duration(audios[i].file);
+  const d = audios[i].length;
   const slot = { id: seg.id, start: i === 0 ? 0 : cursor - 0.3, audioStart: cursor, audioEnd: cursor + d, end: cursor + d };
   cursor += d + GAP;
   return slot;
@@ -189,12 +215,16 @@ try {
     }
     console.log(`关键帧已输出到 ${outDir}（${timeline.length} 张），总时长约 ${total.toFixed(1)} 秒`);
   } else {
-    // 混音：各段按时间轴放置，统一响度
+    // 混音：每段裁掉多余静音、单独调响度、首尾 10ms 淡入淡出防止咔哒声，按时间轴放置后用限幅器把峰值压在 −1.5 dBFS 以下
     const audioFile = join(cacheDir, `${id}-narration.m4a`);
     const inputs = audios.flatMap((a) => ["-i", a.file]);
-    const delays = audios.map((_, i) => `[${i}:a]aformat=sample_rates=48000:channel_layouts=mono,adelay=${Math.round(timeline[i].audioStart * 1000)}[a${i}]`);
-    const filter = `${delays.join(";")};${audios.map((_, i) => `[a${i}]`).join("")}amix=inputs=${audios.length}:normalize=0,apad,atrim=0:${total.toFixed(3)},loudnorm=I=-16:TP=-1.5:LRA=11[out]`;
-    execFileSync("ffmpeg", ["-y", "-v", "error", ...inputs, "-filter_complex", filter, "-map", "[out]", "-c:a", "aac", "-b:a", "160k", audioFile]);
+    const chains = audios.map((a, i) => {
+      const end = (a.trimStart + a.length).toFixed(3);
+      const fadeOut = Math.max(0, a.length - 0.01).toFixed(3);
+      return `[${i}:a]aformat=sample_rates=48000:channel_layouts=mono,atrim=${a.trimStart.toFixed(3)}:${end},asetpts=PTS-STARTPTS,volume=${a.gainDb.toFixed(2)}dB,afade=t=in:d=0.01,afade=t=out:st=${fadeOut}:d=0.01,adelay=${Math.round(timeline[i].audioStart * 1000)}[a${i}]`;
+    });
+    const filter = `${chains.join(";")};${audios.map((_, i) => `[a${i}]`).join("")}amix=inputs=${audios.length}:normalize=0,apad,atrim=0:${total.toFixed(3)},alimiter=limit=0.84:level=false:attack=2:release=60[out]`;
+    execFileSync("ffmpeg", ["-y", "-v", "error", ...inputs, "-filter_complex", filter, "-map", "[out]", "-c:a", "aac", "-b:a", "192k", audioFile]);
 
     const outFile = join(outDir, `${id}-${voiceTag}.mp4`);
     const ffmpeg = spawn(

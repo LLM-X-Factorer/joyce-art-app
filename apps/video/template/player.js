@@ -258,6 +258,22 @@
         el("span", null, band, words[k]);
         return band;
       });
+    } else if (scene.type === "endcard") {
+      // 片尾：品牌 + 下一课预告，背景为下一课作品
+      const vp = el("div", "viewport", layer);
+      entry.box = { w: W, h: H, left: 0, top: 0 };
+      Object.assign(entry, artImg(vp, scene.work));
+      entry.img.style.filter = "brightness(0.42) saturate(0.85)";
+      el("div", "shade-bottom", layer);
+      const card = el("div", "endcard", layer);
+      el("div", "end-eyebrow", card, sb.series.split(" · ")[1] ?? "");
+      el("div", "end-brand", card, sb.series.split(" · ")[0]);
+      const next = el("div", "end-next", card);
+      el("span", null, next, scene.next.label ?? "下一课");
+      el("strong", null, next, scene.next.title);
+      if (scene.next.sub) el("small", null, next, scene.next.sub);
+      el("div", "end-site", card, "art.llmxfactor.cloud");
+      entry.endcard = card;
     } else if (scene.type === "outro") {
       layer.classList.add("outro");
       el("div", "q-eyebrow", layer, scene.eyebrow ?? "留一个问题给你");
@@ -327,6 +343,13 @@
         const show = ease((local - 0.3) / 0.7) * (1 - ease((local - 3.6) / 0.7));
         entry.label.style.opacity = String(show);
         entry.label.style.transform = `translateY(${lerp(30, 0, ease((local - 0.3) / 0.7))}px)`;
+      }
+      if (entry.endcard) {
+        [...entry.endcard.children].forEach((child, k) => {
+          const show = ease((local - 0.15 - k * 0.35) / 0.6);
+          child.style.opacity = String(show);
+          child.style.transform = `translateY(${lerp(30, 0, show)}px)`;
+        });
       }
       if (entry.bands) {
         entry.bands.forEach((band, k) => {

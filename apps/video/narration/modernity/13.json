@@ -1,0 +1,164 @@
+{
+  "segment": "13",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "下一课，去沙特尔大教堂看看：一面墙，怎么变成一片彩色的光。",
+  "spoken_text": "下一课，去沙特尔大教堂看看：一面墙，怎么变成一片彩色的光。",
+  "spoken_sha256": "4e5b325c95d3a7aeb3b7852b950ccfa884786e976d4c06d054a5f672ef1e979f",
+  "heard_text": "下一课，去沙特尔大教堂看看：一面墙，怎么变成一片彩色的光。",
+  "subtitle_match": 1,
+  "duration": 7.704,
+  "request_id": "c1786433-68e3-4817-8ca1-c7d078d55a96",
+  "logid": "2026100422582603F570E9AE1C0751A718",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "96bd79575acef999494df2baf1c5d717a0aa4618d9174956d5fce01550397dc6",
+  "words": [
+    {
+      "end_time": 720,
+      "start_time": 400,
+      "text": "下"
+    },
+    {
+      "end_time": 880,
+      "start_time": 720,
+      "text": "一"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 880,
+      "text": "课"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 1080,
+      "text": "，"
+    },
+    {
+      "end_time": 1720,
+      "start_time": 1440,
+      "text": "去"
+    },
+    {
+      "end_time": 2080,
+      "start_time": 1840,
+      "text": "沙"
+    },
+    {
+      "end_time": 2360,
+      "start_time": 2080,
+      "text": "特"
+    },
+    {
+      "end_time": 2520,
+      "start_time": 2360,
+      "text": "尔"
+    },
+    {
+      "end_time": 2720,
+      "start_time": 2520,
+      "text": "大"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2760,
+      "text": "教"
+    },
+    {
+      "end_time": 3120,
+      "start_time": 3000,
+      "text": "堂"
+    },
+    {
+      "end_time": 3480,
+      "start_time": 3320,
+      "text": "看"
+    },
+    {
+      "end_time": 3680,
+      "start_time": 3520,
+      "text": "看"
+    },
+    {
+      "end_time": 3680,
+      "start_time": 3680,
+      "text": "："
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4640,
+      "text": "一"
+    },
+    {
+      "end_time": 5080,
+      "start_time": 4840,
+      "text": "面"
+    },
+    {
+      "end_time": 5360,
+      "start_time": 5120,
+      "text": "墙"
+    },
+    {
+      "end_time": 5360,
+      "start_time": 5360,
+      "text": "，"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5680,
+      "text": "怎"
+    },
+    {
+      "end_time": 5960,
+      "start_time": 5840,
+      "text": "么"
+    },
+    {
+      "end_time": 6160,
+      "start_time": 5960,
+      "text": "变"
+    },
+    {
+      "end_time": 6320,
+      "start_time": 6160,
+      "text": "成"
+    },
+    {
+      "end_time": 6480,
+      "start_time": 6320,
+      "text": "一"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6480,
+      "text": "片"
+    },
+    {
+      "end_time": 7040,
+      "start_time": 6760,
+      "text": "彩"
+    },
+    {
+      "end_time": 7200,
+      "start_time": 7040,
+      "text": "色"
+    },
+    {
+      "end_time": 7360,
+      "start_time": 7200,
+      "text": "的"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7360,
+      "text": "光"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7560,
+      "text": "。"
+    }
+  ]
+}

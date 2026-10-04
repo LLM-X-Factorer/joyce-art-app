@@ -25,7 +25,8 @@ const SCENE = {
   compare: (s, sb) => `对比：${s.panes.map((p) => `${sb.works[p.work].title}`).join(" / ")}`,
   quote: (s, sb) => `${sb.works[s.work].title}背景上的引文卡${fxText(s)}`,
   triptych: () => "三件作品并列",
-  outro: () => "结尾问题与网站地址"
+  outro: () => "结尾问题与网站地址",
+  endcard: (s, sb) => `片尾：品牌与下一课预告（${sb.works[s.work].title}）`
 };
 
 if (arg === "--outline") {

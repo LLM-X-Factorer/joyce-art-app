@@ -1,0 +1,209 @@
+{
+  "segment": "05",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "墙一变薄，就能整面开窗。沙特尔有一百七十多扇彩窗，加起来大约两千五百平方米。",
+  "spoken_text": "墙一变薄，就能整面开窗。沙特尔有一百七十多扇彩窗，加起来大约两千五百平方米。",
+  "spoken_sha256": "b2a8cea6980229e3feb99b4e7cbe5eb7565a85f1836eea04eb0ec0f231146bcc",
+  "heard_text": "墙一变薄，就能整面开窗。沙特尔有一百七十多扇彩窗，加起来大约两千五百平方米。",
+  "subtitle_match": 1,
+  "duration": 7.584,
+  "request_id": "c1cb1568-78b1-4f57-a20e-99ae789534fd",
+  "logid": "2026100423203512E9E768CDB748A48F49",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "6bf2e37013090ef0743b1e8755ec22b79cbfa7556a4a1334ee9e62214bbe27a4",
+  "words": [
+    {
+      "end_time": 440,
+      "start_time": 280,
+      "text": "墙"
+    },
+    {
+      "end_time": 680,
+      "start_time": 600,
+      "text": "一"
+    },
+    {
+      "end_time": 920,
+      "start_time": 800,
+      "text": "变"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1000,
+      "text": "薄"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1200,
+      "text": "，"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1600,
+      "text": "就"
+    },
+    {
+      "end_time": 1920,
+      "start_time": 1760,
+      "text": "能"
+    },
+    {
+      "end_time": 2200,
+      "start_time": 1920,
+      "text": "整"
+    },
+    {
+      "end_time": 2440,
+      "start_time": 2200,
+      "text": "面"
+    },
+    {
+      "end_time": 2640,
+      "start_time": 2440,
+      "text": "开"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2680,
+      "text": "窗"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2880,
+      "text": "。"
+    },
+    {
+      "end_time": 3480,
+      "start_time": 3320,
+      "text": "沙"
+    },
+    {
+      "end_time": 3720,
+      "start_time": 3560,
+      "text": "特"
+    },
+    {
+      "end_time": 3880,
+      "start_time": 3800,
+      "text": "尔"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 4000,
+      "text": "有"
+    },
+    {
+      "end_time": 4240,
+      "start_time": 4120,
+      "text": "一"
+    },
+    {
+      "end_time": 4320,
+      "start_time": 4240,
+      "text": "百"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4320,
+      "text": "七"
+    },
+    {
+      "end_time": 4560,
+      "start_time": 4440,
+      "text": "十"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 4560,
+      "text": "多"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4800,
+      "text": "扇"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 5040,
+      "text": "彩"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5240,
+      "text": "窗"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5400,
+      "text": "，"
+    },
+    {
+      "end_time": 5760,
+      "start_time": 5600,
+      "text": "加"
+    },
+    {
+      "end_time": 5880,
+      "start_time": 5760,
+      "text": "起"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5880,
+      "text": "来"
+    },
+    {
+      "end_time": 6200,
+      "start_time": 6040,
+      "text": "大"
+    },
+    {
+      "end_time": 6360,
+      "start_time": 6200,
+      "text": "约"
+    },
+    {
+      "end_time": 6520,
+      "start_time": 6360,
+      "text": "两"
+    },
+    {
+      "end_time": 6640,
+      "start_time": 6520,
+      "text": "千"
+    },
+    {
+      "end_time": 6760,
+      "start_time": 6640,
+      "text": "五"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6760,
+      "text": "百"
+    },
+    {
+      "end_time": 7120,
+      "start_time": 6960,
+      "text": "平"
+    },
+    {
+      "end_time": 7360,
+      "start_time": 7120,
+      "text": "方"
+    },
+    {
+      "end_time": 7520,
+      "start_time": 7360,
+      "text": "米"
+    },
+    {
+      "end_time": 7520,
+      "start_time": 7520,
+      "text": "。"
+    }
+  ]
+}

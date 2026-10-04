@@ -1,0 +1,259 @@
+{
+  "segment": "03",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "可就是这种「野蛮」，盖出了沙特尔大教堂。1194年一场大火，旧教堂几乎烧光，新的只用了二十多年就立了起来。",
+  "spoken_text": "可就是这种野蛮，盖出了沙特尔大教堂。1194年一场大火，旧教堂几乎烧光，新的只用了二十多年就立了起来。",
+  "spoken_sha256": "1285c1634df4e9d176a1a3bb4ba1cd10310bbaee46ba3c791005cd005296ab92",
+  "heard_text": "可就是这种野蛮，盖出了沙特尔大教堂。1194年一场大火，旧教堂几乎烧光，新的只用了二十多年就立了起来。",
+  "subtitle_match": 1,
+  "duration": 9.912,
+  "request_id": "23eebb82-f05c-4cd4-8d34-7568008f02f5",
+  "logid": "20261004231943F3ABAA64A8B37E3E0DA3",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "2d50b9cc7421ca26ed477669226e3004d78027bf0873c2a59f06bdb54beddcf3",
+  "words": [
+    {
+      "end_time": 640,
+      "start_time": 400,
+      "text": "可"
+    },
+    {
+      "end_time": 800,
+      "start_time": 640,
+      "text": "就"
+    },
+    {
+      "end_time": 880,
+      "start_time": 800,
+      "text": "是"
+    },
+    {
+      "end_time": 960,
+      "start_time": 880,
+      "text": "这"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 960,
+      "text": "种"
+    },
+    {
+      "end_time": 1240,
+      "start_time": 1160,
+      "text": "野"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1440,
+      "text": "蛮"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1480,
+      "text": "，"
+    },
+    {
+      "end_time": 1840,
+      "start_time": 1640,
+      "text": "盖"
+    },
+    {
+      "end_time": 2000,
+      "start_time": 1840,
+      "text": "出"
+    },
+    {
+      "end_time": 2120,
+      "start_time": 2000,
+      "text": "了"
+    },
+    {
+      "end_time": 2320,
+      "start_time": 2160,
+      "text": "沙"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2360,
+      "text": "特"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2560,
+      "text": "尔"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2720,
+      "text": "大"
+    },
+    {
+      "end_time": 3000,
+      "start_time": 2960,
+      "text": "教"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3120,
+      "text": "堂"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3160,
+      "text": "。"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 3160,
+      "text": "1194"
+    },
+    {
+      "end_time": 4920,
+      "start_time": 4720,
+      "text": "年"
+    },
+    {
+      "end_time": 5040,
+      "start_time": 4920,
+      "text": "一"
+    },
+    {
+      "end_time": 5200,
+      "start_time": 5040,
+      "text": "场"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5200,
+      "text": "大"
+    },
+    {
+      "end_time": 5600,
+      "start_time": 5400,
+      "text": "火"
+    },
+    {
+      "end_time": 5600,
+      "start_time": 5600,
+      "text": "，"
+    },
+    {
+      "end_time": 5920,
+      "start_time": 5880,
+      "text": "旧"
+    },
+    {
+      "end_time": 6200,
+      "start_time": 6160,
+      "text": "教"
+    },
+    {
+      "end_time": 6440,
+      "start_time": 6360,
+      "text": "堂"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6560,
+      "text": "几"
+    },
+    {
+      "end_time": 6760,
+      "start_time": 6680,
+      "text": "乎"
+    },
+    {
+      "end_time": 6920,
+      "start_time": 6760,
+      "text": "烧"
+    },
+    {
+      "end_time": 7280,
+      "start_time": 7040,
+      "text": "光"
+    },
+    {
+      "end_time": 7280,
+      "start_time": 7280,
+      "text": "，"
+    },
+    {
+      "end_time": 7760,
+      "start_time": 7520,
+      "text": "新"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7760,
+      "text": "的"
+    },
+    {
+      "end_time": 8280,
+      "start_time": 8080,
+      "text": "只"
+    },
+    {
+      "end_time": 8440,
+      "start_time": 8280,
+      "text": "用"
+    },
+    {
+      "end_time": 8560,
+      "start_time": 8440,
+      "text": "了"
+    },
+    {
+      "end_time": 8640,
+      "start_time": 8560,
+      "text": "二"
+    },
+    {
+      "end_time": 8720,
+      "start_time": 8640,
+      "text": "十"
+    },
+    {
+      "end_time": 8840,
+      "start_time": 8720,
+      "text": "多"
+    },
+    {
+      "end_time": 9040,
+      "start_time": 8840,
+      "text": "年"
+    },
+    {
+      "end_time": 9240,
+      "start_time": 9040,
+      "text": "就"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9360,
+      "text": "立"
+    },
+    {
+      "end_time": 9640,
+      "start_time": 9520,
+      "text": "了"
+    },
+    {
+      "end_time": 9760,
+      "start_time": 9640,
+      "text": "起"
+    },
+    {
+      "end_time": 9840,
+      "start_time": 9760,
+      "text": "来"
+    },
+    {
+      "end_time": 9840,
+      "start_time": 9840,
+      "text": "。"
+    }
+  ]
+}

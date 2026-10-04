@@ -108,6 +108,10 @@ importers:
         version: 3.2.7(@types/node@22.20.4)(tsx@4.23.15)
 
   apps/video:
+    dependencies:
+      sharp:
+        specifier: ^0.34
+        version: 0.34.5
     devDependencies:
       '@playwright/test':
         specifier: ^1

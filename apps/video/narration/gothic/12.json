@@ -1,0 +1,189 @@
+{
+  "segment": "12",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
+  "spoken_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
+  "spoken_sha256": "c5e08280c8a9810b1d06638b976f3721cd5501d6e7a445cb71df981be69ff098",
+  "heard_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
+  "subtitle_match": 1,
+  "duration": 9.528,
+  "request_id": "b6652676-4520-4c39-a5f3-e9a06cb96db5",
+  "logid": "20261004235556107DC7884DEF9FDE40E0",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "028cc046dc0edc3d0f604453a917d00bccc985bdbf32e50c1024a1bc87c03c14",
+  "words": [
+    {
+      "end_time": 560,
+      "start_time": 360,
+      "text": "所"
+    },
+    {
+      "end_time": 640,
+      "start_time": 560,
+      "text": "以"
+    },
+    {
+      "end_time": 840,
+      "start_time": 640,
+      "text": "真"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 840,
+      "text": "去"
+    },
+    {
+      "end_time": 1240,
+      "start_time": 1080,
+      "text": "沙"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1320,
+      "text": "特"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1520,
+      "text": "尔"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1640,
+      "text": "的"
+    },
+    {
+      "end_time": 1920,
+      "start_time": 1760,
+      "text": "话"
+    },
+    {
+      "end_time": 1920,
+      "start_time": 1920,
+      "text": "，"
+    },
+    {
+      "end_time": 2120,
+      "start_time": 1920,
+      "text": "挑"
+    },
+    {
+      "end_time": 2280,
+      "start_time": 2120,
+      "text": "个"
+    },
+    {
+      "end_time": 2400,
+      "start_time": 2320,
+      "text": "晴"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2560,
+      "text": "天"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2680,
+      "text": "。"
+    },
+    {
+      "end_time": 6400,
+      "start_time": 6160,
+      "text": "你"
+    },
+    {
+      "end_time": 6600,
+      "start_time": 6400,
+      "text": "看"
+    },
+    {
+      "end_time": 6760,
+      "start_time": 6600,
+      "text": "过"
+    },
+    {
+      "end_time": 6880,
+      "start_time": 6760,
+      "text": "的"
+    },
+    {
+      "end_time": 7040,
+      "start_time": 6960,
+      "text": "教"
+    },
+    {
+      "end_time": 7240,
+      "start_time": 7160,
+      "text": "堂"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7360,
+      "text": "里"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7560,
+      "text": "，"
+    },
+    {
+      "end_time": 7800,
+      "start_time": 7640,
+      "text": "哪"
+    },
+    {
+      "end_time": 7960,
+      "start_time": 7800,
+      "text": "一"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7960,
+      "text": "扇"
+    },
+    {
+      "end_time": 8400,
+      "start_time": 8200,
+      "text": "窗"
+    },
+    {
+      "end_time": 8560,
+      "start_time": 8440,
+      "text": "让"
+    },
+    {
+      "end_time": 8680,
+      "start_time": 8560,
+      "text": "你"
+    },
+    {
+      "end_time": 8840,
+      "start_time": 8680,
+      "text": "印"
+    },
+    {
+      "end_time": 9000,
+      "start_time": 8960,
+      "text": "象"
+    },
+    {
+      "end_time": 9280,
+      "start_time": 9120,
+      "text": "最"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9280,
+      "text": "深"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9440,
+      "text": "？"
+    }
+  ]
+}

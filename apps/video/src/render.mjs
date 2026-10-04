@@ -101,7 +101,8 @@ function chunksOf(text) {
   const out = [];
   for (const s of sentences) {
     if (s.length <= 16) out.push(s);
-    else out.push(...(s.match(/[^，、]+[，、]?/g) ?? [s]));
+    // 只在逗号处断开；顿号连接的并列词（如人名列表）保持在同一条字幕里
+    else out.push(...(s.match(/[^，]+，?/g) ?? [s]));
   }
   return out.map((c) => c.trim()).filter(Boolean);
 }
@@ -142,7 +143,7 @@ storyboard.segments.forEach((seg, i) => {
     }
     cursorChar += counts[k];
     t = end;
-    captions.push({ text: p.replace(/[，。；：]$/, ""), start, end });
+    captions.push({ text: p.replace(/[，。；：、]$/, ""), start, end });
   });
 });
 // 同一段内字幕首尾相接，避免停顿时闪空；每段最后一条多停留 0.25 秒

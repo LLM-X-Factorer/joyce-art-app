@@ -589,3 +589,16 @@ body.cover-mode #stage {
   letter-spacing: 2px;
   color: #9fd0de;
 }
+
+/* 取色在画面细节丰富时也要清楚可读 */
+.swatches {
+  padding: 26px 30px 22px;
+  border-radius: 20px;
+  background: rgba(16, 13, 10, 0.72);
+  backdrop-filter: blur(6px);
+}
+
+.swatch-label {
+  font-size: 34px;
+  font-weight: 700;
+}

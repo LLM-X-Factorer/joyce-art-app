@@ -1,0 +1,149 @@
+{
+  "segment": "09",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "将近两百年后，英国国王理查二世有一幅能随身带的小画。",
+  "spoken_text": "将近两百年后，英国国王理查二世有一幅能随身带的小画。",
+  "spoken_sha256": "b4af06b40d35ff0ced4506427bb5975c47f6a783d4e7c5d215db3a54e2554b4e",
+  "heard_text": "将近两百年后，英国国王理查二世有一幅能随身带的小画。",
+  "subtitle_match": 1,
+  "duration": 5.112,
+  "request_id": "0e2e22e0-4dc7-409f-b486-68604ea5ef2a",
+  "logid": "202610042322018EB7135F8F12B6703E02",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "aeb9f267210ae385fbcfb540a35daeee1a755561315b27b07b8c99f3bc071795",
+  "words": [
+    {
+      "end_time": 520,
+      "start_time": 320,
+      "text": "将"
+    },
+    {
+      "end_time": 720,
+      "start_time": 520,
+      "text": "近"
+    },
+    {
+      "end_time": 880,
+      "start_time": 720,
+      "text": "两"
+    },
+    {
+      "end_time": 1000,
+      "start_time": 880,
+      "text": "百"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1000,
+      "text": "年"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1200,
+      "text": "后"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1400,
+      "text": "，"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1600,
+      "text": "英"
+    },
+    {
+      "end_time": 2000,
+      "start_time": 1800,
+      "text": "国"
+    },
+    {
+      "end_time": 2200,
+      "start_time": 2040,
+      "text": "国"
+    },
+    {
+      "end_time": 2360,
+      "start_time": 2200,
+      "text": "王"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2480,
+      "text": "理"
+    },
+    {
+      "end_time": 2760,
+      "start_time": 2680,
+      "text": "查"
+    },
+    {
+      "end_time": 3040,
+      "start_time": 2920,
+      "text": "二"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3160,
+      "text": "世"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3400,
+      "text": "有"
+    },
+    {
+      "end_time": 3680,
+      "start_time": 3560,
+      "text": "一"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3720,
+      "text": "幅"
+    },
+    {
+      "end_time": 4080,
+      "start_time": 3920,
+      "text": "能"
+    },
+    {
+      "end_time": 4280,
+      "start_time": 4080,
+      "text": "随"
+    },
+    {
+      "end_time": 4400,
+      "start_time": 4280,
+      "text": "身"
+    },
+    {
+      "end_time": 4640,
+      "start_time": 4480,
+      "text": "带"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4640,
+      "text": "的"
+    },
+    {
+      "end_time": 4880,
+      "start_time": 4760,
+      "text": "小"
+    },
+    {
+      "end_time": 5000,
+      "start_time": 4920,
+      "text": "画"
+    },
+    {
+      "end_time": 5000,
+      "start_time": 5000,
+      "text": "。"
+    }
+  ]
+}

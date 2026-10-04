@@ -1,0 +1,244 @@
+{
+  "segment": "11",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "这两种蓝最大的区别是：彩窗的蓝，得等外面的太阳照进来才会亮。阴天走进去，整座教堂都暗一截。",
+  "spoken_text": "这两种蓝最大的区别是：彩窗的蓝，得等外面的太阳照进来才会亮。阴天走进去，整座教堂都暗一截。",
+  "spoken_sha256": "66c483c7451f616bab1282df034b99a69a211b1bc55d2067d68a188095d671b6",
+  "heard_text": "这两种蓝最大的区别是：彩窗的蓝，得等外面的太阳照进来才会亮。阴天走进去，整座教堂都暗一截。",
+  "subtitle_match": 1,
+  "duration": 9.84,
+  "request_id": "9e5bdd03-317b-4494-bfa3-30f988755287",
+  "logid": "202610042355325818BDE676CDA65D3B1F",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "3d805c922cc01f521890c225bf236fb9ed4dbce4540d668eb44aa1b3896bf23c",
+  "words": [
+    {
+      "end_time": 480,
+      "start_time": 240,
+      "text": "这"
+    },
+    {
+      "end_time": 600,
+      "start_time": 480,
+      "text": "两"
+    },
+    {
+      "end_time": 800,
+      "start_time": 600,
+      "text": "种"
+    },
+    {
+      "end_time": 960,
+      "start_time": 880,
+      "text": "蓝"
+    },
+    {
+      "end_time": 1320,
+      "start_time": 1160,
+      "text": "最"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1320,
+      "text": "大"
+    },
+    {
+      "end_time": 1600,
+      "start_time": 1480,
+      "text": "的"
+    },
+    {
+      "end_time": 1760,
+      "start_time": 1600,
+      "text": "区"
+    },
+    {
+      "end_time": 2000,
+      "start_time": 1760,
+      "text": "别"
+    },
+    {
+      "end_time": 2280,
+      "start_time": 2000,
+      "text": "是"
+    },
+    {
+      "end_time": 2280,
+      "start_time": 2280,
+      "text": "："
+    },
+    {
+      "end_time": 2920,
+      "start_time": 2760,
+      "text": "彩"
+    },
+    {
+      "end_time": 3200,
+      "start_time": 3040,
+      "text": "窗"
+    },
+    {
+      "end_time": 3400,
+      "start_time": 3200,
+      "text": "的"
+    },
+    {
+      "end_time": 3520,
+      "start_time": 3400,
+      "text": "蓝"
+    },
+    {
+      "end_time": 3520,
+      "start_time": 3520,
+      "text": "，"
+    },
+    {
+      "end_time": 3920,
+      "start_time": 3720,
+      "text": "得"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 3920,
+      "text": "等"
+    },
+    {
+      "end_time": 4240,
+      "start_time": 4120,
+      "text": "外"
+    },
+    {
+      "end_time": 4360,
+      "start_time": 4240,
+      "text": "面"
+    },
+    {
+      "end_time": 4480,
+      "start_time": 4360,
+      "text": "的"
+    },
+    {
+      "end_time": 4640,
+      "start_time": 4480,
+      "text": "太"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4640,
+      "text": "阳"
+    },
+    {
+      "end_time": 5120,
+      "start_time": 4960,
+      "text": "照"
+    },
+    {
+      "end_time": 5320,
+      "start_time": 5160,
+      "text": "进"
+    },
+    {
+      "end_time": 5520,
+      "start_time": 5320,
+      "text": "来"
+    },
+    {
+      "end_time": 5680,
+      "start_time": 5520,
+      "text": "才"
+    },
+    {
+      "end_time": 5800,
+      "start_time": 5680,
+      "text": "会"
+    },
+    {
+      "end_time": 6000,
+      "start_time": 5800,
+      "text": "亮"
+    },
+    {
+      "end_time": 6000,
+      "start_time": 6000,
+      "text": "。"
+    },
+    {
+      "end_time": 6880,
+      "start_time": 6840,
+      "text": "阴"
+    },
+    {
+      "end_time": 7240,
+      "start_time": 7080,
+      "text": "天"
+    },
+    {
+      "end_time": 7560,
+      "start_time": 7320,
+      "text": "走"
+    },
+    {
+      "end_time": 7680,
+      "start_time": 7560,
+      "text": "进"
+    },
+    {
+      "end_time": 7920,
+      "start_time": 7680,
+      "text": "去"
+    },
+    {
+      "end_time": 7920,
+      "start_time": 7920,
+      "text": "，"
+    },
+    {
+      "end_time": 8320,
+      "start_time": 8080,
+      "text": "整"
+    },
+    {
+      "end_time": 8480,
+      "start_time": 8320,
+      "text": "座"
+    },
+    {
+      "end_time": 8680,
+      "start_time": 8600,
+      "text": "教"
+    },
+    {
+      "end_time": 8920,
+      "start_time": 8800,
+      "text": "堂"
+    },
+    {
+      "end_time": 9160,
+      "start_time": 9000,
+      "text": "都"
+    },
+    {
+      "end_time": 9360,
+      "start_time": 9200,
+      "text": "暗"
+    },
+    {
+      "end_time": 9560,
+      "start_time": 9400,
+      "text": "一"
+    },
+    {
+      "end_time": 9680,
+      "start_time": 9640,
+      "text": "截"
+    },
+    {
+      "end_time": 9680,
+      "start_time": 9680,
+      "text": "。"
+    }
+  ]
+}

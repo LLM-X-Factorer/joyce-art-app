@@ -100,7 +100,7 @@ if (arg === "--outline") {
     ""
   ];
   sb.segments.forEach((seg, i) => {
-    const ref = timing ? `，临时配音时长 ${(timing.timeline[i].audioEnd - timing.timeline[i].audioStart).toFixed(1)} 秒` : "";
+    const ref = timing ? `，当前配音时长 ${(timing.timeline[i].audioEnd - timing.timeline[i].audioStart).toFixed(1)} 秒` : "";
     lines.push(`### ${seg.id} · 画面：${SCENE[seg.scene.type](seg.scene, sb)}${ref}`, "", `> ${seg.narration}`, "");
   });
   writeFileSync(join(DOCS, `${arg}-录音稿.md`), `${lines.join("\n")}\n`);

@@ -12,6 +12,7 @@
 | 共享类型与校验 | [packages/shared](packages/shared) | TypeScript + zod |
 | 小程序壳 | [apps/miniprogram](apps/miniprogram) | 微信小程序 web-view |
 | 部署 | [deploy](deploy) | Docker Compose + Nginx |
+| 主题课短视频 | [apps/video](apps/video) | 分镜 JSON + HTML 模板，Playwright 逐帧截图 + ffmpeg 编码；配音用 Seed Audio 1.0 |
 | 旧版原生单页（只读参考） | [legacy](legacy) | 原 HTML / CSS / JS 与 Vercel 函数 |
 
 架构与数据流见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)，部署与发布见 [deploy/README.md](deploy/README.md)，开发约定见 [AGENTS.md](AGENTS.md)，版本变更见 [CHANGELOG.md](CHANGELOG.md)，待办事项记录在 [GitHub Issues](https://github.com/LLM-X-Factorer/joyce-art-app/issues)。
@@ -80,6 +81,20 @@ pnpm dev                      # 同时启动后端 :4000、用户端 :5273、后
 | HTTPS / 备份 | 证书由服务器 certbot 自动续期；数据库与图片每天自动备份（保留 14 天，存于同一台服务器） |
 
 尚未完成的事项见 [GitHub Issues](https://github.com/LLM-X-Factorer/joyce-art-app/issues)。
+
+## 主题课短视频
+
+把网站的问答主题做成小红书 / 视频号竖屏短视频（1080×1920，附 3:4 封面），画面由代码生成，配音用 Seed Audio 1.0（付费）。制作方法见 [apps/video/README.md](apps/video/README.md)，写稿原则与每期事实核对见 [写稿与画面指南](docs/video/写稿与画面指南.md)，选题见 [课程大纲](docs/video/课程大纲.md)。核对日期 2026-10-05：
+
+| 期 | 主题 | 分镜 | 时长 | 状态 |
+| --- | --- | --- | --- | --- |
+| 01 | 现代性：马奈《奥林匹亚》、埃菲尔铁塔、梵高《星月夜》 | `modernity` | 约 94 秒 | 样片已定稿 |
+| 02 | 哥特：沙特尔大教堂、威尔顿双联画 | `gothic` | 约 107 秒 | 样片已定稿 |
+| 03 | 绘画表面：波提切利、马奈、梵高的笔触 | `surface` | 约 118 秒 | 样片已定稿 |
+
+- 三期都是项目负责人确认过的样片，**旁白事实尚待作者 Joyce 审校，尚未在任何平台发布**。
+- 成片不进仓库（`apps/video/out/`），用分镜和已提交的配音（`apps/video/narration/`）可以随时重新渲染，不会重复计费。
+- 第 03 期片尾预告的下一课暂定「身体」；其中米开朗基罗《大卫》等图片为 CC BY-SA，制作前需换图或确认许可。
 
 ## 部署
 

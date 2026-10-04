@@ -1,0 +1,219 @@
+{
+  "segment": "02",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "波提切利画《维纳斯的诞生》，大约在1485年。据瓦萨里说，他少年时在金匠铺里学过手艺。",
+  "spoken_text": "波提切利画《维纳斯的诞生》，大约在1485年。据瓦萨里说，他少年时在金匠铺里学过手艺。",
+  "spoken_sha256": "e9f5e2bf0c5590b58ed30ae86cdfd79283cc17eba024a2f84d84aa1412a0f5f6",
+  "heard_text": "波提切利画《维纳斯的诞生》，大约在1485年。据瓦萨里说，他少年时在金匠铺里学过手艺。",
+  "subtitle_match": 1,
+  "duration": 9.336,
+  "request_id": "b420c1c0-e215-4387-a27f-8abc53283c75",
+  "logid": "2026100500272867DA9FA7A6FE0FAA0900",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "b7c11044d0a57dc84c7fb4cda059570c7119fcd564de2eeae9066b9527e0ce18",
+  "words": [
+    {
+      "end_time": 440,
+      "start_time": 360,
+      "text": "波"
+    },
+    {
+      "end_time": 680,
+      "start_time": 600,
+      "text": "提"
+    },
+    {
+      "end_time": 880,
+      "start_time": 800,
+      "text": "切"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 1000,
+      "text": "利"
+    },
+    {
+      "end_time": 1360,
+      "start_time": 1240,
+      "text": "画"
+    },
+    {
+      "end_time": 1360,
+      "start_time": 1360,
+      "text": "《"
+    },
+    {
+      "end_time": 1520,
+      "start_time": 1440,
+      "text": "维"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1680,
+      "text": "纳"
+    },
+    {
+      "end_time": 1960,
+      "start_time": 1840,
+      "text": "斯"
+    },
+    {
+      "end_time": 2160,
+      "start_time": 2000,
+      "text": "的"
+    },
+    {
+      "end_time": 2320,
+      "start_time": 2160,
+      "text": "诞"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2360,
+      "text": "生"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2560,
+      "text": "》"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2560,
+      "text": "，"
+    },
+    {
+      "end_time": 2920,
+      "start_time": 2760,
+      "text": "大"
+    },
+    {
+      "end_time": 3120,
+      "start_time": 2920,
+      "text": "约"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3120,
+      "text": "在"
+    },
+    {
+      "end_time": 4520,
+      "start_time": 3360,
+      "text": "1485"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4520,
+      "text": "年"
+    },
+    {
+      "end_time": 4760,
+      "start_time": 4760,
+      "text": "。"
+    },
+    {
+      "end_time": 5600,
+      "start_time": 5360,
+      "text": "据"
+    },
+    {
+      "end_time": 5800,
+      "start_time": 5680,
+      "text": "瓦"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5920,
+      "text": "萨"
+    },
+    {
+      "end_time": 6400,
+      "start_time": 6200,
+      "text": "里"
+    },
+    {
+      "end_time": 6640,
+      "start_time": 6400,
+      "text": "说"
+    },
+    {
+      "end_time": 6640,
+      "start_time": 6640,
+      "text": "，"
+    },
+    {
+      "end_time": 6880,
+      "start_time": 6640,
+      "text": "他"
+    },
+    {
+      "end_time": 7160,
+      "start_time": 6920,
+      "text": "少"
+    },
+    {
+      "end_time": 7360,
+      "start_time": 7160,
+      "text": "年"
+    },
+    {
+      "end_time": 7600,
+      "start_time": 7360,
+      "text": "时"
+    },
+    {
+      "end_time": 7720,
+      "start_time": 7600,
+      "text": "在"
+    },
+    {
+      "end_time": 7880,
+      "start_time": 7760,
+      "text": "金"
+    },
+    {
+      "end_time": 8120,
+      "start_time": 8000,
+      "text": "匠"
+    },
+    {
+      "end_time": 8280,
+      "start_time": 8240,
+      "text": "铺"
+    },
+    {
+      "end_time": 8600,
+      "start_time": 8440,
+      "text": "里"
+    },
+    {
+      "end_time": 8760,
+      "start_time": 8600,
+      "text": "学"
+    },
+    {
+      "end_time": 8880,
+      "start_time": 8760,
+      "text": "过"
+    },
+    {
+      "end_time": 9080,
+      "start_time": 8880,
+      "text": "手"
+    },
+    {
+      "end_time": 9200,
+      "start_time": 9080,
+      "text": "艺"
+    },
+    {
+      "end_time": 9200,
+      "start_time": 9200,
+      "text": "。"
+    }
+  ]
+}

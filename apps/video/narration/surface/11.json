@@ -1,0 +1,289 @@
+{
+  "segment": "11",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "在美术馆看油画，可以侧过身，斜着看画面的反光，颜料厚的地方一下就看出来了。这三幅画，你最想站到哪一幅跟前看？",
+  "spoken_text": "在美术馆看油画，可以侧过身，斜着看画面的反光，颜料厚的地方一下就看出来了。这三幅画，你最想站到哪一幅跟前看？",
+  "spoken_sha256": "c6a9b20448f9a7804dd2e3704b0502039696dcefd0bb0766045c470ba945a4a2",
+  "heard_text": "在美术馆看油画，可以侧过身，斜着看画面的反光，颜料厚的地方一下就看出来了。这三幅画，你最想站到哪一幅跟前看？",
+  "subtitle_match": 1,
+  "duration": 9.792,
+  "request_id": "0e3a3b8b-8bda-4d6b-bb03-7a4ef25e233e",
+  "logid": "20261005003103BF644ECF283786FA1BB7",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "5a2c90655dd9cb26387cbcd45d65fd275dd50ff7eaa15e6f9aaa8f3079e9d535",
+  "words": [
+    {
+      "end_time": 320,
+      "start_time": 120,
+      "text": "在"
+    },
+    {
+      "end_time": 520,
+      "start_time": 320,
+      "text": "美"
+    },
+    {
+      "end_time": 640,
+      "start_time": 520,
+      "text": "术"
+    },
+    {
+      "end_time": 840,
+      "start_time": 680,
+      "text": "馆"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 880,
+      "text": "看"
+    },
+    {
+      "end_time": 1200,
+      "start_time": 1040,
+      "text": "油"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1360,
+      "text": "画"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1400,
+      "text": "，"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1520,
+      "text": "可"
+    },
+    {
+      "end_time": 1720,
+      "start_time": 1640,
+      "text": "以"
+    },
+    {
+      "end_time": 1880,
+      "start_time": 1720,
+      "text": "侧"
+    },
+    {
+      "end_time": 2160,
+      "start_time": 2000,
+      "text": "过"
+    },
+    {
+      "end_time": 2360,
+      "start_time": 2240,
+      "text": "身"
+    },
+    {
+      "end_time": 2360,
+      "start_time": 2360,
+      "text": "，"
+    },
+    {
+      "end_time": 2760,
+      "start_time": 2680,
+      "text": "斜"
+    },
+    {
+      "end_time": 3040,
+      "start_time": 2800,
+      "text": "着"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3040,
+      "text": "看"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3240,
+      "text": "画"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3360,
+      "text": "面"
+    },
+    {
+      "end_time": 3680,
+      "start_time": 3560,
+      "text": "的"
+    },
+    {
+      "end_time": 3840,
+      "start_time": 3680,
+      "text": "反"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 3880,
+      "text": "光"
+    },
+    {
+      "end_time": 4120,
+      "start_time": 4120,
+      "text": "，"
+    },
+    {
+      "end_time": 4640,
+      "start_time": 4520,
+      "text": "颜"
+    },
+    {
+      "end_time": 4840,
+      "start_time": 4720,
+      "text": "料"
+    },
+    {
+      "end_time": 5120,
+      "start_time": 4920,
+      "text": "厚"
+    },
+    {
+      "end_time": 5240,
+      "start_time": 5120,
+      "text": "的"
+    },
+    {
+      "end_time": 5360,
+      "start_time": 5240,
+      "text": "地"
+    },
+    {
+      "end_time": 5520,
+      "start_time": 5360,
+      "text": "方"
+    },
+    {
+      "end_time": 5720,
+      "start_time": 5560,
+      "text": "一"
+    },
+    {
+      "end_time": 5920,
+      "start_time": 5720,
+      "text": "下"
+    },
+    {
+      "end_time": 6040,
+      "start_time": 5920,
+      "text": "就"
+    },
+    {
+      "end_time": 6240,
+      "start_time": 6040,
+      "text": "看"
+    },
+    {
+      "end_time": 6360,
+      "start_time": 6240,
+      "text": "出"
+    },
+    {
+      "end_time": 6440,
+      "start_time": 6360,
+      "text": "来"
+    },
+    {
+      "end_time": 6600,
+      "start_time": 6440,
+      "text": "了"
+    },
+    {
+      "end_time": 6600,
+      "start_time": 6600,
+      "text": "。"
+    },
+    {
+      "end_time": 7160,
+      "start_time": 7040,
+      "text": "这"
+    },
+    {
+      "end_time": 7320,
+      "start_time": 7160,
+      "text": "三"
+    },
+    {
+      "end_time": 7520,
+      "start_time": 7360,
+      "text": "幅"
+    },
+    {
+      "end_time": 7840,
+      "start_time": 7600,
+      "text": "画"
+    },
+    {
+      "end_time": 7840,
+      "start_time": 7840,
+      "text": "，"
+    },
+    {
+      "end_time": 8040,
+      "start_time": 7840,
+      "text": "你"
+    },
+    {
+      "end_time": 8160,
+      "start_time": 8040,
+      "text": "最"
+    },
+    {
+      "end_time": 8320,
+      "start_time": 8160,
+      "text": "想"
+    },
+    {
+      "end_time": 8520,
+      "start_time": 8320,
+      "text": "站"
+    },
+    {
+      "end_time": 8640,
+      "start_time": 8520,
+      "text": "到"
+    },
+    {
+      "end_time": 8800,
+      "start_time": 8640,
+      "text": "哪"
+    },
+    {
+      "end_time": 8920,
+      "start_time": 8800,
+      "text": "一"
+    },
+    {
+      "end_time": 9040,
+      "start_time": 8960,
+      "text": "幅"
+    },
+    {
+      "end_time": 9320,
+      "start_time": 9160,
+      "text": "跟"
+    },
+    {
+      "end_time": 9520,
+      "start_time": 9360,
+      "text": "前"
+    },
+    {
+      "end_time": 9720,
+      "start_time": 9520,
+      "text": "看"
+    },
+    {
+      "end_time": 9720,
+      "start_time": 9720,
+      "text": "？"
+    }
+  ]
+}

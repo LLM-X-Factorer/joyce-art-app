@@ -1,0 +1,244 @@
+{
+  "segment": "03",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "他用的是蛋彩，干得快，很难把颜色揉开。所以他靠线，轮廓一笔勾到底。画里的人，连影子都没有。",
+  "spoken_text": "他用的是蛋彩，干得快，很难把颜色揉开。所以他靠线，轮廓一笔勾到底。画里的人，连影子都没有。",
+  "spoken_sha256": "4673a98eb637345c1af715d1ac4665af36c06c18c32a3d8a1b0cb701f97fed98",
+  "heard_text": "他用的是蛋彩，干得快，很难把颜色揉开。所以他靠线，轮廓一笔勾到底。画里的人，连影子都没有。",
+  "subtitle_match": 1,
+  "duration": 10.824,
+  "request_id": "099a023c-0ed6-4aef-8053-fc2c3be9a8d7",
+  "logid": "202610050027511D56DAB8400704916AB4",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "f554bf1257da88b08a5a3ae14eef398c47943074831120b838e066b06e8daedb",
+  "words": [
+    {
+      "end_time": 560,
+      "start_time": 360,
+      "text": "他"
+    },
+    {
+      "end_time": 720,
+      "start_time": 560,
+      "text": "用"
+    },
+    {
+      "end_time": 880,
+      "start_time": 720,
+      "text": "的"
+    },
+    {
+      "end_time": 1000,
+      "start_time": 880,
+      "text": "是"
+    },
+    {
+      "end_time": 1120,
+      "start_time": 1040,
+      "text": "蛋"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1320,
+      "text": "彩"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1400,
+      "text": "，"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1840,
+      "text": "干"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2040,
+      "text": "得"
+    },
+    {
+      "end_time": 2520,
+      "start_time": 2240,
+      "text": "快"
+    },
+    {
+      "end_time": 2520,
+      "start_time": 2520,
+      "text": "，"
+    },
+    {
+      "end_time": 2840,
+      "start_time": 2680,
+      "text": "很"
+    },
+    {
+      "end_time": 3000,
+      "start_time": 2840,
+      "text": "难"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3000,
+      "text": "把"
+    },
+    {
+      "end_time": 3320,
+      "start_time": 3160,
+      "text": "颜"
+    },
+    {
+      "end_time": 3480,
+      "start_time": 3320,
+      "text": "色"
+    },
+    {
+      "end_time": 3720,
+      "start_time": 3480,
+      "text": "揉"
+    },
+    {
+      "end_time": 4000,
+      "start_time": 3720,
+      "text": "开"
+    },
+    {
+      "end_time": 4000,
+      "start_time": 4000,
+      "text": "。"
+    },
+    {
+      "end_time": 5000,
+      "start_time": 4880,
+      "text": "所"
+    },
+    {
+      "end_time": 5120,
+      "start_time": 5000,
+      "text": "以"
+    },
+    {
+      "end_time": 5360,
+      "start_time": 5120,
+      "text": "他"
+    },
+    {
+      "end_time": 5640,
+      "start_time": 5360,
+      "text": "靠"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5640,
+      "text": "线"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5840,
+      "text": "，"
+    },
+    {
+      "end_time": 6400,
+      "start_time": 6280,
+      "text": "轮"
+    },
+    {
+      "end_time": 6720,
+      "start_time": 6680,
+      "text": "廓"
+    },
+    {
+      "end_time": 7200,
+      "start_time": 6960,
+      "text": "一"
+    },
+    {
+      "end_time": 7360,
+      "start_time": 7200,
+      "text": "笔"
+    },
+    {
+      "end_time": 7600,
+      "start_time": 7480,
+      "text": "勾"
+    },
+    {
+      "end_time": 7880,
+      "start_time": 7720,
+      "text": "到"
+    },
+    {
+      "end_time": 8160,
+      "start_time": 7880,
+      "text": "底"
+    },
+    {
+      "end_time": 8160,
+      "start_time": 8160,
+      "text": "。"
+    },
+    {
+      "end_time": 8880,
+      "start_time": 8760,
+      "text": "画"
+    },
+    {
+      "end_time": 9200,
+      "start_time": 9000,
+      "text": "里"
+    },
+    {
+      "end_time": 9360,
+      "start_time": 9200,
+      "text": "的"
+    },
+    {
+      "end_time": 9640,
+      "start_time": 9360,
+      "text": "人"
+    },
+    {
+      "end_time": 9640,
+      "start_time": 9640,
+      "text": "，"
+    },
+    {
+      "end_time": 9840,
+      "start_time": 9640,
+      "text": "连"
+    },
+    {
+      "end_time": 10160,
+      "start_time": 9880,
+      "text": "影"
+    },
+    {
+      "end_time": 10360,
+      "start_time": 10160,
+      "text": "子"
+    },
+    {
+      "end_time": 10440,
+      "start_time": 10360,
+      "text": "都"
+    },
+    {
+      "end_time": 10560,
+      "start_time": 10440,
+      "text": "没"
+    },
+    {
+      "end_time": 10640,
+      "start_time": 10560,
+      "text": "有"
+    },
+    {
+      "end_time": 10640,
+      "start_time": 10640,
+      "text": "。"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "segment": "04",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "第一课看过奥林匹亚的眼神，这次看她的脸：从亮到暗，中间几乎没有过渡。马奈的朋友回忆，他恨不得把中间色调全去掉。",
+  "spoken_text": "第一课看过奥林匹亚的眼神，这次看她的脸：从亮到暗，中间几乎没有过渡。马奈的朋友回忆，他恨不得把中间色调全去掉。",
+  "spoken_sha256": "503be423df591e5bd689d16452ae61418f557b010ad2ab7c98789945d22818d3",
+  "heard_text": "第一课看过奥林匹亚的眼神，这次看她的脸：从亮到暗，中间几乎没有过渡。马奈的朋友回忆，他恨不得把中间色调全去掉。",
+  "subtitle_match": 1,
+  "duration": 10.728,
+  "request_id": "e87c71c4-0e12-4e52-b736-3e96362dfe86",
+  "logid": "202610050028161D56DAB8400704917301",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "23e60877110f57ecfc64ab8024442ea822cb3eed9d9b9a502c754eaefde69345",
+  "words": [
+    {
+      "end_time": 320,
+      "start_time": 200,
+      "text": "第"
+    },
+    {
+      "end_time": 440,
+      "start_time": 320,
+      "text": "一"
+    },
+    {
+      "end_time": 600,
+      "start_time": 440,
+      "text": "课"
+    },
+    {
+      "end_time": 760,
+      "start_time": 600,
+      "text": "看"
+    },
+    {
+      "end_time": 880,
+      "start_time": 760,
+      "text": "过"
+    },
+    {
+      "end_time": 1080,
+      "start_time": 960,
+      "text": "奥"
+    },
+    {
+      "end_time": 1240,
+      "start_time": 1160,
+      "text": "林"
+    },
+    {
+      "end_time": 1440,
+      "start_time": 1400,
+      "text": "匹"
+    },
+    {
+      "end_time": 1680,
+      "start_time": 1600,
+      "text": "亚"
+    },
+    {
+      "end_time": 1880,
+      "start_time": 1760,
+      "text": "的"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1880,
+      "text": "眼"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2040,
+      "text": "神"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2240,
+      "text": "，"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2440,
+      "text": "这"
+    },
+    {
+      "end_time": 2720,
+      "start_time": 2560,
+      "text": "次"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2720,
+      "text": "看"
+    },
+    {
+      "end_time": 3040,
+      "start_time": 2880,
+      "text": "她"
+    },
+    {
+      "end_time": 3160,
+      "start_time": 3040,
+      "text": "的"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3160,
+      "text": "脸"
+    },
+    {
+      "end_time": 3360,
+      "start_time": 3360,
+      "text": "："
+    },
+    {
+      "end_time": 4000,
+      "start_time": 3760,
+      "text": "从"
+    },
+    {
+      "end_time": 4200,
+      "start_time": 4120,
+      "text": "亮"
+    },
+    {
+      "end_time": 4480,
+      "start_time": 4320,
+      "text": "到"
+    },
+    {
+      "end_time": 4680,
+      "start_time": 4600,
+      "text": "暗"
+    },
+    {
+      "end_time": 4680,
+      "start_time": 4680,
+      "text": "，"
+    },
+    {
+      "end_time": 5360,
+      "start_time": 5160,
+      "text": "中"
+    },
+    {
+      "end_time": 5640,
+      "start_time": 5360,
+      "text": "间"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5720,
+      "text": "几"
+    },
+    {
+      "end_time": 6000,
+      "start_time": 5840,
+      "text": "乎"
+    },
+    {
+      "end_time": 6160,
+      "start_time": 6000,
+      "text": "没"
+    },
+    {
+      "end_time": 6240,
+      "start_time": 6160,
+      "text": "有"
+    },
+    {
+      "end_time": 6440,
+      "start_time": 6240,
+      "text": "过"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6440,
+      "text": "渡"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6680,
+      "text": "。"
+    },
+    {
+      "end_time": 7240,
+      "start_time": 7120,
+      "text": "马"
+    },
+    {
+      "end_time": 7480,
+      "start_time": 7400,
+      "text": "奈"
+    },
+    {
+      "end_time": 7720,
+      "start_time": 7600,
+      "text": "的"
+    },
+    {
+      "end_time": 7800,
+      "start_time": 7720,
+      "text": "朋"
+    },
+    {
+      "end_time": 7920,
+      "start_time": 7800,
+      "text": "友"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7920,
+      "text": "回"
+    },
+    {
+      "end_time": 8240,
+      "start_time": 8080,
+      "text": "忆"
+    },
+    {
+      "end_time": 8240,
+      "start_time": 8240,
+      "text": "，"
+    },
+    {
+      "end_time": 8520,
+      "start_time": 8360,
+      "text": "他"
+    },
+    {
+      "end_time": 8720,
+      "start_time": 8520,
+      "text": "恨"
+    },
+    {
+      "end_time": 8840,
+      "start_time": 8720,
+      "text": "不"
+    },
+    {
+      "end_time": 8960,
+      "start_time": 8840,
+      "text": "得"
+    },
+    {
+      "end_time": 9120,
+      "start_time": 8960,
+      "text": "把"
+    },
+    {
+      "end_time": 9200,
+      "start_time": 9120,
+      "text": "中"
+    },
+    {
+      "end_time": 9360,
+      "start_time": 9200,
+      "text": "间"
+    },
+    {
+      "end_time": 9560,
+      "start_time": 9400,
+      "text": "色"
+    },
+    {
+      "end_time": 9760,
+      "start_time": 9640,
+      "text": "调"
+    },
+    {
+      "end_time": 10080,
+      "start_time": 9880,
+      "text": "全"
+    },
+    {
+      "end_time": 10320,
+      "start_time": 10080,
+      "text": "去"
+    },
+    {
+      "end_time": 10480,
+      "start_time": 10320,
+      "text": "掉"
+    },
+    {
+      "end_time": 10480,
+      "start_time": 10480,
+      "text": "。"
+    }
+  ]
+}

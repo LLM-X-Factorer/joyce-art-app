@@ -4,211 +4,186 @@
   "reference": "voices/sweet-girl.mp3",
   "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
   "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
-  "display_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
-  "spoken_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
-  "spoken_sha256": "dcb58e363d08db4c4390591b21f42134e6c20924fbb3e742c71c0937f598a155",
-  "heard_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
+  "display_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
+  "spoken_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
+  "spoken_sha256": "c5e08280c8a9810b1d06638b976f3721cd5501d6e7a445cb71df981be69ff098",
+  "heard_text": "所以真去沙特尔的话，挑个晴天。你看过的教堂里，哪一扇窗让你印象最深？",
   "subtitle_match": 1,
   "duration": 9.528,
-  "request_id": "2b389562-c59b-48d7-9c48-fe3e04ca7d3d",
-  "logid": "202610042323184E0AEEB71C2061B617CB",
+  "request_id": "b6652676-4520-4c39-a5f3-e9a06cb96db5",
+  "logid": "20261004235556107DC7884DEF9FDE40E0",
   "generated_on": "2026-10-04",
-  "audio_sha256": "29594f3ab245538b9526b6f523e05ae976d244194139952ad1d3b48fa74fccd3",
+  "audio_sha256": "028cc046dc0edc3d0f604453a917d00bccc985bdbf32e50c1024a1bc87c03c14",
   "words": [
     {
-      "end_time": 520,
-      "start_time": 440,
-      "text": "哥"
+      "end_time": 560,
+      "start_time": 360,
+      "text": "所"
     },
     {
-      "end_time": 960,
-      "start_time": 760,
+      "end_time": 640,
+      "start_time": 560,
+      "text": "以"
+    },
+    {
+      "end_time": 840,
+      "start_time": 640,
+      "text": "真"
+    },
+    {
+      "end_time": 1040,
+      "start_time": 840,
+      "text": "去"
+    },
+    {
+      "end_time": 1240,
+      "start_time": 1080,
+      "text": "沙"
+    },
+    {
+      "end_time": 1480,
+      "start_time": 1320,
       "text": "特"
     },
     {
-      "end_time": 1120,
-      "start_time": 960,
-      "text": "被"
+      "end_time": 1640,
+      "start_time": 1520,
+      "text": "尔"
     },
     {
-      "end_time": 1400,
-      "start_time": 1120,
-      "text": "骂"
+      "end_time": 1760,
+      "start_time": 1640,
+      "text": "的"
     },
     {
-      "end_time": 1560,
-      "start_time": 1400,
-      "text": "了"
+      "end_time": 1920,
+      "start_time": 1760,
+      "text": "话"
     },
     {
-      "end_time": 1680,
-      "start_time": 1560,
-      "text": "几"
-    },
-    {
-      "end_time": 1800,
-      "start_time": 1680,
-      "text": "百"
-    },
-    {
-      "end_time": 2040,
-      "start_time": 1800,
-      "text": "年"
-    },
-    {
-      "end_time": 2040,
-      "start_time": 2040,
+      "end_time": 1920,
+      "start_time": 1920,
       "text": "，"
     },
     {
-      "end_time": 2560,
-      "start_time": 2280,
-      "text": "也"
+      "end_time": 2120,
+      "start_time": 1920,
+      "text": "挑"
     },
     {
-      "end_time": 2760,
+      "end_time": 2280,
+      "start_time": 2120,
+      "text": "个"
+    },
+    {
+      "end_time": 2400,
+      "start_time": 2320,
+      "text": "晴"
+    },
+    {
+      "end_time": 2680,
       "start_time": 2560,
-      "text": "被"
+      "text": "天"
     },
     {
-      "end_time": 3080,
-      "start_time": 2800,
-      "text": "爱"
-    },
-    {
-      "end_time": 3280,
-      "start_time": 3080,
-      "text": "了"
-    },
-    {
-      "end_time": 3440,
-      "start_time": 3280,
-      "text": "几"
-    },
-    {
-      "end_time": 3560,
-      "start_time": 3440,
-      "text": "百"
-    },
-    {
-      "end_time": 3840,
-      "start_time": 3560,
-      "text": "年"
-    },
-    {
-      "end_time": 3840,
-      "start_time": 3840,
+      "end_time": 2680,
+      "start_time": 2680,
       "text": "。"
     },
     {
-      "end_time": 5160,
-      "start_time": 4920,
-      "text": "下"
+      "end_time": 6400,
+      "start_time": 6160,
+      "text": "你"
     },
     {
-      "end_time": 5400,
-      "start_time": 5160,
-      "text": "次"
+      "end_time": 6600,
+      "start_time": 6400,
+      "text": "看"
     },
     {
-      "end_time": 5680,
-      "start_time": 5400,
-      "text": "走"
+      "end_time": 6760,
+      "start_time": 6600,
+      "text": "过"
     },
     {
-      "end_time": 5840,
-      "start_time": 5680,
-      "text": "进"
+      "end_time": 6880,
+      "start_time": 6760,
+      "text": "的"
     },
     {
-      "end_time": 6000,
-      "start_time": 5840,
-      "text": "一"
-    },
-    {
-      "end_time": 6200,
-      "start_time": 6000,
-      "text": "座"
-    },
-    {
-      "end_time": 6360,
-      "start_time": 6280,
+      "end_time": 7040,
+      "start_time": 6960,
       "text": "教"
     },
     {
-      "end_time": 6680,
-      "start_time": 6480,
+      "end_time": 7240,
+      "start_time": 7160,
       "text": "堂"
     },
     {
-      "end_time": 6680,
-      "start_time": 6680,
-      "text": "，"
+      "end_time": 7560,
+      "start_time": 7360,
+      "text": "里"
     },
     {
-      "end_time": 7160,
-      "start_time": 7000,
-      "text": "先"
-    },
-    {
-      "end_time": 7320,
-      "start_time": 7160,
-      "text": "别"
-    },
-    {
-      "end_time": 7520,
-      "start_time": 7320,
-      "text": "看"
-    },
-    {
-      "end_time": 7840,
+      "end_time": 7560,
       "start_time": 7560,
-      "text": "墙"
-    },
-    {
-      "end_time": 7840,
-      "start_time": 7840,
       "text": "，"
     },
     {
-      "end_time": 8280,
-      "start_time": 8040,
-      "text": "看"
-    },
-    {
-      "end_time": 8640,
-      "start_time": 8280,
-      "text": "光"
-    },
-    {
-      "end_time": 8880,
-      "start_time": 8680,
-      "text": "从"
-    },
-    {
-      "end_time": 9040,
-      "start_time": 8880,
+      "end_time": 7800,
+      "start_time": 7640,
       "text": "哪"
     },
     {
-      "end_time": 9120,
-      "start_time": 9040,
-      "text": "儿"
+      "end_time": 7960,
+      "start_time": 7800,
+      "text": "一"
+    },
+    {
+      "end_time": 8080,
+      "start_time": 7960,
+      "text": "扇"
+    },
+    {
+      "end_time": 8400,
+      "start_time": 8200,
+      "text": "窗"
+    },
+    {
+      "end_time": 8560,
+      "start_time": 8440,
+      "text": "让"
+    },
+    {
+      "end_time": 8680,
+      "start_time": 8560,
+      "text": "你"
+    },
+    {
+      "end_time": 8840,
+      "start_time": 8680,
+      "text": "印"
+    },
+    {
+      "end_time": 9000,
+      "start_time": 8960,
+      "text": "象"
     },
     {
       "end_time": 9280,
       "start_time": 9120,
-      "text": "进"
+      "text": "最"
     },
     {
       "end_time": 9440,
       "start_time": 9280,
-      "text": "来"
+      "text": "深"
     },
     {
       "end_time": 9440,
       "start_time": 9440,
-      "text": "。"
+      "text": "？"
     }
   ]
 }

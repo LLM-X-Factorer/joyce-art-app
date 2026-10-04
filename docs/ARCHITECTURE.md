@@ -1,6 +1,6 @@
 # 架构说明
 
-代码核对日期：2026-09-30。本页记录当前实现。使用与部署说明见 [README](../README.md) 与 [deploy/README.md](../deploy/README.md)。
+代码核对日期：2026-10-05。本页记录当前实现。使用与部署说明见 [README](../README.md) 与 [deploy/README.md](../deploy/README.md)。
 
 ## 一张图看清项目
 
@@ -35,6 +35,7 @@ flowchart LR
 | `apps/web/src/styles/legacy.css` | 旧版样式（删除了未使用的部分），组件沿用旧版 DOM 结构与 class | `app.css` 为新增页面样式 |
 | `apps/admin/src` | 后台。`lib/entities.ts` 描述各类内容的字段，`ContentView` 据此生成中英并排编辑表单 | |
 | `scripts/extract-legacy-content.mjs` | 从 `legacy/script.js` 抽取内容生成 seed，合并 `scripts/translations/zh-*.json` 中文初稿 | |
+| `apps/video` | 主题课短视频：`storyboards/` 分镜，`template/` 竖屏画面（`seek(t)` 逐帧确定），`src/render.mjs` 渲染，`src/seed-audio.mjs` 配音，`narration/` 已生成的配音与逐字时间戳 | 不参与网站构建与部署，见 [apps/video/README.md](../apps/video/README.md) |
 | `legacy/` | 旧版原生单页，保留作对照，不再部署 | |
 
 ## 数据模型

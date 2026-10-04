@@ -28,7 +28,7 @@
 ```bash
 cd apps/video
 node src/render.mjs modernity --stills   # 只输出每段一张关键帧与封面，检查版式
-node src/render.mjs modernity            # 渲染完整视频（约 2 分钟）
+node src/render.mjs modernity            # 渲染完整视频（耗时约 2–3 分钟）
 node src/script.mjs modernity            # 生成录音稿 docs/video/modernity-录音稿.md
 node src/script.mjs --outline            # 生成课程大纲 docs/video/课程大纲.md
 ```
@@ -60,6 +60,16 @@ node src/fetch-asset.mjs <key> "File:…jpg" --crop 0.555,0.1,0.045,0.08 --origi
 ```
 
 `--crop x,y,w,h` 为原图内 0–1 比例；Commons 缩略图最大 3840 px，特写要用 `--original` 下载原图（缓存在 `.cache/originals/`，可能有几百 MB，不进仓库）。许可与裁剪参数记录在 `assets/assets.json`。
+
+## 已完成的主题
+
+| 期 | 分镜 | 时长 | 状态 |
+| --- | --- | --- | --- |
+| 01 现代性 | `modernity` | 约 94 秒 | 样片已定稿，待作者审校 |
+| 02 哥特 | `gothic` | 约 107 秒 | 样片已定稿，待作者审校 |
+| 03 绘画表面 | `surface` | 约 118 秒 | 样片已定稿，待作者审校 |
+
+三期的配音都已提交在 `narration/`，重新渲染不会产生费用；只有改动某段旁白文字，才需要重新生成该段配音。
 
 ## 新增一个主题
 

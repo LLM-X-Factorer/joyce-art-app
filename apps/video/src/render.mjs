@@ -16,7 +16,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const IMAGE_DIR = resolve(ROOT, "../server/seed/media/works");
 const FPS = 30;
 const TITLE_LEAD = 0.9; // 第一段旁白前的静默
-const GAP = 0.45; // 段与段之间的停顿
+const GAP = 0.35; // 段与段之间的停顿
 const TAIL = 1.6; // 结尾停留
 
 const [id, ...flags] = process.argv.slice(2);
@@ -85,16 +85,42 @@ storyboard.segments.forEach((seg, i) => {
   });
 });
 
-// ---------- 图片尺寸 ----------
-const sizes = {};
+// ---------- 图片：网站镜像（seed/media）或视频专用素材（assets/，见 assets/assets.json） ----------
+const ASSET_DIR = join(ROOT, "assets");
+const imagePath = (work) => join(work.asset ? ASSET_DIR : IMAGE_DIR, `${work.image}.webp`);
+const images = {};
 for (const work of Object.values(storyboard.works)) {
-  const [w, h] = probe(["-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", join(IMAGE_DIR, `${work.image}.webp`)])
-    .split(",")
-    .map(Number);
-  sizes[work.image] = { w, h };
+  const file = imagePath(work);
+  const [w, h] = probe(["-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", file]).split(",").map(Number);
+  images[work.image] = { url: pathToFileURL(file).href, w, h };
 }
 
-const plan = (mode) => ({ storyboard, timeline, captions, total, sizes, mode, imageBase: pathToFileURL(IMAGE_DIR).href });
+// ---------- 取色：swatch 强调中每个区域的平均颜色 ----------
+function averageColor(file, [x, y, w, h], size) {
+  const crop = `crop=${Math.round(w * size.w)}:${Math.round(h * size.h)}:${Math.round(x * size.w)}:${Math.round(y * size.h)},scale=1:1:flags=area`;
+  const rgb = execFileSync("ffmpeg", ["-v", "error", "-i", file, "-vf", crop, "-frames:v", "1", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"]);
+  return `#${[...rgb.subarray(0, 3)].map((v) => v.toString(16).padStart(2, "0")).join("")}`;
+}
+const swatches = {};
+storyboard.segments.forEach((seg, i) => {
+  (seg.scene.emphasis ?? []).forEach((fx, k) => {
+    if (fx.type !== "swatch") return;
+    const work = storyboard.works[fx.work ?? seg.scene.work];
+    swatches[`${i}:${k}`] = fx.regions.map((r) => averageColor(imagePath(work), r, images[work.image]));
+  });
+});
+
+// 封面单独使用标题版式（视频本身直接从钩子开场，不放标题卡）
+const coverPlan = () => ({
+  storyboard: { ...storyboard, segments: [{ id: "cover", scene: { type: "title", ...storyboard.cover } }] },
+  timeline: [{ id: "cover", start: 0, end: 4, audioStart: 0, audioEnd: 4 }],
+  captions: [],
+  total: 4,
+  images,
+  swatches: {},
+  mode: "cover"
+});
+const plan = (mode) => (mode === "cover" ? coverPlan() : { storyboard, timeline, captions, total, images, swatches, mode });
 
 async function openPage(browser, mode) {
   const page = await browser.newPage({ viewport: { width: 1080, height: mode === "cover" ? 1440 : 1920 }, deviceScaleFactor: 1 });

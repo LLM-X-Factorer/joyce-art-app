@@ -280,8 +280,8 @@ img.art {
   left: 70px;
   right: 70px;
   font-family: var(--serif);
-  font-size: 92px;
-  line-height: 1.3;
+  font-size: 76px;
+  line-height: 1.35;
   font-weight: 700;
 }
 
@@ -335,4 +335,199 @@ body.light-caption #header b {
 body.cover-mode,
 body.cover-mode #stage {
   height: 1440px;
+}
+
+/* ---------- 新增强调方式 ---------- */
+.spotlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.inset {
+  position: absolute;
+  right: 60px;
+  width: 480px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 250, 240, 0.96);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  transform-origin: 80% 0;
+}
+
+.inset-top {
+  top: 190px;
+}
+
+.inset-bottom {
+  top: 900px;
+}
+
+.inset-frame {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.inset-crop {
+  width: 440px;
+  background-repeat: no-repeat;
+}
+
+.inset-label {
+  margin-top: 14px;
+  color: var(--ink);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.trace {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.6));
+}
+
+.swatches {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 1180px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 22px;
+}
+
+.chip {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.chip i {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 250, 240, 0.9);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
+}
+
+.chip span {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--paper);
+}
+
+.swatch-label {
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: var(--amber);
+}
+
+.stat {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 1080px;
+  display: grid;
+  gap: 8px;
+}
+
+.stat strong {
+  font-family: Georgia, var(--serif);
+  font-size: 200px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fffdf8;
+  text-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.stat span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #f6efe1;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.85);
+}
+
+.year-stamp {
+  position: absolute;
+  left: 60px;
+  top: 150px;
+  font-family: Georgia, var(--serif);
+  font-size: 220px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 236, 196, 0.9);
+  text-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  transform-origin: 0 0;
+}
+
+.quote-veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(14, 11, 8, 0.55);
+}
+
+.quote-card {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 560px;
+  padding: 56px 54px 48px;
+  border-left: 10px solid var(--amber);
+  border-radius: 6px 20px 20px 6px;
+  background: rgba(255, 250, 240, 0.95);
+  color: var(--ink);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+
+.quote-card blockquote {
+  font-family: var(--serif);
+  font-size: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.quote-card cite {
+  display: block;
+  margin-top: 28px;
+  font-style: normal;
+  font-size: 30px;
+  color: #71695e;
+}
+
+/* 上下对比 */
+.pane {
+  position: absolute;
+  left: 40px;
+  width: 1000px;
+  height: 580px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+.pane-tag {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: rgba(22, 19, 15, 0.8);
+}
+
+.pane-tag b {
+  font-family: var(--serif);
+  font-size: 40px;
+}
+
+.pane-tag span {
+  font-size: 28px;
+  color: var(--muted);
 }

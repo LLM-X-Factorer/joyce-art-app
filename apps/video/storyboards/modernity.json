@@ -3,13 +3,34 @@
   "series": "艺术史公共书房 · 主题课",
   "theme": "现代性",
   "episode": "01",
-  "title": "什么时候，艺术开始变得「现代」？",
-  "sources": "内容依据网站馆藏笔记：olympia-collection、eiffel-tower、starry-night-collection 与问答主题 modernity",
+  "title": "被骂出来的「现代」",
+  "titleLines": [
+    "被骂出来的",
+    "「现代」"
+  ],
+  "cover": {
+    "work": "olympia",
+    "camera": [
+      {
+        "cx": 0.27,
+        "cy": 0.33,
+        "zoom": 1.5
+      }
+    ]
+  },
+  "sources": "史实来源见 docs/video/写稿与画面指南.md「本期事实核对」：奥赛博物馆、MoMA、埃菲尔铁塔官网、vangoghletters.org 等",
   "works": {
     "olympia": {
       "image": "manet-edouard-olympia",
       "title": "奥林匹亚",
-      "meta": "爱德华·马奈 · 1863年",
+      "meta": "爱德华·马奈 · 1863年作，1865年展出",
+      "credit": "公有领域 · Wikimedia Commons"
+    },
+    "titian": {
+      "image": "titian-venus-of-urbino",
+      "asset": true,
+      "title": "乌尔比诺的维纳斯",
+      "meta": "提香 · 1538年",
       "credit": "公有领域 · Wikimedia Commons"
     },
     "eiffel": {
@@ -28,30 +49,45 @@
   "segments": [
     {
       "id": "01",
+      "note": "开场直接给细节：只看眼睛",
       "scene": {
-        "type": "title",
+        "type": "artwork",
         "work": "olympia",
+        "mode": "cover",
+        "label": false,
         "camera": [
           {
-            "cx": 0.27,
-            "cy": 0.32,
-            "zoom": 1.15
+            "cx": 0.26,
+            "cy": 0.31,
+            "zoom": 2.6
           },
           {
-            "cx": 0.3,
-            "cy": 0.34,
-            "zoom": 1.3
+            "cx": 0.26,
+            "cy": 0.32,
+            "zoom": 2.25
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "spotlight",
+            "x": 0.255,
+            "y": 0.29,
+            "rx": 0.075,
+            "ry": 0.085,
+            "at": 0.05
           }
         ]
       },
-      "narration": "什么时候，艺术开始变得「现代」？今天用三件作品，看艺术怎样开始诚实地面对自己的时代。"
+      "narration": "先别管她是谁，看她的眼睛。"
     },
     {
       "id": "02",
+      "note": "年份印章交代时间地点；接受史用一句可查的回忆",
       "scene": {
         "type": "artwork",
         "work": "olympia",
         "mode": "fit",
+        "fitCenter": 780,
         "camera": [
           {
             "cx": 0.5,
@@ -63,119 +99,194 @@
             "cy": 0.5,
             "zoom": 1.06
           }
+        ],
+        "emphasis": [
+          {
+            "type": "year",
+            "text": "1865",
+            "at": 0.05,
+            "until": 0.95
+          }
         ]
       },
-      "narration": "1863年，马奈画了《奥林匹亚》。画里的裸体不再是神话里的维纳斯，而是巴黎的一位现代女性。"
+      "narration": "1865年巴黎沙龙，人们挤在这张画前骂声一片。马奈的朋友回忆，要不是展方特意防着，它差点被人毁掉。"
     },
     {
       "id": "03",
+      "note": "来源作品对比：先看整体相似，再推到狗和猫",
       "scene": {
-        "type": "artwork",
-        "work": "olympia",
-        "mode": "cover",
-        "camera": [
+        "type": "compare",
+        "panes": [
           {
-            "cx": 0.3,
-            "cy": 0.4,
-            "zoom": 1.15
+            "work": "titian",
+            "label": "提香",
+            "sub": "1538",
+            "camera": [
+              {
+                "cx": 0.5,
+                "cy": 0.5,
+                "zoom": 1
+              },
+              {
+                "cx": 0.88,
+                "cy": 0.66,
+                "zoom": 2.4
+              }
+            ]
           },
           {
-            "cx": 0.26,
-            "cy": 0.31,
-            "zoom": 2.1
+            "work": "olympia",
+            "label": "马奈",
+            "sub": "1863",
+            "camera": [
+              {
+                "cx": 0.5,
+                "cy": 0.5,
+                "zoom": 1
+              },
+              {
+                "cx": 0.94,
+                "cy": 0.6,
+                "zoom": 2.4
+              }
+            ]
           }
-        ],
-        "highlight": {
-          "x": 0.255,
-          "y": 0.295,
-          "r": 0.06,
-          "label": "她的目光"
-        }
+        ]
       },
-      "narration": "先看她的眼睛。她直直地看着你，没有躲进幻想里。你突然意识到，自己也是这场观看的一部分。"
+      "narration": "可这构图一点都不新。三百多年前，提香就画过一样的姿势、一样的床。只不过他脚边睡着一只小狗，马奈换成了一只弓着背的黑猫。"
     },
     {
       "id": "04",
+      "note": "两种眼神：主画面聚光奥林匹亚，小卡片放提香的维纳斯",
       "scene": {
         "type": "artwork",
         "work": "olympia",
         "mode": "cover",
         "camera": [
           {
-            "cx": 0.7,
-            "cy": 0.42,
-            "zoom": 1.3
+            "cx": 0.26,
+            "cy": 0.36,
+            "zoom": 1.9
           },
           {
-            "cx": 0.87,
-            "cy": 0.55,
-            "zoom": 1.4
+            "cx": 0.26,
+            "cy": 0.33,
+            "zoom": 2.1
           }
         ],
-        "highlight": {
-          "x": 0.945,
-          "y": 0.6,
-          "r": 0.06,
-          "label": "黑猫",
-          "appear": 0.6
-        }
+        "emphasis": [
+          {
+            "type": "inset",
+            "work": "titian",
+            "x": 0.11,
+            "y": 0.32,
+            "w": 0.15,
+            "h": 0.2,
+            "label": "维纳斯：邀请",
+            "position": "top",
+            "at": 0.08
+          },
+          {
+            "type": "spotlight",
+            "x": 0.255,
+            "y": 0.29,
+            "rx": 0.07,
+            "ry": 0.08,
+            "label": "奥林匹亚：打量",
+            "at": 0.4
+          }
+        ]
       },
-      "narration": "再看女仆、花束和那只黑猫。这些细节给了画面明确的社会身份：谁在观看，谁在付钱，谁被看见，谁被忽略。"
+      "narration": "两个女人都在看你。可维纳斯的眼神是邀请，奥林匹亚的眼神是打量。站在画前的人，忽然有点心虚。"
     },
     {
       "id": "05",
+      "note": "接受史：当年抗议书的原话",
+      "scene": {
+        "type": "quote",
+        "work": "eiffel",
+        "camera": [
+          {
+            "cx": 0.48,
+            "cy": 0.3,
+            "zoom": 1.3
+          },
+          {
+            "cx": 0.48,
+            "cy": 0.25,
+            "zoom": 1.4
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「无用而可怕的<br />埃菲尔铁塔」",
+            "source": "1887年2月14日《时报》· 古诺、莫泊桑、加尼耶等艺术家联名抗议书",
+            "at": 0.06
+          }
+        ]
+      },
+      "narration": "1887年，巴黎又炸了一次锅：一群艺术家联名登报，骂一座刚开工的铁塔「无用而可怕」。"
+    },
+    {
+      "id": "06",
+      "note": "工程尺度：镜头从塔基升到塔顶，数字滚动",
       "scene": {
         "type": "artwork",
         "work": "eiffel",
         "mode": "cover",
+        "label": false,
         "camera": [
           {
             "cx": 0.48,
             "cy": 0.62,
-            "zoom": 1.25
+            "zoom": 1.3
           },
           {
             "cx": 0.48,
-            "cy": 0.2,
-            "zoom": 1.25
+            "cy": 0.18,
+            "zoom": 1.3
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "stat",
+            "value": 18038,
+            "label": "个铁件，外加 250 万颗铆钉",
+            "at": 0.25
           }
         ]
       },
-      "narration": "同一个时代，巴黎立起了埃菲尔铁塔。它不用石头把结构藏起来，而是把裸露的铁格构直接变成城市的风景。"
-    },
-    {
-      "id": "06",
-      "scene": {
-        "type": "artwork",
-        "work": "eiffel",
-        "mode": "cover",
-        "camera": [
-          {
-            "cx": 0.48,
-            "cy": 0.4,
-            "zoom": 1.6
-          },
-          {
-            "cx": 0.48,
-            "cy": 0.36,
-            "zoom": 2.3
-          }
-        ],
-        "highlight": {
-          "x": 0.48,
-          "y": 0.36,
-          "r": 0.045,
-          "label": "裸露的铁格构"
-        }
-      },
-      "narration": "在这里，工程本身成了图像。"
+      "narration": "它确实很不体面：没有一面石墙，一万八千多个铁件、两百五十万颗铆钉，全都露在外面。"
     },
     {
       "id": "07",
       "scene": {
         "type": "artwork",
+        "work": "eiffel",
+        "mode": "fit",
+        "camera": [
+          {
+            "cx": 0.5,
+            "cy": 0.5,
+            "zoom": 1
+          },
+          {
+            "cx": 0.5,
+            "cy": 0.45,
+            "zoom": 1.08
+          }
+        ]
+      },
+      "narration": "它本来只打算留二十年。现在，它就是巴黎。"
+    },
+    {
+      "id": "08",
+      "scene": {
+        "type": "artwork",
         "work": "starry",
         "mode": "fit",
+        "fitCenter": 790,
         "camera": [
           {
             "cx": 0.5,
@@ -187,62 +298,121 @@
             "cy": 0.5,
             "zoom": 1.05
           }
+        ],
+        "emphasis": [
+          {
+            "type": "year",
+            "text": "1889",
+            "at": 0.05,
+            "until": 0.95
+          }
         ]
       },
-      "narration": "同样在1889年，梵高画下了《星月夜》。"
+      "narration": "同一年，南法的一家疗养院里，梵高画下了这片星空。"
     },
     {
-      "id": "08",
+      "id": "09",
+      "note": "观察与想象：聚光先落在虚构的村庄，再移到过大的星星",
       "scene": {
         "type": "artwork",
         "work": "starry",
         "mode": "cover",
         "camera": [
           {
-            "cx": 0.5,
-            "cy": 0.38,
-            "zoom": 1.3
+            "cx": 0.42,
+            "cy": 0.42,
+            "zoom": 1.2
           },
           {
-            "cx": 0.47,
-            "cy": 0.4,
+            "cx": 0.38,
+            "cy": 0.46,
+            "zoom": 1.3
+          }
+        ],
+        "emphasis": [
+          {
+            "type": "inset",
+            "x": 0.44,
+            "y": 0.73,
+            "w": 0.42,
+            "h": 0.22,
+            "label": "窗外看不到的村庄",
+            "position": "top",
+            "at": 0.06,
+            "until": 0.5,
+            "width": 820
+          },
+          {
+            "type": "spotlight",
+            "x": 0.355,
+            "y": 0.525,
+            "rx": 0.07,
+            "label": "大得离谱的星星",
+            "at": 0.58
+          }
+        ]
+      },
+      "narration": "可这个村庄，他从窗口根本看不见，是自己加上去的。星星也画得大得离谱。"
+    },
+    {
+      "id": "10",
+      "note": "画家自己的话（书信第822封）",
+      "scene": {
+        "type": "quote",
+        "work": "starry",
+        "camera": [
+          {
+            "cx": 0.4,
+            "cy": 0.35,
+            "zoom": 1.4
+          },
+          {
+            "cx": 0.45,
+            "cy": 0.32,
             "zoom": 1.55
           }
         ],
-        "highlight": {
-          "x": 0.5,
-          "y": 0.36,
-          "r": 0.075,
-          "label": "旋转的天空"
-        }
+        "emphasis": [
+          {
+            "type": "quote",
+            "text": "「我又一次放任自己<br />把星星画得太大……<br />又一次挫败。」",
+            "source": "梵高致埃米尔·贝尔纳，1889年11月（书信第822封）",
+            "at": 0.06
+          }
+        ]
       },
-      "narration": "天空在旋转，柏树像黑色的火焰往上升。梵高要画的不是看起来像不像，而是他感受到的强度。"
+      "narration": "几个月后他在信里抱怨：又把星星画得太大了，又搞砸一次。"
     },
     {
-      "id": "09",
+      "id": "11",
       "scene": {
         "type": "triptych",
         "works": [
           "olympia",
           "eiffel",
           "starry"
+        ],
+        "words": [
+          "被骂的裸女",
+          "被骂的铁塔",
+          "画家自己都嫌弃的星空"
+        ],
+        "focus": [
+          "26% 32%",
+          "48% 30%",
+          "50% 36%"
         ]
       },
-      "narration": "一幅画、一座塔、一片星空，都在说同一件事：现代艺术不再假装永恒，它开始直面金钱、技术、观看，和人的内心。"
+      "narration": "被骂的裸女，被骂的铁塔，连画家自己都嫌弃的星空，后来都成了那个时代的脸。"
     },
     {
-      "id": "10",
+      "id": "12",
       "scene": {
         "type": "outro",
-        "work": "starry",
-        "question": "今天，什么样的作品会让你觉得「很现代」？"
+        "question": "你最近看着别扭的东西里，<br />会不会就有下一个？",
+        "siteNote": "三件作品的背景、视觉分析与延伸问题"
       },
-      "narration": "留一个问题给你：今天，什么样的作品会让你觉得「很现代」？在艺术史公共书房，可以继续看这三件作品的完整笔记。"
+      "narration": "也许「现代」，就是先让人不舒服。你最近看着别扭的东西里，会不会就有下一个？"
     }
-  ],
-  "titleLines": [
-    "什么时候，",
-    "艺术开始变得",
-    "「现代」？"
   ]
 }

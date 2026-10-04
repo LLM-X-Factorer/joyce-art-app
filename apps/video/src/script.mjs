@@ -11,9 +11,19 @@ const DOCS = resolve(ROOT, "../../docs/video");
 mkdirSync(DOCS, { recursive: true });
 const arg = process.argv[2];
 
+const FX = { ring: "圈注", spotlight: "聚光", inset: "局部放大卡", trace: "描线", swatch: "取色", stat: "数字", year: "年份", quote: "引文卡" };
+const fxDetail = (f) => {
+  if (f.type === "stat") return `「${f.value.toLocaleString("en-US")}${f.label}」`;
+  const text = String(f.label ?? f.text ?? "").replace(/<br \/>/g, "");
+  if (!text) return "";
+  return text.startsWith("「") ? text : `「${text}」`;
+};
+const fxText = (s) => (s.emphasis?.length ? `；${s.emphasis.map((f) => FX[f.type] + fxDetail(f)).join("、")}` : "");
 const SCENE = {
   title: () => "片头标题",
-  artwork: (s, sb) => `${sb.works[s.work].title}${s.mode === "fit" ? "（全图）" : "（局部推近）"}${s.highlight ? `，圈出「${s.highlight.label}」` : ""}`,
+  artwork: (s, sb) => `${sb.works[s.work].title}${s.mode === "fit" ? "（全图）" : "（局部推近）"}${fxText(s)}`,
+  compare: (s, sb) => `对比：${s.panes.map((p) => `${sb.works[p.work].title}`).join(" / ")}`,
+  quote: (s, sb) => `${sb.works[s.work].title}背景上的引文卡${fxText(s)}`,
   triptych: () => "三件作品并列",
   outro: () => "结尾问题与网站地址"
 };
@@ -82,7 +92,8 @@ if (arg === "--outline") {
     "2. 安静的房间，手机距离嘴巴约 20 厘米，开头和结尾各留半秒安静。",
     "3. 语速自然，像在咖啡馆里给朋友讲；不用刻意字正腔圆。某一段读错了，重录这一段即可。",
     "4. 文字可以按自己的说话习惯微调；改动较大时，请把改后的文字一起发回，字幕会按新文字生成。",
-    "5. 录好后把全部文件打包发回。录音只用于本视频，不会放进公开代码仓库。",
+    "5. 如果某处你有自己真实的感受（比如第一次看到原作时的反应），可以加一句，写在对应段落旁边发回；不需要的话照稿读即可。",
+    "6. 录好后把全部文件打包发回。录音只用于本视频，不会放进公开代码仓库。",
     "",
     "## 分段文字",
     ""

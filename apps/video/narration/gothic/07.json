@@ -1,0 +1,144 @@
+{
+  "segment": "07",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "再看这种蓝。据研究它来自钴，人们干脆叫它「沙特尔蓝」。",
+  "spoken_text": "再看这种蓝。据研究它来自钴，人们干脆叫它沙特尔蓝。",
+  "spoken_sha256": "b7df047a849e20882ecc8320d5636c1a3f7707cf32c228b5b122bc6a893ab053",
+  "heard_text": "再看这种蓝。据研究它来自钴，人们干脆叫它沙特尔蓝。",
+  "subtitle_match": 1,
+  "duration": 5.352,
+  "request_id": "6724c255-4185-4f09-9f00-858f6a29ec0e",
+  "logid": "2026100423211812E9E768CDB748A49AC9",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "eee98d9f759b7333f8f120f0672d301352d2c1871884a34a7a18a8166adaa614",
+  "words": [
+    {
+      "end_time": 440,
+      "start_time": 200,
+      "text": "再"
+    },
+    {
+      "end_time": 640,
+      "start_time": 440,
+      "text": "看"
+    },
+    {
+      "end_time": 720,
+      "start_time": 640,
+      "text": "这"
+    },
+    {
+      "end_time": 840,
+      "start_time": 720,
+      "text": "种"
+    },
+    {
+      "end_time": 1000,
+      "start_time": 960,
+      "text": "蓝"
+    },
+    {
+      "end_time": 1000,
+      "start_time": 1000,
+      "text": "。"
+    },
+    {
+      "end_time": 2000,
+      "start_time": 1800,
+      "text": "据"
+    },
+    {
+      "end_time": 2240,
+      "start_time": 2040,
+      "text": "研"
+    },
+    {
+      "end_time": 2440,
+      "start_time": 2240,
+      "text": "究"
+    },
+    {
+      "end_time": 2680,
+      "start_time": 2560,
+      "text": "它"
+    },
+    {
+      "end_time": 2880,
+      "start_time": 2720,
+      "text": "来"
+    },
+    {
+      "end_time": 3080,
+      "start_time": 2880,
+      "text": "自"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3160,
+      "text": "钴"
+    },
+    {
+      "end_time": 3240,
+      "start_time": 3240,
+      "text": "，"
+    },
+    {
+      "end_time": 3800,
+      "start_time": 3640,
+      "text": "人"
+    },
+    {
+      "end_time": 3920,
+      "start_time": 3800,
+      "text": "们"
+    },
+    {
+      "end_time": 4040,
+      "start_time": 3920,
+      "text": "干"
+    },
+    {
+      "end_time": 4160,
+      "start_time": 4040,
+      "text": "脆"
+    },
+    {
+      "end_time": 4320,
+      "start_time": 4160,
+      "text": "叫"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4360,
+      "text": "它"
+    },
+    {
+      "end_time": 4720,
+      "start_time": 4560,
+      "text": "沙"
+    },
+    {
+      "end_time": 5000,
+      "start_time": 4800,
+      "text": "特"
+    },
+    {
+      "end_time": 5120,
+      "start_time": 5000,
+      "text": "尔"
+    },
+    {
+      "end_time": 5240,
+      "start_time": 5200,
+      "text": "蓝"
+    },
+    {
+      "end_time": 5240,
+      "start_time": 5240,
+      "text": "。"
+    }
+  ]
+}

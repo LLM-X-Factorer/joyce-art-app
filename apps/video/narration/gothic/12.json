@@ -1,0 +1,214 @@
+{
+  "segment": "12",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
+  "spoken_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
+  "spoken_sha256": "dcb58e363d08db4c4390591b21f42134e6c20924fbb3e742c71c0937f598a155",
+  "heard_text": "哥特被骂了几百年，也被爱了几百年。下次走进一座教堂，先别看墙，看光从哪儿进来。",
+  "subtitle_match": 1,
+  "duration": 9.528,
+  "request_id": "2b389562-c59b-48d7-9c48-fe3e04ca7d3d",
+  "logid": "202610042323184E0AEEB71C2061B617CB",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "29594f3ab245538b9526b6f523e05ae976d244194139952ad1d3b48fa74fccd3",
+  "words": [
+    {
+      "end_time": 520,
+      "start_time": 440,
+      "text": "哥"
+    },
+    {
+      "end_time": 960,
+      "start_time": 760,
+      "text": "特"
+    },
+    {
+      "end_time": 1120,
+      "start_time": 960,
+      "text": "被"
+    },
+    {
+      "end_time": 1400,
+      "start_time": 1120,
+      "text": "骂"
+    },
+    {
+      "end_time": 1560,
+      "start_time": 1400,
+      "text": "了"
+    },
+    {
+      "end_time": 1680,
+      "start_time": 1560,
+      "text": "几"
+    },
+    {
+      "end_time": 1800,
+      "start_time": 1680,
+      "text": "百"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1800,
+      "text": "年"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 2040,
+      "text": "，"
+    },
+    {
+      "end_time": 2560,
+      "start_time": 2280,
+      "text": "也"
+    },
+    {
+      "end_time": 2760,
+      "start_time": 2560,
+      "text": "被"
+    },
+    {
+      "end_time": 3080,
+      "start_time": 2800,
+      "text": "爱"
+    },
+    {
+      "end_time": 3280,
+      "start_time": 3080,
+      "text": "了"
+    },
+    {
+      "end_time": 3440,
+      "start_time": 3280,
+      "text": "几"
+    },
+    {
+      "end_time": 3560,
+      "start_time": 3440,
+      "text": "百"
+    },
+    {
+      "end_time": 3840,
+      "start_time": 3560,
+      "text": "年"
+    },
+    {
+      "end_time": 3840,
+      "start_time": 3840,
+      "text": "。"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 4920,
+      "text": "下"
+    },
+    {
+      "end_time": 5400,
+      "start_time": 5160,
+      "text": "次"
+    },
+    {
+      "end_time": 5680,
+      "start_time": 5400,
+      "text": "走"
+    },
+    {
+      "end_time": 5840,
+      "start_time": 5680,
+      "text": "进"
+    },
+    {
+      "end_time": 6000,
+      "start_time": 5840,
+      "text": "一"
+    },
+    {
+      "end_time": 6200,
+      "start_time": 6000,
+      "text": "座"
+    },
+    {
+      "end_time": 6360,
+      "start_time": 6280,
+      "text": "教"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6480,
+      "text": "堂"
+    },
+    {
+      "end_time": 6680,
+      "start_time": 6680,
+      "text": "，"
+    },
+    {
+      "end_time": 7160,
+      "start_time": 7000,
+      "text": "先"
+    },
+    {
+      "end_time": 7320,
+      "start_time": 7160,
+      "text": "别"
+    },
+    {
+      "end_time": 7520,
+      "start_time": 7320,
+      "text": "看"
+    },
+    {
+      "end_time": 7840,
+      "start_time": 7560,
+      "text": "墙"
+    },
+    {
+      "end_time": 7840,
+      "start_time": 7840,
+      "text": "，"
+    },
+    {
+      "end_time": 8280,
+      "start_time": 8040,
+      "text": "看"
+    },
+    {
+      "end_time": 8640,
+      "start_time": 8280,
+      "text": "光"
+    },
+    {
+      "end_time": 8880,
+      "start_time": 8680,
+      "text": "从"
+    },
+    {
+      "end_time": 9040,
+      "start_time": 8880,
+      "text": "哪"
+    },
+    {
+      "end_time": 9120,
+      "start_time": 9040,
+      "text": "儿"
+    },
+    {
+      "end_time": 9280,
+      "start_time": 9120,
+      "text": "进"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9280,
+      "text": "来"
+    },
+    {
+      "end_time": 9440,
+      "start_time": 9440,
+      "text": "。"
+    }
+  ]
+}

@@ -7,5 +7,41 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg",
     "width": 1600,
     "height": 1125
+  },
+  {
+    "key": "chartres-belle-verriere",
+    "title": "File:Chartres -30a- ND de la belle verrière and its angel border.jpg",
+    "license": "Public domain",
+    "author": "Michelet-密是力 ( talk ) 06:07, 30 November 2016 (UTC)",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chartres_-30a-_ND_de_la_belle_verri%C3%A8re_and_its_angel_border.jpg",
+    "width": 1280,
+    "height": 2400
+  },
+  {
+    "key": "chartres-north-rose",
+    "title": "File:Chartres - cathédrale - rosace nord.jpg",
+    "license": "Public domain",
+    "author": "Eusebius",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chartres_-_cath%C3%A9drale_-_rosace_nord.jpg",
+    "width": 1734,
+    "height": 2400
+  },
+  {
+    "key": "chartres-window-cc0",
+    "title": "File:Stained glass window, Chartres Cathedral, France (25846429952).jpg",
+    "license": "CC0",
+    "author": "David Whelan",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Stained_glass_window,_Chartres_Cathedral,_France_(25846429952).jpg",
+    "width": 1509,
+    "height": 2400
+  },
+  {
+    "key": "strebewerk",
+    "title": "File:Strebewerk.jpg",
+    "license": "Public domain",
+    "author": "BT from German Wikipedia",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Strebewerk.jpg",
+    "width": 2000,
+    "height": 1500
   }
 ]

@@ -1,0 +1,124 @@
+{
+  "segment": "11",
+  "engine": "seed-audio-1.0",
+  "reference": "voices/sweet-girl.mp3",
+  "reference_sha256": "576f05826e9c38a6546bec21de938d86c37bc7e852325974d1abc85c8392f722",
+  "config_sha256": "81f836964e3d446a57bc54abb7306b9888360f9fe35514cd72f2d6f3499e80af",
+  "display_text": "一种蓝，让光穿过去；一种蓝，把光留在表面。",
+  "spoken_text": "一种蓝，让光穿过去；一种蓝，把光留在表面。",
+  "spoken_sha256": "2328a60689da87e5d394c04ed6f16a08c3b83844f22bb8f2778ce3e157e0c544",
+  "heard_text": "一种蓝，让光穿过去；一种蓝，把光留在表面。",
+  "subtitle_match": 1,
+  "duration": 6.432,
+  "request_id": "7ab595d5-6a7f-4f22-ad70-f6fcc7733c54",
+  "logid": "202610042322578EB7135F8F12B6704D32",
+  "generated_on": "2026-10-04",
+  "audio_sha256": "aab8f969d1052777a976e4b4013449344b2aefbef12f19722e7e6b213d3419f9",
+  "words": [
+    {
+      "end_time": 600,
+      "start_time": 360,
+      "text": "一"
+    },
+    {
+      "end_time": 800,
+      "start_time": 600,
+      "text": "种"
+    },
+    {
+      "end_time": 960,
+      "start_time": 920,
+      "text": "蓝"
+    },
+    {
+      "end_time": 960,
+      "start_time": 960,
+      "text": "，"
+    },
+    {
+      "end_time": 1640,
+      "start_time": 1400,
+      "text": "让"
+    },
+    {
+      "end_time": 2040,
+      "start_time": 1640,
+      "text": "光"
+    },
+    {
+      "end_time": 2400,
+      "start_time": 2120,
+      "text": "穿"
+    },
+    {
+      "end_time": 2600,
+      "start_time": 2400,
+      "text": "过"
+    },
+    {
+      "end_time": 2800,
+      "start_time": 2600,
+      "text": "去"
+    },
+    {
+      "end_time": 2800,
+      "start_time": 2800,
+      "text": "；"
+    },
+    {
+      "end_time": 4080,
+      "start_time": 3840,
+      "text": "一"
+    },
+    {
+      "end_time": 4240,
+      "start_time": 4080,
+      "text": "种"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4320,
+      "text": "蓝"
+    },
+    {
+      "end_time": 4440,
+      "start_time": 4440,
+      "text": "，"
+    },
+    {
+      "end_time": 5160,
+      "start_time": 4880,
+      "text": "把"
+    },
+    {
+      "end_time": 5440,
+      "start_time": 5160,
+      "text": "光"
+    },
+    {
+      "end_time": 5720,
+      "start_time": 5480,
+      "text": "留"
+    },
+    {
+      "end_time": 5920,
+      "start_time": 5720,
+      "text": "在"
+    },
+    {
+      "end_time": 6120,
+      "start_time": 5920,
+      "text": "表"
+    },
+    {
+      "end_time": 6280,
+      "start_time": 6120,
+      "text": "面"
+    },
+    {
+      "end_time": 6280,
+      "start_time": 6280,
+      "text": "。"
+    }
+  ]
+}
